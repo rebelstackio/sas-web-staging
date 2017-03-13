@@ -1,0 +1,2 @@
+# set a content type for shlockwave flash
+AddType application/x-shockwave-flash .swf
