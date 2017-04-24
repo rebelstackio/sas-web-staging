@@ -1,0 +1,33 @@
+<!-- layout.nunjucks -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#DE5A2E">
+        <meta name="msapplication-navbutton-color" content="#DE5A2E">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#DE5A2E">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/gallery.css" rel="stylesheet">
+        <link href="css/gallery.theme.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+      <div class="container-app">
+        <div id="app" class="container-fluid no-gutter ">
+          <header>
+            {% include "../partials/header.njk" %}
+          </header>
+          <main class="page">
+            {% block content %} {% endblock %}
+          </main>
+        </div>
+      </div>
+    <script src="js/menu.js"></script>
+    </body>
+</html>

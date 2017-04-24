@@ -1,7 +1,0 @@
-#cartButton { width:90px; height:75px; position:fixed; top:67px; right:50px;
-    background-repeat:no-repeat; opacity:0; z-index:-1; -webkit-transition:all .2s ease-in-out; transition:all .2s ease-in-out; }
-#cartButton.hidden { opacity:0; z-index:-1; }
-#cartButton.empty { opacity:0.25; background-image:url('g/cart_empty.png'); }
-#cartButton.full { opacity:1; z-index:10000; background-image:url('g/cart_full.png');}
-#cartButton.full:hover { cursor:pointer; -webkit-transform:scale(1.25); transform:scale(1.25); }
-

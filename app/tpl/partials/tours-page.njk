@@ -1,0 +1,69 @@
+ <div class="col-md-12">
+    <div class="row tour-container">
+        <div class="col-md-8">      
+            <p class="text-justify">
+                <img class="article-image tour-image" style="background-image:url({{data.url_image}});" alt="" width="100%">
+
+                <div class="article-title">{{data.title}}</div>
+            <div class="article-subtitle">
+                {{data.subtitle}}
+            </div>
+                {{data.description}}
+            </p>
+        </div>
+        <div class="col-md-4">
+        </div>
+    </div>
+
+    {% for item in data.tours %}
+     <div class="row tour-container">
+        <div class="col-md-8">
+          <p class="text-justify">
+                <img class="article-image tour-image" style="background-image:url({{item.url_image}});" alt="" width="100%">
+
+                <div class="article-title">{{item.title}}</div>
+            <div class="article-subtitle">
+                {{item.subtitle}}
+            </div>
+                {{item.description | safe}}
+            </p>
+        </div>
+        <div class="col-md-4">
+            <div class="banner-right floating-right">
+            <div class="tour-detail">
+                <div class="tour-info-title">Include</div>
+                <ul>
+                    {% for inc in item.additionalData.include %}
+                    <li>
+                    {{inc}}
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <div class="tour-info-title">Not Include</div>
+                <ul>
+                    {% for inc in item.additionalData.notInclude %}
+                    <li>
+                    {{inc}}
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <div class="tour-info-title">Duration <small>{{ item.additionalData.duration.subtitle}}</small></div>
+                <ul>
+                    {% for inc in item.additionalData.duration.data %}
+                    <li>
+                    {{inc}}
+                    </li>
+                    {% endfor %}
+                </ul>
+
+
+            </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+
+</div>

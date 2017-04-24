@@ -1,0 +1,30 @@
+.tour-detail{
+    width: 100%;
+    padding: 20px;
+}
+.tour-info-title{
+    font-size: 13pt;
+    font-weight: normal;
+    font-family: JungleFeverRegular;
+    color: #e1ed2c;
+    text-shadow: 2px 2px #674300;
+}
+
+.tour-detail ul{
+
+}
+.tour-detail ul li{
+    font-size: 11px;
+    color:#674300;
+}
+.tour-image{
+    max-width: 300px;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.tour-container{
+    margin-bottom: 20px;
+    text-align: justify;
+}
