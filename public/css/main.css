@@ -52,6 +52,9 @@
     }
     .article-image{
         border-radius: 0;
+        display: block;
+        float: none!important;
+        max-width: 100%!important;
     }
 }
 @media (max-width: 990px) {

@@ -1,8 +1,8 @@
 export default {
-    title:'Tours of Lima',
-    subtitle:'Once called the City of Kings and awash in gold, Lima has grown to become a modern and cosmopolitan metropolis.',
-    description:'A vast, sprawling city and home to nearly 9 million habitants, Lima offers modern amenities, fantastic cuisine and great nightlife.',
-    url_image:'images/tours/larcomar_1.jpg',
+    title:'Biking Paracas',
+    subtitle:'Enjoy your freedom, take in rugged beauty and breath fresh seabreeze as you discover the wonders of Paracas Nature Reserve on bike.',
+    description:'"It is by riding a bicycle that you learn the contours of a country best, since you have to sweat up the hills and coast down them. Thus you remember them as they actually are..." - Mark Twain',
+    url_image:'images/banners/bike_paracas_3_t.jpg',
 
     tours:[
         {

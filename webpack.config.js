@@ -22,6 +22,7 @@ module.exports = {
 		templates:'./app/templates.js',
 		index: './app/scripts/index.js',
 		tours:'./app/scripts/tours.js',
+		activities:'./app/scripts/activities.js',
 	},
 	output: {
 		path: path.resolve(__dirname, 'build'),
