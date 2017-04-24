@@ -5,8 +5,10 @@ export default {
 		url_image: 'images/tours/ica/ica_winery_3_t.jpg',
 		tours:[
 			{
+				id: 'vineyard-museum-oasis-tour',
 				title:'Vineyard Museum Oasis Tour',
-				subtitle:'',
+				shortTitle:'Vineyard Museum Oasis',
+				subtitle:'Vineyard Museum Oasis',
 				url_image:'images/tours/ica/huacachina_oasis_1.t.jpg',
 				description:`The region is the wine capital of Peru and Pisco capital of the world hosting the largest wineries - traditional and industrial. Tours visit famous wineries such as El Catador and Caravedo. Huacachina, a small tourist village surrounding a large oasis, is just 5 km south west of Ica and a great hiding place for foreigners to stop, relax and practice the best sand boarding in the world. If you're not into extreme sports, visiting the vast mountainous dunes surrounding Huacachina by dune buggy is spectacular enough on it's own and a must see if you're passing through the region.`,
 				additionalData: {
@@ -44,7 +46,9 @@ export default {
 				}
 			},
 			{
+				id: 'dune-buggy-sandboard',
 				title:'Dune Buggy & Sandboard',
+				shortTitle:'Dune Buggy & Sandboard',
 				subtitle:'Like a roller coaster ride, the dune buggy circuit near Huacachina is pure adrenaline and offers sights of monstrous dunes.',
 				url_image:'images/tours/ica/buggy_1_t.jpg',
 				description:`Huge rolling dunes. Sandboard some of the biggest dunes on the planet.`,

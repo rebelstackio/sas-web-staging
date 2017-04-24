@@ -7,7 +7,9 @@ Today, Cuzco is a World Heritage site declared by Unesco and the major tourist d
 		url_image: 'images/tours/cuzco/cusco_3_t.jpg',
 		tours:[
 			{
+				id:'cuzco-city-tour',
 				title:'Cuzco City Tour',
+				shortTitle:'Tour of Cuzco',
 				subtitle:'Explore the city of Cuzco and surrounding and discover the best sites of ancient Inca and Spanish colonial culture ',
 				url_image:'images/tours/cuzco/cusco_4_t.jpg',
 				description:`Qoricancha: One of the most regarded churches in the city, the "gold room" was a sacred place where one could worship "Inti", the most revered Inca god. Entered only by fasting, barefoot and with a load on back as a sign of humility.
@@ -43,6 +45,9 @@ Other archaeologically important sites like Qenko, Puca, Pucara, Tambo Machay, a
 				}
 			},
 			{
+
+				id:'machu-picchu-day-trip',
+				shortTitle:'Machu Picchu Day Trip',
 				title:'Machu Picchu Day Trip',
 				subtitle:'Enjoy a full day trip to breathtaking Machu Picchu. Discover the famous Inca city and learn about the ancient civilization that once thrived there.',
 				url_image:'images/tours/cuzco/machu_picchu_3_t.jpg',

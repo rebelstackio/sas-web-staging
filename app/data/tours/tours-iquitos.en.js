@@ -5,7 +5,9 @@ export default {
 		url_image: 'images/tours/tambopata/iquitos_3_t.jpg',
 		tours:[
 			{
+				id:'tambopata-reserve',
 				title:'Tambopata Reserve',
+				shortTitle:'Tambopata Reserve',
 				subtitle:'Featured in National Geographic magazine, Tambopata Research Center is probably the most remote rainforest lodges in South America and offers adventurers an authentic jungle experience',
 				url_image:'images/tours/tambopata/macaw_1_portrait.jpg',
 				description:`The Tambopata River is one of the exclusive habitat of birds and mammals. Flora in the national reserve is fairly typical of the southwest Amazon Basin. The Heath River and surrounding plains are a unique ecosystem in Peru. The pampas are periodically flooded, and small groves of trees with varied plant life grow in isolated clumps on the plain.
@@ -37,7 +39,9 @@ If you are looking for a more in depth Amazon experience, then the Tambopata Res
 				}
 			},
 			{
+				id:'manu-reserve',
 				title:'Manu Reserve',
+				shortTitle:'Manu Reserve',
 				subtitle:'The famous Salkantay trek to Machu Picchu is named among the top 25 best excursions in the world by National Geographic Adventure Travel Magazine.',
 				url_image:'images/tours/tambopata/salkantay_1_portrait.jpg',
 				description:`The Salkantay Trek is an ancient and remote footpath located in the same region as the Inca Trail where snowcapped mountains collide with lush tropical rain forests.`,

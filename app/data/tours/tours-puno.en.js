@@ -5,7 +5,9 @@ export default {
 		url_image: 'images/tours/puno/puno_2.jpg',
 		tours:[
 			{
+				id:'lake-titicaca-boat-tour',
 				title:'Lake Titicaca Boat Tour',
+				shortTitle:'Lake Titicaca Boat Tour',
 				subtitle:'Discover the world of the Aymara and Quechua in the Uros and Taquile Island, where the people retain their ancient customs, co-existing with nature, religion, agriculture and art that continues as it did in the times of the Incas.',
 				url_image:'images/tours/puno/uros_1_portrait.jpg',
 				description:`Puno's access to Lake Titicaca is surrounded by 41 floating islands. To this day, the Uros people maintain and live on these man-made islands, depending on them for survival and attracting many tourists.
@@ -43,41 +45,5 @@ Be a part of this unforgettable experience and enjoy this full day excursion wit
 					}
 				}
 			},
-			{
-				title:'Colca Canyon Tour',
-				subtitle:'The Colca Canyon is one of the country\'s most popular sightseeing destination to see condor in the wild.',
-				url_image:'images/tours/arequipa/colca_canyon_3_t.jpg',
-				description:`From the great Andean Terraces (more than twice as deep as the Grand Ganyon in the USA at 4,160 meters deep) you will see the majestic condor in flight.
-Originally, the area was inhabited by the anciants colloguas and the cabanas, finally by Incas. Nowadays the local people still maintain ancestral traditions cultivating the stepped teraces.
-In additiono to the canyon, the area is one of the most volcanically active in Peru (like Misty).`,
-				additionalData: {
-					include: [
-						'Pick up from your hotel in Lima.',
-						'Visit to the Temple of Pachacamac.',
-						'All entrance fees.',
-						'English speaking guide.',
-						'Drop off at your hotel at the end of the tour.',
-					],
-					notInclude: [
-						'Extras & gratuities.'
-					],
-					duration: {
-						subtitle:'4 hours (approx.)',
-						data:[
-							'Departs daily at 9:15am and 2:15pm approximately'
-						]
-					},
-					recommendations: [
-					],
-					price: {
-						currency:'$',
-						ammount:36,
-						data:[
-							 'A minimum of 2 participants are required'
-						]
-					}
-				}
-			},
-
 		]
 }
