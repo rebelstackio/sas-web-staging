@@ -50,6 +50,29 @@ export default {
 				url_image:'images/tours/nasca/nazca_flight_03_t.jpg',
 				description:`Without question this tour is the quickest way to cram these incredible sights in just a day while in VIP comfort and style.
 You will be picked up at your hotel in either a car or van (with air conditioning) - depending on your group's size - and be whisked to the docks of Paracas bay to set out on an exciting voyage to the famous Ballestas Islands nearby. The Ballestas Islands is considered the Galapagos of Peru for it's immense abundance of sea life and unique rock formations. Along the way you will pass the enigmatic "Candelabra" - a famous geoglyph with a mysterious past. Your english-speaking guide will explain the various theories of it's creation along with natural and geologic explanations of the islands and the plethora of wildlife that it hosts. You will enjoy front row VIP seating (2 seats for one person) so you will have ample space for camera bags and you won't have to tolerate other passengers breathing down your neck while you view this spectacular marvel of nature.On return from the islands there should be time to relax on the sea-side promenade for lunch before setting off to the nearby airport with your driver. You will board a Cessna Caravan that holds 12 persons with wide seating and large windows. We work with only the best airlines operating the latest planes and with expert staff for your safety. Your flight will last 95 minutes and enroute to the Nasca lines you will also see the lush green valleys of Ica and the vast mountainous sand dunes of Huacachina. When you touch down your driver will be awaiting you to whisk you back to Lima in time for dinner.`,
+				gallery: [
+					'images/gallery/ballestas_01_t.jpg',
+					'images/gallery/ballestas_02_t.jpg',
+					'images/gallery/ballestas_03_t.jpg',
+					'images/gallery/ballestas_04_t.jpg',
+					'images/gallery/ballestas_05_t.jpg',
+					'images/gallery/ballestas_06_t.jpg',
+					'images/gallery/ballestas_07_t.jpg',
+					'images/gallery/ballestas_08_t.jpg',
+					'images/gallery/ballestas_09_t.jpg',
+					'images/gallery/ballestas_10_t.jpg',
+					'images/gallery/ballestas_12_t.jpg',
+					'images/gallery/ballestas_14_t.jpg',
+					'images/gallery/ballestas_15_t.jpg',
+					'images/gallery/ballestas_18_t.jpg',
+					'images/gallery/ballestas_19_t.jpg',
+					'images/gallery/nazca_flights_01_t.jpg',
+					'images/gallery/nazca_flights_02_t.jpg',
+					'images/gallery/nazca_flights_05_t.jpg',
+					'images/gallery/nazcaLines_1_t.jpg',
+					'images/gallery/taxi_01_t.jpg',
+
+				],
 				additionalData: {
 					include: [
 						'Private VIP transport to Pisco airport from your hotel in Lima (3 hours)',

@@ -1,6 +1,6 @@
  <div class="col-md-12">
     <div class="row tour-container">
-        <div class="col-md-8 col-sm-12">      
+        <div class="col-md-8 col-sm-12">
             <p class="text-justify">
                 <img class="article-image tour-image" style="background-image:url({{data.url_image}});" alt="" width="100%">
 
@@ -34,7 +34,14 @@
                 {{item.subtitle}}
             </div>
                 {{item.description | safe}}
-            </p>
+          </p>
+          <div class="slick-autoplay">
+            {% for image in  item.gallery %}
+              <a href="{{image}}">
+                <img src="{{image}}" height="50px" width="50px"/>
+              </a>
+            {% endfor %}
+          </div>
         </div>
         <div class="col-md-4">
             <div class="banner-right floating-right">
@@ -81,7 +88,7 @@
                 <li>Confirmation of the excursion will be received at time of booking.</li>
                 <li>All tours are operated in English unless otherwise stated.</li>
             </ul>
-            
+
             <h4>Travel voucher:</h4>
             <ul>
             <li>You will receive an electronic voucher via e mail once you booking is confirmed.</li>

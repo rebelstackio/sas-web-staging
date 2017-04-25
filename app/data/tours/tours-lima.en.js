@@ -25,7 +25,7 @@ export default {
                 notInclude:[
                     'Extras & gratuities.'
                 ],
-                
+
                 duration:{
                     subtitle:'12 hours (approx.)',
                     data:[
@@ -53,6 +53,29 @@ export default {
             You will be picked up at your hotel in either a car or van (with air conditioning) - depending on your group's size - and be whisked to the docks of Paracas bay to set out on an exciting voyage to the famous Ballestas Islands nearby. The Ballestas Islands is considered the Galapagos of Peru for it's immense abundance of sea life and unique rock formations.<br/>
 
 Along the way you will pass the enigmatic "Candelabra" - a famous geoglyph with a mysterious past. Your english-speaking guide will explain the various theories of it's creation along with natural and geologic explanations of the islands and the plethora of wildlife that it hosts. You will enjoy front row VIP seating (2 seats for one person) so you will have ample space for camera bags and you won't have to tolerate other passengers breathing down your neck while you view this spectacular marvel of nature.`,
+            gallery: [
+              'images/gallery/ballestas_01_t.jpg',
+              'images/gallery/ballestas_02_t.jpg',
+              'images/gallery/ballestas_03_t.jpg',
+              'images/gallery/ballestas_04_t.jpg',
+              'images/gallery/ballestas_05_t.jpg',
+              'images/gallery/ballestas_06_t.jpg',
+              'images/gallery/ballestas_07_t.jpg',
+              'images/gallery/ballestas_08_t.jpg',
+              'images/gallery/ballestas_09_t.jpg',
+              'images/gallery/ballestas_10_t.jpg',
+              'images/gallery/ballestas_12_t.jpg',
+              'images/gallery/ballestas_14_t.jpg',
+              'images/gallery/ballestas_15_t.jpg',
+              'images/gallery/ballestas_18_t.jpg',
+              'images/gallery/ballestas_19_t.jpg',
+              'images/gallery/nazca_flights_01_t.jpg',
+              'images/gallery/nazca_flights_02_t.jpg',
+              'images/gallery/nazca_flights_05_t.jpg',
+              'images/gallery/nazcaLines_1_t.jpg',
+              'images/gallery/taxi_01_t.jpg',
+
+            ],
             additionalData:
             {
                 include:[
