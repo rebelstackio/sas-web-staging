@@ -5,7 +5,9 @@ export default {
 		url_image: 'images/tours/nasca/nazca_spider.t.jpg',
 		tours:[
 			{
+				id: 'nazca-lines',
 				title:'Nazca Lines',
+				shortTitle:'Nazca Lines',
 				subtitle:'Many theories explaining the lines have been proposed by various archaeologists, ethnologists, anthropologists and scientists.',
 				url_image:'images/tours/nasca/nazca_condor.t.jpg',
 				description:`Yet after much study there is still no definitive agreement about their creation. The Nasca lines are protected as a UNESCO World Heritage Site.Our guided program begins once your guide picks you up from your hotel. The over flight is in a Cessna light aircrafts 5 passengers or Caravans of 12 passengers or caravans of 12 passengers our pilot speak English and explains each mysterious figure etched on the land.`,
@@ -41,6 +43,8 @@ export default {
 				}
 			},
 			{
+				id: 'flights-over-nazca-lines-from-lima',
+				shortTitle:'Nazca Lines from Lima',
 				title:'Flights over Nazca Lines From Lima (1-day VIP Private)',
 				subtitle:'See the Nazca Lines, Candelbra Geoglyph and Ballestas Islands all in one day!',
 				url_image:'images/tours/nasca/nazca_flight_03_t.jpg',
@@ -75,6 +79,8 @@ You will be picked up at your hotel in either a car or van (with air conditionin
 				}
 			},
 			{
+				id: 'nazca-lines-from-paracas',
+				shortTitle:'Nazca Lines from Pisco',
 				title:'Nazca Lines from Paracas',
 				subtitle:`New! Tour the Nasca lines by plane departing from Paracas (Pisco)! Save precious time on your vacation by flying from Paracas - the Peruvian traveler's hub.`,
 				url_image:'images/tours/nasca/nazca_condor.t.jpg',
@@ -116,7 +122,9 @@ Our guided program begins once your guide picks you up from your hotel. Our airl
 				}
 			},
 			{
+				id: 'pampas-galeras-reserve',
 				title:'Pampas Galeras Reserve',
+				shortTitle:'Pampas Galeras Reserve',
 				subtitle:'The Pampas Galeras Reserve is the focal point for conservation of Vicuña in Peru. Their fibre is considered the finest in the world.',
 				url_image:'images/tours/nasca/pampa_galeras_1.t.jpg',
 				description:`The Pampas Galeras National Reserve was established in 1967 and is a protected area of 6,500 hectares, but its area of influence extends over 60,000 hectares and includes a sizeable group of communities. The goal is community development through sustainable resource management.
@@ -159,7 +167,9 @@ Our guided tour starts at the time organized for your guide to pick you up from 
 				}
 			},
 			{
+				id:'cantalloc-aqueducts',
 				title:'Cantalloc Aqueducts',
+				shortTitle: 'Cantalloc Aqueducts',
 				subtitle:`If the Nazca lines are Nasca's greatest mystery, then the Puquios (aqueducts) of Cantalloc are Nazca's greatest achievements since their construction was much more complicated and difficult.`,
 				url_image:'images/tours/nasca/cantalloc_2_t.jpg',
 				description:`Since Nasca's narrow valley only supported a small farming area, and with only dry desert surrounding it (one of the driest in the world), moving water from the valley was vital for the survival of the inhabitants.
@@ -198,7 +208,9 @@ Of 36 Puquios, most are still functioning bringing life-giving water to the dese
 				}
 			},
 			{
+				id:'cemetary-chaucilla',
 				title:'Cemetary Chaucilla',
+				shortTitle: 'Cemetary Chaucilla',
 				subtitle:`Prehispanic mummies and ancient artifacts of great archaeological significance are found just outside of Nazca city.`,
 				url_image:'images/tours/nasca/chauchill_mummie.t.jpg',
 				description:`The cemetery 'Chauchilla' was discovered in the 20s but has not been used since the 9th century. The site holds important burials over a period of 600 to 700 years beginning around the year 200 AD and offers important insight into Nazca culture.

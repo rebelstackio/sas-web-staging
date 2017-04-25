@@ -5,7 +5,9 @@ export default {
 		url_image: 'images/tours/arequipa/arequipa_1_t.jpg',
 		tours:[
 			{
+				id:'arequipa-city-tour',
 				title:'Arequipa City Tour',
+				shortTitle: 'Arequipa City Tour',
 				subtitle:'Magnificent colonial architecture and cathedrals in Peru\'s famed White City',
 				url_image:'images/tours/arequipa/arequipa_3_t.jpg',
 				description:`Our guided program begins when your guide picks you up from your hotel. First we'll visit one of the most remarkable buildings of Arequipa, the Santa Catalina Monastery - a beautiful monastery in Arequipa that has lasted for centuries.Later on we will walk around the main square of Arequipa, a nice spot surrounded by colonial buildings. At the main plaza we will visit the interiors of magnificent Cathedral of Arequipa. Later on we will visit the museum of Santuarios Andinos, where we will see the Mummy named Juanita, an amazing frozen body of a little girl found at the cold slopes of the Ampato Mountain.`,
@@ -40,7 +42,9 @@ export default {
 				}
 			},
 			{
+				id: 'colca-canyon-tour',
 				title:'Colca Canyon Tour',
+				shortTitle: 'Colca Canyon Tour',
 				subtitle:'The Colca Canyon is one of the country\'s most popular sightseeing destination to see condor in the wild.',
 				url_image:'images/tours/arequipa/colca_canyon_3_t.jpg',
 				description:`From the great Andean Terraces (more than twice as deep as the Grand Ganyon in the USA at 4,160 meters deep) you will see the majestic condor in flight.

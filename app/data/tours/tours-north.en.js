@@ -5,7 +5,9 @@ export default {
 		url_image: 'images/tours/north/mancora_1_t.jpg',
 		tours:[
 			{
+				id: 'snorkel-with-turtles',
 				title:'Snorkel with Turtles!',
+				shortTitle: 'Snorkel with Turtles',
 				subtitle:'A small fishing village in the north of Peru, El Nuro where EcOceánica hosts a conservation program for sea-turtles.',
 				url_image:'images/tours/north/el_nuro_tortugas_4_t.jpg',
 				description:`EcOceánica is a Peruvian non-profit organization dedicated to marine conservation. Their efforts have raised the population of sea-turtles (Peru host 5 of 7 species in the world) significantly with El Nuro as one of their greatest successes.Fisherman in the area, with the urging of EcOceánica, have agreed to leave the turtles be instead of catching them. In fact, fishing by-catch is now thrown to the turtles and assisting their population growth and congregating near the sea docks where the best snorkel-ing is to be had.`,
@@ -39,7 +41,9 @@ export default {
 				}
 			},
 			{
+				id: 'mangroves-in-tumbes',
 				title:'Mangroves in Tumbes',
+				shortTitle: 'Mangroves in Tumbes',
 				subtitle:'The National Mangrove Sanctuary is protected by SERNANP to prevent contamination, deforestation and preserving tradition.',
 				url_image:'images/tours/north/tumbes_manglares_3_portrait.jpg',
 				description:`The Tumbes mangroves (Manglares de Tumbes) are a refuge for the American Crocodile, vulnerable to extinction, and many other species of fish, mammals and birds. Travelling the canals by canoe or kayak allows visitors a close-up experience with this wonder of nature.Afterwards a visit to the dry forest to enjoy lunch then nearby, a visit to the picturesque fishing village of Puerto Pizarro where the Peruvian Ministry of Fisheries hosts a zoo protecting migratory birds and over 300 crocodiles. The mangroves and village of Puerto Pizarro are wonderful places to visit year-round.`,
@@ -76,7 +80,9 @@ export default {
 				}
 			},
 			{
+				id:'temple-of-the-moon',
 				title:'Temple of the Moon',
+				shortTitle:'Temple of the Moon',
 				subtitle:`Huaca de la Luna (Temple of the Moon) was built by the ancient Moche culture and was their ceremonial center`,
 				url_image:'images/tours/north/templemoon_1_t.jpg',
 				description:`Unlike Huaca del Sol, which is mostly destroyed, the Huaca de la Luna was left mostly untouched and has provided the most archaeological information. Inside the temple are many murals often depicting the god "Ayapec" (all-knowing). Evidence has shown the site was also a burial temple of high-status priests and rulers and as the location where human sacrifices were made.`,
@@ -113,7 +119,9 @@ export default {
 				}
 			},
 			{
+				id:'chanchan',
 				title:'ChanChan',
+				shortTitle:'ChanChan',
 				subtitle:'Constructed by the Chimor (the kingdom of the Chimú), a civilization which grew out of the remnants of the Moche civilization, Chan Chan is a mysterious archaelogical wonder and UNESCO World Heritage site',
 				url_image:'images/tours/north/chan_chan_2.t.jpg',
 				description:`xxx`,
