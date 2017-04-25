@@ -28,7 +28,9 @@
     margin-bottom: 20px;
     text-align: justify;
 }
-
+.tour-info{
+    min-height: 250px!important;
+}
 .tour-menu{
     background: rgb(189,249,142);
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…IgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
