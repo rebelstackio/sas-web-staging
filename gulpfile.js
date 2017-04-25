@@ -7,6 +7,7 @@ var webpack = require('webpack');
 var webpackConfig = require('./webpack.config.js');
 var ghpages = require('gh-pages');
 var path = require('path');
+var gutil = require('gulp-util');
 
 gulp.task('nunjucks', function() {
   return gulp.src('app/tpl/pages/**/*.+(html|njk)')
