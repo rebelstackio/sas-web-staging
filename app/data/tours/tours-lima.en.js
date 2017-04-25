@@ -6,6 +6,7 @@ export default {
 
     tours:[
         {
+            id:"lima-city-tour",
             title:'Lima City Tour',
             shortTitle:'City Tour',
             subtitle:'Axis of Latin American History',
@@ -42,6 +43,7 @@ export default {
             }
         },
         {
+            id:"nazca-lines",
             title:'Flights over Nazca Lines From Lima (1-day VIP Private)',
             shortTitle:'Nazca Lines from Lima',
             subtitle:'See the Nazca Lines, Candelbra Geoglyph and Ballestas Islands all in one day!',
@@ -78,6 +80,7 @@ Along the way you will pass the enigmatic "Candelabra" - a famous geoglyph with 
             }
         },
         {
+            id:'pachacamac',
             title:'Pachacamac',
             shortTitle:'Pachacamac',
             subtitle:'A unique archaeological and mystical experience',

@@ -15,20 +15,21 @@
             <div class="banner-right floating-right tour-menu">
                 <ul>
                     {% for item in data.tours %}
-                    <li><a href="">{{item.shortTitle}}</a></li>
+                    <li><a href="#{{item.id}}">{{item.shortTitle}}</a></li>
                     {% endfor %}
+                    <li><a href="#additional-info">Additional Information</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
     {% for item in data.tours %}
-     <div class="row tour-container">
+     <div class="row tour-container" >
         <div class="col-md-8">
           <p class="text-justify">
                 <img class="article-image tour-image" style="background-image:url({{item.url_image}});" alt="" width="100%">
 
-                <div class="article-title">{{item.title}}</div>
+                <div class="article-title" id="{{item.id}}">{{item.title}}</div>
             <div class="article-subtitle">
                 {{item.subtitle}}
             </div>
@@ -74,7 +75,7 @@
     <hr/>
  <div class="row additional-info">
     <div class="col-md-12">
-       <h2>Additional Information</h2>
+       <h2 id="additional-info">Additional Information</h2>
             <ul>
                 <li>All your personal information is required at the moment of your booking.</li>
                 <li>Confirmation of the excursion will be received at time of booking.</li>
