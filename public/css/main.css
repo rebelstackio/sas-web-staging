@@ -47,6 +47,10 @@
 }
 
 @media (max-width: 767px) {
+    .content-page{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .container-article{
         /* margin-left: -15px!important; */
     }

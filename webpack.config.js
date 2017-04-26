@@ -64,6 +64,7 @@ module.exports = {
 		
 		new CopyWebpackPlugin([
 			{from: 'public/css', to: 'css'},
+			{from: 'public/videos', to: 'videos'},
 			{from: 'public/js', to: 'js'},
 			{from: 'public/images', to: 'images'},
 			{from: 'public/fonts', to: 'fonts'},
