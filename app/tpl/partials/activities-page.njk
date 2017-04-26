@@ -1,34 +1,12 @@
  <div class="col-md-12">
-    <div class="row tour-container">
-        <div class="col-md-8 col-sm-12">      
-            <p class="text-justify">
-                <img class="article-image tour-image" style="background-image:url({{data.url_image}});" alt="" width="100%">
 
-                <div class="article-title">{{data.title}}</div>
-            <div class="article-subtitle">
-                {{data.subtitle}}
-            </div>
-                {{data.description}}
-            </p>
-        </div>
-        <div class="col-md-4 hidden-sm">
-            <div class="banner-right floating-right tour-menu">
-                <ul>
-                    {% for item in data.tours %}
-                    <li><a href="">{{item.shortTitle}}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    {% for item in data.tours %}
+    {% for item in data.activities %}
      <div class="row tour-container">
         <div class="col-md-8">
           <p class="text-justify">
                 <img class="article-image tour-image" style="background-image:url({{item.url_image}});" alt="" width="100%">
 
-                <div class="article-title">{{item.title}}</div>
+                <div class="article-title" id={{ item.id }}>{{item.title}}</div>
             <div class="article-subtitle">
                 {{item.subtitle}}
             </div>
