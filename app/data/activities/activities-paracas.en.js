@@ -9,6 +9,12 @@ export default {
 				description:`<b>Self-guided Bike Tour</b><br/>
 Discover the beauty of the Paracas Reserve and let the breeze take you where it takes you. Our self-guided bike tour provides you with maps and routes, helmet, bike tools, and emergency communication (optional).<br/>
 <b>Bike Tour w/ Van Support</b><br/> Let us bring you and your bicycle to the best spot in the reserve. From there enjoy freedom on two wheels with the wind on your back. Includes transport, maps, routes, helmet, tools and emergency communication (optional).`,
+				gallery:[
+					'images/gallery/bike_paracas_01.jpg',
+					'images/gallery/bike_paracas_02.jpg',
+					'images/gallery/bike_paracas_03.jpg',
+					'images/gallery/bike_paracas_04.jpg',
+				],
 				additionalData:
 				{
 						include:[
@@ -44,6 +50,17 @@ Discover the beauty of the Paracas Reserve and let the breeze take you where it 
 						subtitle:`The Islas Ballestas (Crossbow Islands) are Paracas's premier wildlife attraction. You'll find many exotic species of birds and marine life, some unique to Peru.`,
 						url_image:'images/activities/paracas/paracas_03_t.jpg',
 						description:`We meet at our office and escort you to Paracas dock. This two-hour round-trip tour of Peru's most famous islands lets you enjoy magnificent rocks formations sculpted by nature and is home of Humboldt penguins, south Americans sea lions and a multitude of marine birds. Services also available in First and Private classes.All yacht tours include a trained, certified, registered yatchsman and crewman/guide onboard. Our yacht services are insured and registered with all appropriate agencies as mandated by law.`,
+						gallery:[
+							'images/gallery/ballestas_01_t.jpg',
+							'images/gallery/ballestas_02_t.jpg',
+							'images/gallery/ballestas_06_t.jpg',
+							'images/gallery/ballestas_08_t.jpg',
+							'images/gallery/ballestas_11_t.jpg',
+							'images/gallery/ballestas_16_t.jpg',
+							'images/gallery/ballestas_15_t.jpg',
+							'images/gallery/ballestas_03_t.jpg',
+							'images/gallery/ballestas_04_t.jpg',
+						],
 						additionalData:
 						{
 								include:[
@@ -123,6 +140,10 @@ Discover the beauty of the Paracas Reserve and let the breeze take you where it 
 						url_image:'images/activities/paracas/kayak_1_t.jpg',
 						description:`One of the best ways to enjoy the bay and see wildlife is by kayak during the still of the morning.
 Discover the bay with a partner in a 2-seater kayak - follow your whim and you're on your way to new experiences! We can help you plan a route and deliver you and your equipment to customized launch and landing spots.`,
+						gallery:[
+							'images/gallery/kayak_paracas_1.jpg',
+							'images/gallery/kayak_paracas_2.jpg',
+						],
 						additionalData:
 						{
 								include:[
