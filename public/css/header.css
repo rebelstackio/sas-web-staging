@@ -6,15 +6,24 @@ header .title{
     width:100%;
     justify-content: center;
     position: absolute;
-    top: 170px;
+    top: 60px;
     z-index: 100;
-    color: #FFF;
-    font: 61px/67px 'JungleFeverRegular',sans-serif;
-    filter: alpha(opacity=40);
+    padding-left: 130px;
+}
+header .title h1{
+     font: 50px 'JungleFeverRegular',sans-serif;
+     color: #FFF;
+     filter: alpha(opacity=40);
     opacity: 0.4;
     -moz-opacity: 0.4;
     -khtml-opacity: 0.4;
-    text-align: center;
+    margin:0;
+}
+header .title h2{
+    font-family: 'JungleFeverRegular';
+    color:orange;
+    margin:0;
+    opacity: .5;
 }
 .header-img{
     background-position: top center;
@@ -30,14 +39,6 @@ header .title{
     }
 }
 
-@media screen and (max-width: 730px) {
-    header .gallery .item {
-        height: 138px;
-    }
-    header .title {
-        top: 80px;
-    }
-}
 
 @media screen and (max-width: 620px) {
      header .title { 
@@ -148,4 +149,28 @@ nav.mainmenu{
 
 .navbar-fixed-top .navbar-brand{
     display: inline-block;
+}
+
+.logo{
+    position: absolute;
+    z-index: 100;
+    padding: 10px;
+    text-align: center;
+}
+.logo img{
+    height: 150px;
+}
+
+@media (max-width:768px){
+    .logo{
+        width:100%;
+        padding:0;
+    }
+    .logo img{
+        height: 210px;
+    }
+     header .title { 
+        display: none;
+    }
+
 }

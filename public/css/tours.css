@@ -14,7 +14,7 @@
 
 }
 .tour-detail ul li{
-    font-size: 11px;
+    font-size: 12px;
     color:#674300;
 }
 .tour-image{
@@ -74,3 +74,9 @@
     color:orange;
 }
 
+
+@media (max-width:768px){
+    .tour-detail ul li{
+        font-size: 16px;
+    }
+}

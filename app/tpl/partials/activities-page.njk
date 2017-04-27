@@ -1,12 +1,12 @@
  <div class="col-md-12">
 
     {% for item in data.activities %}
-     <div class="row tour-container">
+     <div class="row tour-container" id="{{ item.id }}">
         <div class="col-md-8">
           <p class="text-justify">
                 <img class="article-image tour-image" style="background-image:url({{item.url_image}});" alt="" width="100%">
 
-                <div class="article-title" id={{ item.id }}>{{item.title}}</div>
+                <div class="article-title">{{item.title}}</div>
             <div class="article-subtitle">
                 {{item.subtitle}}
             </div>
