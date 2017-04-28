@@ -26,3 +26,39 @@ $('.container-app').on('scroll', function(event){
 					 $(".page").removeClass("padding-page");
 			 }
 });
+
+
+$(document).on('click', '#change-language-link', function(event){
+	let element = event.target;
+	const lng = $(this).attr('data-lng');
+	let image = '';
+	let newLng = '';
+	let title = '';
+	switch (lng) {
+		case 'en':
+			image = 'images/spain_flag.ico';
+			newLng = 'es';
+			title = 'Spanish'
+			break;
+		case 'es':
+			image = 'images/usa_flag.ico';
+			newLng = 'en';
+			title = 'English'
+			break;
+		default:
+			image = 'images/spain_flag.ico';
+			newLng = 'es';
+			title = 'English'
+	}
+
+	const language	= getPageLanguage('lng');
+
+	if ( !language ) {
+		location.href = location.href + '?lng=' + lng;
+		// location.reload();
+	}
+
+	$(this).attr('data-lng', newLng);
+	$('#language-icon').attr('src', image);
+	$('#language-icon').attr('title', title);
+})
