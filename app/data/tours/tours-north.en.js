@@ -20,7 +20,6 @@ export default {
 					],
 					notInclude: [
 						'Extras & gratuities',
-						'Accommodation'
 					],
 					duration: {
 						subtitle:'2 hours (approx.)',
@@ -33,7 +32,7 @@ export default {
 					],
 					price: {
 						currency:'$',
-						ammount:25,
+						ammount:35,
 						data:[
 							 'A minimum of 2 participants are required'
 						]
@@ -72,7 +71,7 @@ export default {
 					],
 					price: {
 						currency:'$',
-						ammount:25,
+						ammount:100,
 						data:[
 							 'A minimum of 2 participants are required'
 						]
@@ -95,7 +94,7 @@ export default {
 					],
 					notInclude: [
 						'Extras & gratuities',
-						'Accommodation in pisco or paracas.'
+						'Accommodation'
 					],
 					notes: [
 					],
@@ -147,7 +146,7 @@ export default {
 					],
 					price: {
 						currency:'$',
-						ammount:25,
+						ammount:0,
 						data:[
 							 'A minimum of 2 participants are required'
 						]

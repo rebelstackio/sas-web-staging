@@ -1,0 +1,108 @@
+ <div class="col-md-12">
+		<div class="row tour-container">
+				<div class="col-md-8 col-sm-12">
+						<p class="text-justify">
+								<img class="article-image tour-image" style="background-image:url({{data.url_image}});" alt="" width="100%">
+
+								<div class="article-title">{{data.title}}</div>
+						<div class="article-subtitle">
+								{{data.subtitle}}
+						</div>
+								{{data.description}}
+						</p>
+				</div>
+				<div class="col-md-4 hidden-sm hidden-xs">
+						<div class="banner-right floating-right tour-menu">
+								<ul>
+										{% for item in data.tours %}
+										<li><a href="#{{item.id}}">{{item.shortTitle}}</a></li>
+										{% endfor %}
+										<li><a href="#additional-info">Información Adicional</a></li>
+								</ul>
+						</div>
+				</div>
+		</div>
+
+		{% for item in data.tours %}
+		 <div class="row tour-container" >
+				<div class="col-md-8 tour-info">
+					<p class="text-justify">
+								<img class="article-image tour-image" style="background-image:url({{item.url_image}});" alt="" width="100%">
+
+								<div class="article-title" id="{{item.id}}">{{item.title}}</div>
+						<div class="article-subtitle">
+								{{item.subtitle}}
+						</div>
+								{{item.description | safe}}
+					</p>
+					<div class="slick-autoplay">
+						{% for image in	item.gallery %}
+							<a href="{{image}}">
+								<img src="{{image}}" height="50px" width="50px"/>
+							</a>
+						{% endfor %}
+					</div>
+				</div>
+				<div class="col-md-4">
+						<div class="banner-right floating-right">
+						<div class="tour-detail">
+								<div class="tour-info-title">Incluye</div>
+								<ul>
+										{% for inc in item.additionalData.include %}
+										<li>
+										{{inc}}
+										</li>
+										{% endfor %}
+								</ul>
+
+								<div class="tour-info-title">No Incluye</div>
+								<ul>
+										{% for inc in item.additionalData.notInclude %}
+										<li>
+										{{inc}}
+										</li>
+										{% endfor %}
+								</ul>
+
+								<div class="tour-info-title">Duración <small>{{ item.additionalData.duration.subtitle}}</small></div>
+								<ul>
+										{% for inc in item.additionalData.duration.data %}
+										<li>
+										{{inc}}
+										</li>
+										{% endfor %}
+								</ul>
+
+								<button class="bttn-unite bttn-md bttn-warning">Reservar Tour</button>
+						</div>
+						</div>
+				</div>
+		</div>
+		{% endfor %}
+		<hr/>
+ <div class="row additional-info">
+		<div class="col-md-12">
+			<h2 id="additional-info">Información Adicional</h2>
+			<ul>
+					<li>Se requiere toda su información personal en el momento de su reserva.</li>
+					<li>La confirmación de la excursión será recibido en el momento de la reserva.</li>
+					<li>Todos los tours son operados en español a menos que se indique lo contrario.</li>
+			</ul>
+
+			<h4>Voucher de Viaje:</h4>
+			<ul>
+				<li>Usted recibirá un voucher electrónico a través de correo electrónico una vez que se confirma la reserva.</li>
+				<li>Para cada reserva confirmada se le requiere para imprimir el voucher electrónico para la presentación al inicio de la excursión.</li>
+				<li>El voucher electrónico actúa como una confirmación de todos los servicios que usted solicitó.</li>
+			</ul>
+
+			<h4>Información del operador local:</h4>
+			<ul>
+				<li>Le enviaremos la información completa del operador, incluyendo los números de teléfono en su destino.</li>
+				<li>Nuestros gestores solo seleccionan a los operadores más fiables y expertos en cada destino, para ahorrarle trabajo a usted, y que garanticen su tranquilidad.</li>
+			</ul>
+
+		</div>
+ </div>
+
+</div>

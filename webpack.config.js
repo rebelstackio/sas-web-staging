@@ -23,6 +23,7 @@ module.exports = {
 		index: './app/scripts/index.js',
 		tours:'./app/scripts/tours.js',
 		activities:'./app/scripts/activities.js',
+		headerMenu:'./app/scripts/header-menu.js',
 	},
 	output: {
 		path: path.resolve(__dirname, 'build'),
@@ -59,9 +60,9 @@ module.exports = {
 		"jquery": "jQuery"
 	},
 	plugins: [
-		
+
 		new NunjucksWebpackPlugin({template: tpls}),
-		
+
 		new CopyWebpackPlugin([
 			{from: 'public/css', to: 'css'},
 			{from: 'public/videos', to: 'videos'},
@@ -75,7 +76,7 @@ module.exports = {
                 from: '**/*',
                 to: '/'
             },
-            
+
 		])
 	],
 	devtool: "source-map"
