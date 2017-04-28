@@ -53,12 +53,11 @@ $(document).on('click', '#change-language-link', function(event){
 
 	const language	= getPageLanguage('lng');
 
-	if ( !language ) {
-		location.href = location.href + '?lng=' + lng;
-		// location.reload();
-	}
+	localStorage['lng'] = lng;
+	//
+	// $(this).attr('data-lng', newLng);
+	// $('#language-icon').attr('src', image);
+	// $('#language-icon').attr('title', title);
 
-	$(this).attr('data-lng', newLng);
-	$('#language-icon').attr('src', image);
-	$('#language-icon').attr('title', title);
+	location.reload();
 })
