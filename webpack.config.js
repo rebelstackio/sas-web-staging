@@ -23,7 +23,7 @@ module.exports = {
 		index: './app/scripts/index.js',
 		tours:'./app/scripts/tours.js',
 		activities:'./app/scripts/activities.js',
-		headerMenu:'./app/scripts/header-menu.js',
+		menu:'./app/scripts/menu.js',
 	},
 	output: {
 		path: path.resolve(__dirname, 'build'),
