@@ -9,11 +9,6 @@ System.import(`../tpl/partials/menu.${language}.njk`).then(function(m) {
 	menu.innerHTML = html;
 });
 
-
-
-
-
-//floating navbar event
 $('.container-app').on('scroll', function(event){
 			let navbar = $("#mainmenu");
 			console.log("scroll");
@@ -54,10 +49,6 @@ $(document).on('click', '#change-language-link', function(event){
 	const language	= getPageLanguage('lng');
 
 	localStorage['lng'] = lng;
-	//
-	// $(this).attr('data-lng', newLng);
-	// $('#language-icon').attr('src', image);
-	// $('#language-icon').attr('title', title);
 
 	location.reload();
 })

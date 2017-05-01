@@ -11,32 +11,32 @@ export default [
 	},
 	{
 		title:'Saving Chankillo',
-		subtitle:"Oldest Solar Observatory endangered by a new mega-prison in Peru",
-		description:"Few know that Peru hosts the oldest and best preserved solar observatory in the Americas. It is a unique circular construction which was raised more than 2000 years ago on the Peruvian coast and is now threatened by the construction of a high-security prison to be built nearby.",
-		author:'translated by Rein Petersen from an original article by Juan Carlos Estrada published at sophimania.pe',
-		date:'February 28, 2014',
+		subtitle:"El Observatorio solar más antiguo amenazado por una nueva prisión en Perú",
+		description:"Llegar a Nasca para ver estas enigmáticas líneas de Nazca solía ser un esfuerzo grande y requería mucho tiempo. Al menos que usted quisiera rentar su propio vuelo privado desde Lima, el acceso al público se limitaba en su mayoría en coche o autobús, que tomaba mucho tiempo (12-14 horas ida y vuelta) viaje desde Lima.",
+		author:'traducido por Rein Petersen del articulo de Juan Carlos Estrada publicada en sophimania.pe',
+		date:'Febrero 28, 2014',
 		url_image:'images/articles/chankillo_1.jpg',
-		blockquote:`“I believe that what appears to be a serpent is actually the deity Q'hoa. He was the servant or acolyte of the god of water known as Illapa and his likeness was used in a majority of rituals regarding rain”.`,
+		blockquote:`"Antes, la única manera de ver las líneas de Nasca era viajar a Nasca - viajando en autobús. Pero ahora volamos desde Pisco y los turistas lo prefieren."Lucio - guía veterano`,
 		url:''
 	},
 	{
-		title:'Nasca Lines from Pisco',
-		subtitle:"*New* Nasca lines tours with regular flights from Pisco's renovated airport",
-		description:"Getting to Nasca to see the Nasca lines once used to be a complicated and time-consuming effort. Unless you chartered your own private flight from Lima, public access was limited to mostly car or bus which is very long (7-8 hour one-way) trip from Lima.",
-		author:'by Rein Petersen',
+		title:'Lineas de Nasca de Pisco',
+		subtitle:"*Nuevo* Tours de las líneas de Nasca con vuelos regulares desde el aeropuerto renovado de Pisco",
+		description:"Llegar a Nasca para ver estas enigmáticas líneas de Nazca solía ser un esfuerzo grande y requería mucho tiempo. Al menos que usted quisiera rentar su propio vuelo privado desde Lima, el acceso al público se limitaba en su mayoría en coche o autobús, que tomaba mucho tiempo (12-14 horas ida y vuelta) viaje desde Lima.",
+		author:'por Rein Petersen',
 		date:'February 26, 2014',
 		url_image:'images/articles/nazca_spider.jpg',
-		blockquote:`"Before, the only way to see the Nasca lines was to travel to Nasca - usually by bus. But now we fly from Pisco and people prefer it."`,
+		blockquote:`"Antes, la única manera de ver las líneas de Nasca era viajar a Nasca - viajando en autobús. Pero ahora volamos desde Pisco y los turistas lo prefieren."`,
 		url:''
 	},
 	{
-		title:'Guano Collectors',
-		subtitle:`"The worst enemy is not the smell, heat or exhaustion." As Domingo León explained to us, "the worst enemy is dust sticking on the eyebrows, covering our noses and cheeks and turning our face into a rigid mask."`,
-		description:"The rising cost of synthetic fertilizers has made guano sexy again. Some workers collect the dung of seabirds in the North Guañape Island, off the coast of Peru. The global boom in commodities has come to this: before guano, bird dung was the center of an imperialist confrontation at sea in the nineteenth century, and is once again in strong demand.",
-		author:'by Rein Petersen',
-		date:'February 22, 2014',
+		title:'Recolectores de Guano',
+		subtitle:`"El peor enemigo no es el olor, el calor o el agotamiento. "Como explicó Domingo León," el peor enemigo es el polvo que se pega en las cejas, cubriendo nuestras narices y mejillas y convirtiendo nuestra cara en una máscara rígida."`,
+		description:"El aumento del costo de los fertilizantes sintéticos han vuelto a hacer guano sexy. Algunos trabajadores recogen el estiércol de las aves marinas en la Isla Norte de Guañape, frente a la costa del Perú. El auge mundial de las materias primas ha llegado a esto: antes del guano, el estiércol del pájaro fue el centro de una confrontación imperialista en el mar en el siglo XIX, y está una vez más en fuerte demanda.",
+		author:'por Rein Petersen',
+		date:'Febrero 22, 2014',
 		url_image:'images/articles/guano_collectors_1_portrait.jpg',
-		blockquote:`"The worst enemy is not the smell, heat or exhaustion... [it] is dust sticking on the eyebrows, covering our noses and cheeks and turning our face into a rigid mask."`,
+		blockquote:`"El peor enemigo no es el olor, el calor o el agotamiento. "Como explicó Domingo León," el peor enemigo es el polvo que se pega en las cejas, cubriendo nuestras narices y mejillas y convirtiendo nuestra cara en una máscara rígida."`,
 		url:''
 	}
 ];
