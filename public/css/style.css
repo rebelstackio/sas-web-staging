@@ -84,3 +84,15 @@ body{
 }
 
 
+#language-span {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #language-span {
+    display: block;
+  }
+  #language-icon {
+    display: none;
+  }
+}
