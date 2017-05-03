@@ -6,6 +6,8 @@ import contactopten from '../data/contact/contactoptions.en.js';
 import contactoptes from '../data/contact/contactoptions.es.js';
 import packagees from '../tpl/partials/package-page.es.njk';
 import packageen from '../tpl/partials/package-page.en.njk';
+import lastnewsbanneres from '../tpl/partials/last-news-banner.es.njk';
+import lastnewsbanneren from '../tpl/partials/last-news-banner.en.njk';
 
 export function getPageLanguage(name, url) {
 	return  localStorage['lng'] ;
@@ -61,5 +63,18 @@ export function getPackagePageByLanguafge(lng) {
 			break;
 		default:
 			return packageen;
+	}
+}
+
+export function getLastNewsBannerByLanguage(lng) {
+	switch (lng) {
+		case 'es':
+			return lastnewsbanneres;
+			break;
+		case 'en':
+			return lastnewsbanneren;
+			break;
+		default:
+			return lastnewsbanneren;
 	}
 }
