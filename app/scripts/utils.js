@@ -4,6 +4,8 @@ import contacten from '../tpl/partials/contactcontent.en.njk';
 import contactes from '../tpl/partials/contactcontent.es.njk';
 import contactopten from '../data/contact/contactoptions.en.js';
 import contactoptes from '../data/contact/contactoptions.es.js';
+import packagees from '../tpl/partials/package-page.es.njk';
+import packageen from '../tpl/partials/package-page.en.njk';
 
 export function getPageLanguage(name, url) {
 	return  localStorage['lng'] ;
@@ -46,5 +48,18 @@ export function getContactChatOptionsByLanguafge(lng) {
 			break;
 		default:
 			return contactopten;
+	}
+}
+
+export function getPackagePageByLanguafge(lng) {
+	switch (lng) {
+		case 'es':
+			return packagees;
+			break;
+		case 'en':
+			return packageen;
+			break;
+		default:
+			return packageen;
 	}
 }
