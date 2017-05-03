@@ -24,6 +24,7 @@ module.exports = {
 		tours:'./app/scripts/tours.js',
 		activities:'./app/scripts/activities.js',
 		menu:'./app/scripts/menu.js',
+		contact: './app/scripts/contact.js'
 	},
 	output: {
 		path: path.resolve(__dirname, 'build'),

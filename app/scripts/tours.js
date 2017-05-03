@@ -1,5 +1,3 @@
-import tplen from '../tpl/partials/tours-page.en.njk';
-import tples from '../tpl/partials/tours-page.es.njk';
 import { getPageLanguage, getTourPageByLanguage } from './utils';
 
 let content = document.querySelector('#page-content');
