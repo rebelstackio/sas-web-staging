@@ -96,3 +96,11 @@ body{
     display: none;
   }
 }
+
+
+
+table.schedule th { background-color:rgba(0,0,0,0.5); color:rgba(255,255,255,0.5); text-align:left; padding:8px; }
+table.schedule tr { border-bottom:1px solid rgba(0,0,0,0.5); }
+table.schedule td { vertical-align: top; margin:0; border-bottom:1px solid rgba(0,0,0,0.5);  }
+table.schedule td { padding:8px; }
+table.schedule td:first-child { text-align:right; font-weight:bold; width:150px; }

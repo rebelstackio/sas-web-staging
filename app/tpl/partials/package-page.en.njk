@@ -14,7 +14,7 @@
 			 <div class="col-md-4 hidden-sm hidden-xs">
 					 <div class="banner-right floating-right tour-menu">
 							 <ul>
-									 {% for item in data.tours %}
+									 {% for item in data.packages %}
 									 <li><a href="#{{item.id}}">{{item.shortTitle}}</a></li>
 									 {% endfor %}
 									 <li><a href="#additional-info">Additional Information</a></li>
@@ -23,7 +23,7 @@
 			 </div>
 	 </div>
 
-	 {% for item in data.tours %}
+	 {% for item in data.packages %}
 		<div class="row tour-container" >
 			 <div class="col-md-8 tour-info">
 				 <p class="text-justify">
@@ -80,6 +80,32 @@
 					 </div>
 			 </div>
 	 </div>
+
+		{% if item.itenerary %}
+			<div class="row tour-container">
+					<div style="padding-right:10px; padding-left:10px;">
+				 		<h3 style="margin-top:0px;">Itenerary</h3>
+					</div>
+				 {% for itenerary in item.itenerary %}
+					 <div class="col-md-6">
+						 <table class="schedule table">
+							 <tbody>
+								 <tr>
+									 <th colspan="2">{{itenerary.title}}</th>
+								 </tr>
+								 {% for row in itenerary.data %}
+										<tr>
+											<td>{{row[0]}}</td>
+											<td>{{row[1]}}</td>
+										</tr>
+								 {% endfor %}
+							 </tbody>
+						 </table>
+					 </div>
+				 {% endfor %}
+			</div>
+		{% endif %}
+
 	 {% endfor %}
 	 <hr/>
 <div class="row additional-info">
