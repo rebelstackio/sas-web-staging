@@ -8,6 +8,8 @@ import packagees from '../tpl/partials/package-page.es.njk';
 import packageen from '../tpl/partials/package-page.en.njk';
 import lastnewsbanneres from '../tpl/partials/last-news-banner.es.njk';
 import lastnewsbanneren from '../tpl/partials/last-news-banner.en.njk';
+import articlesidebaren from '../tpl/partials/article-sidebar.en.njk';
+import articlesidebares from '../tpl/partials/article-sidebar.es.njk';
 
 export function getPageLanguage(name, url) {
 	return  localStorage['lng'] ;
@@ -76,5 +78,18 @@ export function getLastNewsBannerByLanguage(lng) {
 			break;
 		default:
 			return lastnewsbanneren;
+	}
+}
+
+export function getArticleSidebar(lng) {
+	switch (lng) {
+		case 'es':
+			return articlesidebares;
+			break;
+		case 'en':
+			return articlesidebaren;
+			break;
+		default:
+			return articlesidebaren;
 	}
 }

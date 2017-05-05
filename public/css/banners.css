@@ -4,7 +4,7 @@
     padding-left: 0!important;
     padding-right: 0!important;
     min-width: 280px;
-     transition: all .2s ease-in-out; 
+     transition: all .2s ease-in-out;
 }
 
 .floating-right{
@@ -70,6 +70,11 @@
 .sandboard-activitie{
     background-image: url(../images/banners/sandboard_1_t.jpg);
 }
+
+.nazca-lines {
+  background-image: url(../images/package/nazca_flights_03.jpg);
+}
+
 .banners{
     display: flex;
     flex-direction: column;
@@ -103,12 +108,12 @@
 
 .banner-right > .gallery > figure .banner-img:hover{
     transform: scale(1.4);
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
 
 .banner-right > .gallery > figure .banner-img{
     transform: scale(1);
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
 .banner-right  .gallery{
     overflow: hidden;
