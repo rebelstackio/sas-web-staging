@@ -90,9 +90,12 @@ Along the way you will pass the enigmatic "Candelabra" - a famous geoglyph with 
 										'Extras & gratuities.'
 								],
 								time:'12 hours (approx.)',
-								duration:[
-										'Departs daily at 6.00am'
-								],
+								duration:{
+										subtitle:'12 hours (approx.)',
+										data:[
+											'Departs daily at 6.00am'
+										]
+								},
 								price:{
 										 currency:'$',
 										 ammount:430,

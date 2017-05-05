@@ -92,9 +92,12 @@ Al volver de las islas usted tendrá tiempo para relajarse y caminar a los alred
 									'Alimentacíon',
 								],
 								time:'12 horas (approx.)',
-								duration:[
-										'Salidas diarias 6:00 am'
-								],
+								duration:{
+										subtitle:'12 horas (approx.)',
+										data:[
+											'Salidas diarias 6:00 am'
+										]
+								},
 								price:{
 										 currency:'$',
 										 ammount:430,

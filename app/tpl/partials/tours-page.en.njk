@@ -73,6 +73,16 @@
                     {% endfor %}
                 </ul>
 
+                <div class="tour-info-title">Price: <small>{{ item.additionalData.price.currency}}{{item.additionalData.price.ammount}}</small></div>
+								<ul>
+										{% for inc in item.additionalData.price.data %}
+										<li>
+										{{inc}}
+										</li>
+										{% endfor %}
+								</ul>
+
+
                 <button class="bttn-unite bttn-md bttn-warning">Reserve Tour</button>
             </div>
             </div>
