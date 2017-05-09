@@ -89,11 +89,22 @@ body{
 }
 
 @media screen and (max-width: 768px) {
+
   #language-span {
     display: block;
   }
   #language-icon {
     display: none;
+  }
+
+  #footer {
+    background-color: rgba(0,0,0,0.9);
+    z-index: 1000;
+    color: white;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 }
 
@@ -120,5 +131,49 @@ table.schedule td:first-child { text-align:right; font-weight:bold; width:150px;
 
 .ad:hover {
   color: rgba(255,255,255,0.85);
+  text-decoration: none;
+}
+
+#footer {
+  background-color: rgba(0,0,0,0.9);
+  z-index: 1000;
+  color: white;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+#copyright {
+  color: #fff;
+  margin: 0;
+  font-size: 8pt;
+}
+
+.footer > menu {
+    margin: 0px;
+    font-size: 11pt;
+    font-family: JungleFeverRegular;
+    display: block;
+    padding-top: 6px;
+    margin-bottom: 3px;
+}
+
+.footer > menu > li:first-child {
+  margin-left: 0px;
+}
+
+
+.footer > menu > li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.footer > menu > li > a {
+  color: white;
   text-decoration: none;
 }

@@ -22,7 +22,6 @@ $('.container-app').on('scroll', function(event){
 			 }
 });
 
-
 $(document).on('click', '#change-language-link', function(event){
 	let element = event.target;
 	const lng = $(this).attr('data-lng');

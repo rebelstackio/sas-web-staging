@@ -1,40 +1,42 @@
 <!-- layout.nunjucks -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#DE5A2E">
-        <meta name="msapplication-navbutton-color" content="#DE5A2E">
-        <meta name="apple-mobile-web-app-status-bar-style" content="#DE5A2E">
-        <link rel="icon" type="image/png" href="images/tumi_square.ico" />
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/header.css" rel="stylesheet">
-        <link href="css/gallery.css" rel="stylesheet">
-        <link href="css/gallery.theme.css" rel="stylesheet">
-        <link href="css/slick.css" rel="stylesheet">
-        <link href="css/slick.css" rel="stylesheet">
-        <link href="css/popup.css" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </head>
-    <body>
-      <div class="container-app">
-        <div id="app" class="container-fluid no-gutter ">
-          <header>
-            {% include "../partials/header.njk" %}
-          </header>
-          <section class="page">
-            {% block content %} {% endblock %}
-          </section>
-        </div>
-      </div>
-    <script src="js/slick.min.js"></script>
-    <script src="js/small-gallery.js"></script>
-    <script src="js/popup.min.js"></script>
-    <script src="menu.js"></script>
-
-    </body>
+		<head>
+				<title></title>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<meta name="theme-color" content="#DE5A2E">
+				<meta name="msapplication-navbutton-color" content="#DE5A2E">
+				<meta name="apple-mobile-web-app-status-bar-style" content="#DE5A2E">
+				<link rel="icon" type="image/png" href="images/tumi_square.ico" />
+				<link href="css/style.css" rel="stylesheet">
+				<link href="css/bootstrap.min.css" rel="stylesheet">
+				<link href="css/header.css" rel="stylesheet">
+				<link href="css/gallery.css" rel="stylesheet">
+				<link href="css/gallery.theme.css" rel="stylesheet">
+				<link href="css/slick.css" rel="stylesheet">
+				<link href="css/slick.css" rel="stylesheet">
+				<link href="css/popup.css" rel="stylesheet">
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+				<script src="js/bootstrap.min.js"></script>
+		</head>
+		<body>
+			<div class="container-app">
+				<div id="app" class="container-fluid no-gutter ">
+					<header>
+						{% include "../partials/header.njk" %}
+					</header>
+					<section class="page">
+						{% block content %} {% endblock %}
+					</section>
+				</div>
+			</div>
+			<footer id="footer" class="footer text-center">
+			</footer>
+			<script src="js/slick.min.js"></script>
+			<script src="js/small-gallery.js"></script>
+			<script src="js/popup.min.js"></script>
+			<script src="menu.js"></script>
+			<script src="footer.js"></script>
+		</body>
 </html>
