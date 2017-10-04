@@ -50,6 +50,7 @@ Discover the beauty of the Paracas Reserve and let the breeze take you where it 
 						subtitle:`The Islas Ballestas (Crossbow Islands) are Paracas's premier wildlife attraction. You'll find many exotic species of birds and marine life, some unique to Peru.`,
 						url_image:'images/activities/paracas/paracas_03_t.jpg',
 						description:`We meet at our office and escort you to Paracas dock. This two-hour round-trip tour of Peru's most famous islands lets you enjoy magnificent rocks formations sculpted by nature and is home of Humboldt penguins, south Americans sea lions and a multitude of marine birds. Services also available in First and Private classes.All yacht tours include a trained, certified, registered yatchsman and crewman/guide onboard. Our yacht services are insured and registered with all appropriate agencies as mandated by law.`,
+						yacht: 'yacht.png',
 						gallery:[
 							'images/gallery/ballestas_01_t.jpg',
 							'images/gallery/ballestas_02_t.jpg',
