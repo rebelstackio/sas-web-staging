@@ -11,6 +11,7 @@ export default {
 				subtitle:'Las Islas Ballestas es el principal atractivo de Paracas. Usted encontrará innumberables especies exóticas de aves y vida marina, algunas únicas en el Perú',
 				url_image:'images/tours/paracas/paracas_03_t.jpg',
 				description:`Visitar estas islas es como participar de la filmacion de un documental de Nacional Geografic. Organizamos tours guiados desde nuestra oficina en Paracas, ó lo recojemos desde su hotel y nuestro personal le acompañará hasta el muelle de Paracas. Este viaje de ida y vuelta es de dos horas a las islas más famosas del Perú, le permite disfrutar de magníficas formaciones de rocas esculpidas por la naturaleza y es el hogar de los pingüinos de Humboldt, lobos marinos sudamericanos y una multitud de aves marinas. Estos servicios tambien estan disponibles en primera clase y servicios privados.`,
+				yacht: 'yacht.png',
 				gallery: [
 					'images/gallery/ballestas_01_t.jpg',
 					'images/gallery/ballestas_02_t.jpg',
@@ -56,6 +57,7 @@ export default {
 				subtitle:'',
 				url_image:'images/tours/paracas/ballestas10_t.jpg',
 				description:`Más libertad de movimiento y espacio para llevar equipos de cámara - nuestra opción de servicio de primera clase garantiza nuestro yate con asiento preferencial (2 asientos por persona) de su capacidad siempre habra lugar para cambiarse de sitio ó de posición.`,
+				yacht: 'yacht2.png',
 				gallery: [
 					'images/gallery/ballestas_13_t.jpg',
 					'images/gallery/ballestas_02_t.jpg',
@@ -93,6 +95,7 @@ export default {
 				subtitle:'',
 				url_image:'images/tours/paracas/paracas_05_t.jpg',
 				description:`Salida en los horarios más convenientes para el cliente y disfrute con sus amigos y familiares. El tour privado es para aquellos que desean la exclusividad.Nuestro tour privado es, tambien asequible con los precios para grupos grandes.`,
+				yacht: 'yacht3.png',
 				gallery: [
 					'images/gallery/ballestas_05_t.jpg',
 					'images/gallery/ballestas_17_t.jpg',
@@ -130,6 +133,7 @@ export default {
 				subtitle:'',
 				url_image:'images/tours/paracas/ballestas_yacht_1_t.jpg',
 				description:`Chartée su propio yate y elija su propio plan de viaje con nosotros. Usted es libre de escoger para descubrir todas las islas de Paracas como mejor le parezca.`,
+				yacht: 'yacht3.png',
 				gallery: [
 					'images/gallery/ballestas_16_t.jpg',
 					'images/gallery/ballestas_15_t.jpg',
