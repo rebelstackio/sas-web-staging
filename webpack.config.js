@@ -27,7 +27,7 @@ module.exports = {
 		contact: './app/scripts/contact.js',
 		package: './app/scripts/package.js',
 		article: './app/scripts/article.js',
-		// footer: './app/scripts/footer.js',
+		footer: './app/scripts/footer.js'
 	},
 	output: {
 		path: path.resolve(__dirname, 'build'),
