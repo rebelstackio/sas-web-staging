@@ -10,16 +10,6 @@ export default [
 		url:''
 	},
 	{
-		title:'Saving Chankillo',
-		subtitle:"El Observatorio solar más antiguo amenazado por una nueva prisión en Perú",
-		description:"Llegar a Nasca para ver estas enigmáticas líneas de Nazca solía ser un esfuerzo grande y requería mucho tiempo. Al menos que usted quisiera rentar su propio vuelo privado desde Lima, el acceso al público se limitaba en su mayoría en coche o autobús, que tomaba mucho tiempo (12-14 horas ida y vuelta) viaje desde Lima.",
-		author:'traducido por Rein Petersen del articulo de Juan Carlos Estrada publicada en sophimania.pe',
-		date:'Febrero 28, 2014',
-		url_image:'images/articles/chankillo_1.jpg',
-		blockquote:`"Antes, la única manera de ver las líneas de Nasca era viajar a Nasca - viajando en autobús. Pero ahora volamos desde Pisco y los turistas lo prefieren."Lucio - guía veterano`,
-		url:''
-	},
-	{
 		title:'Lineas de Nasca de Pisco',
 		subtitle:"*Nuevo* Tours de las líneas de Nasca con vuelos regulares desde el aeropuerto renovado de Pisco",
 		description:"Llegar a Nasca para ver estas enigmáticas líneas de Nazca solía ser un esfuerzo grande y requería mucho tiempo. Al menos que usted quisiera rentar su propio vuelo privado desde Lima, el acceso al público se limitaba en su mayoría en coche o autobús, que tomaba mucho tiempo (12-14 horas ida y vuelta) viaje desde Lima.",
