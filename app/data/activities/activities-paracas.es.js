@@ -52,6 +52,7 @@ Vamos con usted y su bicicleta para llevar al mejor lugar en la Reserva. A parti
 						subtitle:`Las Islas Ballestas es el principal atractivo de Paracas. Usted encontrará innumberables especies exóticas de aves y vida marina, algunas únicas en el Perú.`,
 						url_image:'images/activities/paracas/paracas_03_t.jpg',
 						description:`Visitar estas islas es como participar de la filmacion de un documental de Nacional Geografic. Organizamos tours guiados desde nuestra oficina en Paracas, ó lo recojemos desde su hotel y nuestro personal le acompañará hasta el muelle de Paracas. Este viaje de ida y vuelta es de dos horas a las islas más famosas del Perú, le permite disfrutar de magníficas formaciones de rocas esculpidas por la naturaleza y es el hogar de los pingüinos de Humboldt, lobos marinos sudamericanos y una multitud de aves marinas. Estos servicios tambien estan disponibles en primera clase y servicios privados.Estos tours se realiza en lanchas rapidas con certificacion de Guardacostas del Perú. Nuestros servicios de yates están asegurados y registrados con todos los organismos pertinentes dispuesto por la ley. Contamos con personal capacitados por la marina de guerra.Capitan piloto y segundo piloto.`,
+						yacht: 'yacht.png',
 						gallery:[
 							'images/gallery/ballestas_01_t.jpg',
 							'images/gallery/ballestas_02_t.jpg',

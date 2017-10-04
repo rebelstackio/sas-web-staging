@@ -23,6 +23,9 @@
         <div class="col-md-4">
             <div class="banner-right floating-right">
             <div class="tour-detail">
+                {% if item.yacht %}
+                    <img src="images/{{item.yacht}}" align="right" width="60" style="margin-top: -22.5px; margin-right: -32.5px">
+                {% endif %}
                 <div class="tour-info-title">Include</div>
                 <ul>
                     {% for inc in item.additionalData.include %}

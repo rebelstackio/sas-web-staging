@@ -11,6 +11,7 @@ export default {
 				subtitle:'The Islas Ballestas (Crossbow Islands) are Paracas\'s premier wildlife attraction. You\'ll find many exotic species of birds and marine life, some unique to Peru.',
 				url_image:'images/tours/paracas/paracas_03_t.jpg',
 				description:`We meet at our office and escort you to Paracas dock. This two-hour round-trip tour of Peru's most famous islands lets you enjoy magnificent rocks formations sculpted by nature and is home of Humboldt penguins, south Americans sea lions and a multitude of marine birds. Services also available in First and Private classes.All yacht tours include a trained, certified, registered yatchsman and crewman/guide onboard. Our yacht services are insured and registered with all appropriate agencies as mandated by law.`,
+				yacht: 'yacht.png',
 				gallery: [
 					'images/gallery/ballestas_01_t.jpg',
 					'images/gallery/ballestas_02_t.jpg',
@@ -57,6 +58,7 @@ export default {
 				subtitle:'',
 				url_image:'images/tours/paracas/ballestas10_t.jpg',
 				description:`More freedom to move and bring camera equipment - our first class option guarantees you preferential seating and with more space (2 seats per person).`,
+				yacht: 'yacht2.png',
 				gallery: [
 					'images/gallery/ballestas_13_t.jpg',
 					'images/gallery/ballestas_02_t.jpg',
@@ -94,6 +96,7 @@ export default {
 				subtitle:'',
 				url_image:'images/tours/paracas/paracas_05_t.jpg',
 				description:`Depart at a time more convenient to you and only with your friends and family. The private tour is for those who desire exclusivity. Our pricing for private tour also makes it more affordable for larger groups.`,
+				yacht: 'yacht3.png',
 				gallery: [
 					'images/gallery/ballestas_05_t.jpg',
 					'images/gallery/ballestas_17_t.jpg',
@@ -131,6 +134,7 @@ export default {
 				subtitle:'',
 				url_image:'images/tours/paracas/ballestas_yacht_1_t.jpg',
 				description:`Charter your own yacht and design your own route plan with us. You are truly free to discover all the islands as you see fit`,
+				yacht: 'yacht3.png',
 				gallery: [
 					'images/gallery/ballestas_16_t.jpg',
 					'images/gallery/ballestas_15_t.jpg',
