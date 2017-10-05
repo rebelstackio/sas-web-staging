@@ -1,4 +1,4 @@
-import { getPageLanguage, getContactPageByLanguage,/*getContactChatOptionsByLanguafge */} from './utils';
+import { getPageLanguage, getContactPageByLanguage } from './utils';
 
 let content = document.querySelector('#page-content');
 const language	= getPageLanguage('lng') || 'en' ;
