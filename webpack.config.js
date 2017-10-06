@@ -5,8 +5,6 @@ var webpack = require('webpack'),
 	CopyWebpackPlugin = require('copy-webpack-plugin'),
 	fs = require('fs');
 
-
-
 /* babel */
 const babelSettings = JSON.parse(fs.readFileSync(".babelrc"));
 /* read templates */
@@ -27,7 +25,8 @@ module.exports = {
 		contact: './app/scripts/contact.js',
 		package: './app/scripts/package.js',
 		article: './app/scripts/article.js',
-		footer: './app/scripts/footer.js'
+		footer: './app/scripts/footer.js',
+		firebase: './app/scripts/firebase.js'
 	},
 	output: {
 		path: path.resolve(__dirname, 'build'),

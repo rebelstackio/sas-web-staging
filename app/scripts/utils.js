@@ -2,8 +2,6 @@ import tourtplen from '../tpl/partials/tours-page.en.njk';
 import tourtples from '../tpl/partials/tours-page.es.njk';
 import contacten from '../tpl/partials/contactcontent.en.njk';
 import contactes from '../tpl/partials/contactcontent.es.njk';
-import contactopten from '../data/contact/contactoptions.en.js';
-import contactoptes from '../data/contact/contactoptions.es.js';
 import packagees from '../tpl/partials/package-page.es.njk';
 import packageen from '../tpl/partials/package-page.en.njk';
 import lastnewsbanneres from '../tpl/partials/last-news-banner.es.njk';
@@ -39,19 +37,6 @@ export function getContactPageByLanguage(lng) {
 			break;
 		default:
 			return contacten;
-	}
-}
-
-export function getContactChatOptionsByLanguafge(lng) {
-	switch (lng) {
-		case 'es':
-			return contactoptes;
-			break;
-		case 'en':
-			return contactopten;
-			break;
-		default:
-			return contactopten;
 	}
 }
 
