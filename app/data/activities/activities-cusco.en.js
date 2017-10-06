@@ -74,7 +74,6 @@ There is at least one guide for every 10 participants and the guides set the pac
 									'Bus transport',
 									'Meals (2 breakfast, 3 lunch, 3 dinner)',
 									'Accommodation (basic) 2 nights',
-									'Bicycles',
 									'Entrance fees to Archaeological centers and Machu Picchu',
 									'Return train',
 									'Accommodation at Hostal Aguas Calientes',
