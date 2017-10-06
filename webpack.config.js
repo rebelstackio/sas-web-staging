@@ -26,7 +26,9 @@ module.exports = {
 		package: './app/scripts/package.js',
 		article: './app/scripts/article.js',
 		footer: './app/scripts/footer.js',
-		firebase: './app/scripts/firebase.js'
+		firebase: './app/scripts/firebase.js',
+		backoffice: './app/scripts/backoffice.js',
+		messageboard: './app/scripts/messageboard.js'
 	},
 	output: {
 		path: path.resolve(__dirname, 'build'),
