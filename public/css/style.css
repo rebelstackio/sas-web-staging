@@ -10,8 +10,7 @@ html,body{
 .container-app{
     height: 100%;
     width: 100%;
-    overflow: auto;
-    position: relative;
+    position: relative
 }
 body{
     margin: 0px;
@@ -106,9 +105,27 @@ body{
     bottom: 0;
     width: 100%;
   }
+
+  #footer menu {
+    padding: 6px 0 0 0;
+  }
+
+  #footer li {
+    font-size: 12px;
+    margin-right: 2px
+  }
+
+  #copyright > p {
+    font-size: 8px;
+  }
 }
 
-
+@media screen and (max-width: 568px) and (min-width: 320px) {
+  #footer li {
+    font-size: 10px;
+    margin-right: 1px
+  }
+}
 
 table.schedule th { background-color:rgba(0,0,0,0.5); color:rgba(255,255,255,0.5); text-align:left; padding:8px; }
 table.schedule tr { border-bottom:1px solid rgba(0,0,0,0.5); }
