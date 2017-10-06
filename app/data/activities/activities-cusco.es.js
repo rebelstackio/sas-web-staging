@@ -56,8 +56,8 @@ export default {
 				},
 				{
 						id:'inca-trail-classic-trek',
-						title:'Clásica caminata en Camino Inca',
-						shortTitle:'Clásica caminata en Camino Inca',
+						title:'Clásico trek en Camino Inca',
+						shortTitle:'Clásico trek en Camino Inca',
 						subtitle:'(a Machu Picchu) La clásica caminata de 4 días a través del Camino Inca que va desde el exótico valle Urubamba hasta el sagrado santuario Inca de Machu Picchu.',
 						url_image:'images/activities/cusco/inca_trail_2_portrait.jpg',
 						description:`A través de esta jornada espiritual usted entenderá la cultura de los Incas y el legado arqueológico que dejaron atrás.
