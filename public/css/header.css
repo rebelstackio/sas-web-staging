@@ -8,7 +8,7 @@ header .title{
     position: absolute;
     top: 60px;
     z-index: 100;
-    padding-left: 130px;
+    padding-left: 190px;
 }
 header .title h1{
      font: 50px 'JungleFeverRegular',sans-serif;
@@ -156,9 +156,6 @@ nav.mainmenu{
     z-index: 100;
     padding: 10px;
     text-align: center;
-}
-.logo img{
-    height: 150px;
 }
 
 @media (max-width:768px){
