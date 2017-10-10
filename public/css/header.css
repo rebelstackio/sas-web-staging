@@ -171,3 +171,30 @@ nav.mainmenu{
     }
 
 }
+/*trip advisor*/
+.navbar-right ul {
+    list-style: none
+}
+.TA_socialButtonIcon {
+    margin: 10px 13px;
+    border: 1px solid #f58220;
+    padding: 1px 2px;
+    border-radius: 2px
+}
+.TA_socialButtonIcon a {
+    font-size: 11px;
+    color: white
+}
+.TA_socialButtonIcon i {
+    color: #f58220;
+    font-size: 17px;
+    margin-right: 2px
+}
+.TA_socialButtonIcon span {
+    font-family: JungleFeverRegular
+}
+@media (max-width: 680px) {
+    .TA_socialButtonIcon {
+        border: 0px
+    }
+}
