@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
-    "publish": "gulp publish"
+    "publish": "gulp publish",
+    "build": "webpack"
   },
   "author": "edinson nuñez more",
   "license": "ISC",
