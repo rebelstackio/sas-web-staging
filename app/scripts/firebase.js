@@ -41,9 +41,11 @@ function showMsg(){
 
 // Bind event to submit button
 document.getElementById("send-msg").addEventListener("click", function(){
-        var name = document.getElementById("form-name").value,
-        email = document.getElementById("form-email").value,
-        message = document.getElementById("form-message").value;
+    var name = document.getElementById("form-name").value,
+    email = document.getElementById("form-email").value,
+    message = document.getElementById("form-message").value;
+
+    if(name != "" && email != "" && message != ""){
 
         //DB auth
         firebase.auth().signInAnonymously().catch(function(error) {
@@ -74,4 +76,5 @@ document.getElementById("send-msg").addEventListener("click", function(){
                 // ...
             }
         });
+    }
 });

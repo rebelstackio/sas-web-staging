@@ -5,7 +5,3 @@ div.contact-form > * {
 div.contact-form > textarea {
     max-height: 200px
 }
-div.contact-form > button {
-    margin: 0 auto auto 0;
-    display: block
-}
