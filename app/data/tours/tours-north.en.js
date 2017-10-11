@@ -3,6 +3,7 @@ export default {
 		subtitle: 'Beautiful sunny beaches and warm water - warm up and relax after your Inca trek.',
 		description: `The north of Peru is a great escape to sunny warm weather and great beaches. From Trujillo to Tumbes, your time in the north will be spent enjoying beautiful surroundings, archaeological sites, and sunny weather.`,
 		url_image: 'images/tours/north/mancora_1_t.jpg',
+		tab_title: "Tours North Coast",
 		tours:[
 			{
 				id: 'snorkel-with-turtles',

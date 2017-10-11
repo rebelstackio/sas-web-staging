@@ -3,6 +3,7 @@ export default {
 		subtitle: `The Peruvian Amazon jungle is one of the most biologically diverse areas on Earth`,
 		description: `As a nation, Peru has the largest number of bird species in the world and the third largest number of mammals; 44% of bird species and 63% of mammal species inhabit the Peruvian Amazon. Peru also has a very high number of species of butterflies, orchids, and other organisms`,
 		url_image: 'images/tours/tambopata/iquitos_3_t.jpg',
+		tab_title: "Tours Iquitos",
 		tours:[
 			{
 				id:'tambopata-reserve',

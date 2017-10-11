@@ -6,6 +6,8 @@ const language	= getPageLanguage('lng') || 'en' ;
 
 const template = getLastNewsBannerByLanguage(language);
 
+document.title = "South American's Secrets";
+
 System.import(`../data/home/last-news.${language}.js`).then(function(m) {
 	console.log(m);
   let LastNews = m.default;

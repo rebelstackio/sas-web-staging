@@ -6,6 +6,8 @@ const tpl = language == 'es' ? logines : loginen;
 var html = tpl.render();
 document.querySelector('#page-content').innerHTML = html;
 
+document.title = language == "es" ? "Iniciar sesión" : "Login";
+
 //Just for now, a hardcoded login
 function temporaryHardcodedLogin(usr,psw){
     if(usr == 'admin' && psw == 'admin'){

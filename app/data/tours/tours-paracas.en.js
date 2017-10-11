@@ -3,6 +3,7 @@ export default {
 		subtitle: 'The jewel on the crown of the Ruta del Sol of Peru, the Paracas National Wildlife Reserve and the Islas Ballestas is considered the Galapagos of Peru.',
 		description: 'Paracas is certainly Peru\'s most interesting coastal asset and is situated ideally as the traveler\'s jumping point to other destinations by virtue of the newly completed international airport just minutes away. The Humboldt current from the antarctic brings a fantastic wealth of marine life abundance which places Paracas as on of the most important stops for travelers enjoying Peru.',
 		url_image: 'images/tours/paracas/ballestas14_portrait.jpg',
+		tab_title: "Tours Paracas",
 		tours:[
 			{
 				id: 'islas-ballestas',

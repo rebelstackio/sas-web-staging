@@ -3,6 +3,7 @@ export default {
 		subtitle: `On the shores of Lake Titicaca, the world's highest navigable lake, lies the city of Puno.`,
 		description: `Strewn with colonial churches built to evangelize the natives by conquistadors, the original inhabitants belong to the Aymaras ethnic group whose physical features have adapted to the cold of the highland. Their chests have evolved with great lung capacity and their blood rich in red blood cells - genetically they have unusually high endurance.Today, Puno is known as the "Capital folklórica del Perú" (folkloric capital) due to it's wealth of artistic and cultural expressions, particularly dance. They are most notable during the celebrations of the Feast of the "Virgen de la Candelaria" and the regional competition of the Autochthonous Dances.`,
 		url_image: 'images/tours/puno/puno_2.jpg',
+		tab_title: "Tours Puno",
 		tours:[
 			{
 				id:'lake-titicaca-boat-tour',

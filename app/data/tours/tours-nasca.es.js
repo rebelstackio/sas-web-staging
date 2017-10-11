@@ -3,6 +3,7 @@ export default {
 		subtitle: 'Nasca es nombre de sistema de valles en la costa sur del Perú, así como el nombre de la cultura pre-inca que floreció en la zona entre 200 aC y 800 dC.',
 		description: `La cultura Nazca es de fama mundial: Líneas de Nazca, cerámica policromada, y sofisticado sistema de acueductos e interesantes rituales funerarios. Mientras que las líneas de Nazca siguen siendo la atracción más fascinante y misterioso para la mayoría de los viajeros, muchos visitantes curiosos exploran otros lugares de interés de Nasca para entender acerca de esta civilización.`,
 		url_image: 'images/tours/nasca/nazca_spider.t.jpg',
+		tab_title: "Tours Nazca",
 		tours:[
 			{
 				id: 'nazca-lines',

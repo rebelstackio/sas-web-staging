@@ -10,6 +10,7 @@ const tpl = getTourPageByLanguage(language);
 System.import(`../data/tours/${dataRef}.${language}.js`).then(function(m) {
 	console.log(m);
 	let data = m.default;
+	document.title = data.tab_title;
 	var html = tpl.render({ data:	data });
 	document.querySelector('#page-content').innerHTML = html;
 });

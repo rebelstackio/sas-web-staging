@@ -3,6 +3,7 @@ export default {
 		subtitle: 'La joya de la Ruta del sur del Perú, la Reserva Nacional de Vida Silvestre de Paracas y las Islas Ballestas es considerada el Galápagos del Perú.',
 		description: 'Paracas es sin duda es el más interesante de los atractivos de la costa sur del Perú y está situado idealmente como punto de partida de los viajeros a otros destinos en virtud del puerto maritimo San Martin y aeropuerto internacional recién terminado. La corriente de Humboldt desde antártida trae una fantástica riqueza marina que pone a Paracas como uno de los sitios mas ricos de flora y fauna marina de la costa peruana. Es la parada mas importante para los viajeros amantes de la naturaleza ademas Paracas esta considerado refugio de pinguinos de Humbold, delfines de nariz de botella, lobos marinos sudamericanos, ballenas y es el lugar de alimentacion de aves migratorios de la red emisferica.',
 		url_image: 'images/tours/paracas/ballestas14_portrait.jpg',
+		tab_title: "Tours Paracas",
 		tours:[
 			{
 				id: 'islas-ballestas',

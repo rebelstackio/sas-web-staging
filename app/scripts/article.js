@@ -3,6 +3,8 @@ import { getPageLanguage, getArticleSidebar } from './utils';
 
 const language	= getPageLanguage('lng') || 'en' ;
 
+document.title = language == "es" ? "Artículos" : "Articles";
+
 const template = getArticleSidebar(language);
 
 System.import(`../data/articles/articles.${language}.js`).then(function(m) {

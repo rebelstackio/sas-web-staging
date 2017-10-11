@@ -3,6 +3,7 @@ export default {
 		subtitle: `La costa sur de Perú es la cuna de la civilización Inca. Es de enigmas intrigantes estimula la curiosidad de incluso de la gente más pragmático. Extraños geoglifos envian mensajes a los cielos y las antiguas ruinas y restos de origen dudoso adornan el paisaje de dunas y montañas. Mientras sus hermosas costas desborda de la vida marina - todos impregnados de la cultura antigua.`,
 		description: 'Nuestro tour de la costa sur de Perú ofrece lo mejor para aquellos con poco tiempo con una facilidad y comodidad que usted se merece en sus vacaciones en Perú. Desde Lima, nuestra gira por la costa del Sur visita las famosas líneas de Nazca, las Islas Ballestas, la Reserva Nacional de Paracas, los viñedos de Ica y las dunas y oasis de Huacachina.',
 		url_image: 'images/package/nazca_flight_01_p.jpg',
+		tab_title: "Paquetes",
 		packages:[
 			{
 				id:'package-mystery-south-coast',

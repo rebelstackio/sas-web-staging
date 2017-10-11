@@ -1,4 +1,5 @@
 export default {
+	tab_title: "Paracas",
 	activities:[
 		{
 				id: 'biking-paracas-reserve',

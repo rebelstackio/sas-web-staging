@@ -3,7 +3,7 @@ export default {
 		subtitle:'Una vez llamada la Ciudad de los Reyes inundado de oro, Lima ha crecido hasta convertirse en una metrópolis moderna y cosmopolita.',
 		description:'Una vasta y extensa ciudad y es el hogar de cerca de 9 millones de habitantes, Lima ofrece todas las comodidades modernas, cocina fantástica y una gran vida nocturna.',
 		url_image:'images/tours/larcomar_1.jpg',
-
+		tab_title: "Tours Lima",
 		tours:[
 				{
 						id:"lima-city-tour",

@@ -8,6 +8,7 @@ let dataRef = content.getAttribute('data-ref');
 System.import(`../data/activities/${dataRef}.${language}.js`).then(function(m) {
   console.log(m);
   let data = m.default;
+  document.title = data.tab_title;
   var html = tpl.render({ data:  data });
   document.querySelector('#page-content').innerHTML = html;
 
