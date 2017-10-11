@@ -1,0 +1,10 @@
+div#messageboard {
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 0.5)
+}
+div#messageboard ul {
+    margin-top: 20px
+}
+div#messageboard li {
+    list-style: none
+}

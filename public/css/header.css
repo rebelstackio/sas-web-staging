@@ -175,6 +175,9 @@ nav.mainmenu{
 .navbar-right ul {
     list-style: none
 }
+.TA_socialButtonDesktop {
+    margin: 12px 13px 10px 13px
+}
 .TA_socialButtonIcon {
     margin: 10px 13px;
     border: 1px solid #f58220;
@@ -193,8 +196,20 @@ nav.mainmenu{
 .TA_socialButtonIcon span {
     font-family: JungleFeverRegular
 }
+.TA_socialButtonMobile {
+    visibility: hidden;
+    display: none
+}
 @media (max-width: 680px) {
     .TA_socialButtonIcon {
         border: 0px
+    }
+    .TA_socialButtonDesktop {
+        visibility: hidden;
+        display: none
+    }
+    .TA_socialButtonMobile {
+        visibility: visible;
+        display: block
     }
 }
