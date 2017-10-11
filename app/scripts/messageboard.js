@@ -16,6 +16,8 @@ firebase.initializeApp(config);
 
 const language	= localStorage['lng'] || 'en' ;
 
+document.title = language == "es" ? "Mensajes" : "Messages";
+
 //Load messages from firebase
 var messages = firebase.database().ref('messages');
 messages.on('value', function(snapshot) {

@@ -3,6 +3,7 @@ export default {
 		subtitle: 'Travel through the winery valleys of Ica, a landscape of extreme contrasts where wine and pisco are produced in the traditional way since the colonial era.',
 		description: 'The city of Ica is located between drifting sand dunes and the western dry Andes. It\'s geographical location within the valley guarantees dry and sunny weather year round - perfect for growing grapes, asparagus, paprika, and cotton.',
 		url_image: 'images/tours/ica/ica_winery_3_t.jpg',
+		tab_title: "Tours Ica",
 		tours:[
 			{
 				id: 'vineyard-museum-oasis-tour',

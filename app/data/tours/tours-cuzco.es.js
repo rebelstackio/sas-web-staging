@@ -5,6 +5,7 @@ export default {
 Este capital histórico bien conservado del imperio Inca es donde encontrará los sitios sagrados, templos y enormes fortalezas. Cuzco fue el epicentro de las ceremonias incas y también la plataforma de lanzamiento para la colonización española y la difusión del cristianismo en todo el mundo andino. Prueba de ello es la proliferación de iglesias coloniales cristianos, conventos, monasterios y catedrales - largley construido encima de los antiguos Incas.
 En la actualidad, Cusco es Patrimonio de la Humanidad declarado por la Unesco y el principal destino turístico de América del Sur. Los turistas vienen de todas partes del mundo para visitar Cusco y los sitios de los alrededores como Machu Picchu, Sacsayhuanman, Qenko, Puca Pucara y Tambomachay. Las actividades más populares entre los turistas incluyen trekking, rafting, observación de aves, tours culinarios, ceremonias chamánicas y la compra de artes de oro, plata, textil, de cerámica hechos a mano.`,
 		url_image: 'images/tours/cuzco/cusco_3_t.jpg',
+		tab_title: "Tours Cuzco",
 		tours:[
 			{
 				id:'cuzco-city-tour',

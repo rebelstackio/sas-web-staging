@@ -1,4 +1,5 @@
 export default {
+		tab_title: "Cusco",
 		activities:[
 				{
 						id: 'inca-bike-jungle-trek',

@@ -5,6 +5,7 @@ export default {
 This well-preserved historic capital of the Inca empire is where you'll find sacred sites, temples and huge fortresses. Cuzco was the epicenter of Inca ceremonies and also the launching pad for Spanish colonization and the spread of Christianity throughout the Andean world. This is evidenced by a proliferation of colonial christian churches, convents, monasteries and cathedrals - largley built atop former Inca sites.
 Today, Cuzco is a World Heritage site declared by Unesco and the major tourist destination in South America. Tourists come from all over the world to visit Cuzco and surrounding sites like Machu Piccu, Sacsayhuanman, Qenko, Puca Pucara and Tambo Machay. Popular activities among tourists include trekking, rafting, bird watching, culinary tours, shamanic ceremonies and shopping for arts hand-crafted from gold, silver, textile, ceramic.`,
 		url_image: 'images/tours/cuzco/cusco_3_t.jpg',
+		tab_title: "Tours Cuzco",
 		tours:[
 			{
 				id:'cuzco-city-tour',

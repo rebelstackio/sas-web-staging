@@ -3,6 +3,7 @@ export default {
 		subtitle: `Segunda ciudad más poblada de Perú, Arequipa, se encuentra entre los Andes sur-oeste y el desierto costero.`,
 		description: 'Arequipa posee una serie de montañas volcánicos como El Misty, Chachani y Pichu PICHO la ciudad tiene un agradable clima cálido y seco durante todo el año la ciudad tiene muchos edificios coloniales hecho con piedra sillar una roca volcánica de color blanco que le da el nombre de la ciudad blanca en la actualidad el centro histórico de la ciudad es reconocida como Patrimonio de la humanidad Arequipa tiene muchos atractivo turístico como el convento de Santa Catalina, iglesias Basílica catedral de Arequipa y casas antiguas.',
 		url_image: 'images/tours/arequipa/arequipa_1_t.jpg',
+		tab_title: "Tours Arequipa",
 		tours:[
 			{
 				id:'arequipa-city-tour',

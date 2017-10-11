@@ -3,7 +3,7 @@ export default {
 		subtitle:'Once called the City of Kings and awash in gold, Lima has grown to become a modern and cosmopolitan metropolis.',
 		description:'A vast, sprawling city and home to nearly 9 million habitants, Lima offers modern amenities, fantastic cuisine and great nightlife.',
 		url_image:'images/tours/larcomar_1.jpg',
-
+		tab_title: "Tours Lima",
 		tours:[
 				{
 						id:"lima-city-tour",

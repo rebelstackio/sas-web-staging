@@ -3,6 +3,7 @@ export default {
 		subtitle: `Peru's south coast is the birthplace of the Inca civilization. It's intriguing enigmas pique the curiosity of even the most pragmatic of people. Strange geoglyphs speak to the heavens and ancient ruins and remains of questionable origin litter a landscape of mountainous dunes while overflowing sea-life inhabits ruggedly beautiful coastlines - all steeped in ancient culture.`,
 		description: 'Our tour of the south coast of Peru offers the very best for those with constricted time with an ease and comfort that you deserve on your vacation to Peru. From Lima, our South Coast tour visits the famous Nazca lines with flights from Pisco (Paracas) - so much easier, the Ballestas Islands, the Paracas National Reserve and the dunes and oasis of Huacachina. All our Nazca flights operate just a few minutes away from Paracas so your travel time is greatly reduced!',
 		url_image: 'images/package/nazca_flight_01_p.jpg',
+		tab_title: "Packages",
 		packages:[
 			{
 				id:'package-mystery-south-coast',

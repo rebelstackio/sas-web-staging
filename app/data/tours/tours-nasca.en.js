@@ -3,6 +3,7 @@ export default {
 		subtitle: 'Nasca (Nazca) is the name of a system of Valleys on the Southern Coast of Peru and also the name of Pre-Inca culture that flourished in the area between 200bc and 800ad.',
 		description: `Nazca culture is world famous: Nazca Lines, polychrome pottery, a sophisticated system of aqueducts and interesting burial rituals. While the Nazca lines remain the most alluring and mysterious attraction for most travellers, many curious visitors are enjoying Nasca's other places of interest.`,
 		url_image: 'images/tours/nasca/nazca_spider.t.jpg',
+		tab_title: "Tours Nazca",
 		tours:[
 			{
 				id: 'nazca-lines',

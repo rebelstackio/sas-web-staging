@@ -4,6 +4,7 @@ export default {
 		description: `embrado de iglesias coloniales construidas para evangelizar a los nativos por los conquistadores, los habitantes originales pertenecen a la etnia aymara, cuyas características físicas se han adaptado al frío del altiplano. Sus pechos se han desarrollado con gran capacidad pulmonar y la sangre rica en glóbulos rojos - genéticamente tienen inusualmente alta resistencia.
 Hoy, Puno es conocida como la "Capital Folklórica del Perú" (capital folklórica) debido a su gran cantidad de expresiones artísticas y culturales, en particular de baile. Ellos son más notables durante las celebraciones de la fiesta de la "Virgen de la Candelaria" y la competencia regional de las danzas autóctonas.`,
 		url_image: 'images/tours/puno/puno_2.jpg',
+		tab_title: "Tours Puno",
 		tours:[
 			{
 				id:'lake-titicaca-boat-tour',

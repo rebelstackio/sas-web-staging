@@ -3,6 +3,7 @@ export default {
 		subtitle: 'Viaje a través de los valles de vino y bodegas de Ica, un paisaje de contrastes extremos donde el vino y el pisco se producen en la forma tradicional e industrial',
 		description: 'La ciudad de Ica se encuentra entre las dunas de arena y los Andes secos occidentales. Su ubicación geográfica garantiza un clima seco y soleado durante todo el año - perfecto para el cultivo de uvas, espárragos, páprika, y algodón.',
 		url_image: 'images/tours/ica/ica_winery_3_t.jpg',
+		tab_title: "Tours Ica",
 		tours:[
 			{
 				id: 'vineyard-museum-oasis-tour',

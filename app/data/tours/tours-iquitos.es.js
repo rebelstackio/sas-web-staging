@@ -3,6 +3,7 @@ export default {
 		subtitle: `La selva amazónica peruana es una de las zonas con mayor diversidad biológica de la Tierra`,
 		description: `Como nación, Perú tiene el mayor número de especies de aves en el mundo y el tercer mayor número de mamíferos, el 44% de las especies de aves y 63% de las especies de mamíferos que habitan la Amazonía peruana. Perú también tiene un alto número de especies de mariposas, orquídeas y otros organismos`,
 		url_image: 'images/tours/tambopata/iquitos_3_t.jpg',
+		tab_title: "Tours Iquitos",
 		tours:[
 			{
 				id:'tambopata-reserve',

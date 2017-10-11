@@ -3,6 +3,7 @@ export default {
 		subtitle: 'Hermosas playas soleadas y agua caliente - soleate y relajate después de su camino Inca.',
 		description: `El norte del Perú es un gran lugar de escape al clima cálido y soleado y excelentes playas. Desde Trujillo a Tumbes, pase su tiempo en el norte a disfrutar un bello entorno, sitios arqueológicos.`,
 		url_image: 'images/tours/north/mancora_1_t.jpg',
+		tab_title: "Tours Costa Norte",
 		tours:[
 			{
 				id: 'snorkel-with-turtles',
