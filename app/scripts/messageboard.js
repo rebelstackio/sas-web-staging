@@ -18,16 +18,37 @@ const language	= localStorage['lng'] || 'en' ;
 
 document.title = language == "es" ? "Mensajes" : "Messages";
 
+var fixdate = function(d){
+    var date = d.toString();
+    if (date.length == 1) {
+        date = "0"+date;
+    }
+    return date;
+};
+
+var months = {
+    en:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+    es:["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Setiembre","Octubre","Noviembre","Diciembre"]
+};
+
+var getDateByLang = function(lang, fecha){
+    var dte;
+    if(lang == "en"){
+        dte = "On " + months["en"][fecha.getMonth()] + " " + fixdate(fecha.getDate()) + " " + fecha.getFullYear() + " at " + fecha.getHours() + ":" + fixdate(fecha.getMinutes());
+        return dte;
+    }
+    dte = "El " + fixdate(fecha.getDate()) + " de " + months[language][fecha.getMonth()] + " de " + fecha.getFullYear() + " a las " + fecha.getHours() + ":" + fixdate(fecha.getMinutes());
+    return dte;
+};
+
 //Load messages from firebase
-var messages = firebase.database().ref('messages');
-messages.on('value', function(snapshot) {
+var messages = firebase.database().ref('messages').orderByChild("timestamp").on('value', function(snapshot) {
 	snapshot.forEach(function(childSnapshot) {
 		var key = childSnapshot.key;
 		var childData = childSnapshot.val();
-		console.log(key);
-        console.log(childData);
 
-        var dte = new Date(childData.timestamp*1000);
+        var fecha = new Date(childData.timestamp);
+        var dte = getDateByLang(language,fecha);
         var name = childData.name;
         var email = childData.email;
         var message = childData.message;
@@ -36,7 +57,7 @@ messages.on('value', function(snapshot) {
         title.style.height = "30px";
         title.style.background = "rgba(0,0,0,0.4)";
         title.style.color = "white";
-        title.innerHTML = " On "+ dte + " " + name + "/" + email + " wrote: ";
+        title.innerHTML = "<p class='message-title'> " + dte + " <strong>" + name + "</strong>" + (language == "es"? " escribió":" wrote") + ": </p>";
 
         var msg = document.createElement("div");
         msg.style.height = "80px";
@@ -44,19 +65,16 @@ messages.on('value', function(snapshot) {
         msg.style.color = "white";
 
         var messagearea = document.createElement("div");
-        messagearea.style.height = "60px";
-        messagearea.style.background = "rgba(255,255,255,0.9)";
-        messagearea.style.color = "rgba(0,0,0,0.4)";
-        messagearea.style.margin = "0 15px";
-        messagearea.style.padding = "5px 5px";
+        messagearea.className = "message-area";
         messagearea.innerHTML = message;
 
         msg.appendChild(messagearea);
 
-        var item = document.createElement('li');
+        var item = document.createElement('div');
         item.appendChild(title);
         item.appendChild(msg);
-        document.getElementById("message-list").appendChild(item);
+        var messagelist = document.getElementById("message-list");
+        messagelist.insertBefore(item, messagelist.childNodes[0]);
 	});
 });
 
