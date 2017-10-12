@@ -43,6 +43,10 @@ var getDateByLang = function(lang, fecha){
 
 //Load messages from firebase
 var messages = firebase.database().ref('messages').orderByChild("timestamp").on('value', function(snapshot) {
+    var messagelist = document.getElementById("message-list");
+    while (messagelist.hasChildNodes()) {
+        messagelist.removeChild(messagelist.lastChild);
+    }
 	snapshot.forEach(function(childSnapshot) {
 		var key = childSnapshot.key;
 		var childData = childSnapshot.val();
@@ -57,7 +61,7 @@ var messages = firebase.database().ref('messages').orderByChild("timestamp").on(
         title.style.height = "30px";
         title.style.background = "rgba(0,0,0,0.4)";
         title.style.color = "white";
-        title.innerHTML = "<p class='message-title'> " + dte + " <strong>" + name + "</strong>" + (language == "es"? " escribió":" wrote") + ": </p>";
+        title.innerHTML = "<p class='message-title'> " + dte + " <strong>" + name + "</strong> ("+email+")" + (language == "es"? " escribió":" wrote") + ": </p>";
 
         var msg = document.createElement("div");
         msg.style.height = "80px";
@@ -73,7 +77,6 @@ var messages = firebase.database().ref('messages').orderByChild("timestamp").on(
         var item = document.createElement('div');
         item.appendChild(title);
         item.appendChild(msg);
-        var messagelist = document.getElementById("message-list");
         messagelist.insertBefore(item, messagelist.childNodes[0]);
 	});
 });
