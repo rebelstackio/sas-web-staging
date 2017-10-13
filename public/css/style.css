@@ -185,6 +185,7 @@ table.schedule td:first-child { text-align:right; font-weight:bold; width:150px;
     display: block;
     padding-top: 6px;
     margin-bottom: 3px;
+    -webkit-padding-start: 0;
 }
 
 .footer > menu > li:first-child {
@@ -195,7 +196,6 @@ table.schedule td:first-child { text-align:right; font-weight:bold; width:150px;
 .footer > menu > li {
   display: inline;
   list-style-type: none;
-  margin-right: 12px;
   margin-left: 12px;
 }
 

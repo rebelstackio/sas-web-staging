@@ -1,17 +1,16 @@
-<div class="col-md-12">
-	 <div class="row tour-container">
-			 <div class="col-md-8 col-sm-12">
-					 <p class="text-justify">
-							 <img class="article-image tour-image" style="background-image:url({{data.url_image}});" alt="" width="100%">
-
-							 <div class="article-title">{{data.title}}</div>
-					 <div class="article-subtitle">
-							 {{data.subtitle}}
-					 </div>
-							 {{data.description}}
-					 </p>
-			 </div>
-			 <div class="col-md-4 hidden-sm hidden-xs">
+<div class="col-md-12 col-md-12">
+	<div class="row tour-container">
+		<div class="col-md-8 col-sm-12">
+			<p class="text-justify">
+				<img class="article-image package-image" style="background-image:url({{data.url_image}});" alt="" width="100%">
+				<div class="article-title">{{data.title}}</div>
+				<div class="article-subtitle">
+					{{data.subtitle}}
+			 	</div>
+				{{data.description}}
+			</p>
+		</div>
+		<div class="col-md-4 hidden-sm hidden-xs">
 					 <div class="banner-right floating-right tour-menu">
 							 <ul>
 									 {% for item in data.packages %}
@@ -20,14 +19,14 @@
 									 <li><a href="#additional-info">Additional Information</a></li>
 							 </ul>
 					 </div>
-			 </div>
-	 </div>
+		</div>
+	</div>
 
 	 {% for item in data.packages %}
 		<div class="row tour-container" >
 			 <div class="col-md-8 tour-info">
 				 <p class="text-justify">
-							 <img class="article-image tour-image" style="background-image:url({{item.url_image}});" alt="" width="100%">
+							 <img class="article-image package-image" style="background-image:url({{item.url_image}});" alt="" width="100%">
 
 							 <div class="article-title" id="{{item.id}}">{{item.title}}</div>
 					 <div class="article-subtitle">

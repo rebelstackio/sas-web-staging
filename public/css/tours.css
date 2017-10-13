@@ -18,10 +18,14 @@
     color:#674300;
 }
 .tour-image{
-    max-width: 300px;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     float: left;
     margin-right: 20px;
-
+    width: calc(304px * 1.1);
+    height: calc(171px * 1.1);
 }
 
 .tour-container{
@@ -74,9 +78,24 @@
     color:orange;
 }
 
-
 @media (max-width:768px){
     .tour-detail ul li{
         font-size: 16px;
+    }
+    .tour-image{
+        border-radius: 0;
+        display: block;
+        margin: auto;
+        float: none !important;
+    }
+}
+@media (max-width:320px){
+    .tour-image{
+        border-radius: 0;
+        display: block;
+        margin: auto;
+        float: none !important;
+        width: 304px;
+        height: 171px;
     }
 }
