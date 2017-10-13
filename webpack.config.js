@@ -28,7 +28,8 @@ module.exports = {
 		footer: './app/scripts/footer.js',
 		firebase: './app/scripts/firebase.js',
 		backoffice: './app/scripts/backoffice.js',
-		messageboard: './app/scripts/messageboard.js'
+		messageboard: './app/scripts/messageboard.js',
+		about: './app/scripts/about.js'
 	},
 	output: {
 		path: path.resolve(__dirname, 'build'),
