@@ -1,4 +1,3 @@
-import LastNews from '../data/home/last-news.en.js';
 import tpl from '../tpl/partials/last-news.njk';
 import { getPageLanguage, getLastNewsBannerByLanguage } from './utils';
 

@@ -12,8 +12,8 @@ export default [
 				`Llegar a Nasca para ver estas enigmáticas líneas de Nazca solía ser un esfuerzo grande y requería mucho tiempo. Al menos que usted quisiera rentar su propio vuelo privado desde Lima, el acceso al público se limitaba en su mayoría en coche o autobús, que tomaba mucho tiempo (12-14 horas ida y vuelta) viaje desde Lima.
 				"El sentimiento común transmitida por los visitantes a las Lineas de Nasca era una frustración que tomaba mucho tiempo el trayecto de llegar al destino para un sobrevuelo de 40 minutos", explica Lucio - un guía veterano de Perú con más de 20 años experiencia.
 				Mientras que el enigma que es las Líneas de Nasca es tan poderosa, para los viajeros que se reduce a la realidad de cómo quieren gastar su precioso tiempo de vacaciones - disfrutando de ese momento repleto de maravillas y actividades o hacinados en autobuses para largos períodos de tiempo.
-				Por suerte, las enigmáticas Líneas de Nasca están ahora disponibles a los tiempos limitados. Lucio continúa, "realizando vuelos desde el nuevo aeropuerto de Pisco es mucho más fácil El aeropuerto se encuentra a 15 minutos en coche de Paracas o un vuelo de 20 minutos de Lima. Ahorra todo un día de viaje que se puede utilizar para disfrutar otros attraciones que Paracas ofrece"`
-
+				Por suerte, las enigmáticas Líneas de Nasca están ahora disponibles a los tiempos limitados. Lucio continúa, "realizando vuelos desde el nuevo aeropuerto de Pisco es mucho más fácil El aeropuerto se encuentra a 15 minutos en coche de Paracas o un vuelo de 20 minutos de Lima. Ahorra todo un día de viaje que se puede utilizar para disfrutar otros attraciones que Paracas ofrece"`,
+		id: '1'
 	},
 	{
 		title:'Enigma del Monte Sierpe',
@@ -24,7 +24,7 @@ export default [
 		date:'2014-04-20',
 		url_image: 'images/articles/monte_sierpe_portrait.jpg',
 		description:'La ‘Avenida de los Hoyos’, es un geoglifo que consiste en una serie de grandes Hoyos en la cuenca, como tallados en tierra seca dura por la cresta que separa dos valles secos, que parece deslizarse en la pendiente y por millas.',
-		content:`“Lo que parece ser una serpiente es en realidad la antigua deidad Q'hoa. Él era el siervo ... del dios del agua ... y fue utilizado en los rituales ... con respecto a la lluvia”.`
-
+		content:`“Lo que parece ser una serpiente es en realidad la antigua deidad Q'hoa. Él era el siervo ... del dios del agua ... y fue utilizado en los rituales ... con respecto a la lluvia”.`,
+		id: '2'
 	}
 ];
