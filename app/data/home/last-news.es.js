@@ -7,7 +7,8 @@ export default [
 		date:"Marzo 20,2014",
 		url_image:'images/articles/monte_sierpe_portrait.jpg',
 		blockquote:`“Lo que parece ser una serpiente es en realidad la antigua deidad Q'hoa. Él era el siervo ... del dios del agua ... y fue utilizado en los rituales ... con respecto a la lluvia”.`,
-		url:''
+		url:'',
+		link: 'article-detail.html?id=2'
 	},
 	{
 		title:'Lineas de Nasca de Pisco',
@@ -17,7 +18,8 @@ export default [
 		date:'February 26, 2014',
 		url_image:'images/articles/nazca_spider.jpg',
 		blockquote:`"Antes, la única manera de ver las líneas de Nasca era viajar a Nasca - viajando en autobús. Pero ahora volamos desde Pisco y los turistas lo prefieren."`,
-		url:''
+		url:'',
+		link: 'article-detail.html?id=2'
 	},
 	{
 		title:'Recolectores de Guano',

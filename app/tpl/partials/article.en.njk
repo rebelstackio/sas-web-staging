@@ -19,6 +19,9 @@
 								{{item.blockquote}}
 						</blockquote>
 					{% endif %}
+					{% if item.link %}
+						<p class="read-more"><a href="{{item.link}}">{{link}}</a></p>
+					{% endif %}
 				</div>
 			</div>
 		</div>

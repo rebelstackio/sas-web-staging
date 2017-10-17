@@ -25,6 +25,7 @@ module.exports = {
 		contact: './app/scripts/contact.js',
 		package: './app/scripts/package.js',
 		article: './app/scripts/article.js',
+		articledetail: './app/scripts/article-detail.js',
 		footer: './app/scripts/footer.js',
 		firebase: './app/scripts/firebase.js',
 		backoffice: './app/scripts/backoffice.js',
