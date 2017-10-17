@@ -29,6 +29,7 @@ export default [
 		date:'February 22, 2014',
 		url_image:'images/articles/guano_collectors_1_portrait.jpg',
 		blockquote:`"The worst enemy is not the smell, heat or exhaustion... [it] is dust sticking on the eyebrows, covering our noses and cheeks and turning our face into a rigid mask."`,
-		url:''
+		url:'',
+		link: 'article-detail.html?id=3'
 	}
 ];

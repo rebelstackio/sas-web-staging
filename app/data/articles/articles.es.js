@@ -26,5 +26,16 @@ export default [
 		description:'La ‘Avenida de los Hoyos’, es un geoglifo que consiste en una serie de grandes Hoyos en la cuenca, como tallados en tierra seca dura por la cresta que separa dos valles secos, que parece deslizarse en la pendiente y por millas.',
 		content:`“Lo que parece ser una serpiente es en realidad la antigua deidad Q'hoa. Él era el siervo ... del dios del agua ... y fue utilizado en los rituales ... con respecto a la lluvia”.`,
 		id: '2'
+	},
+	{
+		title:'Recolectores de Guano',
+		tab_title: 'Recolectores de Guano',
+		subtitle:`"El peor enemigo no es el olor, el calor o el agotamiento. "Como explicó Domingo León," el peor enemigo es el polvo que se pega en las cejas, cubriendo nuestras narices y mejillas y convirtiendo nuestra cara en una máscara rígida."`,
+    	description:"El aumento del costo de los fertilizantes sintéticos han vuelto a hacer guano sexy. Algunos trabajadores recogen el estiércol de las aves marinas en la Isla Norte de Guañape, frente a la costa del Perú. El auge mundial de las materias primas ha llegado a esto: antes del guano, el estiércol del pájaro fue el centro de una confrontación imperialista en el mar en el siglo XIX, y está una vez más en fuerte demanda.",
+		blockquote: `"El peor enemigo no es el olor, el calor o el agotamiento. "Como explicó Domingo León," el peor enemigo es el polvo que se pega en las cejas, cubriendo nuestras narices y mejillas y convirtiendo nuestra cara en una máscara rígida."`,
+		blockquoteAuthor:"",
+		author:'Rein Petersen',
+		date:'February 22, 2014',
+		url_image: 'images/articles/guano_collectors_1_portrait.jpg',
 	}
 ];
