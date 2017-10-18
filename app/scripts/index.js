@@ -11,7 +11,8 @@ System.import(`../data/home/last-news.${language}.js`).then(function(m) {
 	console.log(m);
   let LastNews = m.default;
   var rMore = language == 'en' ? 'Continue Reading...':'Leer Artículo...';
-  const html = tpl.render({ items:  LastNews, link: rMore });
+  var sTour = language == 'en' ? 'See tour':'Ver tour';
+  const html = tpl.render({ items:  LastNews, link: rMore, sTour: sTour });
   document.querySelector('#last-news').innerHTML = html;
 
 	const html2 = template.render({});

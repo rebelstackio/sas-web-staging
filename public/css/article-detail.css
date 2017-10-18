@@ -37,9 +37,24 @@
     height: calc(348px * 0.7)
 }
 .read-more {
-    width: 100%;
+    float: right;
     text-align: right;
-    font-size: 12px
+    font-size: 12px;
+    height: 25px;
+    padding: 0 2px 0 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-color: rgba(255,255,255,0.15);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    color: rgba(255,255,255,0.5)
+}
+.read-more a {
+    line-height: 25px
+}
+.read-more a:link, .read-more a:visited, .read-more a:active {
+    color: rgba(255,255,255,0.5);
 }
 @media (max-width:768px){
     .article-detail-image{

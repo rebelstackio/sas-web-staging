@@ -8,7 +8,8 @@ export default [
 		url_image:'images/articles/monte_sierpe_portrait.jpg',
 		blockquote:`“Lo que parece ser una serpiente es en realidad la antigua deidad Q'hoa. Él era el siervo ... del dios del agua ... y fue utilizado en los rituales ... con respecto a la lluvia”.`,
 		url:'',
-		link: 'article-detail.html?id=2'
+		link: 'article-detail.html?id=2',
+		tour: 'toursnasca.html'
 	},
 	{
 		title:'Lineas de Nasca de Pisco',
@@ -19,7 +20,8 @@ export default [
 		url_image:'images/articles/nazca_spider.jpg',
 		blockquote:`"Antes, la única manera de ver las líneas de Nasca era viajar a Nasca - viajando en autobús. Pero ahora volamos desde Pisco y los turistas lo prefieren."`,
 		url:'',
-		link: 'article-detail.html?id=2'
+		link: 'article-detail.html?id=2',
+		tour: 'toursnasca.html'
 	},
 	{
 		title:'Recolectores de Guano',
@@ -29,6 +31,7 @@ export default [
 		date:'Febrero 22, 2014',
 		url_image:'images/articles/guano_collectors_1_portrait.jpg',
 		blockquote:`"El peor enemigo no es el olor, el calor o el agotamiento. "Como explicó Domingo León," el peor enemigo es el polvo que se pega en las cejas, cubriendo nuestras narices y mejillas y convirtiendo nuestra cara en una máscara rígida."`,
-		url:''
+		url:'',
+		tour: 'toursparacas.html'
 	}
 ];

@@ -1,9 +1,5 @@
 // This import loads the firebase namespace along with all its type information.
-import * as firebase from 'firebase/app';
-
-// These imports load individual services into the firebase namespace.
-import 'firebase/auth';
-import 'firebase/database';
+import firebase from 'firebase';
 
 // Initialize Firebase
 var config = {
@@ -13,6 +9,11 @@ var config = {
     projectId: "secrets-74e91"
 };
 firebase.initializeApp(config);
+//DB auth
+firebase.auth().signInAnonymously().catch(function(error) {
+    console.log(error.code);
+    console.log(error.message);
+});
 
 const language	= localStorage['lng'] || 'en' ;
 
@@ -40,7 +41,7 @@ var getDateByLang = function(lang, fecha){
     dte = "El " + fixdate(fecha.getDate()) + " de " + months[language][fecha.getMonth()] + " de " + fecha.getFullYear() + " a las " + fecha.getHours() + ":" + fixdate(fecha.getMinutes());
     return dte;
 };
-
+firebase.auth().onAuthStateChanged(function(user) {
 //Load messages from firebase
 var messages = firebase.database().ref('messages').orderByChild("timestamp").on('value', function(snapshot) {
     var messagelist = document.getElementById("message-list");
@@ -79,6 +80,7 @@ var messages = firebase.database().ref('messages').orderByChild("timestamp").on(
         item.appendChild(msg);
         messagelist.insertBefore(item, messagelist.childNodes[0]);
 	});
+});
 });
 
 let board = document.querySelector('#page-content');
