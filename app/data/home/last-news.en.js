@@ -8,7 +8,8 @@ export default [
 		url_image:'images/articles/monte_sierpe_portrait.jpg',
 		blockquote:`“I believe that what appears to be a serpent is actually the deity Q'hoa. He was the servant or acolyte of the god of water known as Illapa and his likeness was used in a majority of rituals regarding rain”.`,
 		url:'',
-		link: 'article-detail.html?id=2'
+		link: 'article-detail.html?id=2',
+		tour: 'toursnasca.html'
 	},
 	{
 		title:'Nasca Lines from Pisco',
@@ -19,7 +20,8 @@ export default [
 		url_image:'images/articles/nazca_spider.jpg',
 		blockquote:`"Before, the only way to see the Nasca lines was to travel to Nasca - usually by bus. But now we fly from Pisco and people prefer it."`,
 		url:'',
-		link: 'article-detail.html?id=1'
+		link: 'article-detail.html?id=1',
+		tour: 'toursnasca.html'
 	},
 	{
 		title:'Guano Collectors',
@@ -30,6 +32,7 @@ export default [
 		url_image:'images/articles/guano_collectors_1_portrait.jpg',
 		blockquote:`"The worst enemy is not the smell, heat or exhaustion... [it] is dust sticking on the eyebrows, covering our noses and cheeks and turning our face into a rigid mask."`,
 		url:'',
-		link: 'article-detail.html?id=3'
+		link: 'article-detail.html?id=3',
+		tour: 'toursparacas.html'
 	}
 ];

@@ -13,7 +13,8 @@ export default [
 				“The common sentiment related to us by visitors to Nasca Lines has been one of frustration that so much time is wasted travelling to experience a tour that lasts less than an hour” explains Lucio - a veteran Peru guide of more than 20 years.
 				While the enigma that is the Nasca Lines is so very powerful, for travellers it comes down to the reality of how they want to spend their precious vacation time - enjoying that time replete with wonders and activities or crammed into buses for long durations.
 				Thankfully the enigmatic Nasca Lines are now available to those on limited time. Lucio continues, “flying from Pisco's new airport is so much easier. The airport is a 5 minute drive from Paracas or a 20 minute flight from Lima - you save a whole day of traveling that you can use to enjoy all the other great things that Paracas has to offer.”`,
-		link: 'article-detail.html?id=1'
+		link: 'article-detail.html?id=1',
+		tour: 'toursnasca.html'
 	},
 	{
 		title:'Enigma del Monte Sierpe',
@@ -29,7 +30,8 @@ export default [
 				“The common sentiment related to us by visitors to Nasca Lines has been one of frustration that so much time is wasted travelling to experience a tour that lasts less than an hour” explains Lucio - a veteran Peru guide of more than 20 years.
 				While the enigma that is the Nasca Lines is so very powerful, for travellers it comes down to the reality of how they want to spend their precious vacation time - enjoying that time replete with wonders and activities or crammed into buses for long durations.
 				Thankfully the enigmatic Nasca Lines are now available to those on limited time. Lucio continues, “flying from Pisco's new airport is so much easier. The airport is a 5 minute drive from Paracas or a 20 minute flight from Lima - you save a whole day of traveling that you can use to enjoy all the other great things that Paracas has to offer.”`,
-		link: 'article-detail.html?id=2'
+		link: 'article-detail.html?id=2',
+		tour: 'toursnasca.html'
 	},
 	{
 		title:'Guano Collectors',
@@ -41,6 +43,7 @@ export default [
 		author:'Rein Petersen',
 		date:'February 22, 2014',
 		url_image: 'images/articles/guano_collectors_1_portrait.jpg',
-		link: 'article-detail.html?id=3'
+		link: 'article-detail.html?id=3',
+		tour: 'toursparacas.html'
 	}
 ];

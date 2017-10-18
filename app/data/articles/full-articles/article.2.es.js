@@ -2,7 +2,7 @@ export default {
     title:'Enigma del Monte Sierpe',
     tab_title: 'Monte Serpe',
     subtitle:"Los geoglifos de Monte Sierpe se encuentran entre los misterios más enigmáticos e inexplicables del Perú",
-    blockquote:`“I believe that what appears to be a serpent is actually the deity Q'hoa. He was the servant or acolyte of the god of water known as Illapa and his likeness was used in a majority of rituals regarding rain”.`,
+    blockquote:`“Lo que parece ser una serpiente es en realidad la antigua deidad Q'hoa. Él era el siervo ... del dios del agua ... y fue utilizado en los rituales ... con respecto a la lluvia”.`,
     blockquoteAuthor:"",
     author:'Rein Petersen',
     date:'2014-04-20',
