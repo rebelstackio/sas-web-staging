@@ -104,36 +104,6 @@ html,body{
   #language-icon {
     display: none;
   }
-
-  #footer {
-    background-color: rgba(0,0,0,0.9);
-    z-index: 1000;
-    color: white;
-    height: 80px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-
-  #footer menu {
-    padding: 6px 0 0 0;
-  }
-
-  #footer li {
-    font-size: 12px;
-    margin-right: 2px
-  }
-
-  #copyright > p {
-    font-size: 8px;
-  }
-}
-
-@media screen and (max-width: 568px) and (min-width: 320px) {
-  #footer li {
-    font-size: 10px;
-    margin-right: 1px
-  }
 }
 
 table.schedule th { background-color:rgba(0,0,0,0.5); color:rgba(255,255,255,0.5); text-align:left; padding:8px; }
@@ -157,49 +127,5 @@ table.schedule td:first-child { text-align:right; font-weight:bold; width:150px;
 
 .ad:hover {
   color: rgba(255,255,255,0.85);
-  text-decoration: none;
-}
-
-#footer {
-  background-color: rgba(0,0,0,0.9);
-  z-index: 1000;
-  color: white;
-  height: 50px;
-  position: fixed;
-  bottom: 0;
-  width: 100%
-}
-
-
-
-#copyright {
-  color: #fff;
-  margin: 0;
-  font-size: 8pt;
-}
-
-.footer > menu {
-    margin: 0px;
-    font-size: 11pt;
-    font-family: JungleFeverRegular;
-    display: block;
-    padding-top: 6px;
-    margin-bottom: 3px;
-    -webkit-padding-start: 0;
-}
-
-.footer > menu > li:first-child {
-  margin-left: 0px;
-}
-
-
-.footer > menu > li {
-  display: inline;
-  list-style-type: none;
-  margin-left: 12px;
-}
-
-.footer > menu > li > a {
-  color: white;
   text-decoration: none;
 }
