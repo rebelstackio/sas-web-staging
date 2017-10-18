@@ -53,7 +53,7 @@
     border-color: #e9af25 !important;
 }
 .read-more:hover, .read-more:active {
-    background-color: transparent !important
+    background-color: #c36009 !important
 }
 .read-more:focus {outline:0;}
 .read-more a:link, .read-more a:visited, .read-more a:active {
