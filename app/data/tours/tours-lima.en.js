@@ -9,6 +9,7 @@ export default {
 						id:"lima-city-tour",
 						title:'Lima City Tour',
 						shortTitle:'City Tour',
+						form_title: 'Lima City Tour',
 						subtitle:'Axis of Latin American History',
 						url_image:'images/tours/lima_conventsanfrancisco.t.jpg',
 						description:`The best introduction to Peruvian natural history and it's three historical periods: pre-Hispanic, colonial, and contemporary. Lima was the home pre-Colombian cultures which date back thousands of years. The land of the Incas, Lima was conquered by Spaniards on the 18th of January, 1535. Tour with South Americans' Secrets to learn and retrace the steps of this millennial history.
@@ -47,6 +48,7 @@ export default {
 						id:"nazca-lines",
 						title:'Flights over Nazca Lines From Lima (1-day VIP Private)',
 						shortTitle:'Nazca Lines from Lima',
+						form_title: 'Nazca Lines from Lima',
 						subtitle:'See the Nazca Lines, Candelbra Geoglyph and Ballestas Islands all in one day!',
 						url_image:'images/tours/nazca_flight_03_t.jpg',
 						description:`
@@ -110,6 +112,7 @@ Along the way you will pass the enigmatic "Candelabra" - a famous geoglyph with 
 						id:'pachacamac',
 						title:'Pachacamac',
 						shortTitle:'Pachacamac',
+						form_title: 'Pachacamac',
 						subtitle:'A unique archaeological and mystical experience',
 						url_image:'images/tours/lima_pachamac.t.jpg',
 						description:`
@@ -147,6 +150,7 @@ The site comprises pyramidal temples and enclosures built by successive pre-Colo
 						id: 'caral',
 						title:'Caral',
 						shortTitle:'Caral',
+						form_title: 'Caral',
 						subtitle:'The Oldest Civilization of Americas',
 						url_image:'images/tours/lima_caral.t.jpg',
 						description:`
@@ -195,6 +199,7 @@ The oldest known civilization in the Americas and one of six sites where civiliz
 						id:'peruvian-gold',
 						title:'Peruvian Gold',
 						shortTitle:'Peruvian Gold',
+						form_title:'Peruvian Gold',
 						subtitle:'See Peru’s most famous gold collection, a vast and dazzling array of ancient Peruvian gold and the Arms of the World Collection.',
 						url_image:'images/tours/peruvian_gold_tumi.t.jpg',
 						description:`Ancient Peruvians were master metalworkers. The “cire perdue” or lost wax process, known across the Orient and lost in the West until the Renaissance, was the most frequent technique used by master ancient Peruvian gold and silversmiths.
@@ -231,6 +236,7 @@ On our tour of Peru’s Gold Museum, visitors will admire an awe-inspiring colle
 						id:'museums-of-lima',
 						title:'Museums of Lima',
 						shortTitle:'Museums of Lima',
+						form_title: 'Museums of Lima',
 						subtitle:'Enjoy visits to Larco Museum and Archaeological Museum in a tour that comprises breathtaking colonial mansions housing probably the best gold, ceramic, textile, and art collections in South America.',
 						url_image:'images/tours/lima_museum_1.t.jpg',
 						description:`These two museums house incomparable artifacts and collections of pre-Colombian art from Peru and the New World and are, arguably, the most important museums in South America.
@@ -268,6 +274,7 @@ Larco Museum is housed in a unique colonial residence dating back to the 17th ce
 				{
 						id:'nightlife-in-lima',
 						title:'Nightlife in Lima',
+						form_title: 'Nightlife in Lima',
 						shortTitle:'Nightlife in Lima',
 						subtitle:'The only tour that includes a show and buffet dinner.',
 						url_image:'images/tours/lima_larcomar.t.jpg',

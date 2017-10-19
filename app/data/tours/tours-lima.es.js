@@ -9,6 +9,7 @@ export default {
 						id:"lima-city-tour",
 						title:'Tour de Lima',
 						shortTitle:'Tour de Lima',
+						form_title: 'Tour de Lima',
 						subtitle:'Eje de la Historia de América Latina',
 						url_image:'images/tours/lima_conventsanfrancisco.t.jpg',
 						description:`La mejor introducción a la historia natural del Perú y sus tres períodos históricos: pre-hispánico, colonial y contemporáneo. Lima fue hogar de culturas precolombinas que se remontan a miles de años. La tierra de los incas, Lima fue conquistada por los españoles el 18 de enero de 1535. Recorra con South Americans' Secret para aprender y seguir los pasos de esta historia milenaria.
@@ -49,6 +50,7 @@ Lima contemporáneo goza de todo el mundo moderno que ofrecer y el recorrido se 
 						id:"nazca-lines",
 						title:'Sobrevuele las líneas de Nazca desde Pisco ( 1-día Servicio Privado )',
 						shortTitle:'Lineas de Nazca desde Lima',
+						form_title: 'Líneas de Nazca',
 						subtitle:'Vea las Líneas de Nazca, Candelabro y las Islas Ballestas en un solo día!',
 						url_image:'images/tours/nazca_flight_03_t.jpg',
 						description:`Sin duda este es el tours más rápido y menos agotador de visitar estos lugares en un solo dia con el confort que Usted se merece.
@@ -111,6 +113,7 @@ Al volver de las islas usted tendrá tiempo para relajarse y caminar a los alred
 				{
 						id:'pachacamac',
 						title:'Pachacamac',
+						form_title: 'Pachacamac',
 						shortTitle:'Pachacamac',
 						subtitle:'Una experiencia arqueológica y mística inolvidable',
 						url_image:'images/tours/lima_pachamac.t.jpg',
@@ -146,6 +149,7 @@ Comprende templos piramidales y recintos edificados por varias culturas precolom
 				{
 						title:'Caral',
 						shortTitle:'Caral',
+						form_title:'Caral',
 						subtitle:'La civilización más antigua de América',
 						url_image:'images/tours/lima_caral.t.jpg',
 						description:`Para los que tienen un gran interés en la arqueología y la aventura, el viaje se embarca desde Lima a través de la Ruta del Sol (a 2 horas) en ruta hacia la civilización Central Norte.
@@ -196,6 +200,7 @@ Y para los que tienen un interés especial en la arqueología, podemos ofrecer a
 						id:'peruvian-gold',
 						title:'Oro de Perú',
 						shortTitle:'Oro de Perú',
+						form_title:'Tour "Oro de Perú"',
 						subtitle:'Vea la más famosa colección de oro de Perú, un gran y deslumbrante variedad de oro antiguo del Perú y Armas del Mundo.',
 						url_image:'images/tours/peruvian_gold_tumi.t.jpg',
 						description:`Los antiguos peruanos trabajaban los metales principales. El procedimiento "cire perdue" perdido proceso de cera, conocido en Oriente y desaparecido en Occidente hasta el Renacimiento, fue el más empleado por estos magníficos orfebres peruanos.
@@ -233,6 +238,7 @@ Museo de Oro del Perú también muestra una valiosa colección de armas antiguas
 						id:'museums-of-lima',
 						title:'Museos de Lima',
 						shortTitle:'Museos de Lima',
+						form_title:'Museos de Lima',
 						subtitle:'Disfrute de las visitas a Museo Larco y Museo Arqueológico en una gira que comprende mansiones coloniales que albergan probablemente el mejor oro, cerámica, textiles, y las colecciones de arte de América del Sur.',
 						url_image:'images/tours/lima_museum_1.t.jpg',
 						description:`Estos dos museos muestran las mejores piezas y colecciones del arte precolombino del Perú y el Nuevo Mundo, y son, sin duda, los museos más importantes de Sudamérica.
@@ -271,6 +277,7 @@ El Museo Nacional de Arqueología, Antropología e Historia, también ubicado en
 						id:'nightlife-in-lima',
 						title:'Nocturna',
 						shortTitle:'Nightlife in Lima',
+						form_title:'Tour Nocturno Lima',
 						subtitle:'La única excursión que incluye un espectáculo y cena buffet.',
 						url_image:'images/tours/lima_larcomar.t.jpg',
 						description:`Descubra la belleza de nuestra capital, visitando sus principales atracciones y monumentos arquitectónicos hermosamente iluminados bajo la tranquilidad y el embrujo de la noche Limeña. Después, disfrute de una magnífica cena buffet y un espectacular show peruano.
