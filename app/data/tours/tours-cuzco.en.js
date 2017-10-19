@@ -10,6 +10,7 @@ Today, Cuzco is a World Heritage site declared by Unesco and the major tourist d
 			{
 				id:'cuzco-city-tour',
 				title:'Cuzco City Tour',
+				form_title:'Cuzco City Tour',
 				shortTitle:'Tour of Cuzco',
 				subtitle:'Explore the city of Cuzco and surrounding and discover the best sites of ancient Inca and Spanish colonial culture ',
 				url_image:'images/tours/cuzco/cusco_4_t.jpg',
@@ -50,6 +51,7 @@ Other archaeologically important sites like Qenko, Puca, Pucara, Tambo Machay, a
 				id:'machu-picchu-day-trip',
 				shortTitle:'Machu Picchu Day Trip',
 				title:'Machu Picchu Day Trip',
+				form_title:'Machu Picchu Day Trip',
 				subtitle:'Enjoy a full day trip to breathtaking Machu Picchu. Discover the famous Inca city and learn about the ancient civilization that once thrived there.',
 				url_image:'images/tours/cuzco/machu_picchu_3_t.jpg',
 				description:`This tour is suited for first-time visitors, families (non-strenuous hiking) and individual travelers and is a once-in-a-lifetime experience - a must-do when visiting Peru!
@@ -101,6 +103,7 @@ Machu Picchu holds a deep spirituality in it's buildings and surrounding formati
 			{
 				id: 'inca-bike-jungle-trek',
 				title:'Inca Bike & Jungle Trek',
+				form_title:'Inca Bike & Jungle Trek',
 				shortTitle:'Inca Bike & Jungle Trek',
 				subtitle:'(to Machu Picchu) A 4-day bike and trek through exotic extremes of nature to the awe-inspiring Machu Picchu.',
 				url_image:'images/activities/cusco/inca_trail_bike_4.jpg',
@@ -158,6 +161,7 @@ There is at least one guide for every 10 participants and the guides set the pac
 				id:'inca-trail-classic-trek',
 				title:'Inca Trail Classic Trek',
 				shortTitle:'Inca Trail Classic Trek',
+				form_title:'Inca Trail Classic Trek',
 				subtitle:'(to Machu Picchu) The classic Inca Trail 4-day trek passes through the exotic Urubamba Valley to the sacred Inca Sanctuary of Machu Picchu.',
 				url_image:'images/activities/cusco/inca_trail_2_portrait.jpg',
 				description:`Through this spiritual journey you will come to understand the culture of the Incas and the archeological legacy they left behind.
@@ -214,6 +218,7 @@ There is at least one guide for every 10 participants and the guides set the pac
 				id:'inca-trail-salkantay-trek',
 				title:'Inca Trail Salkantay Trek',
 				shortTitle:'Inca Trail Salkantay Trek',
+				form_title:'Inca Trail Salkantay Trek',
 				subtitle:'(to Machu Picchu) The famous Salkantay trek to Machu Picchu is named among the top 25 best excursions in the world by National Geographic Adventure Travel Magazine.',
 				url_image:'images/activities/cusco/salkantay_1_portrait.jpg',
 				description:`The Salkantay Trek is an ancient and remote footpath located in the same region as the Inca Trail where snowcapped mountains collide with lush tropical rain forests.
@@ -270,6 +275,7 @@ Our custom Salkantay Trek is an alternative to the traditional and offers a cutt
 				id:'white-water-rafting',
 				title:'White Water Rafting',
 				shortTitle:'White Water Rafting',
+				form_title:'White Water Rafting',
 				subtitle:'(Urubamba River)The Urubamba runs from the high Andean ranges down through the Sacred Valley of the Incas, past Machupicchu and into the jungle',
 				url_image:'images/activities/cusco/urubamba_rafting_1_portrait.jpg',
 				description:`Exciting white water in various sections of the river and depending on the time of the year. Great class III rapids and the water is clean!

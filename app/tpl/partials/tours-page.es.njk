@@ -84,12 +84,58 @@
 										{% endfor %}
 								</ul>
 
-								<button class="bttn-unite bttn-md bttn-warning">Reservar Tour</button>
+								<button class="bttn-unite bttn-md bttn-warning" data-toggle="modal" data-target="#{{item.id}}-modal">Reservar Tour</button>
 						</div>
 						</div>
 				</div>
 		</div>
+    	<!-- Modal -->
+    <div id="{{item.id}}-modal" class="modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">{{item.form_title or item.title}}</h3>
+                    <div class="price-holder"><span class="form_price">{{item.additionalData.price.ammount}}{{item.additionalData.price.currency}}</span><span> por persona</span></div>
+                </div>
+                <div class="modal-body">
+					<input type="hidden" id="rsv-tour-info" value="{{item.title}}" tour-id="{{item.id}}">
+					<input type="hidden" id="rsv-lang" value="es">
+                    <div class="reservation-subtitle">Reservación de tour</div>
+                    <div class="form-inputs"><input type="text" class="rsv-input" id="rsv-name" placeholder="Nombre*"></div>
+                    <div class="input-group">
+                        <span class="input-group-addon">Fecha*</span>
+                        <input type="date" id="rsv-date" class="form-control" class="rsv-input" name="date">
+                    </div>
+                    <div class="form-inputs"><input id="rsv-people" placeholder="N° personas*" class="rsv-input" type="number"></div>
+                    <div class="form-inputs"><input id="rsv-email" placeholder="Correo Electrónico*" class="rsv-input" type="email"></div>
+                    <div class="form-inputs"><textarea id="rsv-notes" placeholder="Notas de su reservación"></textarea></div>
+					<p id="rsv-warn" class="rsv-warn rsv-warn-hidden">*Solicitud inválida, debe llenar todos los campos obligatorios*</p>
+					<p id="rsv-warn-email" class="rsv-warn rsv-warn-hidden">*Dirección de correo electrónico inválida*</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="request-reservation" class="btn btn-default request-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i>  Solicitar Reservación</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+          </div>
+        </div>
+    </div>
 		{% endfor %}
+    <!-- Modal -->
+    <div id="sent-reservation" class="modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title"><i class="fa fa-check" aria-hidden="true"></i> Solicitud Enviada</h3>
+                    <div class="price-holder"><span class="form_price">Pronto lo contactaremos</span></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default request-btn" data-dismiss="modal">Ok</button>
+                </div>
+          </div>
+        </div>
+    </div>
 		<hr/>
  <div class="row additional-info">
 		<div class="col-md-12">

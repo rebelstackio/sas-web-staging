@@ -8,6 +8,7 @@ export default {
 			{
 				id:'arequipa-city-tour',
 				title:'Tour de Arequipa',
+				form_title:'Tour de Arequipa',
 				shortTitle: 'Tour de Arequipa',
 				subtitle:'Arquitectura colonial impresionante y catedrales en el afamado Ciudad Blanca de Perú',
 				url_image:'images/tours/arequipa/arequipa_3_t.jpg',
@@ -45,6 +46,7 @@ Más tarde daremos un paseo por la plaza principal de Arequipa, un lugar agradab
 			{
 				id: 'colca-canyon-tour',
 				title:'Tour Cañon  del Colca',
+				form_title:'Tour Cañon  del Colca',
 				shortTitle: 'Tour Cañon  del Colca',
 				subtitle:'El Cañón del Colca es uno de los destinos turisticos más populares del país para ver los cóndores en su hábitat natural.',
 				url_image:'images/tours/arequipa/colca_canyon_3_t.jpg',

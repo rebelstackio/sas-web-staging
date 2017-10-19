@@ -11,6 +11,7 @@ En la actualidad, Cusco es Patrimonio de la Humanidad declarado por la Unesco y 
 				id:'cuzco-city-tour',
 				title:'Cuzco City Tour',
 				shortTitle:'Tour de Cuzco',
+				form_title:'Tour de Cuzco',
 				subtitle:'Explora la ciudad de Cuzco y sus alrededores y descubrir los mejores sitios de la antigua cultura inca y colonial',
 				url_image:'images/tours/cuzco/cusco_4_t.jpg',
 				description:`Qoricancha: Una de las iglesias más admiradas de la ciudad, la "sala de oro" era un lugar sagrado donde se podía adorar "Inti", el dios inca más venerado. Entrar era sólo en ayuno, descalzos y con una carga en la espalda en señal de humildad.
@@ -49,6 +50,7 @@ Otros sitios de valor arqueológico: Qenko, Puca, Pucara, Tambo Machay, and Cuzc
 				id:'machu-picchu-day-trip',
 				shortTitle:'Machu Picchu en Un Día',
 				title:'Machu Picchu en Un Día',
+				form_title:'Machu Picchu en Un Día',
 				subtitle:'Disfrute de una excursión de un día completo al impresionante Machu Picchu. Descubra la famosa ciudad Inca y aprender sobre la antigua civilización que prosperó una vez allí.',
 				url_image:'images/tours/cuzco/machu_picchu_3_t.jpg',
 				description:`Este tour es ideal para los visitantes por primera vez, las familias (caminata no extenuante) y personas que viajan solas y es una experiencia única en-la-vida - algo que debe hacer cuando visite Perú!
@@ -96,6 +98,7 @@ Machu Picchu tiene una profunda espiritualidad en sus edificios y formaciones ci
 			{
 				id: 'inca-bike-jungle-trek',
 				title:'Inca Bike & Jungle Trek',
+				form_title:'Inca Bike & Jungle Trek',
 				shortTitle:'Inca Bike & Jungle Trek',
 				subtitle:'(a Machu Picchu)Una bicicleta de 4 días y viaje a través de los extremos exóticos de la naturaleza a la imponente Machu Picchu.',
 				url_image:'images/activities/cusco/inca_trail_bike_4.jpg',
@@ -151,6 +154,7 @@ Machu Picchu tiene una profunda espiritualidad en sus edificios y formaciones ci
 				id:'inca-trail-classic-trek',
 				title:'Clásico trek en Camino Inca',
 				shortTitle:'Clásico trek en Camino Inca',
+				form_title:'Clásico trek en Camino Inca',
 				subtitle:'(a Machu Picchu) La clásica caminata de 4 días a través del Camino Inca que va desde el exótico valle Urubamba hasta el sagrado santuario Inca de Machu Picchu.',
 				url_image:'images/activities/cusco/inca_trail_2_portrait.jpg',
 				description:`A través de esta jornada espiritual usted entenderá la cultura de los Incas y el legado arqueológico que dejaron atrás.
@@ -207,6 +211,7 @@ Hay al menos un guía por cada 10 participantes, estos llevan el paso dependiend
 				id:'inca-trail-salkantay-trek',
 				title:'Inca Trail Salkantay Trek',
 				shortTitle:'Inca Trail Salkantay Trek',
+				form_title:'Inca Trail Salkantay Trek',
 				subtitle:'(a Machu Picchu)La famosa caminata Salkantay a Machu Picchu es nombrado entre los 25 mejores excursiones en el mundo por la National Geographic Adventure Travel Magazine.',
 				url_image:'images/activities/cusco/salkantay_1_portrait.jpg',
 				description:`El Salkantay Trek es un sendero antiguo y remoto que se encuentra en la misma región que el Camino Inca, donde las montañas cubiertas de nieve chocan con los bosques tropicales exuberantes.
@@ -263,6 +268,7 @@ Nuestra costumbre Salkantay Trek es una alternativa a la tradicional y ofrece un
 				id:'white-water-rafting',
 				title:'Canotaje',
 				shortTitle:'Canotaje',
+				form_title:'Canotaje',
 				subtitle:'(Río Urubamba)El Urubamba se extiende desde las altas cordilleras andinas a través del Valle Sagrado de los Incas, Machupicchu pasado y en la selva',
 				url_image:'images/activities/cusco/urubamba_rafting_1_portrait.jpg',
 				description:`Agua blanca emocionante en varias secciones del río y en función de la época del año. Grandes rápidos de clase III y el agua está limpia! Lo recogemos en su hotel, después de una hora y media en coche se llega a la opción de venta-en las orillas del Alto Urubamba, a "CASA CUSI" nuestro campamento privado. Nuestros profesionales Guías de Rafting le dará una charla de seguridad y le proporcionará todos los equipos adecuados para el rafting. Queremos estar flotando durante aproximadamente dos horas y media, corriendo de clase II y III, rápidos de tipo de introducción. Después, llegamos a la comida para llevar, donde nuestro bus privado estará esperando por nosotros para llevarnos de regreso a CASA CUSI donde un Sauna caliente estará esperando y se le proporcionará un almuerzo curso completo. Nuestro regreso a Cusco debe estar alrededor de 17:00 de la tarde`,
