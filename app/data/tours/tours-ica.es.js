@@ -8,6 +8,7 @@ export default {
 			{
 				id: 'vineyard-museum-oasis-tour',
 				title:'Viñedo Museo y Oasis',
+				form_title:'Viñedo Museo y Oasis',
 				shortTitle:'Viñedo Museo y Oasis',
 				subtitle:'',
 				url_image:'images/tours/ica/huacachina_oasis_1.t.jpg',
@@ -48,6 +49,7 @@ export default {
 			{
 				id: 'dune-buggy-sandboard',
 				title:'Buggy Tour y Sandboard',
+				form_title:'Buggy Tour y Sandboard',
 				shortTitle:'Buggy Tour y Sandboard',
 				subtitle:'Huacachina, un pequeño pueblo turístico que rodea a un gran oasis, está a sólo 5 km al sur oeste de Ica y un gran escondite para los extranjeros para relajarse y practicar el mejor surf en la arena en el mundo.',
 				url_image:'images/tours/ica/buggy_1_t.jpg',

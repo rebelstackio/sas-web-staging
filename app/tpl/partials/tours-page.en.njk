@@ -96,7 +96,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3 class="modal-title">{{item.form_title}}</h3>
+                    <h3 class="modal-title">{{item.form_title or item.title}}</h3>
                     <div class="price-holder"><span class="form_price">{{item.additionalData.price.ammount}}{{item.additionalData.price.currency}}</span><span> per person</span></div>
                 </div>
                 <div class="modal-body">
