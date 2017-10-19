@@ -18,10 +18,10 @@
                     {{item.blockquote}}
                 </blockquote>
                 {% if item.link %}
-                    <button class="read-more" onclick="document.location.replace(document.location.origin + '/' + '{{item.link}}');">{{link}}</button>
+                    <button class="read-more" onclick="changeUriPath('{{item.link}}')">{{link}}</button>
                 {% endif %}
 				{% if item.tour %}
-					<button class="read-more" onclick="document.location.pathname = '{{item.tour}}'">{{sTour}}</button>
+					<button class="read-more" onclick="changeUriPath('{{item.tour}}')">{{sTour}}</button>
 				{% endif %}
             </div>
       

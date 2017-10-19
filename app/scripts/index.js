@@ -16,5 +16,7 @@ System.import(`../data/home/last-news.${language}.js`).then(function(m) {
   document.querySelector('#last-news').innerHTML = html;
 
 	const html2 = template.render({});
-	document.querySelector('#last-news-banners').innerHTML = html2;
+  document.querySelector('#last-news-banners').innerHTML = html2;
+  
+  document.getElementsByClassName("read-more");
 });
