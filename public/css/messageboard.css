@@ -6,15 +6,51 @@
     div#messageboard #message-list {
         margin-top: 0px !important
     }
+    div#messageboard, div#messageboard-settings {
+        padding-top: 10px
+    }
 }
-div#messageboard {
+div#messageboard-settings {
+    padding-bottom: 10px
+}
+div#messageboard, div#messageboard-settings {
     border-radius: 0px;
     background: rgba(0, 0, 0, 0.5)
 }
+div#messageboard-settings .email-list {
+    background-color: rgba(255, 255, 255, 0.4);
+    min-height: 100px;
+    padding: 20px 10px 0px 10px;
+    max-width: 60%
+}
+div#messageboard-settings .add-email {
+    max-width: 60%
+}
+div#messageboard-settings .add-email .form-control, div#messageboard-settings .add-email .input-group-btn > .btn {
+    border-radius: 0px !important
+}
+div#messageboard-settings h4, div#messageboard-settings .checkbox {
+    color: rgba(255, 255, 255, 0.5)
+}
+div#messageboard-settings hr {
+    border-color: rgba(255, 255, 255, 0.5);
+    margin-top: 15px
+}
+@media (max-width: 767px){
+    div#messageboard-settings .email-list,
+    div#messageboard-settings h4,
+    div#messageboard-settings .checkbox,
+    div#messageboard-settings .add-email {
+        max-width: 90%;
+        margin: auto
+    }
+    div#messageboard-settings h4 {
+        margin-bottom: 5px
+    }
+}
 .messageboard-header {
     background-color: black;
-    color: white;
-    padding 1px 0px
+    color: white
 }
 .messageboard-header span {
     float: right
@@ -51,6 +87,15 @@ div#messageboard {
     border-style: solid;
     border-color: white
 }
+.messageboard-header .btn-cog {
+    border: 0px !important;
+    margin-right: 20px
+}
+@media (max-width: 767px){
+    .messageboard-header .btn-cog {
+        margin-right: 5px
+    }
+}
 .messageboard-header button:hover, .messageboard-header button:active, .messageboard-header button:focus {
     background-color: rgba(255, 255, 255, 0.1);
     color: white
@@ -58,7 +103,11 @@ div#messageboard {
 .messageboard-header button:focus {
     outline-color: white
 }
-div#messageboard #message-list {
+.messageboard-header .btn-cog:focus {
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-width: 0.5px
+}
+div#messageboard #message-list, div#messageboard-settings settings{
     margin-top: 20px;
     margin-bottom: 20px
 }
@@ -76,4 +125,15 @@ div#messageboard #message-list .message-title {
     overflow-wrap: break-word;
     margin: 0 15px;
     padding: 5px 5px
+}
+/*Invalid email*/
+.settings-warn {
+    color: rgba(221, 118, 22, 0.678);
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 0px
+}
+.settings-warn-hidden {
+    visibility: hidden;
+    display: none
 }
