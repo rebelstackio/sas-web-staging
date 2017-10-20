@@ -1,13 +1,72 @@
+@media (max-width: 767px){
+    .content-page[data-ref="messageboard"] {
+        display: block;
+        flex-direction: initial
+    }
+    div#messageboard #message-list {
+        margin-top: 0px !important
+    }
+}
 div#messageboard {
     border-radius: 0px;
     background: rgba(0, 0, 0, 0.5)
+}
+.messageboard-header {
+    background-color: black;
+    color: white;
+    padding 1px 0px
+}
+.messageboard-header span {
+    float: right
+}
+/*input group inline*/
+.messageboard-header .input-group {
+    display: inline-table;
+    vertical-align: middle;
+}
+.messageboard-header .input-group-addon,
+.messageboard-header .input-group-btn,
+.messageboard-header .form-control {
+    width: auto !important;
+}
+.messageboard-header .form-control {
+    padding: 2px 3px;
+    height: auto
+}
+.messageboard-header input {
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white
+}
+.messageboard-header input:focus {
+    border-color: white
+}
+/*------------------*/
+.messageboard-header button {
+    border-radius: 0px;
+    padding: 2px 3px;
+    background-color: inherit;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white
+}
+.messageboard-header button:hover, .messageboard-header button:active, .messageboard-header button:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white
+}
+.messageboard-header button:focus {
+    outline-color: white
 }
 div#messageboard #message-list {
     margin-top: 20px;
     margin-bottom: 20px
 }
 div#messageboard #message-list .message-title {
-    margin: 1px 6px;
+    margin: 1px 6px 0px 6px;
+}
+.message-title-header {
+    height: auto
 }
 .message-area {
     color: rgba(255, 255, 255, 0.5);
