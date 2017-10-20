@@ -59,7 +59,7 @@ var messages = firebase.database().ref('messages').orderByChild("timestamp").on(
         var message = childData.message;
 
         var title = document.createElement("div");
-        title.style.height = "30px";
+        title.style.className = "message-title-header";
         title.style.background = "rgba(0,0,0,0.4)";
         title.style.color = "white";
         title.innerHTML = "<p class='message-title'> " + dte + " <strong>" + name + "</strong> ("+email+")" + (language == "es"? " escribió":" wrote") + ": </p>";
