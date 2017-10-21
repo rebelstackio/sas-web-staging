@@ -30,7 +30,8 @@ module.exports = {
 		firebase: './app/scripts/firebase.js',
 		backoffice: './app/scripts/backoffice.js',
 		messageboard: './app/scripts/messageboard.js',
-		about: './app/scripts/about.js'
+		about: './app/scripts/about.js',
+		messageboard_settings: './app/scripts/messageboard-settings.js'
 	},
 	output: {
 		path: path.resolve(__dirname, 'build'),
