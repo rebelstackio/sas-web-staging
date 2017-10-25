@@ -8,30 +8,30 @@
 		<div id="item-3" class="control-operator"></div>
 		<div id="item-4" class="control-operator"></div>
 		<div id="item-5" class="control-operator"></div>
-		<figure class="item">
+		<figure class="item slidesX">
 				<div onclick="changeUriPath('toursarequipa.html')" class="banner-img arequipa-tour">
 				<div class="title-banner">Arequipa</div>
 				</div>
 		</figure>
 
-		<figure class="item">
+		<figure class="item slidesX">
 				<div onclick="changeUriPath('tourspuno.html')" class="banner-img puno-tour">
 						<div class="title-banner">Puno Tour</div>
 				</div>
 		</figure>
 
-		<figure class="item">
+		<figure class="item slidesX">
 				<div onclick="changeUriPath('tourscuzco.html')" class="banner-img cuzco-tour">
 				<div class="title-banner">Cuzco</div>
 				</div>
 		</figure>
 
-		<figure class="item">
+		<figure class="item slidesX">
 				<div onclick="changeUriPath('toursparacas.html#islas-ballestas')" class="banner-img ballestas-tour">
 						<div class="title-banner">Islas Ballestas</div>
 				</div>
 		</figure>
-		 <figure class="item">
+		 <figure class="item slidesX">
 				<div onclick="changeUriPath('toursparacas.html')" class="banner-img paracas-tour">
 				</div>
 		</figure>
@@ -46,17 +46,17 @@
 		<div id="item-1" class="control-operator"></div>
 		<div id="item-2" class="control-operator"></div>
 		<div id="item-3" class="control-operator"></div>
-		<figure class="item">
-				<div class="banner-img bike-activitie">
+		<figure class="item slidesY">
+				<div onclick="changeUriPath('toursparacas.html')" class="banner-img bike-activitie">
 				</div>
 		</figure>
 
-		<figure class="item">
-				<div class="banner-img sandboard-activitie">
+		<figure class="item slidesY">
+				<div onclick="changeUriPath('toursica.html')" class="banner-img sandboard-activitie">
 				</div>
 		</figure>
 
-		<figure class="item">
+		<figure class="item slidesY">
 			<div class="banner-img kitesurf-activitie">
 			</div>
 		</figure>
@@ -68,7 +68,11 @@
 	<div class="title">
 			Videos
 	</div>
-	<video width="100%" poster="images/thumbnail.png" controls>
+	<video width="100%" class="hidden-xs hidden-sm" poster="images/thumbnail.png" controls>
+		<source src="videos/video1.mp4" type="video/mp4">
+		Your browser does not support the video tag. gg
+	</video>
+	<video width="100%" class="mobile-video hidden-md hidden-lg" onclick="responsiveVideo(this)" poster="images/thumbnail.png">
 		<source src="videos/video1.mp4" type="video/mp4">
 		Your browser does not support the video tag. gg
 	</video>

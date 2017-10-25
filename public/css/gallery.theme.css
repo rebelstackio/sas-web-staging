@@ -12,6 +12,7 @@
 	Theme controls how everything looks in Gallery CSS.
 */
 .gallery {
+  height: 238px;
   position: relative;
 }
 .gallery .item {

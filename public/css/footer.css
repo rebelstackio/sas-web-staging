@@ -7,8 +7,17 @@
     width: 100%;
     height: 40px
 }
+
+#footer-mobile {
+  background-color: rgba(0,0,0,0.9);
+  z-index: 1000;
+  color: white;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px
+}
   
-#footer img {
+#footer img, #footer-mobile img {
     width: 40px;
     height: 26px;
     border-radius: 4px;
@@ -20,6 +29,10 @@
     margin: 0;
     font-size: 8pt;
     line-height: 40px
+}
+
+#footer-mobile #copyright {
+  line-height: 15px
 }
 
 .payment-icons {
@@ -34,6 +47,10 @@
       margin-bottom: 3px;
       -webkit-padding-start: 0;
       font-weight: bold
+  }
+
+  #footer-mobile > menu {
+    margin-bottom: 0px
   }
   
   .footer > menu > li:first-child {
