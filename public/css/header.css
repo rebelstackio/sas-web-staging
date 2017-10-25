@@ -176,7 +176,8 @@ nav.mainmenu{
     list-style: none
 }
 .TA_socialButtonDesktop {
-    margin: 12px 13px 10px 13px
+    margin: 0px 13px 0px 13px;
+    line-height: 13px
 }
 .TA_socialButtonIcon {
     margin: 10px 13px;
