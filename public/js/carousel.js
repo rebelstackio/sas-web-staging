@@ -1,6 +1,12 @@
-document.addEventListener("DOMContentLoaded", function(event) { 
-    carousel("slidesX",0);
-    carousel("slidesY",0);
+document.addEventListener("DOMContentLoaded", function(event) {
+    var xs = document.getElementsByClassName("slidesX"),
+        ys = document.getElementsByClassName("slidesY");
+    if(xs.length > 0){
+        carousel("slidesX",0);
+    }
+    if(ys.length > 0){
+        carousel("slidesY",0);
+    }
 });
 
 function carousel(class_name, myIndex) {
