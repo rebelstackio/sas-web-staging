@@ -12,7 +12,12 @@ System.import(`../data/home/last-news.${language}.js`).then(function(m) {
   let LastNews = m.default;
   var rMore = language == 'en' ? 'Continue Reading...':'Leer Artículo...';
   var sTour = language == 'en' ? 'See tour':'Ver tour';
-  const html = tpl.render({ items:  LastNews, link: rMore, sTour: sTour });
+  var share = language == 'en' ? 'Share':'Compartir';
+  var uri = window.location;
+  if (uri.href.indexOf("http://localhost:9000") > -1) {
+    uri = "https://southamericanssecrets.github.io/web/";
+  }
+  const html = tpl.render({ items:  LastNews, link: rMore, sTour: sTour, share: share, uri: uri });
   document.querySelector('#last-news').innerHTML = html;
 
 	const html2 = template.render({});

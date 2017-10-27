@@ -19,6 +19,30 @@
 								{{item.blockquote}}
 						</blockquote>
 					{% endif %}
+<div class="share dropdown">
+    <button class="btn read-more dropdown-toggle" type="button" data-toggle="dropdown">
+       {{share}} <i class="fa fa-share" aria-hidden="true"></i>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-right">
+        <div id="share-buttons">
+            <a href="http://www.facebook.com/sharer.php?u={{uri}}{{item.link}}" target="_blank">
+                <img src="images/facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://plus.google.com/share?url={{uri}}{{item.link}}" target="_blank">
+                <img src="images/google.png" alt="Google" />
+            </a>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{uri}}{{item.link}}" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn" />
+            </a>
+            <a href="http://reddit.com/submit?url={{uri}}{{item.link}}&amp;title=South Americans Secrets" target="_blank">
+                <img src="images/reddit.png" alt="Reddit" />
+            </a>
+            <a href="https://twitter.com/share?url={{uri}}{{item.link}}&amp;text=South%20Americans%20Secrets&amp;hashtags=southamericanssecrets" target="_blank">
+                <img src="images/twitter.png" alt="Twitter" />
+            </a>
+        </div> 
+    </ul>
+</div>
                 	{% if item.link %}
                 	    <button class="read-more" onclick="changeUriPath('{{item.link}}')">{{link}}</button>
                 	{% endif %}
