@@ -126,22 +126,31 @@
                     <div class="price-holder"><span class="form_price">{{item.additionalData.price.ammount}}{{item.additionalData.price.currency}}</span><span> per person</span></div>
                 </div>
                 <div class="modal-body">
-                    <input type="hidden" id="rsv-tour-info" value="{{item.title}}" tour-id="{{item.id}}">
-                    <input type="hidden" id="rsv-lang" value="en">
+                    <input type="hidden" id="rsv-tour-info" class="rsv-tour-info" value="{{item.title}}" tour-id="{{item.id}}">
+                    <input type="hidden" id="rsv-lang" class="rsv-lang" value="en">
                     <div class="reservation-subtitle">Tour reservation</div>
-                    <div class="form-inputs"><input type="text" class="rsv-input" id="rsv-name" placeholder="Name*"></div>
-                    <div class="input-group">
+                    <div class="form-inputs"><input type="text" class="rsv-input rsv-name" id="rsv-name" placeholder="Name*"></div>
+                    <div class="input-group date-input-group">
                         <span class="input-group-addon">Date*</span>
-                        <input type="date" id="rsv-date" class="form-control" class="rsv-input" name="date">
+                        <input type="date" id="rsv-date" class="form-control rsv-date" name="date">
                     </div>
-                    <div class="form-inputs"><input id="rsv-people" placeholder="N° people*" class="rsv-input" type="number"></div>
-                    <div class="form-inputs"><input id="rsv-email" placeholder="Email*" class="rsv-input" type="email"></div>
-                    <div class="form-inputs"><textarea id="rsv-notes" placeholder="Notes about your reservation"></textarea></div>
-                    <p id="rsv-warn" class="rsv-warn rsv-warn-hidden">*Invalid request, you must fill all required fields*</p>
-                    <p id="rsv-warn-email" class="rsv-warn rsv-warn-hidden">*Invalid email address*</p>
+                    <div class="form-inputs"><input id="rsv-people" placeholder="N° people*" class="rsv-input rsv-people" type="number"></div>
+                    <div class="form-inputs"><input id="rsv-email" placeholder="Email*" class="rsv-input rsv-email" type="email"></div>
+					<div class="input-group">
+						<span class="input-group-addon">Payment Type*</span>
+						<select id="rsv-payment" class="form-control rsv-payment">
+							<option value="visa-credit">Visa credit</option>
+							<option value="visa-debit">Visa debit</option>
+							<option value="paypal">Paypal</option>
+							<option value="bank-transfer">Bank transfer</option>
+						</select>
+					</div>
+                    <div class="form-inputs"><textarea id="rsv-notes" class="rsv-notes" placeholder="Notes about your reservation"></textarea></div>
+                    <p id="rsv-warn" class="rsv-warn-regular rsv-warn rsv-warn-hidden">*Invalid request, you must fill all required fields*</p>
+                    <p id="rsv-warn-email" class="rsv-warn-email rsv-warn rsv-warn-hidden">*Invalid email address*</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" id="request-reservation" class="btn btn-default request-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i>  Request Reservation</button>
+                    <button type="button" parent-modal="{{item.id}}-modal" id="request-reservation" class="request-reservation btn btn-default request-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i>  Request Reservation</button>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
           </div>

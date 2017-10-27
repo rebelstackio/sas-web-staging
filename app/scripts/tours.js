@@ -10,12 +10,6 @@ var config = {
 };
 firebase.initializeApp(config);
 
-//email validation
-var validateEmail = function (email) {
-	var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-	return re.test(email);
-};
-
 let content = document.querySelector('#page-content');
 let dataRef = content.getAttribute('data-ref');
 
@@ -30,105 +24,58 @@ System.import(`../data/tours/${dataRef}.${language}.js`).then(function(m) {
 	var share = language == 'en' ? 'Share':'Compartir';
 	var uri = window.location.href;
 	if (uri.indexOf("http://localhost:9000") > -1) {
-	  uri = "https://southamericanssecrets.github.io/web"+window.location.pathname;
+		uri = "https://southamericanssecrets.github.io/web"+window.location.pathname;
 	}
 
 	var html = tpl.render({ data:	data, share: share, uri: uri });
 	document.querySelector('#page-content').innerHTML = html;
 
-	//Bind event to inputs
-	var inputs = document.getElementsByClassName("rsv-input");
-	for(var i=0; i<inputs.length; i++) {
-		inputs[i].addEventListener("keypress", function(){
-			document.getElementById("rsv-warn").setAttribute("class","rsv-warn rsv-warn-hidden");
+	// Bind event to submit button
+	var requestReservationButtons = document.getElementsByClassName("request-reservation");
+	for(var i = 0; i < requestReservationButtons.length; i++){
+		requestReservationButtons[i].addEventListener("click", function(){
+			var id = this.getAttribute('parent-modal');
+			requestResv(id, this, firebase);
 		});
 	}
-
-	//Bind event to email input
-	document.getElementById("rsv-email").addEventListener("keypress", function(){
-		document.getElementById("rsv-warn-email").setAttribute("class","rsv-warn rsv-warn-hidden");
-	});
-
-	// Bind event to submit button
-	document.getElementById("request-reservation").addEventListener("click", function(){
-		var name = document.getElementById("rsv-name").value,
-		email = document.getElementById("rsv-email").value,
-		date = document.getElementById("rsv-date").value,
-		nPeople = document.getElementById("rsv-people").value,
-		notes = document.getElementById("rsv-notes").value,
-		tTitle = document.getElementById("rsv-tour-info").value,
-		lang = document.getElementById("rsv-lang").value,
-		tId = document.getElementById("rsv-tour-info").getAttribute('tour-id');
-
-		//Crucial values
-		if(tTitle != "" && tId != "" && name != "" && email != "" && date != "" && nPeople != ""){
-			//Second validation
-			if(validateEmail(email)){
-				insertReservation({
-					tTitle: tTitle,
-					tId: tId,
-					name: name,
-					email: email,
-					date: date,
-					nPeople: nPeople,
-					notes: notes,
-					lang: lang
-				});
-			}else{
-				//Notify user...rsv-warn-email
-				document.getElementById("rsv-warn-email").setAttribute("class","rsv-warn");
-				document.getElementById("rsv-email").focus();
-			}
-		}else{
-			//Notify user...
-			document.getElementById("rsv-warn").setAttribute("class","rsv-warn");
-		}
-	});
 });
+//Request reservation
+function requestResv(id, that, fbase){
+    var tour = document.getElementById(id);
+    var name = tour.getElementsByClassName("rsv-name")[0].value,
+    email = tour.getElementsByClassName("rsv-email")[0].value,
+    date = tour.getElementsByClassName("rsv-date")[0].value,
+    nPeople = tour.getElementsByClassName("rsv-people")[0].value,
+    notes = tour.getElementsByClassName("rsv-notes")[0].value,
+    tTitle = tour.getElementsByClassName("rsv-tour-info")[0].value,
+    lang = tour.getElementsByClassName("rsv-lang")[0].value,
+    tId = tour.getElementsByClassName("rsv-tour-info")[0].getAttribute('tour-id'),
+    payment = tour.getElementsByClassName("rsv-payment")[0].value;
 
-// creates uuid
-function uuidv4() {
-    return ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c =>
-        (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
-    )
-}
+    that.disabled = true;
 
-//Insert to Firebase
-function insertReservation(obj){
-	//DB auth
-	firebase.auth().signInAnonymously().catch(function(error) {
-		console.log(error.code);
-		console.log(error.message);
-	});
-	//DB post-auth event listener
-	firebase.auth().onAuthStateChanged(function(user) {
-		if (user) {
-			// User is signed in.
-			var isAnonymous = user.isAnonymous;
-			var uid = user.uid;
-			// ...
-			var database = firebase.database();
-
-			database.ref('reservations/' + uuidv4()).set({
-				name: obj.name,
-				email: obj.email,
-				date : obj.date,
-				tour_id : obj.tId,
-				tour_title : obj.tTitle,
-				notes: obj.notes,
-				nPeople: obj.nPeople,
-				lang: obj.lang,
-				timestamp: firebase.database.ServerValue.TIMESTAMP
-			}).then(function(e){
-				// The message has been saved
-				// Shows sent message
-				// Notify user...
-				$("#"+obj.tId+"-modal").modal("hide");
-				$("#sent-reservation").modal({backdrop: true});
-			});
-		} else {
-			// User is signed out.
-			// ...
-		}
-	});
+    //Crucial values
+	if(tTitle != "" && tId != "" && name != "" && email != "" && date != "" && nPeople != ""){
+        //Second validation
+		if(validateEmail(email)){
+            insertReservation({
+                tTitle: tTitle,
+                tId: tId,
+                name: name,
+                email: email,
+                date: date,
+                nPeople: nPeople,
+                notes: notes,
+                lang: lang,
+                payment_type: payment
+            },fbase,that);
+        }else{
+            tour.getElementsByClassName("rsv-warn-email")[0].setAttribute("class","rsv-warn-email rsv-warn");
+            tour.getElementsByClassName("rsv-email")[0].focus();
+            that.disabled = false;
+        }
+    }else{
+        tour.getElementsByClassName("rsv-warn-regular")[0].setAttribute("class","rsv-warn-regular rsv-warn");
+        that.disabled = false;
+    }
 }

@@ -129,18 +129,27 @@
 					<input type="hidden" id="rsv-lang" value="es">
                     <div class="reservation-subtitle">Reservación de tour</div>
                     <div class="form-inputs"><input type="text" class="rsv-input" id="rsv-name" placeholder="Nombre*"></div>
-                    <div class="input-group">
+                    <div class="input-group date-input-group">
                         <span class="input-group-addon">Fecha*</span>
-                        <input type="date" id="rsv-date" class="form-control" class="rsv-input" name="date">
+                        <input type="date" id="rsv-date" class="form-control rsv-date" name="date">
                     </div>
                     <div class="form-inputs"><input id="rsv-people" placeholder="N° personas*" class="rsv-input" type="number"></div>
-                    <div class="form-inputs"><input id="rsv-email" placeholder="Correo Electrónico*" class="rsv-input" type="email"></div>
-                    <div class="form-inputs"><textarea id="rsv-notes" placeholder="Notas de su reservación"></textarea></div>
-					<p id="rsv-warn" class="rsv-warn rsv-warn-hidden">*Solicitud inválida, debe llenar todos los campos obligatorios*</p>
+                    <div class="form-inputs"><input id="rsv-email" placeholder="Correo Electrónico*" class="rsv-input rsv-email" type="email"></div>
+					<div class="input-group">
+						<span class="input-group-addon">Forma de pago*</span>
+						<select id="rsv-payment" class="form-control">
+							<option value="visa-credit">Visa crédito</option>
+							<option value="visa-debit">Visa débito</option>
+							<option value="paypal">Paypal</option>
+							<option value="bank-transfer">Transferencia bancaria</option>
+						</select>
+					</div>
+                    <div class="form-inputs"><textarea id="rsv-notes" class="rsv-notes" placeholder="Notas de su reservación"></textarea></div>
+					<p id="rsv-warn" class="rsv-warn-regular rsv-warn rsv-warn-hidden">*Solicitud inválida, debe llenar todos los campos obligatorios*</p>
 					<p id="rsv-warn-email" class="rsv-warn rsv-warn-hidden">*Dirección de correo electrónico inválida*</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" id="request-reservation" class="btn btn-default request-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i>  Solicitar Reservación</button>
+                    <button type="button" parent-modal="{{item.id}}-modal" id="request-reservation" class="request-reservation btn btn-default request-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i>  Solicitar Reservación</button>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
                 </div>
           </div>
