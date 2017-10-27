@@ -29,6 +29,17 @@ div.share > button:focus {outline:0;}
 .share-blockquote {
     font-size: 20px
 }
+div.share-tours > button{
+    border-radius: 100px;
+    font-size: 18px;
+    padding: 5px;
+    height: 40px;
+    margin-top: 0px
+}
+.bttn-unite.bttn-md {
+    font-size: 18px;
+    padding: 5px 4px
+}
 @media (max-width: 320px){
     .share-blockquote {
         font-size: 20px;
