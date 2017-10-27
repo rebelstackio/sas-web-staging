@@ -1,8 +1,40 @@
 <div class="row container-article article article-detail">
 	<div class="col-md-12">
         <img class="article-detail-image image-vertical" style="background-image:url({{data.url_image}});" alt="" width="100%">
-    <div class="article-title article-detail-title">{{data.title}}</div>
-	<div class="article-author article-detail-author">{{data.date}} - {{data.author}}</div>
+    <div class="article-title article-detail-title">
+        {{data.title}}
+    </div>
+	<div class="article-author article-detail-author">
+        {{data.date}} - {{data.author}}
+
+
+<div class="share dropdown">
+    <button class="btn read-more dropdown-toggle" type="button" data-toggle="dropdown">
+       {{share}} <i class="fa fa-share" aria-hidden="true"></i>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-right">
+        <div id="share-buttons">
+            <a href="http://www.facebook.com/sharer.php?u={{uri}}" target="_blank">
+                <img src="images/facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://plus.google.com/share?url={{uri}}" target="_blank">
+                <img src="images/google.png" alt="Google" />
+            </a>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{uri}}" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn" />
+            </a>
+            <a href="http://reddit.com/submit?url={{uri}}&amp;title=South Americans Secrets" target="_blank">
+                <img src="images/reddit.png" alt="Reddit" />
+            </a>
+            <a href="https://twitter.com/share?url={{uri}}&amp;text=South%20Americans%20Secrets&amp;hashtags=southamericanssecrets" target="_blank">
+                <img src="images/twitter.png" alt="Twitter" />
+            </a>
+        </div> 
+    </ul>
+</div>
+
+
+    </div>
         {% if data.blockquote %}
 		<blockquote class="article-blockquote article-detail-blockquote">
    			{{data.blockquote}}
@@ -36,3 +68,30 @@
 	</div>
 </div>
 {% endfor %}
+<blockquote class="article-blockquote share-blockquote">
+{{share_quote}} 
+<div class="share dropup">
+    <button class="btn read-more dropdown-toggle" type="button" data-toggle="dropdown">
+       {{share}} <i class="fa fa-share" aria-hidden="true"></i>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-right">
+        <div id="share-buttons">
+            <a href="http://www.facebook.com/sharer.php?u={{uri}}" target="_blank">
+                <img src="images/facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://plus.google.com/share?url={{uri}}" target="_blank">
+                <img src="images/google.png" alt="Google" />
+            </a>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{uri}}" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn" />
+            </a>
+            <a href="http://reddit.com/submit?url={{uri}}&amp;title=South Americans Secrets" target="_blank">
+                <img src="images/reddit.png" alt="Reddit" />
+            </a>
+            <a href="https://twitter.com/share?url={{uri}}&amp;text=South%20Americans%20Secrets&amp;hashtags=southamericanssecrets" target="_blank">
+                <img src="images/twitter.png" alt="Twitter" />
+            </a>
+        </div> 
+    </ul>
+</div>
+</blockquote>

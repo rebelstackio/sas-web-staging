@@ -22,6 +22,12 @@ const language	= getPageLanguage('lng') || 'en' ;
 System.import(`../data/articles/full-articles/article.${params.id}.${language}.js`).then(function(m) {
     let data = m.default;
     document.title = data.tab_title;
-	const html = tpl.render({ data:	data });
+    var share = language == 'en' ? 'Share':'Compartir';
+    var share_quote = language == 'en' ? 'Did you like this article?':'¿Te gustó el artículo?';
+    var uri = window.location.href;
+    if (uri.indexOf("http://localhost:9000") > -1) {
+      uri = "https://southamericanssecrets.github.io/web"+window.location.pathname+window.location.search;
+    }
+	const html = tpl.render({ data:	data, share: share, uri: uri, share_quote: share_quote });
 	document.querySelector('#page-content').innerHTML = html;
 });
