@@ -78,3 +78,44 @@ export function getArticleSidebar(lng) {
 			return articlesidebaren;
 	}
 }
+
+export //Request reservation
+function requestResv(id, that, fbase){
+    var tour = document.getElementById(id);
+    var name = tour.getElementsByClassName("rsv-name")[0].value,
+    email = tour.getElementsByClassName("rsv-email")[0].value,
+    date = tour.getElementsByClassName("rsv-date")[0].value,
+    nPeople = tour.getElementsByClassName("rsv-people")[0].value,
+    notes = tour.getElementsByClassName("rsv-notes")[0].value,
+    tTitle = tour.getElementsByClassName("rsv-tour-info")[0].value,
+    lang = tour.getElementsByClassName("rsv-lang")[0].value,
+    tId = tour.getElementsByClassName("rsv-tour-info")[0].getAttribute('tour-id'),
+    payment = tour.getElementsByClassName("rsv-payment")[0].value;
+
+    that.disabled = true;
+
+    //Crucial values
+	if(tId != "" && name != "" && email != "" && date != "" && nPeople != ""){
+        //Second validation
+		if(validateEmail(email)){
+            insertReservation({
+                tTitle: tTitle,
+                tId: tId,
+                name: name,
+                email: email,
+                date: date,
+                nPeople: nPeople,
+                notes: notes,
+                lang: lang,
+                payment_type: payment
+            },fbase,that);
+        }else{
+            tour.getElementsByClassName("rsv-warn-email")[0].setAttribute("class","rsv-warn-email rsv-warn");
+            tour.getElementsByClassName("rsv-email")[0].focus();
+            that.disabled = false;
+        }
+    }else{
+        tour.getElementsByClassName("rsv-warn-regular")[0].setAttribute("class","rsv-warn-regular rsv-warn");
+        that.disabled = false;
+    }
+}
