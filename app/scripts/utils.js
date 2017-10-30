@@ -119,3 +119,15 @@ function requestResv(id, that, fbase){
         that.disabled = false;
     }
 }
+export function singDB(){
+    firebase.auth().signInAnonymously().catch(function(error) {
+        console.log(error.code);
+        console.log(error.message);
+    });
+}
+export function dostuffDb(cb){
+    singDB();
+    firebase.auth().onAuthStateChanged(function(user) {
+        cb(user);
+    });
+}
