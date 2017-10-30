@@ -21,7 +21,10 @@ div#messageboard-settings .email-list {
     background-color: rgba(255, 255, 255, 0.4);
     min-height: 100px;
     padding: 20px 10px 0px 10px;
-    max-width: 60%
+    max-height: 80px;
+    max-width: 60%;
+    overflow: auto;
+    margin-bottom: 5px
 }
 div#messageboard-settings .add-email {
     max-width: 60%
