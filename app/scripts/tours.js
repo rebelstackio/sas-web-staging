@@ -55,7 +55,7 @@ function requestResv(id, that, fbase){
     that.disabled = true;
 
     //Crucial values
-	if(tTitle != "" && tId != "" && name != "" && email != "" && date != "" && nPeople != ""){
+	if(tId != "" && name != "" && email != "" && date != "" && nPeople != ""){
         //Second validation
 		if(validateEmail(email)){
             insertReservation({
