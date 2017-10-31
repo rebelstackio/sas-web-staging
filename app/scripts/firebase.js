@@ -1,3 +1,4 @@
+import {signDB, dostuffDb} from './utils';
 // This import loads the firebase namespace along with all its type information.
 import firebase from 'firebase';
 
@@ -15,12 +16,12 @@ var config = {
 firebase.initializeApp(config);
 
 // creates uuid
-function uuidv4() {
+/*function uuidv4() {
     return ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c =>
         (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
     )
-}
-
+}*/
+var language = localStorage['lng'] || 'en' ;
 // shows message
 function showMsg(){
     var language = localStorage['lng'] || 'en' ;
@@ -46,36 +47,25 @@ document.getElementById("send-msg").addEventListener("click", function(){
     message = document.getElementById("form-message").value;
 
     if(name != "" && email != "" && message != ""){
-
-        //DB auth
-        firebase.auth().signInAnonymously().catch(function(error) {
-            console.log(error.code);
-            console.log(error.message);
-        });
-
-        //DB post-auth event listener
-        firebase.auth().onAuthStateChanged(function(user) {
-            if (user) {
-                // User is signed in.
-                var isAnonymous = user.isAnonymous;
-                var uid = user.uid;
-                // ...
+        if(validateEmail(email)){
+            dostuffDb(function(){
                 var database = firebase.database();
                 
-                database.ref('messages/' + uuidv4()).set({
+                database.ref('messages').push({
                     name: name,
                     email: email,
                     message : message,
-                    timestamp: firebase.database.ServerValue.TIMESTAMP
+                    timestamp: firebase.database.ServerValue.TIMESTAMP,
+                    lang: language
                 }).then(function(e){
                     // The message has been saved
-                    // Shows sent message
                     showMsg();
                 });
-            } else {
-                // User is signed out.
-                // ...
-            }
-        });
+            },firebase);
+        }else{
+            //
+        }
+    }else{
+        //
     }
 });

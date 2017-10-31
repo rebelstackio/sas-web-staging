@@ -39,6 +39,35 @@ div#messageboard-settings hr {
     border-color: rgba(255, 255, 255, 0.5);
     margin-top: 15px
 }
+div#messageboard-settings li.email-node span {
+    width: 50%;
+    display: inline-block
+}
+div#messageboard-settings li.email-node span:last-child {
+    color: rgba(0, 0, 0, 0.5)
+}
+div#messageboard-settings li.email-node span:last-child:hover {
+    color: black
+}
+div#messageboard-settings li.email-node span:last-child:active {
+    color: rgba(0, 0, 0, 0.3)
+}
+div#messageboard-settings button.go-back {
+    font-size: 16px;
+    background-color: rgba(0,0,0,0.4);
+    color: rgba(255,255,255,0.85);
+    border-color: transparent;
+    border-radius: 0px;
+    margin-top: 5px
+}
+div#messageboard-settings button.go-back:active,
+div#messageboard-settings button.go-back:hover,
+div#messageboard-settings button.go-back:focus {
+    background-color: rgba(0, 0, 0, 0.589);
+    color: rgba(255, 255, 255, 0.897);
+    border-color: transparent;
+    outline: 0px
+}
 @media (max-width: 767px){
     div#messageboard-settings .email-list,
     div#messageboard-settings h4,
