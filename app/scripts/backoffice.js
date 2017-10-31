@@ -11,7 +11,7 @@ document.title = language == "es" ? "Iniciar sesión" : "Login";
 //Just for now, a hardcoded login
 function temporaryHardcodedLogin(usr,psw){
     if(usr == 'admin' && psw == 'admin'){
-        window.location = window.location.origin + "/messageboard.html";
+        changeUriPath('messageboard.html');
     }
 }
 

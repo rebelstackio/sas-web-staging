@@ -20,6 +20,7 @@ firebase.auth().signInAnonymously().catch(function(error) {
 const language	= localStorage['lng'] || 'en';
 const tpl = language == 'es'? msgstes : msgsten;
 var html = tpl.render();
+document.title = "Messageboard settings";
 document.querySelector('#page-content').innerHTML = html;
 
 function singDB(){
@@ -61,9 +62,17 @@ function loadEmails(){
 
             var email = childData.email;
             var li = document.createElement("li");
-            li.innerHTML = email;
+            li.className = 'email-node';
+            li.innerHTML = '<span>'+email+'</span><span id="'+key+'" class="email-trasher"><i class="fa fa-trash" aria-hidden="true"></i></span>';
             email_list.appendChild(li);
         });
+        var trash_cans = document.getElementsByClassName("email-trasher");
+        for(var i = 0; i < trash_cans.length; i++){
+            trash_cans[i].addEventListener('click',function(){
+                var id = this.id;
+                firebase.database().ref('mails/'+id).remove();
+            });
+        }
     });
 }
 function isNotified(){
