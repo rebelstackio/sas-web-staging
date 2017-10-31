@@ -21,7 +21,7 @@ firebase.initializeApp(config);
         (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
     )
 }*/
-
+var language = localStorage['lng'] || 'en' ;
 // shows message
 function showMsg(){
     var language = localStorage['lng'] || 'en' ;
@@ -55,7 +55,8 @@ document.getElementById("send-msg").addEventListener("click", function(){
                     name: name,
                     email: email,
                     message : message,
-                    timestamp: firebase.database.ServerValue.TIMESTAMP
+                    timestamp: firebase.database.ServerValue.TIMESTAMP,
+                    lang: language
                 }).then(function(e){
                     // The message has been saved
                     showMsg();
