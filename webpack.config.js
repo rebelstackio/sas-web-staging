@@ -31,7 +31,8 @@ module.exports = {
 		backoffice: './app/scripts/backoffice.js',
 		messageboard: './app/scripts/messageboard.js',
 		about: './app/scripts/about.js',
-		messageboard_settings: './app/scripts/messageboard-settings.js'
+		messageboard_settings: './app/scripts/messageboard-settings.js',
+		reservations: './app/scripts/reservations.js'
 	},
 	output: {
 		path: path.resolve(__dirname, 'build'),

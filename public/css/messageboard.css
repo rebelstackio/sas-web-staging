@@ -1,5 +1,5 @@
 @media (max-width: 767px){
-    .content-page[data-ref="messageboard"] {
+    .content-page[data-ref="messageboard"], .content-page[data-ref="reservations"]{
         display: block;
         flex-direction: initial
     }
@@ -157,6 +157,52 @@ div#messageboard #message-list .message-title {
     overflow-wrap: break-word;
     margin: 0 15px;
     padding: 5px 5px
+}
+
+.reservation-list .message-title {
+    text-align: center;
+    font-size: 18px;
+    color: rgba(255,255,255,0.5)
+}
+.reservation-list .message-title span {
+    font-size: 11px
+}
+.reservation-list .rsv-wrapper {
+    margin-bottom: 5px
+}
+.reservation-list .message-wrapper {
+    margin: 0
+}
+.reservation-list .message-area {
+    height: 100px
+}
+.reservation-list span.message-area {
+    display: inline-table;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    height: auto
+}
+.reservation-list .reservation-label {
+    padding: 5px 5px;
+    margin: 0 15px
+}
+.reservation-list span.reservation-label {
+    display: inline-block;
+    margin: 0 0 0 15px;
+    padding: 0px;
+    min-width: 100px
+}
+@media (max-width: 767px){
+    .reservation-list .message-area {
+        height: 40px
+    }
+    .reservation-list .message-wrapper {
+        padding-bottom: 5px
+    }
+    .reservation-list span.Correo-span {
+        min-width: 60px
+    }
 }
 /*Invalid email*/
 .settings-warn {
