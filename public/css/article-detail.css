@@ -30,8 +30,7 @@
 }
 .bottom-images-container {
     display: block;
-    min-height: 342px;
-    margin-bottom: 10px
+    height: 242px;
 }
 .bottom-images {
     float: left;
@@ -42,7 +41,9 @@
     margin: auto
 }
 .bottom-images p {
-    text-align: center
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px
 }
 .bottom-image-vertical {
     width: calc(242px * 0.5);
@@ -64,6 +65,9 @@
     .bottom-image-vertical {
         width: calc(242px * 0.7);
         height: calc(348px * 0.7)
+    }
+    .bottom-images-container {
+        height: 342px;
     }
 }
 .article-detail .image-vertical {
