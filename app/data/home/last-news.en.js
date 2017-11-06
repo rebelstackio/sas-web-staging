@@ -1,5 +1,19 @@
 export default [
 	{
+		title: `Machu Picchu`,
+		tab_title: `Machu Picchu`,
+		subtitle: `Machu Picchu`,
+		description: `Machu Picchu, also known as Pata Llacta the lost city of the Incas, is one of the earth’s ancient megastructures of great historical value.  Most recently it has been recognized as one of the seven wonders of the modern world.
+		This impressing archaeological site has been steadily growing in popularity and currently receives over 2500 tourists daily.  Veteran guide Lucio explains that “due to increasing demand, the areas accessible to visitors are reduced and increasingly restricted every year.”  Today the visitors are still able to go inside and touch most the ancient structures of Machu Picchu allowing for a very intimate and personal experience.  In coming years the tours will be restricted to fenced-off pathways and single file lines.`,
+		blockquote: `"A construction project of this magnitude in such a lofty location would require teams of architects, engineers, and geologists of ancient Peru."`,
+		author: 'Cameron Metreaud',
+		date: 'November 06, 2017',
+		url_image: 'images/tours/cuzco/machu_picchu_main.png',
+		tour: 'tourscuzco.html#machu-picchu-day-trip',
+		id: '4',
+		link: 'article-detail.html?id=4'
+	},
+	{
 		title:'Enigmas of Monte Sierpe and Nazca',
 		subtitle:"The geoglyphs at Monte Sierpe are amongst Peru's most enigmatic and unexplainable mysteries",
 		description:"The Avenida de los Hoyos, a geoglyph like the Nazca lines consisting of a series of large basin-like potholes along a mountain ridge, appears to slither up the slope for miles.",

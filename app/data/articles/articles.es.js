@@ -1,5 +1,19 @@
 export default [
 	{
+		title: `Machu Picchu`,
+		tab_title: `Machu Picchu`,
+		subtitle: `Machu Picchu`,
+		description: `Machu Picchu, también conocido como Pata Llacta la ciudad perdida de los Incas, es una de las the earth’s megaestructuras antiguas con más valor histórico.  Recientemente ha sido reconocida como una de las siete maravillas del mundo moderno.
+		Este impresionante hallazgo arqueológico ha ido aumentando su popularidad y actualmente recibe alrededor de 2500 touristas al día.  Nuestro gupia veterano Lucio explica que debido al incremento de demanda, las áreas accesibles a los visitantes son reducidas y restringidas cada año.”  Hoy en día los visitantes aún se les permite entrar y tocar la mayoría de las estructuras antiguas de Machu Picchu permitiendo una experiencia muy personal e íntima.  En pocos años los tours serán restringidos a senderos cercados y filas de una sola línea.`,
+		blockquote: `"Una construcción de esta magnitud en la cresta de la montaña debió haber requerido equipos de arquitectos, ingenieros y geólogos del antiguo Perú."`,
+		author: 'Cameron Metreaud',
+		date: 'Noviembre 06, 2017',
+		url_image: 'images/tours/cuzco/machu_picchu_main.png',
+		tour: 'tourscuzco.html#machu-picchu-day-trip',
+		id: '4',
+		link: 'article-detail.html?id=4'
+	},
+	{
 		title:'Lineas de Nazca desde Pisco',
 		subtitle:"*Nuevo* Tours de las líneas de Nasca con vuelos regulares desde el aeropuerto renovado de Pisco",
 		blockquote:`"Antes, la única manera de ver las líneas de Nasca era viajar a Nasca - viajando en autobús. Pero ahora volamos desde Pisco y los turistas lo prefieren."`,

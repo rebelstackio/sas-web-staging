@@ -6,6 +6,7 @@ export default {
 	blockquoteAuthor:"",
 	author:'Rein Petersen',
 	date:'2014-02-26',
+	image_class: 'image-vertical',
 	url_image: 'images/articles/nazca_spider.jpg',
 	description:'Llegar a Nasca para ver estas enigmáticas líneas de Nazca solía ser un esfuerzo grande y requería mucho tiempo. Al menos que usted quisiera rentar su propio vuelo privado desde Lima, el acceso al público se limitaba en su mayoría en coche o autobús, que tomaba mucho tiempo (12-14 horas ida y vuelta) viaje desde Lima.',
 	content:

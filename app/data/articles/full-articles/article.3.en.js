@@ -5,7 +5,8 @@ export default {
     description:"The rising cost of synthetic fertilizers has made guano sexy again. Some workers collect the dung of seabirds in the North Guañape Island, off the coast of Peru. The global boom in commodities has come to this: before guano, bird dung was the center of an imperialist confrontation at sea in the nineteenth century, and is once again in strong demand.",
 	blockquote: `"The worst enemy is not the smell, heat or exhaustion... [it] is dust sticking on the eyebrows, covering our noses and cheeks and turning our face into a rigid mask."`,
 	blockquoteAuthor:"",
-	author:'Rein Petersen',
+    author:'Rein Petersen',
+    image_class: 'image-vertical',
 	date:'February 22, 2014',
 	url_image: 'images/articles/guano_collectors_1_portrait.jpg',
 	blocks: [

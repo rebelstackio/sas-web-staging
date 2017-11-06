@@ -7,6 +7,7 @@ export default {
 	blockquoteAuthor:"",
 	author:'Rein Petersen',
 	date:'February 22, 2014',
+	image_class: 'image-vertical',
 	url_image: 'images/articles/guano_collectors_1_portrait.jpg',
 	blocks: [
 		{
