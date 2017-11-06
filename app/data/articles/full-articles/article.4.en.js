@@ -52,5 +52,17 @@ export default {
             image_class: 'bottom-image-horizontal',
             description: `nazca 550 AD`
         }
+    ],
+    bottom2: [
+        {
+			url_image: 'images/tours/cuzco/machu_picchu_wari.png',
+            image_class: 'bottom-image-big',
+            description: `wari 550 BC`
+        },
+        {
+			url_image: 'images/tours/cuzco/machu_picchu_caral.jpg',
+            image_class: 'bottom-image-buig',
+            description: `caral 3500 AD`
+        }
     ]
 }
