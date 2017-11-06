@@ -6,6 +6,7 @@ export default {
 	blockquoteAuthor:"",
 	author:'Rein Petersen',
 	date:'2014-04-20',
+	image_class: 'image-vertical',
 	url_image: 'images/articles/monte_sierpe_portrait.jpg',
 	description:'The Avenida de los Hoyos, a geoglyph like the Nazca lines consisting of a series of large basin-like potholes along a mountain ridge, appears to slither up the slope for miles.',
 	content:

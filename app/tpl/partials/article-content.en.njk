@@ -1,6 +1,6 @@
 <div class="row container-article article article-detail">
 	<div class="col-md-12">
-        <img class="article-detail-image image-vertical" style="background-image:url({{data.url_image}});" alt="" width="100%">
+        <img class="article-detail-image {{data.image_class}}" style="background-image:url({{data.url_image}});" alt="" width="100%">
     <div class="article-title article-detail-title">
         {{data.title}}
     </div>
@@ -68,6 +68,30 @@
 	</div>
 </div>
 {% endfor %}
+{% if data.bottom %}
+<div class="bottom-images-container row">
+{% for image in data.bottom %}
+    <div class="bottom-images col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <p class="text-justify">	
+            {{image.description}}
+        </p>
+        <img class="bottom-image {{image.image_class}}" src="{{image.url_image}}">
+    </div>
+{% endfor %}
+</div>
+{% endif %}
+{% if data.bottom2 %}
+<div class="bottom-images-container row">
+{% for image in data.bottom2 %}
+    <div class="bottom-images col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <p class="text-justify">	
+            {{image.description}}
+        </p>
+        <img class="bottom-image {{image.image_class}}" src="{{image.url_image}}">
+    </div>
+{% endfor %}
+</div>
+{% endif %}
 <blockquote class="article-blockquote share-blockquote">
 {{share_quote}} 
 <div class="share dropup">

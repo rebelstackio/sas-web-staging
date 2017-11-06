@@ -6,6 +6,7 @@ export default {
 	blockquoteAuthor:"",
 	author:'Rein Petersen',
 	date:'2014-02-26',
+	image_class: 'image-vertical',
 	url_image: 'images/articles/nazca_spider.jpg',
 	description:'Getting to Nasca to see the Nasca lines once used to be a complicated and time-consuming effort. Unless you chartered your own private flight from Lima, public access was limited to mostly car or bus which is very long (7-8 hour one-way) trip from Lima.',
 	content:
