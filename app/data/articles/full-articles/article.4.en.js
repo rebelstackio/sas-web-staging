@@ -17,7 +17,7 @@ export default {
             image_class: 'image-horizontal',
             blockquote: '“This master work of architecture and advanced engineering was already known by the local inhabitants of the area …”',
 			parragraphs: [
-				`This master work of architecture and advanced engineering was already known by the local inhabitants of the area such as Agustin Lizárraga who confirmed having passed through the ruins of the rumored lost city.  It was he who first guided Hiram Bingham, the North American explorer credited with discovering Machu Picchu.  Since that day in 1911 Bingham dedicated his life to rescue Machu Picchu from the dense forest that had been actively reclaiming it for hundreds of years.  Coming from a family of explores Bingham had long heard of the fabled lost city of the Incas and was ecstatic to show his find to the world in all its glory.`
+				`This master work of architecture and advanced engineering was already known by the local inhabitants of the area such as Agustin Lizárraga who confirmed having passed through the ruins of the rumored lost city.  It was he who first guided Hiram Bingham, the North American explorer credited with discovering Machu Picchu.  Since that day in 1911 Bingham dedicated his life to rescue Machu Picchu from the dense forest that had been actively reclaiming it for hundreds of years.  Coming from a family of explorers Bingham had long heard of the fabled lost city of the Incas and was ecstatic to show his find to the world in all its glory.`
 			]
 		},
 		{
@@ -32,7 +32,7 @@ export default {
             image_class: 'image-horizontal',
             blockquote: '“A construction project of this magnitude in such a lofty location would require teams of architects, engineers, and geologists of ancient Peru.',
 			parragraphs: [
-				`The grandeur of Machu Picchu is in its majestic location in the mountain peaks. A construction project of this magnitude in such a lofty location would require teams of architects, engineers, and geologists of ancient Peru.  It is clear that this was a major project for one of the largest civilizations to appear in South America.  It is important to mention the various cultures superseding the dawn of the Incas.`
+				`The grandeur of Machu Picchu is in its majestic location in the mountain peaks. A construction project of this magnitude in such a lofty location would require teams of architects, engineers, and geologists of ancient Peru.  It is clear that this was a major project for one of the largest civilizations to appear in South America.   It is important to mention the invaluable architectural advancements contributed by various cultures superseding the dawn of the Incas.`
 			]
 		}
     ],
