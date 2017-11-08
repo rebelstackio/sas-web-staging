@@ -98,11 +98,11 @@ export default {
 				subtitle:'Excursiones de costa indeéndientes desde el muelle de pisco ( Paracas)',
 				url_image:'images/tours/paracas/paracas_13.jpg',
 				description:`Aproveche la oportunidad de reservar su excursión costal directamente con nosotros y obtener el mejor precio. Nuestro consejero de tours estará más que feliz en responder todas sus preguntas y en buscar la disponibilidad de su solicitud, por favor siéntase libre de contactarnos.
-				
+				<br/><br/>
 				Nosotros ofrecemos, tours de media jornada o completa personalizada para su grupo y guiada por nuestro personal bilingüe.
-				
+				<br/><br/>
 				Disfrute una experiencia más íntima lejos de las multitudes, el equipo de South Americans Secrets se asegura de que todos los pasajeros vuelvan a su crucero seguros y a tiempo.
-				
+				<br/><br/>
 				Nosotros diseñamos las mejores excursiones costales basándonos en sus intereses y habilidades como observar la vida marina, caminar a través de antiguos recintos arqueológicos y visitar áreas naurales protegidas.
 				`,
 				additionalData:
@@ -148,7 +148,7 @@ export default {
 				classes: 'cruise-members-only',
 				subtitle:"Las Islas Ballestas es el principal atractivo de Paracas. Usted encontrará innumberables especies exóticas de aves y vida marina, algunas únicas en el Perú.",
 				url_image:'images/tours/paracas/big-cruise1.jpg',
-				description:`Lo recogemos directamente del puerto y lo escoltamos personalmente al muelle de paracas. Este viaje de 2 horas de las islas más famosas de Peru lo hará disfrutar de magnificas formaciones rocosas esculpidas por la naturaleza y es hogar de los pingüinos Humboldt, leones marinos sudamericanos y una multitud de aves marinas. los servicios también están disponibles en Primera clase y Privado. Todos los tours en yate incluyen un capitán capacitado, certificado y registrado y un guía a bordo. Nuestros servicios de yate están asegurados y registrados con todas las de la ley.
+				description:`Lo recogemos directamente del puerto y lo escoltamos personalmente al muelle de paracas. Este viaje de 2 horas de las islas más famosas de Peru lo hará disfrutar de magnificas formaciones rocosas esculpidas por la naturaleza y es hogar de los pingüinos Humboldt, leones marinos sudamericanos y una multitud de aves marinas. los servicios también están disponibles en Primera clase y Privado. Todos los tours en yate incluyen un capitán capacitado, certificado y registrado y un guía a bordo. Nuestros servicios de yate están asegurados y registrados con todas las de la ley.<br/><br/>
 				Se comienza con el programa guíado a la reserva national de Paracas. Esta área natural es hogar de 224 especies de aves, alrededor de 180 peces y 20 especies de cetáceos. La reserva también ofrece maravillas historicas y culturales las cuales se hacen evidentes con los 114 recintos arqueológicos registrados y un testamento de la exitosa interacción de los antiguos habitantes de Paracas con el mar. La reserva de Paracas ha sido declarada un sitio Ramsar por la convención de los Humedales de importancia internacional en 1991. USted tendrá la oportunidad de explorar algunos de los fenómenos geológicos únicos de esta estrecha península, tales como vistas panorámicas, playas de arena blanca delineadas por coloridas formaciones rocosas de sedimento, aguas azules y turquesa y el suave y frío oleaje del Pacífico.`,
 				yacht: 'yacht.png',
 				gallery: [
