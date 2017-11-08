@@ -122,6 +122,12 @@
         width: calc(242px * 0.9);
         height: calc(348px * 0.9)
     }
+    .see-tour-btn {
+        font-size: 9px
+    }
+    .share-blockquote {
+        font-size: 18px !important
+    }
 }
 @media (max-width:414px){
     .article-detail-blockquote {

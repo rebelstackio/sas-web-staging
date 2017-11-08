@@ -7,6 +7,7 @@ export default {
     author:'Rein Petersen',
 	date:'2014-04-20',
 	image_class: 'image-vertical',
+	tour: 'toursnasca.html',
     url_image: 'images/articles/monte_sierpe_portrait.jpg',
     description:'La ‘Avenida de los Hoyos’, es un geoglifo que consiste en una serie de grandes Hoyos en la cuenca, como tallados en tierra seca dura por la cresta que separa dos valles secos, que parece deslizarse en la pendiente y por millas.',
     content:`“Lo que parece ser una serpiente es en realidad la antigua deidad Q'hoa. Él era el siervo ... del dios del agua ... y fue utilizado en los rituales ... con respecto a la lluvia”.`,

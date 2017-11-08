@@ -25,8 +25,11 @@
 
 
     {% for item in data.tours %}
-     <div class="row tour-container" >
+     <div class="row tour-container  {{item.classes}}" >
         <div class="col-md-8 tour-info">
+				{% if item.classes %}
+            		<div class="corner-ribbon top-left sticky orange shadow"><i class="fa fa-ship" aria-hidden="true"></i> Cruise members only</div>
+        		{% endif %}
           <p class="text-justify">
                 <img class="tour-image" style="background-image:url({{item.url_image}});" alt="">
 
@@ -49,6 +52,16 @@
             <div class="tour-detail">
                 {% if item.yacht %}
                     <img src="images/{{item.yacht}}" align="right" width="60" style="margin-top: -22.5px; margin-right: -32.5px">
+                {% endif %}
+                {% if item.additionalData.activities %}
+                    <div class="tour-info-title">Activities</div>
+                    <ul>
+                    {% for activity in item.additionalData.activities %}
+                        <li>
+                        {{activity}}
+                        </li>
+                    {% endfor %}
+                    </ul>
                 {% endif %}
                 <div class="tour-info-title">Include</div>
                 <ul>

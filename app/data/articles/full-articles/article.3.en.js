@@ -7,7 +7,8 @@ export default {
 	blockquoteAuthor:"",
     author:'Rein Petersen',
     image_class: 'image-vertical',
-	date:'February 22, 2014',
+    date:'February 22, 2014',
+    tour: 'toursparacas.html',
 	url_image: 'images/articles/guano_collectors_1_portrait.jpg',
 	blocks: [
 		{
