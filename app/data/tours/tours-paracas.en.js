@@ -98,12 +98,12 @@ export default {
 				classes: 'cruise-members-only',
 				subtitle:'Independent shore excursions from Pisco harbor ( Paracas)',
 				url_image:'images/tours/paracas/paracas_13.jpg',
-				description:`Seize the opportunity to book your shore excursion on your own directly from us and get the best value. Our tour advisor will be more than happy answering questions and looking the availability of your request, feel free to contact us.
+				description:`Seize the opportunity to book your shore excursion on your own directly from us and get the best value. Our tour advisor will be more than happy answering questions and looking the availability of your request, feel free to contact us.<br/><br/>
 				
 				We provide, Half day tour or whole - day excursion customized to your party managed by Our English spoken staff.
-				
+				<br/><br/>
 				Enjoy a more intimate tour experience away from the crowds, South Americans Secrets team who it is to make sure all passengers arrive back to the ship safely and on time.
-				
+				<br/><br/>
 				We design the best shore excursions, based on your interest and abilities like marine wildlife watching, walking on  Inca ancient sites and visiting nature protected areas.
 				`,
 				additionalData:
@@ -149,7 +149,7 @@ export default {
 				shortTitle:'cruise member tour',
 				subtitle:"The Islas Ballestas (Crossbow Islands) are Paracas's premier wildlife attraction. You'll find many exotic species of birds and marine life, some unique to Peru.",
 				url_image:'images/tours/paracas/big-cruise1.jpg',
-				description:`We pick you up you directly from the port and personally escort you to Paracas dock. This two-hour round-trip tour of Peru's most famous islands lets you enjoy magnificent rocks formations sculpted by nature and is home of Humboldt penguins, south Americans sea lions and a multitude of marine birds. Services also available in First and Private classes.All yacht tours include a trained, certified, registered yatchsman and crewman/guide onboard. Our yacht services are insured and registered with all appropriate agencies as mandated by law.
+				description:`We pick you up you directly from the port and personally escort you to Paracas dock. This two-hour round-trip tour of Peru's most famous islands lets you enjoy magnificent rocks formations sculpted by nature and is home of Humboldt penguins, south Americans sea lions and a multitude of marine birds. Services also available in First and Private classes.All yacht tours include a trained, certified, registered yatchsman and crewman/guide onboard. Our yacht services are insured and registered with all appropriate agencies as mandated by law.<br/><br/>
 				We then begin our guided program to paracas national reserve. This natural area is home to 224 species of birds, over 180 fish and 20 species of cetaceans. The reserve also offers historical and cultural wonders which are evident in 114 recorded archaeological sites and a testament of the successful interaction of the ancient inhabitants of Paracas with the sea. Paracas reserve has been declared a Ramsar Site under the Convention of Wetlands of International Importance in 1991. You will get the chance to explore some of the geological phenomena within this remarkable stretch of peninsula, such as panoramic views, white sand beaches, lined by colorful, sedimentary rocks, blue and turquoise waters, cold pacific swells.
 				`,
 				yacht: 'yacht.png',
