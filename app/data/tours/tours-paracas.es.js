@@ -91,12 +91,65 @@ export default {
 				}
 			},
 			{
-				id: 'islas-cruis-member-ballestas',
+				id: 'cruise-shore-excursion',
+				title:'Cruise Shore Excursions',
+				shortTitle:'Excursiones para miembros de crucero',
+				classes: 'cruise-members-only',
+				subtitle:'Excursiones de costa indeéndientes desde el muelle de pisco ( Paracas)',
+				url_image:'images/tours/paracas/paracas_13.jpg',
+				description:`Aproveche la oportunidad de reservar su excursión costal directamente con nosotros y obtener el mejor precio. Nuestro consejero de tours estará más que feliz en responder todas sus preguntas y en buscar la disponibilidad de su solicitud, por favor siéntase libre de contactarnos.
+				
+				Nosotros ofrecemos, tours de media jornada o completa personalizada para su grupo y guiada por nuestro personal bilingüe.
+				
+				Disfrute una experiencia más íntima lejos de las multitudes, el equipo de South Americans Secrets se asegura de que todos los pasajeros vuelvan a su crucero seguros y a tiempo.
+				
+				Nosotros diseñamos las mejores excursiones costales basándonos en sus intereses y habilidades como observar la vida marina, caminar a través de antiguos recintos arqueológicos y visitar áreas naurales protegidas.
+				`,
+				additionalData:
+				{
+						activities: [
+							'Vuelo sobre las líneas de Nazca',
+							'Tambo Colorado (Antiguo recinto de Ica)',
+							'Observación de vida marina',
+							'Reserva natural de Paracas',
+							'Destilería de Pisco y viñedo'
+						],
+						include:[
+							'Traslado ida y vuelta directamente desde el muelle',
+							'Entradas',
+							'Impuesto del puerto',
+							'Seguro personal en caso de heridas',
+							'Transporte privado',
+							'Guía bilingüe profesional'
+						],
+						notInclude:[
+							'Extras y propinas'
+						],
+						 duration:{
+							 subtitle: 'Varía',
+							 data:[
+								'La duración de las excursiones varían dependiendo de las actividades seleccionadas (actividades de jornada completa y media jornada disponibles)'
+							 ]
+						},
+						recommendations:[
+							'Nuestros guías recomiendan, recogerlos apenas desembarquen para poder observar la vida marina en acción y evitar el mal clima de la tarde.'
+						],
+						price:{
+								data:[
+									'Los precios de las excursiones varían dependiendo de las actividades seleccionadas y el número de participantes'
+								]
+						}
+				}
+		},
+			{
+				id: 'islas-cruise-member-ballestas',
 				title:'Tour Islas ballestas para miembros de cruceros standard tour',
 				shortTitle:'cruise member tour',
+				classes: 'cruise-members-only',
 				subtitle:"Las Islas Ballestas es el principal atractivo de Paracas. Usted encontrará innumberables especies exóticas de aves y vida marina, algunas únicas en el Perú.",
 				url_image:'images/tours/paracas/big-cruise1.jpg',
-				description:`Nos encontramos en nuestra oficina y lo escoltamos al muelle de Paracas. Este viaje de 2 horas de las islas más famosas de Peru lo hará disfrutar de magnificas formaciones rocosas esculpidas por la naturaleza y es hogar de los pingüinos Humboldt, leones marinos sudamericanos y una multitud de aves marinas. los servicios también están disponibles en Primera clase y Privado. Todos los tours en yate incluyen un capitán capacitado, certificado y registrado y un guía a bordo. Nuestros servicios de yate están asegurados y registrados con todas las de la ley.`,
+				description:`Lo recogemos directamente del puerto y lo escoltamos personalmente al muelle de paracas. Este viaje de 2 horas de las islas más famosas de Peru lo hará disfrutar de magnificas formaciones rocosas esculpidas por la naturaleza y es hogar de los pingüinos Humboldt, leones marinos sudamericanos y una multitud de aves marinas. los servicios también están disponibles en Primera clase y Privado. Todos los tours en yate incluyen un capitán capacitado, certificado y registrado y un guía a bordo. Nuestros servicios de yate están asegurados y registrados con todas las de la ley.
+				Se comienza con el programa guíado a la reserva national de Paracas. Esta área natural es hogar de 224 especies de aves, alrededor de 180 peces y 20 especies de cetáceos. La reserva también ofrece maravillas historicas y culturales las cuales se hacen evidentes con los 114 recintos arqueológicos registrados y un testamento de la exitosa interacción de los antiguos habitantes de Paracas con el mar. La reserva de Paracas ha sido declarada un sitio Ramsar por la convención de los Humedales de importancia internacional en 1991. USted tendrá la oportunidad de explorar algunos de los fenómenos geológicos únicos de esta estrecha península, tales como vistas panorámicas, playas de arena blanca delineadas por coloridas formaciones rocosas de sedimento, aguas azules y turquesa y el suave y frío oleaje del Pacífico.`,
 				yacht: 'yacht.png',
 				gallery: [
 					'images/gallery/ballestas_01_t.jpg',
@@ -119,13 +172,12 @@ export default {
 						'Extras y propinas'
 					],
 					duration: {
-						subtitle:'2 horas',
+						subtitle:'5-6 horas',
 						data:[
 						]
 					},
 					recommendations: [
-						'Traer protector solar, lentes de sol y gorra.',
-						'traer ropa abrigada.'
+						'*Este tour combina a la perfección con cualquiera de nuestras actividades de costa adicionales disponibles para los clientes: Vuelos sobre las líneas de Nazca, Tambo Colorado (antiguo recinto de Ica), o la destilería de Pisco y el tour por el viñedo.'
 					],
 					price: {
 						currency:'$',
@@ -135,10 +187,11 @@ export default {
 			},
 			{
 				id: 'islas-ballestas-cruise-member-first-class',
-				title:'Tour Islas ballestas para miembros de cruceros first class',
+				title:'Tour primera clase Islas ballestas para miembros de cruceros',
 				subtitle:'Upgrade a primera clase opcional 110 USD por persona (20 pasajeros máximo)',
 				url_image:'images/tours/paracas/big-cruise2.png',
-				description:`Más libertad de movimiento y espacio para llevar equipos de cámara - nuestra opción de servicio de primera clase garantiza nuestro yate con asiento preferencial (2 asientos por persona) de su capacidad siempre habra lugar para cambiarse de sitio ó de posición.`,
+				classes: 'cruise-members-only',
+				description:`La opciónde primera clase es la elección preferida de los pasajeros de crucero debido a sus amplios asientos que le da a los pasajeros más espacio para disfrutar de la vida marina en acción y tomar fotos cómodamente.`,
 				yacht: 'yacht2.png',
 				gallery: [
 					'images/gallery/ballestas_13_t.jpg',
@@ -162,61 +215,16 @@ export default {
 						'Extras y propinas'
 					],
 					duration: {
-						subtitle:'2 horas',
-						data:[
-							'Salidas diariamente'
-						]
+						subtitle:'5-6 horas'
 					},
 					recommendations: [
+						'*Este tour combina a la perfección con cualquiera de nuestras actividades de costa adicionales disponibles para los clientes: Vuelos sobre las líneas de Nazca, Tambo Colorado (antiguo recinto de Ica), o la destilería de Pisco y el tour por el viñedo.'
 					],
 					price: {
 						currency:'$',
 						ammount:110
 					}
 				}
-			},
-			{
-					id: 'cruise-shore-excursion',
-					title:'Cruise Shore Excursions',
-					shortTitle:'Excursiones de desembarque',
-					subtitle:'Disfrute una experiencia más íntima lejos de las multitudes, El equipo de South Americans Secrets se asegurará de que todos los pasajeros regresen a su barco de forma segura y a tiempo.',
-					url_image:'images/tours/paracas/paracas_13.jpg',
-					description:`We design the best shore excursions, based on your interest and abilities like marine wildlife watching, walking on Inca ancient sites and visiting nature protected areas.`,
-					additionalData:
-					{
-							activities:[
-								'Vuelo líneas de Nazca',
-								'Tambo Colorado (Ruinas antiguas de Ica)',
-								'Observar aves',
-								'Reserva natural de Paracas',
-								'Sandboard y buggy',
-								'Destilería de Pisco y viñedo'
-							],
-							include:[
-								'Traslado ida y vuelta desde el puerto',
-								'Entradas',
-								'Impuesto del puerto',
-								'Seguro personal en caso ed heridas',
-								'Transporte privado',
-								'Guía bilingüe profesional'
-							],
-							notInclude:[
-								'Extras y propinas'
-							],
-							 duration:{
-									subtitle:'Varía',
-									data:[
-										'La duración de las excursiones privadas varían dependiendo de las actividades seleccionadas (hay actividades full day y y de medio día disponibles)'
-									]
-							},
-							recommendations:[
-							],
-							price:{
-									data:[
-										'El precio por las excursiones privadas varían dependiendo de las actividades seleccionadas y el número de participantes'
-									]
-							}
-					}
 			},
 			{
 				id: 'private-tour',
@@ -329,43 +337,6 @@ Nuestro programa guiado a la Reserva Nacional de Paracas se inicia a las 11:00 a
 						ammount:25,
 						data:[
 							 'Se requiere un mínimo de 2 participantes'
-						]
-					}
-				}
-			},
-			{
-				id: 'cruise-member-paracas-nature-reserve',
-				title:'Reserva natural de Paracas (Para miembros de crucero)',
-				shortTitle:'Cruise member Paracas nature Reserve',
-				subtitle:'LA reserva natural de Paracas es la única área protegida del Parú en donde se preserva el ecositema de la costa',
-				url_image:'images/tours/paracas/paracas_12.jpg',
-				description:`Debido a una diversidad biológica excepcional, generada por la corriente Humboldt y el afloramiento costeño que ocurre durante todo el año, esta parte del océano Pacífico es una de las más productivas y ricas en el mundo. También considerada un refugio de vida salvaje, en esta área existen 224 especies de aves, alrededor de 180 tipos de peces y 20 especies de cetáceos. La reserva también ofrece maravillas históricas y culturales las cuales se hacen evidentes con sus 114 sitios arqueológicos registrados y un testamento que prueba la exitosa interacción de los antiguos habitantes de Paracas con el mar. La reserva de Paracas ha sido declarada un sitio Ramsar por el convención de los Humedales de importancia internacional en 1991. Nuestro programa guiado a la reserva nacional de Paracas comienza a las 11:00am con la exploración de algunos de los fenómenos geológicos que afectan sólo a esta estrecha península, vistas panorámicas, playas de arena blanca, delineadas por rocas de sedimento llenas de color, aguas azul y turquesa, oleaje frío del pacífico.`,
-				additionalData: {
-					include: [
-						'Traslado ida y vuelta desde el puerto',
-						'Entradas',
-						'Seguro personal en caso de heridas',
-						'Transporte privado',
-						'Gupia bilingüe profesional'
-					],
-					notInclude: [
-						'Extras y propinas.'
-					],
-					duration: {
-						subtitle:'3 horas(aprox)',
-						data:[
-							'Salidas diarias'
-						]
-					},
-					recommendations: [
-						'Traer protector solas, lentes de sol y una gorra.',
-						'Traer una botella de agua.'
-					],
-					price: {
-						currency:'$',
-						ammount:55,
-						data:[
-							 'Un mínimo de dos participantes requerido'
 						]
 					}
 				}

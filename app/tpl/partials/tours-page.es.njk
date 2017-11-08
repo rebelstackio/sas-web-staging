@@ -23,8 +23,11 @@
 	</div>
 
 		{% for item in data.tours %}
-		 <div class="row tour-container" >
+		 <div class="row tour-container {{item.classes}}" >
 				<div class="col-md-8 tour-info">
+				{% if item.classes %}
+            		<div class="corner-ribbon top-left sticky orange shadow"><i class="fa fa-ship" aria-hidden="true"></i> Miembros de crucero</div>
+        		{% endif %}
 					<p class="text-justify">
 								<img class="tour-image" style="background-image:url({{item.url_image}});" alt="">
 
