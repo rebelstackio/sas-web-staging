@@ -50,6 +50,16 @@
                 {% if item.yacht %}
                     <img src="images/{{item.yacht}}" align="right" width="60" style="margin-top: -22.5px; margin-right: -32.5px">
                 {% endif %}
+                {% if item.additionalData.activities %}
+                    <div class="tour-info-title">Activities</div>
+                    <ul>
+                    {% for activity in item.additionalData.activities %}
+                        <li>
+                        {{activity}}
+                        </li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
                 <div class="tour-info-title">Include</div>
                 <ul>
                     {% for inc in item.additionalData.include %}

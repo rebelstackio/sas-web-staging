@@ -184,13 +184,15 @@ export default {
 					description:`We design the best shore excursions, based on your interest and abilities like marine wildlife watching, walking on Inca ancient sites and visiting nature protected areas.`,
 					additionalData:
 					{
-							include:[
+							activities:[
 								'Vuelo líneas de Nazca',
 								'Tambo Colorado (Ruinas antiguas de Ica)',
 								'Observar aves',
 								'Reserva natural de Paracas',
 								'Sandboard y buggy',
-								'Destilería de Pisco y viñedo',
+								'Destilería de Pisco y viñedo'
+							],
+							include:[
 								'Traslado ida y vuelta desde el puerto',
 								'Entradas',
 								'Impuesto del puerto',
@@ -202,7 +204,10 @@ export default {
 								'Extras y propinas'
 							],
 							 duration:{
-									subtitle:'La duración de las excursiones privadas varían dependiendo de las actividades seleccionadas (hay actividades full day y y de medio día disponibles)',
+									subtitle:'Varía',
+									data:[
+										'La duración de las excursiones privadas varían dependiendo de las actividades seleccionadas (hay actividades full day y y de medio día disponibles)'
+									]
 							},
 							recommendations:[
 							],

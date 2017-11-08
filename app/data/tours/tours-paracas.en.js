@@ -186,13 +186,15 @@ export default {
 					description:`We design the best shore excursions, based on your interest and abilities like marine wildlife watching, walking on Inca ancient sites and visiting nature protected areas.`,
 					additionalData:
 					{
-							include:[
+							activities: [
 								'Nazca lines flight',
 								'Tambo Colorado ( Ica ancient site)',
 								'Bird watching',
 								'Paracas nature Reserve',
 								'Sandboard and buggy',
-								'Pisco distillery and winery Valley',
+								'Pisco distillery and winery Valley'
+							],
+							include:[
 								'Pickup and dropoff directly from port/harbor',
 								'All entrance fees',
 								'Harbor tax',
@@ -204,7 +206,10 @@ export default {
 								'Extras & gratuities.'
 							],
 							 duration:{
-									subtitle:'Durations of private excursions vary depending on activities selected (full day and half day activities available)',
+								 subtitle: 'Varies',
+								 data:[
+									'Durations of private excursions vary depending on activities selected (full day and half day activities available)'
+								 ]
 							},
 							recommendations:[
 							],
