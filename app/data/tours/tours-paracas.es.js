@@ -191,7 +191,7 @@ export default {
 				subtitle:'Upgrade a primera clase opcional 110 USD por persona (20 pasajeros máximo)',
 				url_image:'images/tours/paracas/big-cruise2.png',
 				classes: 'cruise-members-only',
-				description:`La opciónde primera clase es la elección preferida de los pasajeros de crucero debido a sus amplios asientos que le da a los pasajeros más espacio para disfrutar de la vida marina en acción y tomar fotos cómodamente.`,
+				description:`La opción de primera clase es la elección preferida de los pasajeros de crucero debido a sus amplios asientos que le da a los pasajeros más espacio para disfrutar de la vida marina en acción y tomar fotos cómodamente.`,
 				yacht: 'yacht2.png',
 				gallery: [
 					'images/gallery/ballestas_13_t.jpg',
