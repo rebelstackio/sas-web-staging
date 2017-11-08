@@ -12,6 +12,9 @@
     <button class="btn read-more dropdown-toggle" type="button" data-toggle="dropdown">
        {{share}} <i class="fa fa-share" aria-hidden="true"></i>
     </button>
+    <button class="btn read-more" type="button" onclick="changeUriPath('{{data.tour}}')">
+       {{sTour}}
+    </button>
     <ul class="dropdown-menu dropdown-menu-right">
         <div id="share-buttons">
             <a href="http://www.facebook.com/sharer.php?u={{uri}}" target="_blank">
@@ -95,8 +98,11 @@
 <blockquote class="article-blockquote share-blockquote">
 {{share_quote}} 
 <div class="share dropup">
-    <button class="btn read-more dropdown-toggle" type="button" data-toggle="dropdown">
+    <button class="btn read-more dropdown-toggle see-tour-btn" type="button" data-toggle="dropdown">
        {{share}} <i class="fa fa-share" aria-hidden="true"></i>
+    </button>
+    <button class="btn read-more see-tour-btn" type="button" onclick="changeUriPath('{{data.tour}}')">
+       {{sTour}}
     </button>
     <ul class="dropdown-menu dropdown-menu-right">
         <div id="share-buttons">
