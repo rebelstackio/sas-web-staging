@@ -90,7 +90,7 @@
                     {% endfor %}
                 </ul>
 
-                <div class="tour-info-title">Price: <small>{{ item.additionalData.price.currency}}{{item.additionalData.price.ammount}}</small></div>
+                <div class="tour-info-title">{{ "Base price:" if item.additionalData.price.base_price else "Price:" }} <small>{{ item.additionalData.price.currency}}{{item.additionalData.price.ammount}}{{' per hour' if item.additionalData.price.per_hour else ''}}</small></div>
 								<ul>
 										{% for inc in item.additionalData.price.data %}
 										<li>

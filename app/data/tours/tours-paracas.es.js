@@ -45,7 +45,7 @@ export default {
 					],
 					price: {
 						currency:'$',
-						ammount:25,
+						ammount:28,
 						data:[
 							 'Hay descuentos para grupos'
 						]
@@ -83,7 +83,7 @@ export default {
 					],
 					price: {
 						currency:'$',
-						ammount:44,
+						ammount:50,
 						data:[
 							 'Hay descuentos para grupos'
 						]
@@ -98,18 +98,18 @@ export default {
 				subtitle:'Excursiones de costa indeéndientes desde el muelle de pisco ( Paracas)',
 				url_image:'images/tours/paracas/paracas_13.jpg',
 				description:`Aproveche la oportunidad de reservar su excursión costal directamente con nosotros y obtener el mejor precio. Nuestro consejero de tours estará más que feliz en responder todas sus preguntas y en buscar la disponibilidad de su solicitud, por favor siéntase libre de contactarnos.
-				<br/><br/>
-				Nosotros ofrecemos, tours de media jornada o completa personalizada para su grupo y guiada por nuestro personal bilingüe.
-				<br/><br/>
-				Disfrute una experiencia más íntima lejos de las multitudes, el equipo de South Americans Secrets se asegura de que todos los pasajeros vuelvan a su crucero seguros y a tiempo.
-				<br/><br/>
-				Nosotros diseñamos las mejores excursiones costales basándonos en sus intereses y habilidades como observar la vida marina, caminar a través de antiguos recintos arqueológicos y visitar áreas naurales protegidas.
+
+				<h4 class="hightlight-letters"><strong>Nosotros ofrecemos, tours de media jornada o completa personalizada para su grupo y guiada por nuestro personal bilingüe.</strong></h4>
+				<br/>
+				<h4 class="hightlight-letters"><strong>Disfrute una experiencia más íntima lejos de las multitudes, el equipo de South Americans Secrets se asegura de que todos los pasajeros vuelvan a su crucero seguros y a tiempo.</strong></h4>
+				<br/>
+				<h4 class="hightlight-letters"><strong>Nosotros diseñamos las mejores excursiones costales basándonos en sus intereses y habilidades como observar la vida marina, caminar a través de antiguos recintos arqueológicos y visitar áreas naurales protegidas.</strong></h4>
 				`,
 				additionalData:
 				{
 						activities: [
 							'Vuelo sobre las líneas de Nazca',
-							'Tambo Colorado (Antiguo recinto de Ica)',
+							'Tambo Colorado (Antiguo recinto Inca)',
 							'Observación de vida marina',
 							'Reserva natural de Paracas',
 							'Destilería de Pisco y viñedo'
@@ -160,7 +160,7 @@ export default {
 				],
 				additionalData: {
 					include: [
-						'30 Pax. capacidad',
+						'Max participantes 28',
 						'Entradas',
 						'Impuestos del puerto',
 						'Seguro personal en caso de heridas',
@@ -202,7 +202,7 @@ export default {
 				],
 				additionalData: {
 					include: [
-						'20 pax capacidad',
+						'Max participantes 18',
 						'Doble asiento',
 						'Entradas',
 						'Impuesto del puerto',
@@ -257,9 +257,10 @@ export default {
 					],
 					price: {
 						currency:'$',
-						ammount:250,
+						base_price: true,
+						ammount:300,
 						data:[
-							 'Hay descuentos para grupos'
+							 'El precio puede variar dependiendo de la cantidad de participantes y las actividades seleccionadas.'
 						]
 					}
 				}
@@ -296,7 +297,8 @@ export default {
 					],
 					price: {
 						currency:'$',
-						ammount:125,
+						ammount:180,
+						per_hour: true,
 						data:[
 							 'Minimo 2 horas',
 						]
@@ -334,7 +336,7 @@ Nuestro programa guiado a la Reserva Nacional de Paracas se inicia a las 11:00 a
 					],
 					price: {
 						currency:'$',
-						ammount:25,
+						ammount:30,
 						data:[
 							 'Se requiere un mínimo de 2 participantes'
 						]

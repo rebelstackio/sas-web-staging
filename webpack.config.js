@@ -4,7 +4,6 @@ var webpack = require('webpack'),
 	NunjucksWebpackPlugin = require('nunjucks-webpack-plugin'),
 	CopyWebpackPlugin = require('copy-webpack-plugin'),
 	fs = require('fs');
-
 /* babel */
 const babelSettings = JSON.parse(fs.readFileSync(".babelrc"));
 /* read templates */
