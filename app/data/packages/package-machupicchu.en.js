@@ -9,7 +9,7 @@ export default {
             id:'package-machupicchu',
             title:'MACHU PICCHU & THE SECRET VALLEY OF INCAS 7 days Touring',
             shortTitle: 'MACHU PICCHU & THE SECRET VALLEY',
-            subtitle:'The best of the South Coast of Peru in two days (1 night).',
+            subtitle:'',
             url_image:'images/tours/cuzco/machu_picchu_3_t.jpg',
             image_class:'image-package-horizontal',
             is_image_class: true,
