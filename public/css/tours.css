@@ -150,3 +150,25 @@
 .corner-ribbon .fa {
     color: gold
 }
+
+/*Trying to hightlight some letters*/
+.hightlight-letters {
+    text-shadow: 0 0 0.3em #e1ed2c
+}
+.itinerary-title {
+    background: rgba(0,0,0,.5);
+    color: rgba(255,255,255,0.8)
+}
+.itinerary-title div {
+    text-align: center;
+    font-weight: normal;
+}
+.itinerary-title div:first-child {
+    font-size: 23px;
+    color: rgba(0,0,0,.5);
+    -webkit-text-stroke-width: .4px;
+    -webkit-text-stroke-color: rgba(255,255,255,0.6);
+}
+.itinerary-content {
+    text-align-last: center
+}

@@ -1,4 +1,4 @@
-<div class="col-md-12 col-md-12">
+<div class="col-md-12">
 	<div class="row tour-container">
 		<div class="col-md-8 col-sm-12">
 			<p class="text-justify">
@@ -26,7 +26,7 @@
 		<div class="row tour-container" >
 			 <div class="col-md-8 col-sm-12 tour-info">
 				 <p class="text-justify">
-					 <img class="article-image package-image" style="background-image:url({{item.url_image}});" alt="" width="100%">
+					 <img class="article-image package-image {{item.image_class if item.image_class else ''}}" style="background-image:url({{item.url_image}});" alt="" width="100%">
 					 <div class="article-title" id="{{item.id}}">{{item.title}}</div>
 					 <div class="article-subtitle">
 							 {{item.subtitle}}
@@ -188,6 +188,21 @@
 		 </div>
 	 {% endif %}
 
+	 {% endfor %}
+	 {% for item in data.itinerary %}
+	 	<div class="row tour-container" >
+			<div class="col-md-12">
+				<p class="text-justify">
+					<div class="itinerary-title col-md-4 col-md-offset-4">
+						<div class="article-title">{{item.title}}</div>
+						<div class="article-subtitle">{{item.subTitle}}</div>
+					</div>
+					<div class="itinerary-content col-md-12">
+						<h4 class="hightlight-letters">{{item.contents | safe}}</h4>
+					</div>
+				</p>
+			</div>
+		</div>
 	 {% endfor %}
 	 <hr/>
 	 <div class="row additional-info">
