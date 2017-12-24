@@ -1,7 +1,7 @@
 export default {
     title:'MACHU PICCHU & VALLE SECRETO DE LOS INCAS tour de 7 días',
     subtitle: ``,
-    description: `Explore las grandiosas ruinas de Machu Picchu y pasee a través de mercados en aldeas donde tradiciones antiguas continúan viviendo en los corazones de la gente Andina.`,
+    description: `¿Está dispuesto a adentrarse en la aventura? Tenga todo listo para vivir lo mejor de su vida dentro del corazón de Machu Picchu y descubrir un lugar que se expresa entre sus ruinas y mercados.`,
     url_image: 'images/tours/cuzco/machu_picchu_main.png',
     tab_title: "Packages",
     packages:[
@@ -13,15 +13,15 @@ export default {
             url_image:'images/tours/cuzco/machu_picchu_3_t.jpg',
             image_class:'image-package-horizontal',
             is_image_class: true,
-            description:`Explore las grandiosas ruinas de Machu Picchu y pasee a través de mercados en aldeas donde tradiciones antiguas continúan viviendo en los corazones de la gente Andina. Uno de nuestros tours más populares en el Perú, esta jornada incluye las importantísimas ruinas Inca de Sacsayhuamán, Pisac y Ollantaytambo. Los invitados tienen dos días para explorar la ciudad perdida de Machu Picchu, pasee por el mercado de Brujas en Cusco, regatee tapetes en Pisac, y camine por inusuales senderos en la parte rural de los Andes. Esta excursión Peruana de ritmo suave con duración de una semana es perfecta para cualquiera con sentido de curiosidad y adventura.`,
+            description:`Preparate para crear increíbles recuerdos y conocer la historia de Machu Picchu. Una excelente opción para escapar de la rutina en uno de los lugares más importantes del Perú. El viaje incluye: Ruinas Inca de Sacsayhuamán, Pisac y Ollantaytambo.La magia en esconde dentro de diferentes actividades para que los visitantes disfruten, tales como: el mercado de brujas en Cusco, el recorrido increíble por el Andes rural y las ofertas de tapicerías en Pisac. Así que, si eres una persona llena de curiosidad y tienes la oportunidad de pasar una semana en un paseo inolvidable, esto es para ti.`,
             additionalData: {
                 include: [
-        'All tranfers and transport',
-        'All entrance fees and taxes',
-        'Accomodation'
+                    'Todos los traslados y transporte',
+                    'Todos los tasas y entradas',
+                    'Alojamiento'
                 ],
                 notInclude: [
-                    'Extras & gratuities',
+                    'Extras y propinas',
                 ],
                 duration: {
                     subtitle:'2 days / 1 night',
@@ -46,17 +46,17 @@ itinerary: [
     {
         title: 'Día 1',
         subTitle: 'Llegada a Lima',
-        contents: `Llegue a Lima en un vuelo de su elección. Luego de recoger su equipaje y pase por aduana, cruce la calle hacia el cómodo y convenientemente ubicado hotel Ramada Costa del Sol. Acomódese en su cuarto y descanse para la emocionante jornada que le espera.`
+        contents: `El día de hoy llegará su vuelo a Lima y comenzará su aventura. El hotel Ramada Costa del Sol estará encantado de atenderlo luego de que haya finalizado con sus planes previos. No se demore mucho, ya que le espera una aventura al día siguiente.`
     },
     {
         title: 'Día 2',
         subTitle: 'Vuelo a Cusco',
-        contents: `La historia de los Andes cobra vida en Cusco. Hablantes de Quechua descendientes de los Incas llenan las calles y mercados, Iglesias coloniales descansan sobre bases de estructuras de piedra construidas siglos antes de la llegada de los conquistadores. Campesinos vestidos con su colorida indumentaria están en constante movimiento en las plazas. En la tarde, usted explorará el mercado abierto más grande de Cusco y el Mercado de Brujas. después de probar algunos platos unicos de la zona, visitará el Centro de Textiles Tradicionales del Cusco, una organización con la misión de preservar el tejido tradicional de la región (Si está visitando el Valle Sagrado el Domingo, usted visitará su centro en Chinchero). Observe a los tejedores demostrar su habilidad y aprenda acerca de la historia y procesos de la más conocida forma de arte del Perú.`
+        contents: `La historia es la parte principal de este tour. El intercambio cultural comienza cuando conozca a los descendientes de los Incas, Iglesias coloniales descansan sobre bases de estructuras de piedra construidas siglos antes de la llegada de los conquistadores. Campesinos vestidos con su colorida indumentaria están en constante movimiento en las plazas. En la tarde, usted explorará el mercado abierto más grande de Cusco y el Mercado de Brujas. después de probar algunos platos unicos de la zona, visitará el Centro de Textiles Tradicionales del Cusco, una organización con la misión de preservar el tejido tradicional de la región (Si está visitando el Valle Sagrado el Domingo, usted visitará su centro en Chinchero). Observe a los tejedores demostrar su habilidad y aprenda acerca de la historia y procesos de la más conocida forma de arte del Perú.`
     },
     {
         title: 'Día 3',
         subTitle: 'Valle Sagrado',
-        contents: `Esta mañana su día comenzará viajando a una de las áreas más hermosas de Perú. El Valle Sagrado a menudo se vuelve uno de los puntos más destacados del viaje y usted pronto verá porqué! El día es flexible y basado en sus intereses, días de mercado, y el clima. Usted probará sus habilidades de regateo con los locales mientras visita uno de los grandes mercados textiles del área. Usted también puede hacer caminatas en las inspiradoras ruinas de Pisac o tomar un paseo corto a través del área rural hacia el poco frecuentado pueblo de Maras, Donde minas de sal precolombinas operan hoy en día. Visite las terrazas agricultoras Incas de Moray, se piensa que han sido una enfermería para experimentar y modificar diferentes variedades de siembra. Finalmente usted llegará de noche a la ciudad Inca viviente de Ollantaytambo. `
+        contents: `Esta travesía apenas comienza así que preparese para sorprenderse con uno de los lugares más hermosos del Perú. El Valle Sagrado a menudo se vuelve uno de los puntos más destacados del viaje y usted pronto verá porqué! El día es flexible y basado en sus intereses, días de mercado, y el clima. Usted probará sus habilidades de regateo con los locales mientras visita uno de los grandes mercados textiles del área. Usted también puede hacer caminatas en las inspiradoras ruinas de Pisac o tomar un paseo corto a través del área rural hacia el poco frecuentado pueblo de Maras, Donde minas de sal precolombinas operan hoy en día. Visite las terrazas agricultoras Incas de Moray, se piensa que han sido una enfermería para experimentar y modificar diferentes variedades de siembra. Finalmente usted llegará de noche a la ciudad Inca viviente de Ollantaytambo. `
     },
     {
         title: 'Día 4',
@@ -69,7 +69,7 @@ itinerary: [
     {
         title: 'Día 5',
         subTitle: 'Día libre en Machu Picchu | Regreso a Cusco',
-        contents: `Hoy es su oportunidad de observar el amanecer en Machu Picchu y de escuchar los espíritus de los antiguos habitantes de la ciudad en tranquilidad justo antes de la llegada de los excursionistas del camino del Inca. Puede escoger entre reservar un permiso para escalar el pico sagrado de Huayna Picchu, caminar hasta la Puerta del Sol donde se pueden ver las ruinas desde arriba, o tomar una caminata a través del frondoso bosque de nubes hacia el Templo de la Luna. En la tarde usted regresará por tren a Cusco con su guía. (Avísenos si quiere ayudar solicitando sus entradas o permisos para hoy – estas no están incluídas y se agotan por adelantado!)
+        contents: `Ahora que está a mitad de viaje, tendrá la oportunidad de contemplar el amanecer de Machu Picchu y de escuchar los espíritus de los antiguos habitantes de la ciudad en tranquilidad justo antes de la llegada de los excursionistas del camino del Inca. Puede escoger entre reservar un permiso para escalar el pico sagrado de Huayna Picchu, caminar hasta la Puerta del Sol donde se pueden ver las ruinas desde arriba, o tomar una caminata a través del frondoso bosque de nubes hacia el Templo de la Luna. En la tarde usted regresará por tren a Cusco con su guía. (Avísenos si quiere ayudar solicitando sus entradas o permisos para hoy – estas no están incluídas y se agotan por adelantado!)
         `
     },
     {
@@ -81,7 +81,7 @@ itinerary: [
     {
         title: 'Day 7',
         subTitle: 'Vuelo a Lima | Regreso a casa',
-        contents: `Desayuno incluído`
+        contents: `El viaje finaliza el día de hoy pero antes de partir, podrá disfrutar de un desayuno y esperamos que luego de eso regrese a su hogar sabiendo que lugares como Machu Picchu son para llevarlos en su corazón y definitivamente volverlos a visitar.`
     }
 ]
 }
