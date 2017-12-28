@@ -3,8 +3,8 @@ export default {
 	tab_title: `Machu Picchu`,
     subtitle: `Machu Picchu`,
     image_class: 'image-horizontal',
-	description: `Machu Picchu, también conocido como Pata Llacta la ciudad perdida de los Incas, es una de las the earth’s megaestructuras antiguas con más valor histórico.  Recientemente ha sido reconocida como una de las siete maravillas del mundo moderno.
-    Este impresionante hallazgo arqueológico ha ido aumentando su popularidad y actualmente recibe alrededor de 2500 touristas al día.  Nuestro gupia veterano Lucio explica que debido al incremento de demanda, las áreas accesibles a los visitantes son reducidas y restringidas cada año.”  Hoy en día los visitantes aún se les permite entrar y tocar la mayoría de las estructuras antiguas de Machu Picchu permitiendo una experiencia muy personal e íntima.  En pocos años los tours serán restringidos a senderos cercados y filas de una sola línea.`,
+	description: `Machu Picchu, también conocido como Pata Llacta la ciudad perdida de los Incas, es una de las megaestructuras antiguas con más valor histórico.  Recientemente ha sido reconocida como una de las siete maravillas del mundo moderno.
+    Este impresionante hallazgo arqueológico ha ido aumentando su popularidad y actualmente recibe alrededor de 2500 touristas al día. Nuestro guía veterano Lucio explica que debido al incremento de demanda, las áreas accesibles a los visitantes son reducidas y restringidas cada año.”  Hoy en día los visitantes aún se les permite entrar y tocar la mayoría de las estructuras antiguas de Machu Picchu, permitiendo una experiencia muy personal e íntima. En pocos años los tours serán restringidos a senderos cercados y filas de una sola línea.`,
 	blockquote: `"En pocos años los tours serán restringidos a senderos cercados y filas de una sola línea."`,
 	author: 'Cameron Metreaud',
     date: 'November 06, 2017',
@@ -16,16 +16,16 @@ export default {
 		{
 			url_image: 'images/tours/cuzco/machu_picchu_old2.png',
             image_class: 'image-horizontal',
-            blockquote: '“Esta obra maestra de arquitectura e ingeniería ya era conocida por los pobladores locales …”',
+            blockquote: '“Esta obra maestra de arquitectura e ingeniería ya era conocida por los pobladores locales”',
 			parragraphs: [
-				`Esta obra maestra de arquitectura e ingeniería ya era conocida por los pobladores locales, como Agustin Lizárraga, quien afirmaba haber paseado por Los recintos de esta ciudadela, y fue quien guió al explorador Norte Americano Hiram Bingham, desde aquel día en el año 1911 Bingham dedicó su vida a rescatar Machu picchu del Bosque que lo  estaba devorando y dió a conocer al mundo entero su hallazgo, Bingham proveniente de una familia de exploradores y tenía conocimiento de legendaria ciudad perdida de Los Incas.`
+				`Esta obra maestra de arquitectura e ingeniería ya era conocida por los pobladores locales, como Agustin Lizárraga, quien afirmaba haber paseado por los recintos de esta ciudad y fue quien guió al explorador norteamericano Hiram Bingham, desde aquel día en el año 1911, Bingham dedicó su vida a rescatar Machu picchu del Bosque que lo estaba devorando y dió a conocer al mundo entero su hallazgo, Bingham provenía de una familia de exploradores y tenía conocimiento de la legendaria ciudad perdida de Los Incas.`
 			]
         },
         {
 			url_image: 'images/tours/cuzco/machu_picchu_old4.png',
             image_class: 'image-horizontal',
             parragraphs: [
-				`Machu picchu; ofrenda sagrada a los Dioses, otorgada por Inca Pachacutec (transformador del universo) una exquisita ciudadela con jardines colgantes, terrazas agrícolas, sectores sagrados, canales de agua, templos de adoración y que posee todo los elementos naturales a su alrededor, agua, viento, rayo,roca, vegetación así como el reino animal presente, puma, serpiente y el condor.`
+				`Machu picchu; ofrenda sagrada a los Dioses, otorgada por Inca Pachacutec (transformador del universo) una exquisita ciudadela con jardines colgantes, terrazas agrícolas, sectores sagrados, canales de agua, templos de adoración y que posee todo los elementos naturales a su alrededor, agua, viento, rayo, roca, vegetación así como el reino animal presente, puma, serpiente y el condor.`
 			]
         },
 		{
@@ -33,7 +33,7 @@ export default {
             image_class: 'image-horizontal',
             blockquote: '“Una construcción de esta magnitud en la cresta de la montaña debió haber requerido equipos de arquitectos, ingenieros y geólogos del antiguo Perú.',
 			parragraphs: [
-				`La grandiosidad de Machu Picchu está en el lugar que fué construido, Una construcción de esta magnitud en la cresta de la montaña debió haber requerido equipos de arquitectos, ingenieros y geólogos del antiguo Perú, claro está que es la obra final de las grandes civilizaciones que surgieron en sudamérica Perú, cabe mencionar las culturas que existieron antes que la Inca.`
+				`La grandiosidad de Machu Picchu está en el lugar que fue construído, una construcción de esta magnitud en la cresta de la montaña debió haber requerido equipos de arquitectos, ingenieros y geólogos del antiguo Perú, claro está que es la obra final de las grandes civilizaciones que surgieron en sudamérica Perú, cabe mencionar las culturas que existieron antes que la Inca.`
 			]
 		}
     ],
