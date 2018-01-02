@@ -1,7 +1,7 @@
 export default {
 		title:'Puno',
 		subtitle: `En las orillas del Lago Titicaca, el lago navegable más alto del mundo, se encuentra la ciudad de Puno.`,
-		description: `embrado de iglesias coloniales construidas para evangelizar a los nativos por los conquistadores, los habitantes originales pertenecen a la etnia aymara, cuyas características físicas se han adaptado al frío del altiplano. Sus pechos se han desarrollado con gran capacidad pulmonar y la sangre rica en glóbulos rojos - genéticamente tienen inusualmente alta resistencia.
+		description: `embrado de iglesias coloniales construídas para evangelizar a los nativos por los conquistadores, los habitantes originales pertenecen a la etnia aymara, cuyas características físicas se han adaptado al frío del altiplano. Sus pechos se han desarrollado con gran capacidad pulmonar y la sangre rica en glóbulos rojos - genéticamente tienen inusualmente alta resistencia.
 Hoy, Puno es conocida como la "Capital Folklórica del Perú" (capital folklórica) debido a su gran cantidad de expresiones artísticas y culturales, en particular de baile. Ellos son más notables durante las celebraciones de la fiesta de la "Virgen de la Candelaria" y la competencia regional de las danzas autóctonas.`,
 		url_image: 'images/tours/puno/puno_2.jpg',
 		tab_title: "Tours Puno",
@@ -14,7 +14,7 @@ Hoy, Puno es conocida como la "Capital Folklórica del Perú" (capital folklóri
 				url_image:'images/tours/puno/uros_1_portrait.jpg',
 				description:`El acceso de Puno al Lago Titicaca está rodeado por 41 islas flotantes. Hoy en día en el pueblo de los Uros mantienen y viven en estas islas hechas por el hombre, dependiendo de ellos para su supervivencia y que atrae a muchos turistas.
 Las Islas de los Uros es un archipiélago de 48 islas flotantes habitadas por el pueblo Aymara. Las cañas de totora usadas para construir las islas se recogen de las aguas poco profundas del lago Titicaca.
-El lago Titicaca es el lago navegable más alto del mundo a 3812 metros sobre el nivel del mar. Por volumen de agua, sino que también es el lago más grande de Sudamérica.
+El lago Titicaca es el lago navegable más alto del mundo a 3812 metros sobre el nivel del mar. Por volumen de agua, también es el lago más grande de Sudamérica.
 Sea parte de esta experiencia inolvidable y disfrute de esta excursión de día completo con guías expertos que viven y conocen el mundo de los indígenas quechua-aymara.`,
 				additionalData: {
 					include: [

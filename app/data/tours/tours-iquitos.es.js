@@ -1,6 +1,6 @@
 export default {
 		title:'Selva Tropical Peruana',
-		subtitle: `La selva amazónica peruana es una de las zonas con mayor diversidad biológica de la Tierra`,
+		subtitle: `La selva amazónica peruana es una de las zonas con mayor diversidad biológica de la tierra`,
 		description: `Como nación, Perú tiene el mayor número de especies de aves en el mundo y el tercer mayor número de mamíferos, el 44% de las especies de aves y 63% de las especies de mamíferos que habitan la Amazonía peruana. Perú también tiene un alto número de especies de mariposas, orquídeas y otros organismos`,
 		url_image: 'images/tours/tambopata/iquitos_3_t.jpg',
 		tab_title: "Tours Iquitos",
@@ -9,10 +9,10 @@ export default {
 				id:'tambopata-reserve',
 				title:'Tambopata',
 				shortTitle:'Tambopata',
-				subtitle:'Afamado en la revista National Geographic, el Tambopata Research Center es, probablemente, los albergues en la selva más remotas de América del Sur y ofrece aventureros una experiencia auténtica en la selva peruana',
+				subtitle:'Afamado en la revista National Geographic, el Tambopata Research Center es, probablemente, los albergues en la selva más remotas de América del Sur y ofrece a los aventureros una experiencia auténtica en la selva peruana',
 				url_image:'images/tours/tambopata/macaw_1_portrait.jpg',
-				description:`El río Tambopata es uno de los hábitat exclusivo de las aves y los mamíferos. La flora en la reserva nacional es bastante típico del suroeste de la Cuenca Amazónica. El río Heath y llanuras de los alrededores son un ecosistema único en el Perú. Las pampas se inundan periódicamente, y los pequeños bosques de árboles con variada vida vegetal crecen en grupos aislados en la llanura.
-Si usted está buscando una experiencia más en profundidad del Amazonas, el Centro de Investigaciones Tambopata le convenga. Después de pasar la primera noche en el Refugio Amazonas, llega a la más grande collpa de guacamayos conocida en el segundo día de su viaje y explorar los senderos del Centro de Investigación de Tambopata en el corazón de la Reserva Nacional Tambopata.`,
+				description:`El río Tambopata es uno de los hábitat exclusivo de las aves y los mamíferos. La flora en la reserva nacional es bastante típica del suroeste de la Cuenca Amazónica. El río Heath y llanuras de los alrededores son un ecosistema único en el Perú. Las pampas se inundan periódicamente y los pequeños bosques de árboles con variada vida vegetal crecen en grupos aislados en la llanura.
+Si usted está buscando una experiencia más profunda del Amazonas, el Centro de Investigaciones Tambopata le convendrá. Después de pasar la primera noche en el Refugio Amazonas, llega al más grande conjunto de guacamayos conocido en el segundo día de su viaje y explorar los senderos del Centro de Investigación de Tambopata en el corazón de la Reserva Nacional Tambopata.`,
 				additionalData: {
 					include: [
 						'Transferencias',
@@ -62,26 +62,26 @@ Si usted está buscando una experiencia más en profundidad del Amazonas, el Cen
 					notInclude: [
 						'Extras & gratuities',
 						'Entrance fees to thermal baths',
-						'The first breakfast',
-						'The last lunch',
+						'Desayuno',
+						'Almuerzo',
 					],
 					duration: {
-						subtitle:'4 Days (3 Nights)',
+						subtitle:'4 días (3 noches)',
 						data:[
-							'Departs at 7:30am from Cusco'
+							'Salida a las 7:30am desde Cusco'
 						]
 					},
 					recommendations: [
-						'Bring a jacket or fleece for cool afternoons during winter',
-						'A rain poncho in case of rain',
-						'Insect/mosquito repellent',
-						'Towels',
-						'Sandals',
-						'Sunglasses',
-						'Travel light',
+						'Traer un abrigo para las noches tardes frías de invierno',
+						'Un poncho impermeable en caso de lluvia',
+						'Repelente de insectos/mosquitos',
+						'Toallas',
+						'Sandalias',
+						'Gafas de sol',
+						'Linterna',
 					],
 					notes: [
-						'Altitude can pose a problem for many people - a strong fitness level is required.'
+						'La altitud puede ser un problema para algunas personas - se requiere de buena aptitud física.'
 					],
 					price: {
 						currency:'$',

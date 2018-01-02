@@ -51,9 +51,9 @@ export default {
 				title:'Buggy Tour y Sandboard',
 				form_title:'Buggy Tour y Sandboard',
 				shortTitle:'Buggy Tour y Sandboard',
-				subtitle:'Huacachina, un pequeño pueblo turístico que rodea a un gran oasis, está a sólo 5 km al sur oeste de Ica y un gran escondite para los extranjeros para relajarse y practicar el mejor surf en la arena en el mundo.',
+				subtitle:'Huacachina, un pequeño pueblo turístico que rodea a un gran oasis, está a sólo 5 km al sur oeste de Ica y es un gran escondite para que los extranjeros se relajen y practiquen el mejor surf en la arena del mundo.',
 				url_image:'images/tours/ica/buggy_1_t.jpg',
-				description:`Si usted no está en los deportes extremos, visitando las vastas dunas montañosas que rodean la Huacachina por buggy es bastante espectacular por sí mismo y es una visita obligada si estás pasando a través de la región.`,
+				description:`Si a usted no le gustan los deportes extremos, visitando las vastas dunas montañosas que rodean la Huacachina por buggy es bastante espectacular por sí mismo y es una visita obligada si está pasando a través de la región.`,
 				additionalData: {
 					include: [
 						'Sandboarding',

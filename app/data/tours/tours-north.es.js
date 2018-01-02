@@ -11,7 +11,7 @@ export default {
 				shortTitle: 'Snorkel con las tortugas',
 				subtitle:'Un pequeño pueblo de pescadores en el norte de Perú, El Nuro donde EcOceánica acoge un programa de conservación de tortugas marinas.',
 				url_image:'images/tours/north/el_nuro_tortugas_4_t.jpg',
-				description:`EcOceánica es una organización sin fines de lucro peruana dedicada a la conservación marina. Sus esfuerzos han aumentado la población de tortugas marinas (Perú anfitrión 5 de 7 especies en el mundo) de forma significativa con El Nuro como uno de sus más grandes éxitos en la conservación de tortugas.Pescadores de la zona, con la insistencia de EcOceánica, acordaron dejar la captura de tortugas marinas. De hecho, la captura acidental de las tortugas a disminuido ayudando a su crecimiento demográfico y congregando cerca de los muelles. Este es el lugar apropiado para snorkel con las tortugas.`,
+				description:`EcOceánica es una organización sin fines de lucro peruana dedicada a la conservación marina. Sus esfuerzos han aumentado la población de tortugas marinas (Perú anfitrión 5 de 7 especies en el mundo) de forma significativa con El Nuro como uno de sus más grandes éxitos en la conservación de tortugas. Pescadores de la zona, con la insistencia de EcOceánica, acordaron dejar la captura de tortugas marinas. De hecho, la captura accidental de las tortugas ha disminuído, ayudando a su crecimiento demográfico y congregando cerca de los muelles. Este es el lugar apropiado para snorkel con las tortugas.`,
 				additionalData: {
 					include: [
 						'Recojo de su hotel en Máncora, Los Órganos',
@@ -46,8 +46,8 @@ export default {
 				shortTitle: 'Manglares de Tumbes',
 				subtitle:'El Santuario Nacional de Manglares está protegido por SERNANP para prevenir la contaminación, la deforestación y preservar la tradición.',
 				url_image:'images/tours/north/tumbes_manglares_3_portrait.jpg',
-				description:`Los manglares de Tumbes son un refugio para el cocodrilo americano, vulnerables a la extinción, y muchas otras especies de peces, mamíferos y aves. Viajar por los canales en canoa o kayak permite a los visitantes una experiencia de primer plano con esta maravilla de la naturaleza.
-				Después de una visita al bosque seco para disfrutar del almuerzo y luego, una visita a la pintoresca aldea de pescadores de Puerto Pizarro, donde el Ministerio de Pesquería del Perú alberga un zoológico protección de las aves migratorias y más de 300 cocodrilos. Los manglares y Puerto Pizarro son lugares maravillosos para visitar durante todo el año`,
+				description:`Los manglares de Tumbes son un refugio para el cocodrilo americano, vulnerables a la extinción y muchas otras especies de peces, mamíferos y aves. Viajar por los canales en canoa o kayak permite a los visitantes una experiencia de primer plano con esta maravilla de la naturaleza.
+				Después de una visita al bosque seco para disfrutar del almuerzo y luego, una visita a la pintoresca aldea de pescadores de Puerto Pizarro, donde el Ministerio de Pesquería del Perú alberga un zoológico con protección de las aves migratorias y más de 300 cocodrilos. Los manglares y Puerto Pizarro son lugares maravillosos para visitar durante todo el año`,
 				additionalData: {
 					include: [
 						'Entradas',
@@ -85,7 +85,7 @@ export default {
 				shortTitle:'Huaca de la Luna',
 				subtitle:`Huaca de la Luna fue construida por la antigua cultura Moche y era su centro ceremonial.`,
 				url_image:'images/tours/north/templemoon_1_t.jpg',
-				description:`A diferencia de la Huaca del Sol, que fue destruido en su mayoría, la Huaca de la Luna quedó en gran parte intacto y ha proporcionado la información arqueológica. En el templo hay muchos murales que representan a menudo el dios "Ayapec" (todo lo sabe). La evidencia ha demostrado que el sitio era también un templo de enterramiento de los sacerdotes de alto estatus y gobernantes y, como la ubicación donde se realizaban sacrificios humanos.`,
+				description:`A diferencia de la Huaca del Sol, que fue destruído en su mayoría, la Huaca de la Luna quedó en gran parte intacto y ha proporcionado la información arqueológica. En el templo hay muchos murales que representan a menudo el dios "Ayapec" (todo lo sabe). La evidencia ha demostrado que el sitio era también un templo de enterramiento de los sacerdotes de alto estatus y gobernantes y como la ubicación donde se realizaban sacrificios humanos.`,
 				additionalData: {
 					include: [
 						'Transporte privado',
