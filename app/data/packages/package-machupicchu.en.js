@@ -17,7 +17,7 @@ export default {
             additionalData: {
                 include: [
         '6 Breakfasts, 1 Lunch',
-        '6 Nights accommodations',
+        '6 Nights accommodation',
         '5 Days private guide service'
                 ],
                 notInclude: [
@@ -27,7 +27,7 @@ export default {
                     'International flights'
                 ],
                 duration: {
-                    subtitle:'2 days / 1 night',
+                    subtitle:'6 days',
                     data:[
                     ]
                 },

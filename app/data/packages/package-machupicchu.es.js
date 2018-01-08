@@ -27,7 +27,7 @@ export default {
                     'Vuelos internacionales'
                 ],
                 duration: {
-                    subtitle:'2 días / 1 noche',
+                    subtitle:'6 días',
                     data:[
                     ]
                 },
