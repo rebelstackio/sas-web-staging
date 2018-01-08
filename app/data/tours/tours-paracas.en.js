@@ -322,7 +322,7 @@ The reserve also offers historical and cultural wonders which are evident in 114
 Our guided program to paracas national reserve start at 11:00am to explore some of the geological phenomena alone this remarkable stretch of peninsula, such as panoramic views and read, white sand beaches, lines by colorful, sedimentary rocks, blue and turquoise waters, cold pacific swells.`,
 				additionalData: {
 					include: [
-						'Pick up from your hotel in pisco or paracas.',
+						'Pick up from your hotel in Paracas.',
 						'Private transportation.',
 						'Professional English guide',
 						'Entrance fees.'
