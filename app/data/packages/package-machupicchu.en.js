@@ -1,7 +1,7 @@
 export default {
     title:'MACHU PICCHU & THE SECRET VALLEY OF INCAS 7 days Touring',
     subtitle: ``,
-    description: `Are you willing to take the adventure? Get ready to live the time of your life into the heart of Machu Picchu and discover a place that speaks through its ruins and village markets.`,
+    description: `Are you willing to take the adventure? Get ready to have the time of your life in the heart of Machu Picchu and discover a place that speaks through its ruins and village markets.`,
     url_image: 'images/tours/cuzco/machu_picchu_main.png',
     tab_title: "Packages",
     packages:[
@@ -13,7 +13,7 @@ export default {
             url_image:'images/tours/cuzco/machu_picchu_3_t.jpg',
             image_class:'image-package-horizontal',
             is_image_class: true,
-            description:`Be prepared to get incredible memories and knowledge within the history of Machu Picchu. An excellent choice to escape from the routine that is also one of the most important places from Peru. The journey includes: Inca ruins of Sacsayhuamán, Pisac and Ollantaytambo. The magic is hidden in different activities that guests can enjoy, such as: the witches' market in Cusco, the amazing path into the rural Andes and the bargain over tapestries in Pisac. So if you are full of curiosity and you have the chance to spend a week in an unforgettable journey, this is for you.`,
+            description:`Be prepared to make incredible memories familiarize yourself  with the ancient history of Machu Picchu. An excellent choice for those wishing to escape from the routine and get to know one of the most historically important places  in Peru. The journey includes: Inca ruins of Sacsayhuamán, Pisac and Ollantaytambo. The magic is hidden in different activities that guests can enjoy, such as: the witches' market in Cusco, the amazing path into the rural Andes, and the bargaining over tapestries in Pisac. If you are full of curiosity and you have the chance to spend a week on an unforgettable journey, this tour is for you.`,
             additionalData: {
                 include: [
         'All tranfers and transport',
