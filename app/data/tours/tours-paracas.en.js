@@ -192,7 +192,7 @@ export default {
 				id: 'islas-ballestas-cruise-member-first-class',
 				title:'Cruise member islas ballestas first class',
 				classes: 'cruise-members-only',
-				subtitle:'Upgrade to first class option 110 USD per person (20 passengers maximum)',
+				subtitle:'Upgrade to first class option',
 				url_image:'images/tours/paracas/big-cruise2.png',
 				description:`The first class option is the preferred choice of cruise members for its ample seating room providing passengers the space to enjoy the wildlife and take pictures comfortably.`,
 				yacht: 'yacht2.png',
@@ -205,7 +205,7 @@ export default {
 				],
 				additionalData: {
 					include: [
-						'18 pax capacity',
+						'Limited to 18 guests',
 						'Double seating',
 						'All entrance fees',
 						'Harbor tax',

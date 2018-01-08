@@ -188,7 +188,7 @@ export default {
 			{
 				id: 'islas-ballestas-cruise-member-first-class',
 				title:'Tour primera clase Islas ballestas para miembros de cruceros',
-				subtitle:'Upgrade a primera clase opcional 110 USD por persona (20 pasajeros máximo)',
+				subtitle:'Upgrade a primera clase opcional',
 				url_image:'images/tours/paracas/big-cruise2.png',
 				classes: 'cruise-members-only',
 				description:`La opción de primera clase es la elección preferida de los pasajeros de crucero debido a sus amplios asientos que le da a los pasajeros más espacio para disfrutar de la vida marina en acción y tomar fotos cómodamente.`,
@@ -202,7 +202,7 @@ export default {
 				],
 				additionalData: {
 					include: [
-						'Max participantes 18',
+						'Limitado a 18 pasajeros',
 						'Doble asiento',
 						'Entradas',
 						'Impuesto del puerto',
