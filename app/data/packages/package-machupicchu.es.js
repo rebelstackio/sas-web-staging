@@ -16,15 +16,18 @@ export default {
             description:`Preparate para crear increíbles recuerdos y conocer la historia de Machu Picchu. Una excelente opción para escapar de la rutina en uno de los lugares más importantes del Perú. El viaje incluye: Ruinas Inca de Sacsayhuamán, Pisac y Ollantaytambo.La magia en esconde dentro de diferentes actividades para que los visitantes disfruten, tales como: el mercado de brujas en Cusco, el recorrido increíble por el Andes rural y las ofertas de tapicerías en Pisac. Así que, si eres una persona llena de curiosidad y tienes la oportunidad de pasar una semana en un paseo inolvidable, esto es para ti.`,
             additionalData: {
                 include: [
-                    'Todos los traslados y transporte',
-                    'Todos los tasas y entradas',
-                    'Alojamiento'
+                    '6 Desayunos, 1 Almuerzo',
+                    '6 Noches de hospedaje',
+                    '5 Días de servicio de guía privada'
                 ],
                 notInclude: [
-                    'Extras y propinas',
+                    'Vuelos internos: $425 Lima-Cusco-Lima',
+                    'El costo de los vuelos puede variar',
+                    'Los traslados de llegada y salida de los vuelos internacionales no están incluídos',
+                    'Vuelos internacionales'
                 ],
                 duration: {
-                    subtitle:'2 days / 1 night',
+                    subtitle:'2 días / 1 noche',
                     data:[
                     ]
                 },

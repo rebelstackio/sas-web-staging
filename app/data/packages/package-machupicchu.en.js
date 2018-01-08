@@ -16,12 +16,15 @@ export default {
             description:`Be prepared to make incredible memories and familiarize yourself  with the ancient history of Machu Picchu. An excellent choice for those wishing to escape from the routine and get to know one of the most historically important places  in Peru. The journey includes: Inca ruins of Sacsayhuamán, Pisac and Ollantaytambo. The magic is hidden in different activities that guests can enjoy, such as: the witches' market in Cusco, the amazing path into the rural Andes, and the bargaining over tapestries in Pisac. If you are full of curiosity and you have the chance to spend a week on an unforgettable journey, this tour is for you.`,
             additionalData: {
                 include: [
-        'All tranfers and transport',
-        'All entrance fees and taxes',
-        'Accomodation'
+        '6 Breakfasts, 1 Lunch',
+        '6 Nights accommodations',
+        '5 Days private guide service'
                 ],
                 notInclude: [
-                    'Extras & gratuities',
+                    'Internal Flights: $425 Lima-Cusco-Lima',
+                    'Flight cost is subject to change',
+                    'Both international arrival and departure transfers are excluded',
+                    'International flights'
                 ],
                 duration: {
                     subtitle:'2 days / 1 night',
