@@ -39,9 +39,24 @@ export default {
                          'A minimum of 2 participants are required'
                     ]
                 }
-            }
+            },
+            itenerary: [
+                {
+                    className: 'col-lg-10 col-lg-offset-1',
+                    title: 'Actividades',
+                    data: [
+                        ['Día 1',	'Llegada a Lima'],
+                        ['Día 2', 'Vuelo a Cusco, conozca a los descendientes de los Incas y el Mercado de Brujas.'],
+                        ['Día 3',	'Valle Sagrado, caminatas por las ruinas de Pisac o el pueblo de Maras y finalmente las ruinas de Ollantaytambo.'],
+                        ['Día 4', 'Ruinas de Ollantaytambo | Tren a Machu Picchu'],
+                        ['Día 5', 'Día libre en Machu Picchu | Regreso a Cusco'],
+                        ['Día 6', 'Eplore Cusco, puede ver cusco por su cuenta o con un guía'],
+                        ['Día 7', 'Vuelo a Lima | Regreso a casa,']
+                    ]
+                }
+            ]
         }
-],
+    ]/*,
 itinerary: [
     {
         title: 'Día 1',
@@ -83,5 +98,5 @@ itinerary: [
         subTitle: 'Vuelo a Lima | Regreso a casa',
         contents: `El viaje finaliza el día de hoy pero antes de partir, podrá disfrutar de un desayuno y esperamos que luego de eso regrese a su hogar sabiendo que lugares como Machu Picchu son para llevarlos en su corazón y definitivamente volverlos a visitar.`
     }
-]
+]*/
 }

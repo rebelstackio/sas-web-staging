@@ -164,11 +164,13 @@
 
 		{% if item.itenerary %}
 			<div class="row tour-container">
+				{% if item.itenerary[0].hasTitle %}
 					<div style="padding-right:10px; padding-left:10px;">
 				 		<h3 style="margin-top:0px;">Itenerary</h3>
 					</div>
+				{% endif %}
 				 {% for itenerary in item.itenerary %}
-					 <div class="col-md-6">
+					 <div class="col-md-6 {{itenerary.className}}">
 						 <table class="schedule table">
 							 <tbody>
 								 <tr>
@@ -215,7 +217,7 @@
 
 			 <h4>Travel voucher:</h4>
 			 <ul>
-				 <li>You will receive an electronic voucher via e mail once you booking is confirmed.</li>
+				 <li>You will receive an electronic voucher via e mail once your booking is confirmed.</li>
 				 <li>For each confirmed booking you are required to print your electronic voucher for presentation at the start of the excursion.</li>
 				 <li>The electronic voucher acts a confirmation for all services you request.</li>
 			 </ul>

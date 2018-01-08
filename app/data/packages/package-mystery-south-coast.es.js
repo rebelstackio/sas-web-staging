@@ -64,6 +64,7 @@ export default {
 				},
 				itenerary: [
 					{
+						hasTitle: true,
 						title: 'Día 1',
 						data: [
 							['6:00am',	'Traslado Hotel a estacion de bus Cruz del Sur'],
@@ -132,6 +133,7 @@ export default {
 				itenerary: [
 					{
 						title: 'Día 1',
+						hasTitle: true,
 						data: [
 							['8:00am - 11:00am',	'Servicio VIP Traslado del Hotel (Lima) a Paracas (3 horas)'],
 							['11:30am',	'	Check in en el hotel y traslado privado al aeropuerto (15 minutos)'],
