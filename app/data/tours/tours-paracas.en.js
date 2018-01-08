@@ -435,7 +435,7 @@ Discover the beauty of the Paracas Reserve and let the breeze take you where it 
 
 				}
 		},
-				{
+				/*{
 						id:'islas-ballestas',
 						title:'Islas Ballestas',
 						shortTitle:'Islas Ballestas',
@@ -488,7 +488,7 @@ Discover the beauty of the Paracas Reserve and let the breeze take you where it 
 								}
 
 						}
-				},
+				},*/
 				{
 						id:'dune-buggy-sandboard',
 						title:'Dune Buggy & Sandboard',

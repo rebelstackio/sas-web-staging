@@ -439,7 +439,7 @@ Vamos con usted y su bicicleta para llevarlo al mejor lugar en la reserva. A par
 						}
 
 				}
-		},
+			}/*,
 				{
 						id:'islas-ballestas',
 						title:'Islas Ballestas',
@@ -492,7 +492,7 @@ Vamos con usted y su bicicleta para llevarlo al mejor lugar en la reserva. A par
 								}
 
 						}
-				},
+				}*/,
 				{
 						id:'dune-buggy-sandboard',
 						title:'Tubular Arenero y Sandboard',
