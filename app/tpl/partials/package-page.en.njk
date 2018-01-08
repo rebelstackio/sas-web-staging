@@ -164,11 +164,13 @@
 
 		{% if item.itenerary %}
 			<div class="row tour-container">
+				{% if item.itenerary[0].hasTitle %}
 					<div style="padding-right:10px; padding-left:10px;">
 				 		<h3 style="margin-top:0px;">Itenerary</h3>
 					</div>
+				{% endif %}
 				 {% for itenerary in item.itenerary %}
-					 <div class="col-md-6">
+					 <div class="col-md-6 {{itenerary.className}}">
 						 <table class="schedule table">
 							 <tbody>
 								 <tr>

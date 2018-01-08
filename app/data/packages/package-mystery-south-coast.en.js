@@ -65,6 +65,7 @@ export default {
 				itenerary: [
 					{
 						title: 'Day 1',
+						hasTitle: true,
 						data: [
 							['6:00am',	'Transfer from Hotel to Cruz del Sur station'],
 							['6:45am - 11:20am', 'First class bus service to Paracas (3 hours 35 minutes) Includes breakfast, WiFi, movies, air-conditioning, 160 degree-reclining extra-wide sleeper seat, steward service'],
@@ -129,30 +130,6 @@ export default {
 					'images/gallery/ballestas_18_t.jpg',
 					'images/gallery/ballestas_19_t.jpg',
 				],
-				itenerary: [
-					{
-						title: 'Day 1',
-						data: [
-							['8:00am - 11:00am',	'VIP Transport from Hotel (Lima) to Paracas (3 horas)'],
-							['11:30am',	'Check in hotel then private transfer to Pisco airport (15 minutes)'],
-							['12:00pm - 1:30pm', 'Overflight of Nazca lines in Cessna Caravan seats 12 persons. (95 minutes)'],
-							['1:45pm', 'Trasfer to Paracas - free to enjoy lunch at Aranwa restaurant'],
-							['3:30pm - 5:30pm', 'Private tour with guide of the Paracas Reserve (2 hours)']
-						]
-					},
-					{
-						title: 'Day 2',
-						data: [
-							['7:45am',	'Transfer to docks from Hotel Aranwa lobby'],
-							['8:00am - 10:00am',	'	Excursion to Islas Ballestas (2 hours) Includes First Class seating (2 per person). Bilingual guide'],
-							['11:00am - 12:00pm',	'Check out and private transfer to Ica'],
-							['12:00am - 1:00pm',	'Guided visit of winery, private transfer to Huacachina. (60 minutos)'],
-							['1:00pm - 3:30pm',	'Free time to enjoy lunch and walk around the Oasis'],
-							['3:30pm - 5:00pm',	'Dune buggy Tour and sandboarding (private) (90 minutes)'],
-							['5.00pm - 9:00pm',	'Private transport to your Hotel in Lima or airport (4 horas)'],
-						]
-					}
-				]
 			},
 	]
 }
