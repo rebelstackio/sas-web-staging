@@ -13,7 +13,7 @@ export default {
             url_image:'images/tours/cuzco/machu_picchu_3_t.jpg',
             image_class:'image-package-horizontal',
             is_image_class: true,
-            description:`Be prepared to make incredible memories familiarize yourself  with the ancient history of Machu Picchu. An excellent choice for those wishing to escape from the routine and get to know one of the most historically important places  in Peru. The journey includes: Inca ruins of Sacsayhuamán, Pisac and Ollantaytambo. The magic is hidden in different activities that guests can enjoy, such as: the witches' market in Cusco, the amazing path into the rural Andes, and the bargaining over tapestries in Pisac. If you are full of curiosity and you have the chance to spend a week on an unforgettable journey, this tour is for you.`,
+            description:`Be prepared to make incredible memories and familiarize yourself  with the ancient history of Machu Picchu. An excellent choice for those wishing to escape from the routine and get to know one of the most historically important places  in Peru. The journey includes: Inca ruins of Sacsayhuamán, Pisac and Ollantaytambo. The magic is hidden in different activities that guests can enjoy, such as: the witches' market in Cusco, the amazing path into the rural Andes, and the bargaining over tapestries in Pisac. If you are full of curiosity and you have the chance to spend a week on an unforgettable journey, this tour is for you.`,
             additionalData: {
                 include: [
         'All tranfers and transport',
