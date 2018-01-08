@@ -28,7 +28,7 @@ export default {
 						'Backup boat primed & ready',
 						'Professional Yachtsman and mate',
 						'English speaking guide',
-						'Reserve and dock entrance fees pre-paid (over $4 US)'
+						'Reserve and dock entrance fees pre-paid (over $6 US)'
 					],
 					notInclude: [
 						'Extras & gratuities',
