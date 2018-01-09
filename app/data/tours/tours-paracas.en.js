@@ -192,7 +192,7 @@ export default {
 				id: 'islas-ballestas-cruise-member-first-class',
 				title:'Cruise member islas ballestas first class',
 				classes: 'cruise-members-only',
-				subtitle:'Upgrade to first class option 110 USD per person (20 passengers maximum)',
+				subtitle:'Upgrade to first class option',
 				url_image:'images/tours/paracas/big-cruise2.png',
 				description:`The first class option is the preferred choice of cruise members for its ample seating room providing passengers the space to enjoy the wildlife and take pictures comfortably.`,
 				yacht: 'yacht2.png',
@@ -205,7 +205,7 @@ export default {
 				],
 				additionalData: {
 					include: [
-						'18 pax capacity',
+						'Limited to 18 guests',
 						'Double seating',
 						'All entrance fees',
 						'Harbor tax',
@@ -322,7 +322,7 @@ The reserve also offers historical and cultural wonders which are evident in 114
 Our guided program to paracas national reserve start at 11:00am to explore some of the geological phenomena alone this remarkable stretch of peninsula, such as panoramic views and read, white sand beaches, lines by colorful, sedimentary rocks, blue and turquoise waters, cold pacific swells.`,
 				additionalData: {
 					include: [
-						'Pick up from your hotel in pisco or paracas.',
+						'Pick up from your hotel in Paracas.',
 						'Private transportation.',
 						'Professional English guide',
 						'Entrance fees.'
@@ -435,7 +435,7 @@ Discover the beauty of the Paracas Reserve and let the breeze take you where it 
 
 				}
 		},
-				{
+				/*{
 						id:'islas-ballestas',
 						title:'Islas Ballestas',
 						shortTitle:'Islas Ballestas',
@@ -488,7 +488,7 @@ Discover the beauty of the Paracas Reserve and let the breeze take you where it 
 								}
 
 						}
-				},
+				},*/
 				{
 						id:'dune-buggy-sandboard',
 						title:'Dune Buggy & Sandboard',
