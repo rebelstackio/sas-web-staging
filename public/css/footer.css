@@ -110,6 +110,9 @@
     visibility: hidden;
     display: none;
   }
+  .footer > menu {
+    font-size: 10pt
+  }
 }
 @media screen and (max-width: 320px){
   .footer > menu {
