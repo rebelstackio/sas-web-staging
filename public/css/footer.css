@@ -100,3 +100,19 @@
       margin-right: 1px
     }
 }
+@media screen and (max-width: 812px) and (min-width: 375px) {
+  #footer {
+    visibility: hidden
+  }
+}
+@media screen and (max-width: 360px){
+  .paypal-img {
+    visibility: hidden;
+    display: none;
+  }
+}
+@media screen and (max-width: 320px){
+  .footer > menu {
+    font-size: 9pt
+  }
+}
