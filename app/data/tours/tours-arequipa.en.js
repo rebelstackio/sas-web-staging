@@ -1,6 +1,6 @@
 export default {
 		title:'Arequipa - the White City',
-		subtitle: `Peru's second most populous city, Arequipa, is located between the south-western Andes and coastal desert.`,
+		subtitle: 'Peru&quot;s second most populous city, Arequipa, is located between the south-western Andes and coastal desert.',
 		description: 'Arequipa posesses a series of volcanic cones like El Misty, CHACHANI and PICHU PICHO the city has a nice weather warm and dry all year around the city has many colonial buildings made whit ashlars a pearly white volcanic rock from which it gets the name white city nowadays the historic centre is recognized as UNESCO WORLD HERITAGE SITE Arequipa city has many interesting tourist attraction like convent Santa Catalina, churches Basilica cathedral of Arequipa and old houses.',
 		url_image: 'images/tours/arequipa/arequipa_1_t.jpg',
 		tab_title: "Tours Arequipa",
