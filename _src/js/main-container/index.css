@@ -1,0 +1,10 @@
+main-container {
+	display: grid;
+	grid-template-columns: 20% 1fr 20%;
+	height: 100vh;
+}
+
+#container {
+	grid-area: 1 / 2;
+	background-color: rgba(255,255,255,0.25);
+}

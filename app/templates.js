@@ -1,1 +1,0 @@
-import './tpl/pages';
