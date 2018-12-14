@@ -1,0 +1,21 @@
+/*----------------------------------header presentation--------------------------------------------------------------*/
+.header-content {
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.header-content.machupicchu-1 {
+	background-image: url(../images/header/machu_picchu_p.jpg);
+}
+.header-content.machupicchu-2 {
+	background-image: url(../images/header/machu_picchu_p.2.jpg);
+}
+
+.header-content.nazca-1 {
+	background-image: url(../images/header/nazca_p.1.jpg); 
+}
+
+.header-content.bikeparacas-1 {
+	background-image: url(../images/header/bike_paracas_1_p.jpg);
+}
+/*----------------------------------------------END--------------------------------------------------------------*/

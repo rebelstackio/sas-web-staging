@@ -1,0 +1,34 @@
+main-header {
+	display: grid;
+	grid-template-rows: 1fr 4em;
+}
+
+#header-content {
+	display: grid;
+	grid-template-columns: 21% 1fr;
+	grid-area: 1 / 1;
+}
+
+
+#header-text {
+	display: grid;
+}
+
+#header-text div{
+	place-self: center flex-start;
+}
+#header-text div h1 {
+	color: #fff;
+	font-size: 50px;
+	margin: 0 !important;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #d3d3d3;
+}
+#header-text div h2 {
+	color: orange;
+	opacity: .5;
+	font-size: 30px;
+	margin: 0 !important;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #d3d3d3;
+}

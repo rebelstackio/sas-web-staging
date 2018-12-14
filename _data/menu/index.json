@@ -1,0 +1,28 @@
+{
+    "items" : [
+        {
+            "en" : "Home",
+            "es" : "Inicio"
+        },
+        {
+            "en" : "Tours & Activities",
+            "es" : "Tours & Actividades"
+        },
+        {
+            "en" : "Peru Packages",
+            "es" : "Paquetes Perú"
+        },
+        {
+            "en" : "Articles",
+            "es" : "Articulos"
+        },
+        {
+            "en" : "Contact",
+            "es" : "Contacto"
+        },
+        {
+            "en" : "About us",
+            "es" : "Acerca de nosotros"
+        }
+    ]
+}

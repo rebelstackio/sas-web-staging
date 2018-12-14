@@ -1,0 +1,28 @@
+main-menu {
+	background-color: #222;
+	border-color: #080808;
+}
+main-menu #menu-content {
+	display: grid;
+	grid-template-columns: repeat(8, auto);
+	height: 100%;
+}
+
+#menu-box {
+	display: grid;
+	cursor: pointer;
+}
+
+#menu-box span {
+	place-self: center;
+	color: #f58220;
+	font-size: 14px;
+}
+#menu-box img {
+	place-self: center;
+	width: 25px;
+	height: 25px;
+}
+#menu-box span:hover {
+	color: #fff !important;
+}
