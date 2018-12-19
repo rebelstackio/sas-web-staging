@@ -1,28 +1,52 @@
 {
-    "items" : [
-        {
-            "en" : "Home",
-            "es" : "Inicio"
-        },
-        {
-            "en" : "Tours & Activities",
-            "es" : "Tours & Actividades"
-        },
-        {
-            "en" : "Peru Packages",
-            "es" : "Paquetes Perú"
-        },
-        {
-            "en" : "Articles",
-            "es" : "Articulos"
-        },
-        {
-            "en" : "Contact",
-            "es" : "Contacto"
-        },
-        {
-            "en" : "About us",
-            "es" : "Acerca de nosotros"
-        }
-    ]
+	"items" : [
+		{
+			"data":{
+				"en" : "Home",
+				"es" : "Inicio"
+			},
+			"subData": [],
+			"action": "/"
+		},
+		{
+			"data": {
+				"en" : "Tours & Activities",
+				"es" : "Tours & Actividades"
+			},
+			"subData": [],
+			"action": ""
+		},
+		{
+			"data": {
+				"en" : "Peru Packages",
+				"es" : "Paquetes Perú"
+			},
+			"subData": [],
+			"action": ""
+		},
+		{
+			"data": {
+				"en" : "Articles",
+				"es" : "Articulos"
+			},
+			"subData": [],
+			"action": ""
+		},
+		{
+			"data": {
+				"en" : "Contact",
+				"es" : "Contacto"
+			},
+			"subData": [],
+			"action": "/constact/"
+		},
+		{
+			"data": {
+				"en" : "About us",
+				"es" : "Acerca de nosotros"
+			},
+			"subData": [],
+			"action": "/about/"
+		}
+	]
 }

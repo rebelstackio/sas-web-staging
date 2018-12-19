@@ -1,21 +1,51 @@
 import { MetaContainer } from '@rebelstack-io/metaflux';
 import './index.css';
 import '../components/header';
+import '../components/home';
 import '../handlers';
+import Navigo from 'navigo';
 
 class MainContainer extends MetaContainer {
 	constructor () {
 		super();
 		this.handleLang = this.handleLang.bind(this)
+		this.handleRoute = this.handleRoute.bind(this)
 	}
 	// eslint-disable-next-line class-method-use-this
 	render () {
 		const content = document.createElement('div');
 		const header = document.createElement('main-header');
+		this.siteContent = document.createElement('div');
 		content.id = 'container';
-		content.appendChild(header);
+		content.append(header, this.siteContent);
 		this.handleLang();
+		this.handleRoute()
 		return content;
+	}
+	/**
+	 * handle the route in the site
+	 */
+	handleRoute () {
+		const that = this;
+		let root = null;
+		let useHash = true; // Defaults to: false
+		let hash = '#'; // Defaults to: '#'
+		let router = new Navigo(root, useHash, hash);
+		router
+		.on({
+			'/': function () {
+				const mainContent = document.createElement('main-home')
+				that.siteContent.innerHTML = '';
+				that.siteContent.appendChild(mainContent);
+			},
+			'about/': function () {
+				const otherSite = document.createElement('span');
+				otherSite.id = 'other-site';
+				that.siteContent.innerHTML = '';
+				that.siteContent.appendChild(otherSite);
+			}
+		})
+		.resolve();
 	}
 	/**
 	 * toggle visibility to the elements with the tag Lang

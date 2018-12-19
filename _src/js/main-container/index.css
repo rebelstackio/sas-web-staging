@@ -1,6 +1,6 @@
 main-container {
 	display: grid;
-	grid-template-columns: 20% 1fr 20%;
+	grid-template-columns: 10% 1fr 10%;
 	height: 100vh;
 }
 
@@ -8,5 +8,5 @@ main-container {
 	grid-area: 1 / 2;
 	background-color: rgba(255,255,255,0.25);
 	display: grid;
-	grid-template-rows: 35% 1fr 1em;
+	grid-template-rows: 45% 1fr;
 }

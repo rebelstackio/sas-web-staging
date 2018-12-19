@@ -4,7 +4,8 @@
 
 const MainDefaultState = {
 	menuData: global.menuData,
-	lang: 'en'
+	lang: 'en',
+	lastNews: global.lastNews
 };
 
 export default {
