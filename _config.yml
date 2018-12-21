@@ -6,3 +6,4 @@ exclude:
   - package.json
   - README.md
   - webpack.config.js
+  - _src

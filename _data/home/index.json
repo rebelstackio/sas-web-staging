@@ -14,7 +14,7 @@
 		},
 		"description": {
 			"en": "Machu Pichu, unarguably one of the most awe inspiring and profound locations in the world, a true place of mystery that was somehow completely missed by the Spanish during their conquest of the Incan Empire. It was rediscovered by the infamous Hiram Bingham in the 20th century lying unknown to the outside world upon an enigmatic cloud draped cliff in Southern Peru. This monument to the true ambition of mankind is written upon every intrepid travelers bucket list. Join us on one of our incomparable tours to this modern day world wonder soon. The government has plans to limit access to the site to only a few small areas, so before it’s too late sign up for the trip of your lifetime with South American’s Secrets. ",
-			"es": "Machu Picchu, también conocido como Pata Llacta la ciudad perdida de los Incas, es una de las megaestructuras mundiales antiguas con más valor histórico. Recientemente ha sido reconocida como una de las siete maravillas del mundo moderno. Este impresionante hallazgo arqueológico ha ido aumentando su popularidad y actualmente recibe alrededor de 2500 touristas al día. Nuestro guía veterano Lucio explica que debido al incremento de demanda, las áreas accesibles a los visitantes son reducidas y restringidas cada año. Hoy en día los visitantes aún se les permite entrar y tocar la mayoría de las estructuras antiguas de Machu Picchu, permitiendo una experiencia muy personal e íntima. En pocos años los tours serán restringidos a senderos cercados y filas de una sola línea."
+			"es": "Machu Pichu, indiscutiblemente uno de los lugares más imponentes y profundos del mundo, un verdadero lugar de misterio que de algún modo fue completamente perdido por los españoles durante su conquista del Imperio Inca. Fue redescubierto por el infame Hiram Bingham en el siglo XX, desconocido para el mundo exterior, sobre un enigmático acantilado cubierto de nubes en el sur del Perú. Este monumento a la verdadera ambición de la humanidad está escrito en cada intrépida lista de viajeros. Únase a nosotros en uno de nuestros incomparables viajes a esta maravilla del mundo moderno pronto. El gobierno tiene planes de limitar el acceso al sitio solo a unas pocas áreas pequeñas, por lo que antes de que sea demasiado tarde, regístrese para el viaje de su vida con los Secretos de Sudamérica."
 		},
 		"blockquote": {
 			"en": "A construction project of this magnitude in such a lofty location would require teams of architects, engineers, and geologists of ancient Peru.",
@@ -25,7 +25,7 @@
 			"en": "November 06, 2017",
 			"es": "Noviembre 06, 2017"
 		},
-		"url_image": "images/tours/cuzco/machu_picchu_main.png",
+		"url_image": "assets/images/tours/cuzco/machu_picchu_main.png",
 		"tour": "tourscuzco.html#machu-picchu-day-trip",
 		"id": "4",
 		"link": "article-detail.html?id=4"
@@ -48,7 +48,7 @@
 			"en": "March 20,2014",
 			"es": "Marzo 20,2014"
 		},
-		"url_image":"images/articles/monte_sierpe_portrait.jpg",
+		"url_image":"assets/images/articles/monte_sierpe_portrait.jpg",
 		"blockquote":{
 			"en": "“I believe that what appears to be a serpent is actually the deity Q'hoa. He was the servant or acolyte of the god of water known as Illapa and his likeness was used in a majority of rituals regarding rain”.",
 			"es": "“Lo que parece ser una serpiente es en realidad la antigua deidad Q'hoa. Él era el siervo ... del dios del agua ... y fue utilizado en los rituales ... con respecto a la lluvia”."
@@ -75,7 +75,7 @@
 			"en": "February 26, 2014",
 			"es": "February 26, 2014"
 		},
-		"url_image": "images/articles/nazca_spider.jpg",
+		"url_image": "assets/images/articles/nazca_spider.jpg",
 		"blockquote":{
 			"en": "\"Before, the only way to see the Nasca lines was to travel to Nasca - usually by bus. But now we fly from Pisco and people prefer it.\"",
 			"es": "\"Antes, la única manera de ver las líneas de Nasca era viajar a Nasca - en autobús. Pero ahora volamos desde Pisco y los turistas lo prefieren.\""},
@@ -101,7 +101,7 @@
 			"en": "February 22, 2014",
 			"es":"Febrero 22, 2014"
 		},
-		"url_image":"images/articles/guano_collectors_1_portrait.jpg",
+		"url_image":"assets/images/articles/guano_collectors_1_portrait.jpg",
 		"blockquote": {
 			"en": "\"The worst enemy is not the smell, heat or exhaustion... [it] is dust sticking on the eyebrows, covering our noses and cheeks and turning our face into a rigid mask.\"",
 			"es": "\"El peor enemigo no es el olor, el calor o el agotamiento.\" como explicó Domingo León, el peor enemigo es el polvo que se pega en las cejas, cubriendo nuestras narices y mejillas y convirtiendo nuestra cara en una máscara rígida.\""
