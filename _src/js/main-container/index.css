@@ -7,5 +7,5 @@ main-container {
 #container {
 	grid-area: 1 / 2;
 	display: grid;
-	grid-template-rows: 30% 1fr;
+	grid-template-rows: 45vh 1fr;
 }

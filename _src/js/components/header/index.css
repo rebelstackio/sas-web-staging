@@ -21,8 +21,9 @@ main-header {
 	color: #fff;
 	font-size: 50px;
 	margin: 0 !important;
+	opacity: .5;
 	-webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: #d3d3d3;
+	-webkit-text-stroke-color: #d3d3d3;
 }
 #header-text div h2 {
 	color: orange;
