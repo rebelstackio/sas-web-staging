@@ -1,0 +1,18 @@
+{
+	"home": {
+		"actions" : [
+			{
+				"en": "See tour",
+				"es": "Ver tour"
+			},
+			{
+				"en": "Continue Reading...",
+				"es": "Leer Artículo..."
+			},
+			{
+				"en": "Share",
+				"es": "Compartir"
+			}
+		]
+	}
+}

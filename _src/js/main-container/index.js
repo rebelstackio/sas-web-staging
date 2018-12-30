@@ -37,6 +37,7 @@ class MainContainer extends MetaContainer {
 				const mainContent = document.createElement('main-home')
 				that.siteContent.innerHTML = '';
 				that.siteContent.appendChild(mainContent);
+				that.toggleLang();
 			},
 			'about/': function () {
 				const otherSite = document.createElement('span');
@@ -48,11 +49,19 @@ class MainContainer extends MetaContainer {
 		.resolve();
 	}
 	/**
-	 * toggle visibility to the elements with the tag Lang
+	 * handle lang store evenet
 	 */
 	handleLang () {
 		global.storage.on('CHANGE_LANG', () => {
-			const {lang} = global.storage.getState().Main;
+			this.toggleLang();
+		})
+	}
+
+	/**
+	 * function that toggle visibility of the tags by lang
+	 */
+	toggleLang () {
+		const {lang} = global.storage.getState().Main;
 			const show = document.querySelectorAll('*[lang="' + lang + '"]');
 			const hide = document.querySelectorAll('*[lang^="e"]:not([lang="' + lang + '"])');
 			show.forEach((s) => {
@@ -62,8 +71,8 @@ class MainContainer extends MetaContainer {
 				h.classList.remove('hide');
 				h.classList.add('hide');
 			});
-		})
 	}
+
 }
 
 window.customElements.define('main-container', MainContainer);

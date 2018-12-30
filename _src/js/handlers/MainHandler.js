@@ -5,7 +5,8 @@
 const MainDefaultState = {
 	menuData: global.menuData,
 	lang: 'en',
-	lastNews: global.lastNews
+	lastNews: global.lastNews,
+	utils: global.utils
 };
 
 export default {
