@@ -2,6 +2,7 @@ import { MetaContainer } from '@rebelstack-io/metaflux';
 import './index.css';
 import '../components/header';
 import '../components/home';
+import '../components/dropdown';
 import '../handlers';
 import Navigo from 'navigo';
 

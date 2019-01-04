@@ -44,3 +44,16 @@
 .btn-orange:hover {
 	background-color: #c36009 !important;
 }
+
+.banner-box {
+	grid-area: 1 / 2;
+	display: grid;
+	grid-template-rows: 46vh 46vh 46vh;
+	grid-row-gap: 2vh;
+	margin: 2vh 2vh 0 0;
+}
+
+.banner-box > * {
+	border-radius: 4px;
+	background-color: orange;
+}

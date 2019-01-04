@@ -1,0 +1,29 @@
+dropdown-menu {
+	padding: 0 1em 1em;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+dropdown-menu > div {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 100%;
+}
+
+#home-tours {
+	position: absolute;
+	width: 52%;
+	height: 28vh;
+	background-color: #101010;
+	top: 44%;
+	left: 19%;
+}
+
+.dropdown-complex-options {
+	display: grid;
+	grid-row-gap: .5em;
+}
+.dropdown-complex-options > a {
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+ }

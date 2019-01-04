@@ -27,6 +27,9 @@ class Menu extends MetaComponent {
 		box.addEventListener('click', this.handleLang)
 		box.appendChild(this.img)
 		this.content.appendChild(box);
+		/*const DD1 = document.createElement('dropdown-menu');
+		DD1.id = 'home-tours';
+		this.storage.dispatch({type:'OPEN', id: DD1.id});*/
 		return this.content;
 	}
 	/**
@@ -52,6 +55,10 @@ class Menu extends MetaComponent {
 		menuData.items.map(m => {
 			const menuBox = document.createElement('div');
 			menuBox.id = 'menu-box';
+			if (m.subData.length > 0) {
+				menuBox.className = 'dropdown-action';
+				this.createDropDownMenu(menuBox, m.subData);
+			}
 			Object.keys(m.data).forEach(key => {
 				const menuItem = document.createElement('span');
 				menuItem.textContent = m.data[key]
@@ -65,6 +72,33 @@ class Menu extends MetaComponent {
 			this.content.appendChild(menuBox);
 		})
 	}
+	/**
+	 * create both dropdowns
+	 * @param {HTMLElement} box 
+	 * @param {Array} data 
+	 */
+	createDropDownMenu (box, data) {
+		try {
+			if (data[0].items.length > 0) {
+				const multyDD = document.createElement('dropdown-menu')
+				multyDD.id = 'home-tours';
+				multyDD.className = 'hide';
+				multyDD.data = data;
+				multyDD.complex = true;
+				box.appendChild(multyDD);
+				box.addEventListener('click', () => {
+					global.storage.dispatch({type: 'DROPDOWN_TOGGLE', id: 'home-tours'})
+				});
+			} else {
+				const singleDD = document.createElement('dropdown-menu')
+				singleDD.id = 'home-tours';
+				box.appendChild(singleDD);
+			}
+		} catch (err) {
+			//
+		}
+	}
+
 	/**
 	 * dispatch the lang selected
 	 */
