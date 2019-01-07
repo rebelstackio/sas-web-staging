@@ -23,6 +23,24 @@ main-menu #menu-content {
 	width: 25px;
 	height: 25px;
 }
-#menu-box span:hover {
+#menu-box:hover > span, #menu-box:hover > i{
 	color: #fff !important;
+}
+
+.dropdown-action {
+	grid-template-columns: 1fr 1em;
+}
+
+.dropdown-action > i {
+	grid-area: 1 / 2;
+	place-self: center;
+	color: #f58220;
+ }
+
+.dropdown-active > i, .dropdown-active > span {
+	color: #fff !important;
+}
+
+.dropdown-active {
+	background-color: #080808 !important;
 }

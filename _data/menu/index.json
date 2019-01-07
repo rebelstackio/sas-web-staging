@@ -116,7 +116,22 @@
 				"en" : "Peru Packages",
 				"es" : "Paquetes Perú"
 			},
-			"subData": [],
+			"subData": [
+				{
+					"title": {
+						"en": "Mysteries of the South Coast (2 days / 1 night)",
+						"es": "Misterios de la costa norte (2 días / 1 noche)"
+					},
+					"url": "packagecoast"
+				},
+				{
+					"title": {
+						"en": "Machu Picchu & The Secret Valley of Incas",
+						"es": "Machu Picchu & El Valle secreto de los Incas"
+					},
+					"url": "packagecoast"
+				}
+			],
 			"action": ""
 		},
 		{

@@ -1,0 +1,14 @@
+#home-tours {
+	position: absolute;
+	width: 52%;
+	height: 28vh;
+	background-color: #101010;
+}
+
+#home-packages {
+	position: absolute;
+	width: 30%;
+	height: 12vh;
+	background-color: #101010;
+	padding-top: 1em;
+}

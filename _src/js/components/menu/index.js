@@ -27,9 +27,6 @@ class Menu extends MetaComponent {
 		box.addEventListener('click', this.handleLang)
 		box.appendChild(this.img)
 		this.content.appendChild(box);
-		/*const DD1 = document.createElement('dropdown-menu');
-		DD1.id = 'home-tours';
-		this.storage.dispatch({type:'OPEN', id: DD1.id});*/
 		return this.content;
 	}
 	/**
@@ -58,6 +55,9 @@ class Menu extends MetaComponent {
 			if (m.subData.length > 0) {
 				menuBox.className = 'dropdown-action';
 				this.createDropDownMenu(menuBox, m.subData);
+				const icon = document.createElement('i');
+				icon.className = 'fas fa-caret-down';
+				menuBox.appendChild(icon);
 			}
 			Object.keys(m.data).forEach(key => {
 				const menuItem = document.createElement('span');
@@ -79,10 +79,11 @@ class Menu extends MetaComponent {
 	 */
 	createDropDownMenu (box, data) {
 		try {
-			if (data[0].items.length > 0) {
+
+			if (data[0].items) {
 				const multyDD = document.createElement('dropdown-menu')
 				multyDD.id = 'home-tours';
-				multyDD.className = 'hide';
+				multyDD.className = 'complex hide';
 				multyDD.data = data;
 				multyDD.complex = true;
 				box.appendChild(multyDD);
@@ -91,8 +92,14 @@ class Menu extends MetaComponent {
 				});
 			} else {
 				const singleDD = document.createElement('dropdown-menu')
-				singleDD.id = 'home-tours';
+				singleDD.id = 'home-packages';
+				singleDD.className = 'simple hide';
+				singleDD.data = data;
+				singleDD.complex = false;
 				box.appendChild(singleDD);
+				box.addEventListener('click', () => {
+					global.storage.dispatch({type: 'DROPDOWN_TOGGLE', id: 'home-packages'})
+				});
 			}
 		} catch (err) {
 			//

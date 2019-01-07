@@ -10,13 +10,13 @@ class DropDown extends MetaComponent {
 	constructor () {
 		super(global.storage);
 		this.createContent = this.createContent.bind(this);
-		this.createComplex = this.createComplex.bind(this); 
+		this.createComplex = this.createComplex.bind(this);
+		this.createSimple = this.createSimple.bind(this);
 	}
 	// eslint-disable-next-line class-method-use-this
 	render () {
 		this.content = document.createElement('div');
-		this.isMultyColumn = false;
-		this.createContent (this.complex, this.data)
+		this.createContent (this.complex, this.data);
 		return this.content;
 	}
 	/**
@@ -26,10 +26,13 @@ class DropDown extends MetaComponent {
 		if (b) {
 			this.createComplex(data);
 		} else {
-
+			this.createSimple(data);
 		}
 	}
-	
+	/**
+	 * create a multy columns dropdown
+	 * @param {Array} data 
+	 */
 	createComplex (data) {
 		data.forEach(d => {
 			const section = document.createElement('div');
@@ -46,13 +49,38 @@ class DropDown extends MetaComponent {
 		});
 	}
 	/**
-	 * Handle Events in a organized way.
+	 * create simple dropdown
+	 * @param {Array} data 
+	 */
+	createSimple (data) {
+		data.forEach(d => {
+			const section = document.createElement('div');
+			section.className = 'dropdown-section';
+			const titleBox = document.createElement('div');
+			getMultyLangLink(d.title, titleBox, 'dropdown-simple-option', d.url);
+			section.appendChild(titleBox);
+			this.content.appendChild(section);
+		})
+	}
+	/**
+	 * Handle Toggle Events
 	 */
 	handleStoreEvents () {
 		return {
 			'DROPDOWN_TOGGLE': (action) => {
 				if (action.id === this.id) {
-					this.className = this.className === 'hide' ? '' : 'hide';
+					this.style.top = (this.parentNode.offsetTop + this.parentNode.offsetHeight) + 'px';
+					this.style.left = this.parentNode.offsetLeft + 'px';
+					if (this.classList.contains('hide')) {
+						this.classList.remove('hide');
+						this.parentNode.classList.add('dropdown-active');
+					} else {
+						this.classList.add('hide');
+						this.parentNode.classList.remove('dropdown-active');
+					}
+				} else {
+					this.classList.add('hide');
+					this.parentNode.classList.remove('dropdown-active');
 				}
 			}
 		};

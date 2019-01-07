@@ -1,21 +1,18 @@
 dropdown-menu {
 	padding: 0 1em 1em;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	cursor: default;
 }
 
-dropdown-menu > div {
+dropdown-menu.complex > div {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	height: 100%;
 }
 
-#home-tours {
-	position: absolute;
-	width: 52%;
-	height: 28vh;
-	background-color: #101010;
-	top: 44%;
-	left: 19%;
+dropdown-menu.simple > div {
+	display: grid;
+	height: 100%;
 }
 
 .dropdown-complex-options {
@@ -27,3 +24,9 @@ dropdown-menu > div {
 	font-size: 14px;
 	text-decoration: none;
  }
+
+.dropdown-section a {
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
