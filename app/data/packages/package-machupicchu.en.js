@@ -53,7 +53,7 @@ export default {
                         ['Day 3',	'Sacred Valley, hikes through the Pisac ruins or town of Maras and finally the Ollantaytambo ruins.'],
                         ['Day 4', 'Ollantaytambo Ruins | Train to Machu Picchu'],
                         ['Day 5', 'Free Day at Machu Picchu | Return to Cusco'],
-                        ['Day 6', 'Eplore Cusco, You are free to explore the city on your own or guided'],
+                        ['Day 6', 'Explore Cusco, You are free to explore the city on your own or guided'],
                         ['Day 7', 'Fly Lima | Return home']
                     ]
                 }
