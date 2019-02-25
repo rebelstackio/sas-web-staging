@@ -6,7 +6,8 @@ const MainDefaultState = {
 	menuData: global.menuData,
 	lang: 'en',
 	lastNews: global.lastNews,
-	utils: global.utils
+	utils: global.utils,
+	tourPackages: global.tourPackages
 };
 
 export default {

@@ -1,6 +1,11 @@
 @import url('./header.css');
 @import url('./articles.css');
 @import url('./home.css');
+@import url('./tours.css');
+
+:root {
+	--main-bg-color: rgba(255,255,255,0.25);; 
+}
 
 body, #background-img {
 	margin: 0px;
@@ -54,4 +59,11 @@ body {
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #333;
+}
+p {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.bold {
+	font-weight: 900 !important;
 }

@@ -1,0 +1,23 @@
+.tour-container {
+	display: grid;
+	grid-template-columns: .7fr 1fr;
+}
+
+.tour-container > img {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #bfc0bf;
+	border-radius: 3px;
+}
+
+tour-packages {
+	display: grid;
+	background-color: var(--main-bg-color);
+	height: 100%;
+}
+
+.package-content {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	padding: 2vh 1vw;
+}

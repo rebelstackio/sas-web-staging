@@ -3,6 +3,7 @@ import './index.css';
 import '../components/header';
 import '../components/home';
 import '../components/dropdown';
+import '../components/tour_packages';
 import '../handlers';
 import Navigo from 'navigo';
 
@@ -45,6 +46,15 @@ class MainContainer extends MetaContainer {
 				otherSite.id = 'other-site';
 				that.siteContent.innerHTML = '';
 				that.siteContent.appendChild(otherSite);
+			},
+			'packagecoast/:id': function (params) {
+				const b = params.id === 'package-mystery-south-coast' ? 0 : 1;
+				const tourPackages = document.createElement('tour-packages');
+				tourPackages.type = b;
+				tourPackages.searchKey = params.id;
+				that.siteContent.innerHTML = '';
+				that.siteContent.appendChild(tourPackages);
+				that.toggleLang();
 			}
 		})
 		.resolve();

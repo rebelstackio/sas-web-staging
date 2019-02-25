@@ -9,6 +9,7 @@ class Home extends MetaComponent {
 		this.createArticles = this.createArticles.bind(this);
 		this.createArticlesActions = this.createArticlesActions.bind(this);
 		this.createBanner = this.createBanner.bind(this);
+		document.getElementsByTagName('title')[0].innerText = 'South American\'s Secrets';
 	}
 	// eslint-disable-next-line class-method-use-this
 	render () {
