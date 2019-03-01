@@ -46,6 +46,7 @@ export default [
 		url_image:'images/articles/guano_collectors_1_portrait.jpg',
 		blockquote:`"El peor enemigo no es el olor, el calor o el agotamiento." como explicó Domingo León, el peor enemigo es el polvo que se pega en las cejas, cubriendo nuestras narices y mejillas y convirtiendo nuestra cara en una máscara rígida."`,
 		url:'',
+		link: 'article-detail.html?id=3',
 		tour: 'toursparacas.html'
 	}
 ];
