@@ -84,7 +84,7 @@ export default {
 				title:'Huaca de la Luna',
 				shortTitle:'Huaca de la Luna',
 				subtitle:`Huaca de la Luna fue construida por la antigua cultura Moche y era su centro ceremonial.`,
-				url_image:'https://res.cloudinary.com/dlia7phdx/image/upload/v1551325447/SAS/Temple_of_the_moon.jpg',
+				url_image:'https://res.cloudinary.com/dlia7phdx/image/upload/v1551464129/SAS/Temple_of_the_moon.jpg',
 				description:`A diferencia de la Huaca del Sol, que fue destruído en su mayoría, la Huaca de la Luna quedó en gran parte intacto y ha proporcionado la información arqueológica. En el templo hay muchos murales que representan a menudo el dios "Ayapec" (todo lo sabe). La evidencia ha demostrado que el sitio era también un templo de enterramiento de los sacerdotes de alto estatus y gobernantes y como la ubicación donde se realizaban sacrificios humanos.`,
 				additionalData: {
 					include: [

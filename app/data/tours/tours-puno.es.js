@@ -11,7 +11,7 @@ Hoy, Puno es conocida como la "Capital Folklórica del Perú" (capital folklóri
 				title:'Lago Titicaca en Lancha',
 				shortTitle:'Lago Titicaca en Lancha',
 				subtitle:'Descubre el mundo de los aymaras y quechuas en la Isla de los Uros y Taquile, donde las personas conservan sus antiguas costumbres, que coexisten con la naturaleza, la religión, la agricultura y el arte que continúa como lo hicieron en los tiempos de los Incas.',
-				url_image:'https://res.cloudinary.com/dlia7phdx/image/upload/v1551324472/SAS/Boat_trip.jpg',
+				url_image:'https://res.cloudinary.com/dlia7phdx/image/upload/v1551464575/SAS/Boat_trip.jpg',
 				description:`El acceso de Puno al Lago Titicaca está rodeado por 41 islas flotantes. Hoy en día en el pueblo de los Uros mantienen y viven en estas islas hechas por el hombre, dependiendo de ellos para su supervivencia y que atrae a muchos turistas.
 Las Islas de los Uros es un archipiélago de 48 islas flotantes habitadas por el pueblo Aymara. Las cañas de totora usadas para construir las islas se recogen de las aguas poco profundas del lago Titicaca.
 El lago Titicaca es el lago navegable más alto del mundo a 3812 metros sobre el nivel del mar. Por volumen de agua, también es el lago más grande de Sudamérica.

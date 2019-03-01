@@ -10,7 +10,7 @@ export default {
 				title:'Lake Titicaca Boat Tour',
 				shortTitle:'Lake Titicaca Boat Tour',
 				subtitle:'Discover the world of the Aymara and Quechua in the Uros and Taquile Island, where the people retain their ancient customs, co-existing with nature, religion, agriculture and art that continues as it did in the times of the Incas.',
-				url_image:'https://res.cloudinary.com/dlia7phdx/image/upload/v1551324472/SAS/Boat_trip.jpg',
+				url_image:'https://res.cloudinary.com/dlia7phdx/image/upload/v1551464575/SAS/Boat_trip.jpg',
 				description:`Puno's access to Lake Titicaca is surrounded by 41 floating islands. To this day, the Uros people maintain and live on these man-made islands, depending on them for survival and attracting many tourists.
 The Uros Islands are an archepelago of 48 floating islands inhabited by the Amaryu people. The tortora reeds used to construct the islands are collected from the shallow waters of Lake Titicaca.
 Lake Titicaca is the world's highest navigable lake at 3,812 m above sea level. By volume of water, it is also the largest lake in South America.
