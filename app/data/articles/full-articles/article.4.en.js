@@ -36,34 +36,5 @@ export default {
 				`The grandeur of Machu Picchu is in its majestic location in the mountain peaks. A construction project of this magnitude in such a lofty location would require teams of architects, engineers, and geologists of ancient Peru.  It is clear that this was a major project for one of the largest civilizations to appear in South America.   It is important to mention the invaluable architectural advancements contributed by various cultures superseding the dawn of the Incas.`
 			]
 		}
-    ],
-    bottom: [
-        {
-			url_image: 'images/tours/cuzco/machu_picchu_paracas.png',
-            image_class: 'bottom-image-long',
-            description: `paracas 700 BC`
-        },
-        {
-			url_image: 'images/tours/cuzco/machu_picchu_chavin.png',
-            image_class: 'bottom-image-vertical',
-            description: `chavín 1000 BC`
-        },
-        {
-			url_image: 'images/tours/cuzco/machu_picchu_nazca.png',
-            image_class: 'bottom-image-horizontal',
-            description: `nazca 550 AD`
-        }
-    ],
-    bottom2: [
-        {
-			url_image: 'images/tours/cuzco/machu_picchu_wari.png',
-            image_class: 'bottom-image-big',
-            description: `wari 550 BC`
-        },
-        {
-			url_image: 'images/tours/cuzco/machu_picchu_caral.jpg',
-            image_class: 'bottom-image-buig',
-            description: `caral 3500 AD`
-        }
     ]
 }
