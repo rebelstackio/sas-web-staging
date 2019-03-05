@@ -36,34 +36,5 @@ export default {
 				`La grandiosidad de Machu Picchu está en el lugar que fue construído, una construcción de esta magnitud en la cresta de la montaña debió haber requerido equipos de arquitectos, ingenieros y geólogos del antiguo Perú, claro está que es la obra final de las grandes civilizaciones que surgieron en sudamérica Perú, cabe mencionar las culturas que existieron antes que la Inca.`
 			]
 		}
-    ],
-    bottom: [
-        {
-			url_image: 'images/tours/cuzco/machu_picchu_paracas.png',
-            image_class: 'bottom-image-long',
-            description: `paracas 700 BC`
-        },
-        {
-			url_image: 'images/tours/cuzco/machu_picchu_chavin.png',
-            image_class: 'bottom-image-vertical',
-            description: `chavín 1000 BC`
-        },
-        {
-			url_image: 'images/tours/cuzco/machu_picchu_nazca.png',
-            image_class: 'bottom-image-horizontal',
-            description: `nazca 550 AD`
-        }
-    ],
-    bottom2: [
-        {
-			url_image: 'images/tours/cuzco/machu_picchu_wari.png',
-            image_class: 'bottom-image-big',
-            description: `wari 550 BC`
-        },
-        {
-			url_image: 'images/tours/cuzco/machu_picchu_caral.jpg',
-            image_class: 'bottom-image-buig',
-            description: `caral 3500 AD`
-        }
     ]
 }
