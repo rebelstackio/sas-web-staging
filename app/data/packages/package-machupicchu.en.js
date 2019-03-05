@@ -8,7 +8,7 @@ Let's live the adventure!`,
     packages:[
         {
             id:'package-machupicchu',
-            title:'MACHU PICCHU & THE SECRET VALLEY OF INCAS 7 days Touring',
+            title:'ENJOY THE ADVENTURE OF KNOWING MACHU PICCHU & THE SECRET VALLEY OF THE INCAS',
             shortTitle: 'MACHU PICCHU & THE SECRET VALLEY',
             subtitle:'',
             url_image:'images/tours/cuzco/machu_picchu_3_t.jpg',
