@@ -8,7 +8,7 @@ export default {
     packages:[
         {
             id:'package-machupicchu',
-            title:'MACHU PICCHU & THE SECRET VALLEY OF INCAS 7 days Touring',
+            title:'DISFRUTA LA AVENTURA DE CONOCER MACHU PICCHU & EL VALLE SECRETO DE LOS INCAS',
             shortTitle: 'MACHU PICCHU & THE SECRET VALLEY',
             subtitle:'',
             url_image:'images/tours/cuzco/machu_picchu_3_t.jpg',
