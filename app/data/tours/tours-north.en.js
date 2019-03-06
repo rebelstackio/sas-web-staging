@@ -147,7 +147,7 @@ export default {
 					],
 					price: {
 						currency:'$',
-						ammount:0,
+						ammount:'Consult',
 						data:[
 							 'A minimum of 2 participants are required'
 						]
