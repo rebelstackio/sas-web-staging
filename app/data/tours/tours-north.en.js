@@ -146,8 +146,8 @@ export default {
             'Bring a bottle of water.',
 					],
 					price: {
-						currency:'$',
-						ammount:'Consult',
+						currency:'',
+						ammount:'(Consult Price)',
 						data:[
 							 'A minimum of 2 participants are required'
 						]
