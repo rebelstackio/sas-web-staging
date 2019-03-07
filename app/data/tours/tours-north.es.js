@@ -143,8 +143,8 @@ export default {
 						'Lleve una botella de agua.',
 					],
 					price: {
-						currency:'$',
-						ammount:'Consultar',
+						currency:'',
+						ammount:'(Consultar Precio)',
 						data:[
 							 'Se requiere un mínimo de 2 participantes'
 						]
