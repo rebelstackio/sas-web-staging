@@ -4,18 +4,32 @@
 @import url('./tours.css');
 
 :root {
-	--main-bg-color: rgba(255,255,255,0.25);; 
+	--main-orange: #db821b;
+	--main-bg-color: rgba(255, 255, 255, 0.4);
 }
 
 body, #background-img {
 	margin: 0px;
-	background: url("../images/background/tapestry.png") 0 -20px repeat-x,      url("../images/background/bird.png") 10px 70px no-repeat,      url("../images/background/monkey.png") 10px 370px no-repeat,      url("../images/background/spider.png") 10px 570px no-repeat,      -webkit-linear-gradient(top left, rgba(230,239,47,1) 0%, rgba(168,216,10,1) 18%, rgba(181,175,16,1) 39%, rgba(71,71,3,1) 77%, rgba(25,68,3,1) 97%) no-repeat;
+	background: url("../images/background/bird.png") 10px 70px repeat, 
+	url("../images/background/monkey.png") 10px 370px repeat, 
+	url("../images/background/spider.png") 10px 570px repeat, 
+	-webkit-linear-gradient(top left, 
+	#c24125 0%,
+	#f18251 18%,
+	#faba43 39%,
+	#6da06f 77%,
+	#b6e9d1 97%) no-repeat;
 	background:
 	url("../images/background/tapestry.png") repeat-x,
 	url("../images/background/bird.png") 10px 70px no-repeat,
 	url("../images/background/monkey.png") 10px 370px no-repeat,
 	url("../images/background/spider.png") 10px 570px no-repeat,
-	-moz-linear-gradient(top left, rgba(230,239,47,1) 0%, rgba(168,216,10,1) 18%, rgba(181,175,16,1) 39%, rgba(71,71,3,1) 77%, rgba(25,68,3,1) 97%) no-repeat cover;
+	-moz-linear-gradient(top left,
+	#faba43 0%,
+	#b6e9d1 18%,
+	#6da06f 39%,
+	#f18251 77%,
+	#c24125 97%)  no-repeat cover;
 	background:
 	url("../images/background/tapestry.png") repeat-x,
 	url("../images/background/bird.png") 10px 70px no-repeat,
@@ -27,7 +41,7 @@ body, #background-img {
 	url("../images/background/bird.png") 10px 70px no-repeat,
 	url("../images/background/monkey.png") 10px 370px no-repeat,
 	url("../images/background/spider.png") 10px 570px no-repeat,
-	linear-gradient(to bottom right, rgba(230,239,47,1) 0%, rgba(168,216,10,1) 18%, rgba(181,175,16,1) 39%, rgba(71,71,3,1) 77%, rgba(25,68,3,1) 97%) no-repeat cover;
+	linear-gradient(to bottom right, #faba43 0%, #b6e9d1 18%, #6da06f 39%, #f18251 77%, #c24125) no-repeat cover;
 	/* background-repeat: no-repeat; */
 	/* background-size: cover; */
 }
@@ -50,6 +64,8 @@ body, #background-img {
 }
 
 
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 @font-face {
 	font-family: JungleFeverRegular;
 	src: url(../fonts/junglefever.fevernf.otf);
@@ -61,7 +77,7 @@ body {
 	color: #333;
 }
 p {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .bold {

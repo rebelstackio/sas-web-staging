@@ -37,12 +37,12 @@
 	text-align: center;
 	border-radius: 2px;
 	color: white !important;
-	background-color: #f58220;
+	background-color: var(--main-orange);
 	border:1px solid #e9af25;
 }
 
 .btn-orange:hover {
-	background-color: #c36009 !important;
+	background-color: orange !important;
 }
 
 .banner-box {
@@ -55,5 +55,5 @@
 
 .banner-box > * {
 	border-radius: 4px;
-	background-color: orange;
+	background-color: var(--main-orange);
 }

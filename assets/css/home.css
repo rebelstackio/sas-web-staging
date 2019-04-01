@@ -12,3 +12,7 @@
 	background-color: #101010;
 	padding-top: 1em;
 }
+
+main-home {
+	background-color: var(--main-bg-color);
+}

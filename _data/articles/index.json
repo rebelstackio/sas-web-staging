@@ -25,7 +25,7 @@
 			"en": "November 06, 2017",
 			"es": "Noviembre 06, 2017"
 		},
-		"url_image": "images/tours/cuzco/machu_picchu_main.png",
+		"url_image": "https://res.cloudinary.com/dlia7phdx/image/upload/v1551136340/SAS/Machupichu.jpg",
 		"tour": "tourscuzco.html#machu-picchu-day-trip",
 		"id": "4",
 		"link": "article-detail.html?id=4"
@@ -49,7 +49,7 @@
 			"en": "2014-02-26",
 			"es": "2014-02-26"
 		},
-		"url_image": "images/articles/nazca_spider.jpg",
+		"url_image": "https://res.cloudinary.com/dlia7phdx/image/upload/v1551137301/SAS/Nasca_lines.jpg",
 		"description":{
 			"en": "Getting to Nasca to see the Nasca lines once used to be a complicated and time-consuming effort. Unless you chartered your own private flight from Lima, public access was limited to mostly car or bus which is very long (7-8 hour one-way) trip from Lima.",
 			"es": "Llegar a Nasca para ver estas enigmáticas líneas de Nazca solía ser un esfuerzo grande y requería mucho tiempo. Al menos que usted quisiera rentar su propio vuelo privado desde Lima, el acceso al público se limitaba en su mayoría en coche o autobús, que tomaba mucho tiempo (12-14 horas ida y vuelta) viaje desde Lima."

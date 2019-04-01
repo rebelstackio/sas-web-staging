@@ -2,7 +2,6 @@ main-home {
 	display: grid;
 	grid-template-columns: 1fr 30%;
 	height: 100%;
-	background-color: var(--main-bg-color);
 }
 
 .text-content {
@@ -16,7 +15,7 @@ main-home {
 
 .box-img img {
 	width: 100%;
-	height: 250px;
+	height: auto;
 	border: 1px solid #bfc0bf;
 	border-radius: 3px;
 }
