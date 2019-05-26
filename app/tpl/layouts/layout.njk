@@ -8,6 +8,7 @@
 				<meta name="theme-color" content="#DE5A2E">
 				<meta name="msapplication-navbutton-color" content="#DE5A2E">
 				<meta name="apple-mobile-web-app-status-bar-style" content="#DE5A2E">
+				<meta name="tepago-assets" content="http://localhost:8081/">
 				<link rel="icon" type="image/png" href="images/tumi_square.ico" />
 				<link href="css/bootstrap.min.css" rel="stylesheet">
 				<link href="css/style.css" rel="stylesheet">
@@ -34,8 +35,19 @@
 				<script src="js/carousel.js"></script>
 				<script src="js/video.js"></script>
 				<script src="js/reservation.js"></script>
+				<!-- front script -->
+				<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+				<script src="http://localhost:8082/frontscript.js"></script>
+				<!-- tepago pro -->
+				<script src="http://localhost:8081/main.js"></script>
 		</head>
 		<body>
+			<div id="yak-chat-embended">
+				<!-- the chat will be generated inside this -->
+			</div>
+			<div id="tepago-area" class="hide">
+				<!-- tepago generated here-->
+			</div>
 			<div class="container-app">
 				<div id="app" class="container-fluid no-gutter ">
 					<header>
