@@ -89,3 +89,24 @@
     }
 
 }
+
+div#yak-chat-embended {
+    position: fixed;
+    bottom: 41px;
+    height: 60vh;
+    z-index: 100;
+    background: rgba(255,255,255,.8);
+    left: 79%;
+    width: 20vw;
+    border-radius: 3px;
+}
+
+div#tepago-area {
+    position: fixed;
+    width: 390px;
+    z-index: 101;
+    height: 70vh;
+    background: #fff;
+    top: 15%;
+    left: 35%;
+}
