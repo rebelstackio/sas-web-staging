@@ -1,3 +1,7 @@
+.mobile-only {
+    opacity: 0;
+    display: none;
+}
 .article{
     margin-bottom: 20px;
 }
@@ -41,6 +45,27 @@
 .container-article{
     /* margin-left: -50px!important; */
     margin-bottom: 15px;
+}
+
+div#yak-chat-embended {
+    position: fixed;
+    bottom: 41px;
+    height: 60vh;
+    z-index: 100;
+    background: rgba(255,255,255,.8);
+    left: 79%;
+    width: 20vw;
+    border-radius: 3px;
+}
+
+div#tepago-area {
+    position: fixed;
+    width: 390px;
+    z-index: 101;
+    height: 70vh;
+    background: #fff;
+    top: 15%;
+    left: 35%;
 }
 
 @media (max-width: 767px) {
@@ -87,26 +112,31 @@
         margin-left: 0!important; 
         margin-right: 0!important; 
     }
-
+    .mobile-hide {
+        opacity: 0;
+    }
+    .mobile-only {
+        opacity: 1;
+        position: fixed;
+        top: 88%;
+        z-index: 100;
+        left: 83%;
+        width: 60px;
+        height: auto;
+        border-radius: 50% 50% 0 50%;
+        box-shadow: -1px 1px 2px 4px;
+        cursor: pointer;
+        background: #fff;
+    }
+    .yak-chat-bubble.mobile-only > img {
+        width: inherit;
+    }
+    div#yak-chat-embended {
+        top: 41px;
+        height: 60vh;
+        z-index: 100;
+        left: 47px;
+        width: 329px;
+    }
 }
 
-div#yak-chat-embended {
-    position: fixed;
-    bottom: 41px;
-    height: 60vh;
-    z-index: 100;
-    background: rgba(255,255,255,.8);
-    left: 79%;
-    width: 20vw;
-    border-radius: 3px;
-}
-
-div#tepago-area {
-    position: fixed;
-    width: 390px;
-    z-index: 101;
-    height: 70vh;
-    background: #fff;
-    top: 15%;
-    left: 35%;
-}

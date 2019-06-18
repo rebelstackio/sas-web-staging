@@ -37,18 +37,40 @@
 				<script src="js/reservation.js"></script>
 				<!-- front script -->
 				<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+				<!--
 				<script src="https://rebelstackio.github.io/yakchat/frontscript.js"></script>
-				<!-- tepago pro -->
+				-->
+				<script src="http://localhost:8082/frontscript.js"></script>
+				<!-- culqui API -->
+				<script src="https://checkout.culqi.com/js/v3"></script>
+				<!-- tepago pro (PRODUCTION)
 				<script src="https://rebelstackio.github.io/tepagopro/main.js"></script>
+				-->
+				<!-- toggle the chat in mobile view -->
+				<script>
+					document.addEventListener('DOMContentLoaded', () => { 
+						document.querySelector('#bubble-toggler')
+						.addEventListener('click', ()=> {
+							document.querySelector('#yak-chat-embended').classList.toggle('mobile-hide');
+						});
+					})
+				</script>
 		</head>
 		<body>
-			<div id="yak-chat-embended">
-				<!-- the chat will be generated inside this -->
-			</div>
-			<div id="tepago-area" class="hide">
-				<!-- tepago generated here-->
-			</div>
 			<div class="container-app">
+				<!-- ///////////////// 1 YAKCHAT //////////////////////// -->
+				<div id="yak-chat-embended" class="mobile-hide">
+					<!-- the chat will be generated inside this -->
+				</div>
+				<!-- ////////////////// 3 MOBILE BUBBLE /////////////////////// -->
+				<div class="yak-chat-bubble mobile-only" id="bubble-toggler">
+					<img src="https://res.cloudinary.com/dvv4qgnka/image/upload/v1553216418/yakchat_icon_192.png">
+				</div>
+				<!-- ////////////////// 4 TEPAGOPRO /////////////////////// -->
+				<div id="tepago-area" class="hide">
+					<!-- tepago generated here-->
+				</div>
+				<!-- /////////////////// END ////////////////////// -->
 				<div id="app" class="container-fluid no-gutter ">
 					<header>
 						{% include "../partials/header.njk" %}
@@ -71,5 +93,11 @@
 			<script src="menu.js"></script>
 			<script src="footer.js"></script>
 			<script src="https://www.jscache.com/wejs?wtype=socialButtonBubbles&amp;uniq=759&amp;locationId=6387633&amp;color=white&amp;size=rect&amp;lang=en_US&amp;display_version=2"></script>
+			<!-- ///////////////// 2 PAYPAL //////////////////////// -->
+			<script
+			src="https://www.paypal.com/sdk/js?client-id=sb">
+			</script>
+			<!-- tepago pro (DEVELOPMENT) -->
+			<script src="http://localhost:8080/main.js"></script>
 		</body>
 </html>
