@@ -8,7 +8,7 @@ export default {
 	author:'Rein Petersen',
 	date:'February 22, 2014',
 	image_class: 'image-vertical',
-	url_image: 'images/articles/guano_collectors_1_portrait.jpg',
+	url_image:'https://res.cloudinary.com/dvv4qgnka/image/upload/v1576693942/SAS/guano_colector.jpg',
 	tour: 'toursparacas.html',
 	blocks: [
 		{
