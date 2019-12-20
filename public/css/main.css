@@ -122,3 +122,7 @@ div#tepago-area {
 .article-body p {
     color: #666666;
 }
+
+pretty-modal > .modal-box {
+    z-index: 1000;
+}
