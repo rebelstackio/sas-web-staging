@@ -1,17 +1,25 @@
 pretty-modal .modal-wrapper {
-    max-width: 90vw !important;
+    max-width: 90% !important;
 }
 
 .splash-ad img{
     width: 800px;
-    max-width: 86vw;
-    border-radius: 4px;
-    border: 3px dashed #fff;
+    max-width: 100%;
+}
+
+pretty-modal .modal-body {
+    max-width: 90% !important;
+}
+
+pretty-modal .modal-title {
+    max-width: 90% !important;
 }
 
 .splash-ad {
     position: relative;
-    overflow: hidden;
+    overflow: auto;
+    border: 3px dashed #fff;
+    border-radius: 4px;
 }
 
 .img-wrapper {
@@ -22,7 +30,6 @@ pretty-modal .modal-wrapper {
     right: 0;
     background-color: rgba(0, 0, 0, .4);
     display: grid;
-    grid-template-rows: 5em;
 }
 
 .img-wrapper > .splash-title {
@@ -62,7 +69,37 @@ pretty-modal .modal-wrapper {
 }
 
 .splash-description {
-    place-self: start end;
-    padding: 0 15px;
+    width: 100%;
     font-size: 16px;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: end;
+    height: fit-content;
+    margin: auto;
+    color: #fff;
+    padding: 10px 1em;
+}
+
+.splash-title svg {
+    padding: 5px;
+    color: #fff;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+@media screen 
+  and (max-width: 500px) 
+  and (orientation: portrait) {
+    .splash-ad h2{
+        font-size: 18px;
+    }
+    .splash-ad h3 {
+        font-size: 16px;
+    }
+    .splash-ad {
+        padding: 0;
+        height: 80vh;
+    }
+    .splash-description {
+        font-size: 14px;
+    }
 }

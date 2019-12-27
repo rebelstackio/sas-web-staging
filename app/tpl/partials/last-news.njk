@@ -55,33 +55,4 @@
 </div>
 {% endfor %}
 
-<pretty-modal id="fooless-modal" visible transparent footless>
-    <div class="splash-ad">
-        <picture>
-            <source media="(max-width: 500px)" srcset="https://res.cloudinary.com/dvv4qgnka/image/upload/v1576877525/SAS/salaberry_splash_pt.jpg">
-            <img src="https://res.cloudinary.com/dvv4qgnka/image/upload/v1576794897/SAS/salaberry_splash.jpg">
-        </picture>
-        <div class="img-wrapper">
-            <div class="splash-title">
-                <h2> Salaverry Cruice</h2>
-            </div>
-            <div class="splash-description">
-                <div>
-                    <span>enim nec dui nunc mattis</span>
-                </div>
-                <div>
-                    <span>accumsan lacus vel facilisis volutpat</span>
-                </div>
-                <div>
-                    <span>vel orci porta non pulvinar</span>
-                </div>
-            </div>
-            <div class="book-btn">
-                <pretty-button type="danger" size="large" value="See Tour"></pretty-button>
-            </div>
-        </div>
-        <div class="best-seller">
-            Best Seller
-        </div>
-    </div>
-</pretty-modal>
+{% include "../partials/splash-ad.njk" %}
