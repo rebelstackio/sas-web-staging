@@ -3,6 +3,10 @@ export default [
         title: 'Shore excursions',
         subtitle: 'from Salaverry Cruise terminal',
         description: 'lorem ipsum',
+        img: {
+            portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1576877525/SAS/salaberry_splash_pt.jpg',
+            landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1576794897/SAS/salaberry_splash.jpg'
+        },
         itinerary: [
             {
                 destination: 'Marina',

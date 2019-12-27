@@ -71,12 +71,19 @@ pretty-modal .modal-title {
 .splash-description {
     width: 100%;
     font-size: 16px;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(0, 0, 0, .5);
     text-align: end;
     height: fit-content;
     margin: auto;
-    color: #282525;
+    color: #fff;
     padding: 10px 1em;
+}
+
+.splash-title svg {
+    padding: 5px;
+    color: #fff;
+    background-color: orange;
+    border-radius: 50%;
 }
 
 @media screen 
@@ -90,6 +97,7 @@ pretty-modal .modal-title {
     }
     .splash-ad {
         padding: 0;
+        height: 80vh;
     }
     .splash-description {
         font-size: 14px;
