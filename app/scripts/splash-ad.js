@@ -5,7 +5,9 @@ let language = getPageLanguage('lng') || 'en' ;
 System.import(`../data/splash/index.${language}.js`).then((res) => {
 	let i = 0;
 	createItems(res.default);
+	addListeners();
 	setInterval(() => {
+		addListeners();
 		const isTrue = document.querySelector('pretty-modal') !== null
 			&& document.querySelector('pretty-modal').getAttribute('visible') !== null;
 		// if some one is seeing it keep the presentation
@@ -21,16 +23,45 @@ System.import(`../data/splash/index.${language}.js`).then((res) => {
 	}, 10000)
 });
 
+function addListeners() {
+	document.querySelectorAll('.splash-ad pretty-button button')
+	.forEach(btn => {
+		const index = btn.parentElement.getAttribute('index');
+		btn.addEventListener('click', () => {
+			redirect(parseInt(index));
+		})
+	})
+}
+
+function redirect(ind) {
+	console.log(ind);
+	switch (ind) {
+		case 1:
+			document.location.href = '/callao-cruise.html';
+			break;
+		case 2:
+			document.location.href = '/paracas-cruise.html';
+			break;
+		default:
+			document.location.href = '/salaverry-cruise.html';
+			break;
+	}
+}
+
 function createItems(data) {
-	document.querySelector('pretty-modal .splash-ad').innerHTML =
-	`<div class="best-seller">Best Seller</div>` +
-	data.map((item, i) => {
-		return `
-			<div class="splash-pres ${i === 0 ? '' : 'hidden'}">
-				${ getItem(item, i) }
-			</div>
-		`
-	}).join('');
+	try {
+		document.querySelector('pretty-modal .splash-ad').innerHTML =
+		`<div class="best-seller">Best Seller</div>` +
+		data.map((item, i) => {
+			return `
+				<div class="splash-pres ${i === 0 ? '' : 'hidden'}">
+					${ getItem(item, i) }
+				</div>
+			`
+		}).join('');
+	} catch (err) {
+		//
+	}
 }
 
 function getItem(el, i) {
@@ -66,7 +97,7 @@ function getItem(el, i) {
 			</div>
 		</div>
 		<div class="book-btn">
-			<pretty-button type="danger" size="large" id="C-${i}" value="${language === 'en' ? 'See Tour' : 'Ver Tour'}"></pretty-button>
+			<pretty-button type="danger" size="large" index="${i}" value="${language === 'en' ? 'See Tour' : 'Ver Tour'}"></pretty-button>
 		</div>
 	</div>
 	`

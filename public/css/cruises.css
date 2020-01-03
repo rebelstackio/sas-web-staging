@@ -1,0 +1,125 @@
+div#cruise-content {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	background-color: #Fff;
+	border-radius: 4px;
+	min-height: 488px;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.cruise-itinerary > img {
+	height: auto;
+	width: 100%;
+	/* position: absolute; */
+	position: absolute;
+	right: 0;
+}
+
+.items {
+	position: relative;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	padding: 15px 20px;
+	height: 100%;
+	max-height: 94vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.itinerary-item {
+	transition: all .3s ease;
+	cursor: default;
+}
+
+.itinerary-item:hover {
+	transform: scale(1.1, 1.1);
+	color: orange;
+}
+
+.items > h3 {
+	color: orange;
+}
+
+.cuise-body {
+	position: relative;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.reservation-btn {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	display: grid;
+}
+
+.reservation-btn > button {
+	justify-self: center;
+	outline: none;
+	user-select: none;
+}
+
+.img-item > img {
+	max-width: 25vw;
+	height: auto;
+	margin: auto;
+}
+
+.img-item {
+	opacity: 1;
+	transition: opacity .3s ease-in;
+}
+
+.cruise-data {
+	position: relative;
+	padding: 10px;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.img-presentation {
+	display: grid;
+}
+
+.img-presentation > * {
+	place-self: start center;
+}
+
+.cruise-data > p {
+	padding: 0 15px;
+	text-align: justify;
+	color: #666;
+
+}
+
+.cruise-itinerary {
+	position: relative;
+}
+
+.cruise-data > h3, .cruise-data > h4 {
+	color: orange;
+}
+
+@media screen 
+  and (max-width: 500px) 
+  and (orientation: portrait) {
+	div#cruise-content {
+		grid-template-columns: unset;
+	}
+	.cuise-body {
+		grid-template-columns: unset;
+	}
+	.cruise-data {
+		padding-bottom: 40px;
+	}
+	.img-item > img {
+		max-width: 279px;
+	}
+	.items {
+		max-height: 472px;
+	}
+}

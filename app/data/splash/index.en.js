@@ -1,11 +1,19 @@
 export default [
     {
+        id: 'shore-salaverry',
         title: 'Shore excursions',
         subtitle: 'from Salaverry cruise terminal',
         description: 'lorem ipsum',
         img: {
             portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1576877525/SAS/salaberry_splash_pt.jpg',
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1576794897/SAS/salaberry_splash.jpg'
+        },
+        media: [
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/callao_cruise_01.jpg',
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_02.jpg'
+        ],
+        price: {
+            amount: 60.00
         },
         itinerary: [
             {
@@ -51,12 +59,20 @@ export default [
         ]
     },
     {
+        id: 'shore-callao',
         title: 'Shore excursions',
         subtitle: 'from Callao cruise terminal',
-        description: 'lorem ipsum',
+        description: 'you are arriving on a cruise to Lima? we offer deluxe tours according to your time and requirements. Our Special Excursion It will take you to visit the best of Lima. The shore excursions include cars with air-conditioning, professional English speaking tour guides and all the tickets of admission to the sites to visit.',
         img: {
             portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port_pt.jpg',
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port.jpg'
+        },
+        media: [
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/callao_cruise_01.jpg',
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_02.jpg'
+        ],
+        price: {
+            amount: 60.00
         },
         itinerary: [
             {destination: "Marina ", title: "Oceania Cruises ", date: "January 8."},
@@ -84,12 +100,20 @@ export default [
         ]
     },
     {
+        id: 'shore-paracas',
         title: 'Shore excursions',
         subtitle: 'from TPP Pisco Paracas cruise terminal',
         description: 'lorem ipsum',
         img: {
             portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577419105/SAS/paracas_splash_pt.jpg',
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577419105/SAS/paracas_splash.jpg'
+        },
+        media: [
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/callao_cruise_01.jpg',
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_02.jpg'
+        ],
+        price: {
+            amount: 60.00
         },
         itinerary: [
             {destination: "Volendam ", title: "Holland America ", date: "January 18."},

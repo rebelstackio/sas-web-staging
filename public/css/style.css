@@ -57,7 +57,7 @@ body, #background-img{
 .page{
     /* width: 930px; */
     position: relative;
-    background-color: rgba(255,255,255,0.25);
+    background-color: rgba(255,255,255,0.5);
     padding-top: 20px;
     padding-bottom: 4px;
     margin-bottom: 46px;
@@ -185,4 +185,9 @@ blockquote {
 
 .no-padding {
   padding: 0;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }

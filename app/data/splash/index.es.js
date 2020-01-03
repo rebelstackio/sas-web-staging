@@ -1,11 +1,19 @@
 export default [
     {
+        id: 'shore-salaverry',
         title: 'Excursiones en tierra',
         subtitle: 'desde terminal de cruceros, Salaverry',
         description: 'lorem ipsum',
         img: {
             portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1576877525/SAS/salaberry_splash_pt.jpg',
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1576794897/SAS/salaberry_splash.jpg'
+        },
+        media: [
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/callao_cruise_01.jpg',
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_02.jpg'
+        ],
+        price: {
+            amount: 60.00
         },
         itinerary: [
             {
@@ -51,12 +59,20 @@ export default [
         ]
     },
     {
+        id: 'shore-callao',
         title: 'Excursiones en tierra',
         subtitle: 'desde terminal de cruceros, Callao',
-        description: 'lorem ipsum',
+        description: 'vas a llegar en un crucero a Lima? Ofrecemos tours de lujo de acuerdo a su tiempo y requerimientos. Nuestra Excursión Especial Te llevará a visitar lo mejor de Lima. Las excursiones en tierra incluyen autos con aire acondicionado, guías turísticos profesionales de habla inglesa y todos los boletos de admisión a los sitios para visitar.',
         img: {
             portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port_pt.jpg',
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port.jpg'
+        },
+        media: [
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/callao_cruise_01.jpg',
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_02.jpg'
+        ],
+        price: {
+            amount: 60.00
         },
         itinerary: [
             {destination: "Marina ", title: "Oceania Cruises ", date: "Enero 8."},
@@ -84,12 +100,20 @@ export default [
         ]
     },
     {
+        id: 'shore-paracas',
         title: 'Excursiones en tierra',
         subtitle: 'desde Terminal portuario Paracas, Pisco',
         description: 'lorem ipsum',
         img: {
             portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577419105/SAS/paracas_splash_pt.jpg',
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577419105/SAS/paracas_splash.jpg'
+        },
+        media: [
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/callao_cruise_01.jpg',
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_02.jpg'
+        ],
+        price: {
+            amount: 60.00
         },
         itinerary: [
             {destination: "Volendam ", title: "Holland America ", date: "Enero 18."},
