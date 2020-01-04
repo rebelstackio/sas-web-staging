@@ -38,13 +38,13 @@ function addListeners() {
 function redirect(ind) {
 	switch (ind) {
 		case 1:
-			document.location.href = '/callao-cruise.html';
+			document.location.href = document.location.pathname + 'callao-cruise.html';
 			break;
 		case 2:
-			document.location.href = '/paracas-cruise.html';
+			document.location.href = document.location.pathname + 'paracas-cruise.html';
 			break;
 		default:
-			document.location.href = '/salaverry-cruise.html';
+			document.location.href = document.location.pathname + 'salaverry-cruise.html';
 			break;
 	}
 }

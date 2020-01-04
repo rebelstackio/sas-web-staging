@@ -9,8 +9,8 @@ export default [
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1576794897/SAS/salaberry_splash.jpg'
         },
         media: [
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/callao_cruise_01.jpg',
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_02.jpg'
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578084877/SAS/salaverry_cruise_01.jpg',
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578084877/SAS/salaberry_cruise_02.jpg'
         ],
         price: {
             amount: 60.00
@@ -68,8 +68,8 @@ export default [
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port.jpg'
         },
         media: [
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578084877/SAS/salaberry_cruise_01.jpg',
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578084877/SAS/salaberry_cruise_02.jpg'
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_01.jpg',
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_02.jpg'
         ],
         price: {
             amount: 60.00

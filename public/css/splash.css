@@ -103,3 +103,10 @@ pretty-modal .modal-title {
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 1300px) {
+    .nav.navbar-nav
+    {
+        font-size: 12px !important;
+    }
+}
