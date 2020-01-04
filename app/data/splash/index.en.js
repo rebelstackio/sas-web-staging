@@ -3,14 +3,14 @@ export default [
         id: 'shore-salaverry',
         title: 'Shore excursions',
         subtitle: 'from Salaverry cruise terminal',
-        description: 'lorem ipsum',
+        description: 'Live the amazing archeological experience of "the City of Eternal Spring", this tour takes you to visit the best places in Trujillo, with full assistance, English speaking tour guides and comfortable cars with air conditioning',
         img: {
             portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1576877525/SAS/salaberry_splash_pt.jpg',
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1576794897/SAS/salaberry_splash.jpg'
         },
         media: [
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/callao_cruise_01.jpg',
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_02.jpg'
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578084877/SAS/salaverry_cruise_01.jpg',
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578084877/SAS/salaberry_cruise_02.jpg'
         ],
         price: {
             amount: 60.00
@@ -62,7 +62,7 @@ export default [
         id: 'shore-callao',
         title: 'Shore excursions',
         subtitle: 'from Callao cruise terminal',
-        description: 'you are arriving on a cruise to Lima? we offer deluxe tours according to your time and requirements. Our Special Excursion It will take you to visit the best of Lima. The shore excursions include cars with air-conditioning, professional English speaking tour guides and all the tickets of admission to the sites to visit.',
+        description: 'You are arriving on a cruise to Lima? we offer deluxe tours according to your time and requirements. Our Special Excursion It will take you to visit the best of Lima. The shore excursions include cars with air-conditioning, professional English speaking tour guides and all the tickets of admission to the sites to visit.',
         img: {
             portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port_pt.jpg',
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port.jpg'
@@ -103,14 +103,14 @@ export default [
         id: 'shore-paracas',
         title: 'Shore excursions',
         subtitle: 'from TPP Pisco Paracas cruise terminal',
-        description: 'lorem ipsum',
+        description: 'Discover the National Reserve of Paracas, a natural area home of some of the world\'s rarest ecosystems and also one of the driest deserts on the planet. Take a trip to Ballestas Islands, a wildlife sanctuary for marine fauna and exotic and stunning wildlife. All our tours include English speaking tour guides and air-conditioned cars',
         img: {
             portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577419105/SAS/paracas_splash_pt.jpg',
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577419105/SAS/paracas_splash.jpg'
         },
         media: [
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/callao_cruise_01.jpg',
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_02.jpg'
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/paracas_cruise_01.jpg',
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/paracas_cruise_02.jpg'
         ],
         price: {
             amount: 60.00

@@ -3,7 +3,7 @@ export default [
         id: 'shore-salaverry',
         title: 'Excursiones en tierra',
         subtitle: 'desde terminal de cruceros, Salaverry',
-        description: 'lorem ipsum',
+        description: 'Vive la increíble experiencia arqueológica de "la ciudad de la eterna primavera", este recorrido te lleva a visitar los mejores lugares de Trujillo, con asistencia completa, guías turísticos de habla inglesa y cómodos autos con aire acondicionado.',
         img: {
             portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1576877525/SAS/salaberry_splash_pt.jpg',
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1576794897/SAS/salaberry_splash.jpg'
@@ -62,14 +62,14 @@ export default [
         id: 'shore-callao',
         title: 'Excursiones en tierra',
         subtitle: 'desde terminal de cruceros, Callao',
-        description: 'vas a llegar en un crucero a Lima? Ofrecemos tours de lujo de acuerdo a su tiempo y requerimientos. Nuestra Excursión Especial Te llevará a visitar lo mejor de Lima. Las excursiones en tierra incluyen autos con aire acondicionado, guías turísticos profesionales de habla inglesa y todos los boletos de admisión a los sitios para visitar.',
+        description: 'Vas a llegar en un crucero a Lima? Ofrecemos tours de lujo de acuerdo a su tiempo y requerimientos. Nuestra Excursión Especial Te llevará a visitar lo mejor de Lima. Las excursiones en tierra incluyen autos con aire acondicionado, guías turísticos profesionales de habla inglesa y todos los boletos de admisión a los sitios para visitar.',
         img: {
             portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port_pt.jpg',
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port.jpg'
         },
         media: [
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/callao_cruise_01.jpg',
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_02.jpg'
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578084877/SAS/salaberry_cruise_01.jpg',
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578084877/SAS/salaberry_cruise_02.jpg'
         ],
         price: {
             amount: 60.00
@@ -103,14 +103,14 @@ export default [
         id: 'shore-paracas',
         title: 'Excursiones en tierra',
         subtitle: 'desde Terminal portuario Paracas, Pisco',
-        description: 'lorem ipsum',
+        description: 'Descubra la Reserva Nacional de Paracas, un área natural que alberga algunos de los ecosistemas más raros del mundo y también uno de los desiertos más secos del planeta. Haga un viaje a las Islas Ballestas, un santuario de vida silvestre para la fauna marina y la fauna exótica e impresionante. Todos nuestros tours incluyen guías turísticos de habla inglesa y autos con aire acondicionado.',
         img: {
             portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577419105/SAS/paracas_splash_pt.jpg',
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577419105/SAS/paracas_splash.jpg'
         },
         media: [
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/callao_cruise_01.jpg',
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_02.jpg'
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/paracas_cruise_01.jpg',
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/paracas_cruise_02.jpg'
         ],
         price: {
             amount: 60.00

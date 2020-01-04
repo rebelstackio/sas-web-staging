@@ -5,7 +5,9 @@ let language = getPageLanguage('lng') || 'en' ;
 System.import(`../data/splash/index.${language}.js`).then((res) => {
 	let i = 0;
 	createItems(res.default);
-	addListeners();
+	setTimeout(() => {
+		addListeners();
+	}, 1000)
 	setInterval(() => {
 		addListeners();
 		const isTrue = document.querySelector('pretty-modal') !== null
@@ -34,7 +36,6 @@ function addListeners() {
 }
 
 function redirect(ind) {
-	console.log(ind);
 	switch (ind) {
 		case 1:
 			document.location.href = '/callao-cruise.html';
