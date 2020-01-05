@@ -77,7 +77,7 @@ function getItem(el, i) {
 			<h3><i class="fas fa-route"></i> ${ el.subtitle }</h3>
 		</div>
 		<div class="splash-description">
-			${ el.itinerary.map((it, ind) => {
+			${ el.cruisesdates.map((it, ind) => {
 				if (ind <= 5) {
 					return `
 						<div>

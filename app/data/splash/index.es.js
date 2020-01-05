@@ -15,7 +15,7 @@ export default [
         price: {
             amount: 60.00
         },
-        itinerary: [
+        cruisesdates: [
             {
                 destination: 'Marina',
                 title: 'Oceania Cruises',
@@ -74,7 +74,7 @@ export default [
         price: {
             amount: 60.00
         },
-        itinerary: [
+        cruisesdates: [
             {destination: "Marina ", title: "Oceania Cruises ", date: "Enero 8."},
             {destination: "Volendam ", title: "Holland America ", date: "Enero 16, 17."},
             {destination: "ISLAND PRINCESS ", title: "Princess Cruises ", date: "Enero 21, 22."},
@@ -101,7 +101,7 @@ export default [
     },
     {
         id: 'shore-paracas',
-        title: 'Excursiones en tierra',
+        title: 'Excursiones en tierra a Islas Ballestas',
         subtitle: 'desde Terminal portuario Paracas, Pisco',
         description: 'Descubra la Reserva Nacional de Paracas, un área natural que alberga algunos de los ecosistemas más raros del mundo y también uno de los desiertos más secos del planeta. Haga un viaje a las Islas Ballestas, un santuario de vida silvestre para la fauna marina y la fauna exótica e impresionante. Todos nuestros tours incluyen guías turísticos de habla inglesa y autos con aire acondicionado.',
         img: {
@@ -113,9 +113,26 @@ export default [
             'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/paracas_cruise_02.jpg'
         ],
         price: {
-            amount: 60.00
+            standard: {
+                amount: 85
+            },
+            firstclass: {
+                amount: 110
+            }
         },
-        itinerary: [
+        itinerary: {
+            '09:00 AM': 'Traslado desde el puerto de San Martin',
+            '09:30 AM': 'llegada a la ciudad de Paracas (muelle turístico)',
+            '10:00 AM': 'viaje a las islas Ballestas dura 2 horas, veremos aves marinas, leones marinos, pingüinos de Humboldt, tern Inka, en el camino a las islas tendremos la oportunidad de ver la línea enigmática similar a las líneas de Nazca, llamada Candelabro.',
+            '12:00 PM': 'Regreso a la ciudad de Paracas, tiempo libre para caminar en el bulevar de Paracas, picar o beber pisco sour.',
+            '01:00 PM': 'Salida hacia la Reserva Natural de Paracas. Este recorrido dura 2 horas, tendremos una corta caminata por el desierto más seco de Paracas, y paradas fotográficas en la espectacular costa rocosa de la Reserva de Paracas, y más.',
+            '03:00 PM': 'return to Cruise ship end of our services.regreso al crucero final de nuestros servicios.'
+        },
+        include: {
+            standard: ['Limitado a 28 pasajeros', 'Entradas', 'Impuesto del puerto', 'Seguro personal en caso de heridas', 'Traslado ida y vuelta desde el puerto', 'Transportes', 'Guía bilingüe'],
+            firstclass: ['Todas las características estándar','Limitado a 18 pasajeros', 'Doble asiento']
+        },
+        cruisesdates: [
             {destination: "Volendam ", title: "Holland America ", date: "Enero 18."},
             {destination: "Island Princess ", title: "Princess Cruises ", date: "Enero 23."},
             {destination: "Insignia ", title: "Oceania Cruises ", date: "Febrero 13."},
@@ -128,6 +145,37 @@ export default [
             {destination: "Coral Princess ", title: "Princess Cruises ", date: "Noviembre 29."},
             {destination: "Pacific Princess ", title: "Princess Cruises ", date: "Diciembre 9."},
             {destination: "Marina ", title: "Oceania Cruises ", date: "Diciembre 20."}
+        ],
+        extraTours: [
+            {
+                id: 'tambo-colorado',
+                title: 'Shore excursions to Tambo Colorado',
+                subtitle: 'from San Martin harbor',
+                description: 'Tambo Colorado (Red Branch) is located 60 Km from Paracas city, this Inca archaeological site is well preserved in the coastal kingdom of Incas, the palace was painted with red, white and yellow gold, the yellow gold painting accentuate mostly the trapezoidal niches. Tambo Colorado was built at the end of the 15th century probably ware used to control commercial trading and integrating the locals into Inca Religion. The Tambo Colorado palace is surrounded by sacred sites like temples, pyramid, platform for praying and a great trapezoidal chapped plaza',
+                media: [
+                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/paracas_cruise_01.jpg',
+                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/paracas_cruise_02.jpg'
+                ],
+                price: {
+                    standard: {
+                        amount: 95
+                    }
+                },
+                itinerary: {
+                    '8:00 AM': 'pickup from the harbor.',
+                    '9:30 AM': 'arrival to Inca archaeological site.',
+                    '9:45 AM': 'touring at Tambo Colorado ( guided walking around the  Inca palace finally getting interiors of the Palace, it last for 1 hour with photo stops.',
+                    '10:45 AM': 'free walking by yourself after group touring.',
+                    '11:15 AM': 'return to Pisco city', 
+                    '12:15 PM': 'short stop in the Plaza of Pisco,( opportunity for lunch by your own or Pisco sour).',
+                    '1:30 PM': 'bus ride to Paracas nature Reserve.',
+                    '2:00 PM': 'touring Paracas nature Reserve, this tour can last for 1 hour half or 2 hours. Btw, the Paracas nature Reserve is right next to San Martin\'s harbor, so, the return will be in 20 minutes there.',
+                    '3:45 PM': 'end of our services.'
+                },
+                include: {
+                    standard: ['limited to 18 Participants.', 'all entrance fees', 'Pickup and drop off directly from the harbor', 'English speaking Guide', 'Certified tourist bus ( air-conditioned bus ).']
+                }
+            }
         ]
     }
 ]

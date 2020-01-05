@@ -15,7 +15,7 @@ export default [
         price: {
             amount: 60.00
         },
-        itinerary: [
+        cruisesdates: [
             {
                 destination: 'Marina',
                 title: 'Oceania Cruises',
@@ -74,7 +74,7 @@ export default [
         price: {
             amount: 60.00
         },
-        itinerary: [
+        cruisesdates: [
             {destination: "Marina ", title: "Oceania Cruises ", date: "January 8."},
             {destination: "Volendam ", title: "Holland America ", date: "January 16, 17."},
             {destination: "ISLAND PRINCESS ", title: "Princess Cruises ", date: "January 21, 22."},
@@ -101,9 +101,9 @@ export default [
     },
     {
         id: 'shore-paracas',
-        title: 'Shore excursions',
+        title: 'Shore excursions to Islas Ballestas',
         subtitle: 'from TPP Pisco Paracas cruise terminal',
-        description: 'Discover the National Reserve of Paracas, a natural area home of some of the world\'s rarest ecosystems and also one of the driest deserts on the planet. Take a trip to Ballestas Islands, a wildlife sanctuary for marine fauna and exotic and stunning wildlife. All our tours include English speaking tour guides and air-conditioned cars',
+        description: 'We pick you up you directly from the port and personally escort you to Paracas dock. This round-trip tour of Peru\'s most famous islands lets you enjoy magnificent rocks formations sculpted by nature and is home of Humboldt penguins, south Americans sea lions and a multitude of marine birds. Services also available in First and Private classes.All yacht tours include a trained, certified, registered yatchsman and crewman/guide onboard. Our yacht services are insured and registered with all appropriate agencies as mandated by law.',
         img: {
             portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577419105/SAS/paracas_splash_pt.jpg',
             landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577419105/SAS/paracas_splash.jpg'
@@ -113,9 +113,26 @@ export default [
             'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/paracas_cruise_02.jpg'
         ],
         price: {
-            amount: 60.00
+            standard: {
+                amount: 85
+            },
+            firstclass: {
+                amount: 110
+            }
         },
-        itinerary: [
+        itinerary: {
+            '09:00 AM': 'pickup from San Martin harbor',
+            '09:30 AM': 'arrival to Paracas City ( tourist pier )',
+            '10:00 AM': 'ride to Ballestas islands it last for 2 hours, We will see marine birds, sea lions, Humboldt penguin, Inka tern, in the way to the Islands we will have chance to see the enigmatic line similar to Nazca lines, named Candelabra.',
+            '12:00 PM': 'return to Paracas City, free time to walk in Paracas boulevard, chop, or drink Pisco sour.',
+            '01:00 PM': 'departure to Paracas nature Reserve this tour last for 2 hours, we will have short walk on the driest desert of Paracas,  and photo stops on dramatic Rocky coast line of Paracas Reserve, and more.',
+            '03:00 PM': 'return to Cruise ship end of our services.'
+        },
+        include: {
+            standard: ['Limeted to 28 participants ','All entrance fees', 'Harbor tax', 'Personal insurance in case of injuries', 'Pickup and dropoff directly from port/harbor', 'All transportation', 'English speaking guide'],
+            firstclass: ['All Standard Features','Limited to 18 guests', 'Double seating']
+        },
+        cruisesdates: [
             {destination: "Volendam ", title: "Holland America ", date: "January 18."},
             {destination: "Island Princess ", title: "Princess Cruises ", date: "January 23."},
             {destination: "Insignia ", title: "Oceania Cruises ", date: "February 13."},
@@ -128,6 +145,37 @@ export default [
             {destination: "Coral Princess ", title: "Princess Cruises ", date: "November 29."},
             {destination: "Pacific Princess ", title: "Princess Cruises ", date: "December 9."},
             {destination: "Marina ", title: "Oceania Cruises ", date: "December 20."}
+        ],
+        extraTours: [
+            {
+                id: 'tambo-colorado',
+                title: 'Shore excursions to Tambo Colorado',
+                subtitle: 'from San Martin harbor',
+                description: 'Tambo Colorado (Red Branch) is located 60 Km from Paracas city, this Inca archaeological site is well preserved in the coastal kingdom of Incas, the palace was painted with red, white and yellow gold, the yellow gold painting accentuate mostly the trapezoidal niches. Tambo Colorado was built at the end of the 15th century probably ware used to control commercial trading and integrating the locals into Inca Religion. The Tambo Colorado palace is surrounded by sacred sites like temples, pyramid, platform for praying and a great trapezoidal chapped plaza',
+                media: [
+                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/paracas_cruise_01.jpg',
+                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/paracas_cruise_02.jpg'
+                ],
+                price: {
+                    standard: {
+                        amount: 95
+                    }
+                },
+                itinerary: {
+                    '8:00 AM': 'pickup from the harbor.',
+                    '9:30 AM': 'arrival to Inca archaeological site.',
+                    '9:45 AM': 'touring at Tambo Colorado ( guided walking around the  Inca palace finally getting interiors of the Palace, it last for 1 hour with photo stops.',
+                    '10:45 AM': 'free walking by yourself after group touring.',
+                    '11:15 AM': 'return to Pisco city', 
+                    '12:15 PM': 'short stop in the Plaza of Pisco,( opportunity for lunch by your own or Pisco sour).',
+                    '1:30 PM': 'bus ride to Paracas nature Reserve.',
+                    '2:00 PM': 'touring Paracas nature Reserve, this tour can last for 1 hour half or 2 hours. Btw, the Paracas nature Reserve is right next to San Martin\'s harbor, so, the return will be in 20 minutes there.',
+                    '3:45 PM': 'end of our services.'
+                },
+                include: {
+                    standard: ['limited to 18 Participants.', 'all entrance fees', 'Pickup and drop off directly from the harbor', 'English speaking Guide', 'Certified tourist bus ( air-conditioned bus ).']
+                }
+            }
         ]
     }
 ]
