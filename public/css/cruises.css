@@ -68,14 +68,14 @@ div#cruise-content {
 .cuise-body {
 	position: relative;
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 2fr 350px;
 	background-color: #fff;
     border-radius: 4px;
     overflow: hidden;
 }
 
 .reservation-btn {
-	width: 100%;
+	width: 90%;
 	position: absolute;
 	bottom: 10px;
 	display: grid;
@@ -111,6 +111,7 @@ div#cruise-content {
 .img-presentation {
 	display: grid;
 	position: relative;
+	max-width: 350px;
 }
 
 .img-presentation > * {
@@ -146,7 +147,7 @@ div#cruise-content {
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+	right: 0;
 }
 
 .itienrary-item {
@@ -248,6 +249,7 @@ div#cruise-content {
 
 	.cuise-body {
 		grid-template-columns: unset;
+		max-width: 88vw;
 	}
 	.cruise-data {
 		padding-bottom: 40px;

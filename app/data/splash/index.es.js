@@ -13,7 +13,17 @@ export default [
             'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578084877/SAS/salaberry_cruise_02.jpg'
         ],
         price: {
-            amount: 60.00
+            standard: {
+                amount: 95
+            }
+        },
+        itinerary: {
+            '09:00 AM': 'Lore ipsum',
+            '09:30 AM': 'Lore ipsum',
+            '10:00 AM': 'lore ipsum'
+        },
+        include: {
+            standard: ['lore ipsum', 'lore ipsum', 'lore ipsum', 'lore ipsum']
         },
         cruisesdates: [
             {
@@ -72,7 +82,17 @@ export default [
             'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/callao_cruise_02.jpg'
         ],
         price: {
-            amount: 60.00
+            standard: {
+                amount: 95
+            }
+        },
+        itinerary: {
+            '09:00 AM': 'Lore ipsum',
+            '09:30 AM': 'Lore ipsum',
+            '10:00 AM': 'lore ipsum'
+        },
+        include: {
+            standard: ['lore ipsum', 'lore ipsum', 'lore ipsum', 'lore ipsum']
         },
         cruisesdates: [
             {destination: "Marina ", title: "Oceania Cruises ", date: "Enero 8."},
