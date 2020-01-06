@@ -57,7 +57,7 @@ function getCruiseBody(data) {
 				<p>${ data.description }</p>
 				<h4>${t0}</h4>
 				<div class="tour-include">
-					${ getTourInclude(data.include) }
+					${ getTourInclude(data.include, data.price) }
 				</div>
 				<div class="reservation-btn">
 					${ getReserveBtn(data) }
@@ -93,9 +93,10 @@ function createLayout(data) {
 	`;
 }
 
-function getTourInclude(include) {
+function getTourInclude(include, price) {
 	const t0 = getText('First Class', 'Primera Clase');
 	const t1 = getText('Standard', 'Estandar');
+	const t2 = getText('Price', 'Precio');
 	return Object.keys(include).map((type, i) => {
 		return `
 		<div class="include-type">
@@ -110,6 +111,9 @@ function getTourInclude(include) {
 						`
 					}).join('')
 				}
+				<div class="include-price">
+					<span>${t2}:</span> ${price[type].amount}$
+				</div>
 			</div>
 		</div>
 		`

@@ -110,7 +110,7 @@ export default [
         },
         media: [
             'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/paracas_cruise_01.jpg',
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/paracas_cruise_02.jpg'
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578271566/SAS/paracas_cruise_02.jpg'
         ],
         price: {
             standard: {
@@ -153,8 +153,8 @@ export default [
                 subtitle: 'from San Martin harbor',
                 description: 'Tambo Colorado (Red Branch) is located 60 Km from Paracas city, this Inca archaeological site is well preserved in the coastal kingdom of Incas, the palace was painted with red, white and yellow gold, the yellow gold painting accentuate mostly the trapezoidal niches. Tambo Colorado was built at the end of the 15th century probably ware used to control commercial trading and integrating the locals into Inca Religion. The Tambo Colorado palace is surrounded by sacred sites like temples, pyramid, platform for praying and a great trapezoidal chapped plaza',
                 media: [
-                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/paracas_cruise_01.jpg',
-                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/paracas_cruise_02.jpg'
+                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578270816/SAS/tour-tambo-colorado-01.jpg',
+                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578271256/SAS/tour-tambo-colorado-02.jpg'
                 ],
                 price: {
                     standard: {

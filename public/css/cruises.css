@@ -27,14 +27,14 @@ div#cruise-content {
     overflow: hidden;
     position: relative;
     /* max-width: 60vw; */
-	padding-right: 405px;
+	padding-right: 360px;
 	row-gap: 15px;
 }
 
 
 .cruise-itinerary > img {
 	height: auto;
-	width: 100%;
+	width: 350px;
 	/* position: absolute; */
 	position: absolute;
 	right: 0;
@@ -125,11 +125,10 @@ div#cruise-content {
 }
 
 .cruise-itinerary {
-    /* position: fixed; */
-    /* right: 102px; */
-    /* top: 171px; */
-    position: absolute;
+	position: absolute;
     right: 0;
+    width: 350px;
+    height: 541px;
 }
 
 .cruise-data > h3, .cruise-data > h4 {
@@ -223,6 +222,20 @@ div#cruise-content {
 .include-item {
     color: #666;
     font-style: italic;
+}
+
+.include-type {
+	position: relative;
+	padding-bottom: 2em;
+}
+
+.include-price {
+	position: absolute;
+	bottom: 0;
+}
+
+.include-price {
+	color: orange;
 }
 
 @media screen 

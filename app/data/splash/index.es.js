@@ -110,7 +110,7 @@ export default [
         },
         media: [
             'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/paracas_cruise_01.jpg',
-            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/paracas_cruise_02.jpg'
+            'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578271566/SAS/paracas_cruise_02.jpg'
         ],
         price: {
             standard: {
@@ -151,10 +151,10 @@ export default [
                 id: 'tambo-colorado',
                 title: 'Shore excursions to Tambo Colorado',
                 subtitle: 'from San Martin harbor',
-                description: 'Tambo Colorado (Red Branch) is located 60 Km from Paracas city, this Inca archaeological site is well preserved in the coastal kingdom of Incas, the palace was painted with red, white and yellow gold, the yellow gold painting accentuate mostly the trapezoidal niches. Tambo Colorado was built at the end of the 15th century probably ware used to control commercial trading and integrating the locals into Inca Religion. The Tambo Colorado palace is surrounded by sacred sites like temples, pyramid, platform for praying and a great trapezoidal chapped plaza',
+                description: 'Tambo Colorado (Rama Roja) se encuentra a 60 km de la ciudad de Paracas, este sitio arqueológico inca está bien conservado en el reino costero de los Incas, el palacio fue pintado con oro rojo, blanco y amarillo, la pintura de oro amarillo acentúa principalmente los nichos trapezoidales. Tambo Colorado se construyó a finales del siglo XV, probablemente se utilizó para controlar el comercio comercial y la integración de los lugareños en la religión inca. El palacio Tambo Colorado está rodeado de sitios sagrados como templos, pirámides, plataformas para rezar y una gran plaza agrietada trapezoidal.',
                 media: [
-                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577998819/SAS/paracas_cruise_01.jpg',
-                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578005374/SAS/paracas_cruise_02.jpg'
+                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578270816/SAS/tour-tambo-colorado-01.jpg',
+                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578271256/SAS/tour-tambo-colorado-02.jpg'
                 ],
                 price: {
                     standard: {
@@ -162,18 +162,18 @@ export default [
                     }
                 },
                 itinerary: {
-                    '8:00 AM': 'pickup from the harbor.',
-                    '9:30 AM': 'arrival to Inca archaeological site.',
-                    '9:45 AM': 'touring at Tambo Colorado ( guided walking around the  Inca palace finally getting interiors of the Palace, it last for 1 hour with photo stops.',
-                    '10:45 AM': 'free walking by yourself after group touring.',
-                    '11:15 AM': 'return to Pisco city', 
-                    '12:15 PM': 'short stop in the Plaza of Pisco,( opportunity for lunch by your own or Pisco sour).',
-                    '1:30 PM': 'bus ride to Paracas nature Reserve.',
-                    '2:00 PM': 'touring Paracas nature Reserve, this tour can last for 1 hour half or 2 hours. Btw, the Paracas nature Reserve is right next to San Martin\'s harbor, so, the return will be in 20 minutes there.',
-                    '3:45 PM': 'end of our services.'
+                    '8:00 AM': 'Traslado desde el puerto.',
+                    '9:30 AM': 'Llegada al sitio arqueológico Inca.',
+                    '9:45 AM': 'Visitando Tambo Colorado (paseo guiado por el palacio inca finalmente obteniendo interiores del palacio, dura 1 hora con paradas fotográficas.',
+                    '10:45 AM': 'Caminata libre por su cuenta después del paseo grupal.',
+                    '11:15 AM': 'Regreso a la ciudad de Pisco', 
+                    '12:15 PM': 'Una breve parada en la Plaza de Pisco, (oportunidad para almorzar por tu cuenta, o pisco sour).',
+                    '1:30 PM': 'Viaje en autobús a la reserva natural de Paracas.',
+                    '2:00 PM': 'Recorriendo la reserva natural de Paracas, este recorrido puede durar 1 hora y media o 2 horas.',
+                    '3:45 PM': 'fin de nuestros servicios.'
                 },
                 include: {
-                    standard: ['limited to 18 Participants.', 'all entrance fees', 'Pickup and drop off directly from the harbor', 'English speaking Guide', 'Certified tourist bus ( air-conditioned bus ).']
+                    standard: ['limitado a 18 participantes.', 'todas las tarifas de entrada', 'Traslado directamente desde el puerto y regreso.', 'Guía bilingue', 'Bus turístico certificado (autobús con aire acondicionado).']
                 }
             }
         ]
