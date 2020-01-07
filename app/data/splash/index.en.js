@@ -1,7 +1,7 @@
 export default [
     {
         id: 'shore-salaverry',
-        title: 'Shore excursions',
+        title: 'Shore excursions to Sun Temples & the Moon temple',
         subtitle: 'from Salaverry cruise terminal',
         description: 'Live the amazing archeological experience of "the City of Eternal Spring", this tour takes you to visit the best places in Trujillo, with full assistance, English speaking tour guides and comfortable cars with air conditioning',
         img: {
@@ -14,16 +14,19 @@ export default [
         ],
         price: {
             standard: {
-                amount: 95
+                amount: 85
             }
         },
         itinerary: {
-            '09:00 AM': 'Lore ipsum',
-            '09:30 AM': 'Lore ipsum',
-            '10:00 AM': 'lore ipsum'
+            '8:30AM': 'Pickup from the cruise terminal.',
+            '9:00AM': 'Arrival to Temple of the sun & the Moon.',
+            '11:15AM': 'Arrival to colonial Trujillo city, we will have walking by the largest plaza and colonial Mansion.',
+            '11:45AM': 'Arrival to largest Adobe ancient City of America Chan Chan',
+            '1:30PM': 'Visit Huanchaco Fishing Village we will have time for lunch on your own after lunch return to the cruise terminal.',
+            '2:30PM': 'End of our service.'
         },
         include: {
-            standard: ['lore ipsum', 'lore ipsum', 'lore ipsum', 'lore ipsum']
+            standard: ['All entrance fees', 'All transportation', 'English speaking guide']
         },
         cruisesdates: [
             {

@@ -102,6 +102,7 @@ div#cruise-content {
 .cruise-data {
 	position: relative;
 	padding: 10px;
+	padding-bottom: 4em;
 }
 
 .hidden {
@@ -112,10 +113,8 @@ div#cruise-content {
 	display: grid;
 	position: relative;
 	max-width: 350px;
-}
-
-.img-presentation > * {
-	place-self: start center;
+	height: fit-content;
+	place-self: center;
 }
 
 .cruise-data > p {

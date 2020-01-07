@@ -1,7 +1,7 @@
 export default [
     {
         id: 'shore-salaverry',
-        title: 'Excursiones en tierra',
+        title: 'Excursiones en tierra a los templos del sol y de la luna',
         subtitle: 'desde terminal de cruceros, Salaverry',
         description: 'Vive la increíble experiencia arqueológica de "la ciudad de la eterna primavera", este recorrido te lleva a visitar los mejores lugares de Trujillo, con asistencia completa, guías turísticos de habla inglesa y cómodos autos con aire acondicionado.',
         img: {
@@ -14,16 +14,19 @@ export default [
         ],
         price: {
             standard: {
-                amount: 95
+                amount: 85
             }
         },
         itinerary: {
-            '09:00 AM': 'Lore ipsum',
-            '09:30 AM': 'Lore ipsum',
-            '10:00 AM': 'lore ipsum'
+            '8:30AM': 'Translado desde el terminal de cruceros.',
+            '9:00AM': 'Llegada al Templo del Sol y la Luna.',
+            '11:15AM': 'Al llegar a la ciudad colonial de Trujillo, tendremos que caminar por la plaza más grande y la Mansión colonial.',
+            '11:45AM': 'Llegada a la ciudad más grande de Adobe, antigua ciudad de América Chan Chan',
+            '1:30PM': 'Visite Huanchaco Fishing Village tendremos tiempo para almorzar por su cuenta después del almuerzo regreso a la terminal de cruceros',
+            '2:30PM': 'Fin de nuestro servicio.'
         },
         include: {
-            standard: ['lore ipsum', 'lore ipsum', 'lore ipsum', 'lore ipsum']
+            standard: ['Entradas', 'Transportes', 'Guía bilingüe']
         },
         cruisesdates: [
             {

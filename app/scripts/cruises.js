@@ -29,9 +29,11 @@ System.import(`../data/splash/index.${language}.js`).then((res) => {
 })
 
 function addListeners() {
-	const resBtn = document.querySelector('#request-reservation');
-	resBtn.addEventListener('click', () => {
-		requestResv(resBtn.getAttribute('parent-modal'), resBtn, firebase)
+	const resBtn = document.querySelectorAll('.request-reservation');
+	resBtn.forEach(btn => {
+		btn.addEventListener('click', () => {
+			requestResv(btn.getAttribute('parent-modal'), btn, firebase)
+		})
 	})
 }
 
@@ -40,7 +42,7 @@ function getReserveBtn(data) {
 	const t1 = getText('Reserve Standard', 'Reservar Estandar');
 	return Object.keys(data.price).map(type => {
 		return `
-			<button class="bttn-unite bttn-md bttn-warning" data-target="#${data.id}-modal-${type}" data-toggle="modal">
+			<button class="bttn-unite bttn-md bttn-warning" data-target="#${data.id + '-' + type}-modal" data-toggle="modal">
 			${ type === 'standard' ? t1 : t0 }
 			</button>
 		`
@@ -198,9 +200,10 @@ function createModal(item) {
 	const t7 = getText('Invalid email address', 'Dirección de correo electrónico no válida')
 	const t8 = getText('Standard', 'Estandar');
 	const t9 = getText('First Class', 'Primera Clase');
+	const t10 = getText('Request Reservation', 'Reservar')
 	return Object.keys(item.price).map(type => {
 		return  `
-		<div id="${item.id}-modal-${type}" class="rsv-modal-only modal" role="dialog">
+		<div id="${item.id + '-' + type}-modal" class="rsv-modal-only modal" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -209,7 +212,7 @@ function createModal(item) {
 					<div class="price-holder"><span class="form_price">${item.price[type].amount}$</span><span>${ t0 }</span></div>
 				</div>
 				<div class="modal-body">
-					<input type="hidden" id="rsv-tour-info" class="rsv-tour-info" value="${item.title + ' ' + item.subtitle}" tour-id="${item.id}">
+					<input type="hidden" id="rsv-tour-info" class="rsv-tour-info" value="${item.title + ' ' + item.subtitle}" tour-id="${item.id + '-' + type}">
 					<input type="hidden" id="rsv-lang" class="rsv-lang" value="en">
 					<div class="reservation-subtitle">${t1}</div>
 					<div class="form-inputs"><input type="text" class="rsv-input rsv-name" id="rsv-name" placeholder="Name*"></div>
@@ -233,7 +236,7 @@ function createModal(item) {
 					<p id="rsv-warn-email" class="rsv-warn-email rsv-warn rsv-warn-hidden">*${t7}*</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" parent-modal="${item.id}-modal" id="request-reservation" class="request-reservation btn btn-default request-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i>  Request Reservation</button>
+					<button type="button" parent-modal="${item.id + '-' + type}-modal" class="request-reservation btn btn-default request-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i>${t10}</button>
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 		  </div>
