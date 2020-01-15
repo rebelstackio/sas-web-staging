@@ -1,7 +1,7 @@
 export default [
     {
         id: 'shore-salaverry',
-        title: 'Shore excursions to Sun Temples & the Moon temple',
+        title: 'Shore excursions to Chan Chan',
         subtitle: 'from Salaverry cruise terminal',
         description: 'Live the amazing archeological experience of "the City of Eternal Spring", this tour takes you to visit the best places in Trujillo, with full assistance, English speaking tour guides and comfortable cars with air conditioning',
         img: {
@@ -197,6 +197,33 @@ export default [
                 },
                 include: {
                     standard: ['limited to 18 Participants.', 'all entrance fees', 'Pickup and drop off directly from the harbor', 'English speaking Guide', 'Certified tourist bus ( air-conditioned bus ).']
+                }
+            },
+            {
+                id: 'flight-nazca-line',
+                title: 'Nazca Lines flight',
+                subtitle: 'from Pisco Cruise Terminal',
+                description: 'Discovering the unsolved mysterious lines of the South Coast of Peru, where the ancient civilization developed successfully despite inheriting the aridest desert in South America.',
+                media: [
+                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1579059525/SAS/tour-nazca-line-01.jpg',
+                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1579059525/SAS/tour-nazca-line-02.jpg'
+                ],
+                price: {
+                    standard: {
+                        amount: 380
+                    }
+                },
+                itinerary: {
+                    '8:30AM': 'pickup from cruise ship',
+                    '9:00AM': 'check-in with the airline for NAZCA Lines flight.',
+                    '9:20AM': 'the guide will provide you information according to last research concerning about the mysterious Lines',
+                    '9:45AM': 'flight to NAZCA Lines the aircraft will fly through the green valley of Ica city. Once you are onboard the pilot will guide you to the location of each Line.',
+                    '12:00PM': 'the guide will be waiting for you to transfer you to a local restaurant for lunch on your own.',
+                    '1:30PM': 'return to the cruise terminal.',
+                    'This Itinerary is referential': 'Your guide & driver will be flexible with the time table.'
+                },
+                include: {
+                    standard: ['all taxes & transfers.', 'Pickup and drop off directly from the harbor', 'English speaking Guide']
                 }
             }
         ]

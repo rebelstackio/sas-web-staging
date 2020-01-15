@@ -21,12 +21,12 @@
 
 div#cruise-content {
 	display: grid;
-    /* grid-template-columns: 2fr 1fr; */
-    border-radius: 4px;
-    min-height: 488px;
-    overflow: hidden;
-    position: relative;
-    /* max-width: 60vw; */
+	/* grid-template-columns: 2fr 1fr; */
+	border-radius: 4px;
+	min-height: 488px;
+	overflow: hidden;
+	position: relative;
+	/* max-width: 60vw; */
 	padding-right: 360px;
 	row-gap: 15px;
 }
@@ -70,8 +70,8 @@ div#cruise-content {
 	display: grid;
 	grid-template-columns: 2fr 350px;
 	background-color: #fff;
-    border-radius: 4px;
-    overflow: hidden;
+	border-radius: 4px;
+	overflow: hidden;
 }
 
 .reservation-btn {
@@ -126,9 +126,9 @@ div#cruise-content {
 
 .cruise-itinerary {
 	position: absolute;
-    right: 0;
-    width: 350px;
-    height: 541px;
+	right: 0;
+	width: 350px;
+	height: 541px;
 }
 
 .cruise-data > h3, .cruise-data > h4 {
@@ -137,15 +137,15 @@ div#cruise-content {
 
 .tour-itinerary {
 	display: block;
-    float: left;
-    /* padding: 1.5em 0; */
-    /* margin-bottom: 3em; */
-    /* max-height: 451px; */
-    overflow: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
+	float: left;
+	/* padding: 1.5em 0; */
+	/* margin-bottom: 3em; */
+	/* max-height: 451px; */
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
 	right: 0;
 }
 
@@ -161,8 +161,9 @@ div#cruise-content {
 	color: orange;
 	width: 25%;
 	text-align: center;
-	background-color: rgba(0,0,0,.4);
+	background-color: rgba(0,0,0,.6);
 	border-radius: 1em;
+	padding: 5px 5px;
 }
 
 .item-desc {
@@ -210,18 +211,18 @@ div#cruise-content {
 }
 
 .itienrary-item:last-child > .item-desc {
-    border-bottom: none;
+	border-bottom: none;
 }
 
 .tour-include {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 10px;
 }
 
 .include-item {
-    color: #666;
-    font-style: italic;
+	color: #666;
+	font-style: italic;
 }
 
 .include-type {

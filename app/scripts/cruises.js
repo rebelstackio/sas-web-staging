@@ -40,10 +40,15 @@ function addListeners() {
 function getReserveBtn(data) {
 	const t0 = getText('Reserve First class', 'Reservar Primera clase');
 	const t1 = getText('Reserve Standard', 'Reservar Estandar');
-	return Object.keys(data.price).map(type => {
+	const t2 = getText('Reserve Tour', 'Reservar Tour');
+	const prices = Object.keys(data.price);
+	return prices.map(type => {
 		return `
 			<button class="bttn-unite bttn-md bttn-warning" data-target="#${data.id + '-' + type}-modal" data-toggle="modal">
-			${ type === 'standard' ? t1 : t0 }
+			${ (prices.length > 1)
+				? (type === 'standard' ? t1 : t0)
+				: (t2)
+			}
 			</button>
 		`
 	}).join('')

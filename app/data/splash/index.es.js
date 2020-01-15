@@ -1,7 +1,7 @@
 export default [
     {
         id: 'shore-salaverry',
-        title: 'Excursiones en tierra a los templos del sol y de la luna',
+        title: 'Excursiones en tierra a Chan Chan',
         subtitle: 'desde terminal de cruceros, Salaverry',
         description: 'Vive la increíble experiencia arqueológica de "la ciudad de la eterna primavera", este recorrido te lleva a visitar los mejores lugares de Trujillo, con asistencia completa, guías turísticos de habla inglesa y cómodos autos con aire acondicionado.',
         img: {
@@ -172,8 +172,8 @@ export default [
         extraTours: [
             {
                 id: 'tambo-colorado',
-                title: 'Shore excursions to Tambo Colorado',
-                subtitle: 'from San Martin harbor',
+                title: 'Excursiones en tierra a Tambo Colorado',
+                subtitle: 'Desde puerto de San Martin',
                 description: 'Tambo Colorado (Rama Roja) se encuentra a 60 km de la ciudad de Paracas, este sitio arqueológico inca está bien conservado en el reino costero de los Incas, el palacio fue pintado con oro rojo, blanco y amarillo, la pintura de oro amarillo acentúa principalmente los nichos trapezoidales. Tambo Colorado se construyó a finales del siglo XV, probablemente se utilizó para controlar el comercio comercial y la integración de los lugareños en la religión inca. El palacio Tambo Colorado está rodeado de sitios sagrados como templos, pirámides, plataformas para rezar y una gran plaza agrietada trapezoidal.',
                 media: [
                     'https://res.cloudinary.com/dvv4qgnka/image/upload/v1578270816/SAS/tour-tambo-colorado-01.jpg',
@@ -197,6 +197,33 @@ export default [
                 },
                 include: {
                     standard: ['limitado a 18 participantes.', 'todas las tarifas de entrada', 'Traslado directamente desde el puerto y regreso.', 'Guía bilingue', 'Bus turístico certificado (autobús con aire acondicionado).']
+                }
+            },
+            {
+                id: 'flight-nazca-line',
+                title: 'Vuelo a las Líneas de Nazca',
+                subtitle: 'desde la terminal de cruceros de Pisco',
+                description: 'Descubriendo las misteriosas líneas sin resolver de la costa sur de Perú, donde la antigua civilización se desarrolló con éxito a pesar de heredar el desierto más árido de América del Sur.',
+                media: [
+                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1579059525/SAS/tour-nazca-line-01.jpg',
+                    'https://res.cloudinary.com/dvv4qgnka/image/upload/v1579059525/SAS/tour-nazca-line-02.jpg'
+                ],
+                price: {
+                    standard: {
+                        amount: 380
+                    }
+                },
+                itinerary: {
+                    '8:30AM': 'Transporte desde el crucero',
+                    '9:00AM': 'check-in con la aerolínea el vuelo de NAZCA Lines.',
+                    '9:20AM': 'el guía le proporcionará información de acuerdo con la última investigación sobre las misteriosas Líneas',
+                    '9:45AM': 'vuelo a NAZCA Lines el avión volará a través del valle verde de la ciudad de Ica. Una vez que esté a bordo, el piloto lo guiará a la ubicación de cada línea.',
+                    '12:00PM': 'el guía estará esperando que lo transfiera a un restaurante local para almorzar por su cuenta.',
+                    '1:30PM': 'regreso a la terminal de cruceros.',
+                    'Este itinerario es referencial': 'su guía y conductor serán flexibles con el horario.'
+                },
+                include: {
+                    standard: ['Todos los impuestos y transferencias.', 'Traslado y regreso directamente desde el puerto', 'Guía bilingüe']
                 }
             }
         ]
