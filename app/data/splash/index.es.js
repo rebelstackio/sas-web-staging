@@ -73,7 +73,7 @@ export default [
     },
     {
         id: 'shore-callao',
-        title: 'Sitios arqueológicos de Pachacamac, Ciudad de los Reyes y metrópolis cosmopolita moderna, 8 hours',
+        title: 'Sitios arqueológicos de Pachacamac, Ciudad de los Reyes y metrópolis cosmopolita moderna, 8 horas',
         subtitle: 'desde terminal de cruceros, Callao',
         description: 'Vas a llegar en un crucero a Lima? Ofrecemos tours de lujo de acuerdo a su tiempo y requerimientos. Nuestra Excursión Especial Te llevará a visitar lo mejor de Lima. Las excursiones en tierra incluyen autos con aire acondicionado, guías turísticos profesionales de habla inglesa.',
         img: {
@@ -90,13 +90,13 @@ export default [
             }
         },
         itinerary: {
-            '8:30AM': 'pickup from main gate of Callao harbor or shuttle bus meeting point, plaza San Miguel, Plaza Salaverry, Larcomar.',
-            '8:45AM': 'drive to Pachacamac Earth or realms creator\'s Temple.',
-            '9:45AM': 'touring around Archaeological sites Pachacamac.',
-            '11:00AM': 'drive to modern city of Lima Barranco Miraflores, Parque del Amor, coast line panoramic view, olive of San Isidro, visit unforgettable Inca Market.',
-            '1:30PM': 'visit to traditional restaurant for lunch by your own.',
-            '2:30PM': 'drive to Lima City of Kings, palaces, cathedrals, underground catacombs of San Francisco.',
-            '4:30PM': 'end of Our service or return to shuttle bus stop.',
+            '8:30AM': 'Traslado desde la puerta principal del puerto de Callao o en el punto de encuentro del autobús lanzadera, Plaza San Miguel, Plaza Salaverry, Larcomar.',
+            '8:45AM': 'conduzca a Pachacamac Earth o al templo del creador de los reinos.',
+            '9:45AM': 'recorriendo los sitios arqueológicos de Pachacamac.',
+            '11:00AM': 'conduzca a la moderna ciudad de Lima, Barranco Miraflores, Parque del Amor, vista panorámica de la costa, oliva de San Isidro, visite el inolvidable Mercado Inca.',
+            '1:30PM': 'Visite los restaurantes tradicionales para almorzar por su cuenta.',
+            '2:30PM': 'conducir a la ciudad de reyes de Lima, palacios, catedrales, catacumbas subterráneas de San Francisco.',
+            '4:30PM': 'fin de nuestro servicio o regreso a la parada del autobús.',
         },
         include: {
             standard: ['Guía bilingüe', 'itinerario de 8 horas', 'Autobús turístico certificado (autobús con aire acondicionado).']
@@ -119,7 +119,7 @@ export default [
             {destination: "KONINGSDAM ", title: "Holland America ", date: "Abril 16."},
             {destination: "Seven Seas Navigator ", title: "Regent Seven Seas ", date: "Abril 24, 25."},
             {destination: "SEA PRINCESS ", title: "Princess Cruises ", date: "Agosto 3, 4. (Lunes)."},
-            {destination: "Westerdam ", title: "Holland America ", date: "October 25."},
+            {destination: "Westerdam ", title: "Holland America ", date: "Octubre 25."},
             {destination: "Seven Seas Mariner ", title: "Regent Seven Seas ", date: "Noviembre 13, 14."},
             {destination: "CORAL PRINCESS ", title: "Princess Cruises ", date: "Noviembre 27."},
             {destination: "PACIFIC PRINCESS ", title: "Princess Cruises ", date: "Diciembre 10, 11."},
@@ -128,7 +128,7 @@ export default [
         extraTours: [
             {
                 id: 'shore-excursion-lima',
-                title: 'Museo Larco, ciudad de reyes y ciudad cosmopolita moderna Mercado Inca, Huaca Pucllana, 6h',
+                title: 'Museo Larco, ciudad de reyes y ciudad cosmopolita moderna Mercado Inca, Huaca Pucllana, 6 horas',
                 subtitle: 'desde la terminal de cruceros del Callao',
                 description: 'Vas a llegar en un crucero a Lima? Ofrecemos tours de lujo de acuerdo a su tiempo y requerimientos. Nuestra Excursión Especial Te llevará a visitar lo mejor de Lima. Las excursiones en tierra incluyen autos con aire acondicionado, guías turísticos profesionales de habla inglesa.',
                 media: [
@@ -141,12 +141,12 @@ export default [
                     }
                 },
                 itinerary: {
-                    '8:30AM': 'pickup from main gate of Callao harbor or shuttle bus meeting point, plaza San Miguel, Plaza Salaverry, Larcomar.',
-                    '8:45AM': 'drive to Pachacamac Earth or realms creator\'s Temple.',
-                    '9:45AM': 'touring around Archaeological sites Pachacamac.',
-                    '11:00AM': 'drive to modern city of Lima Barranco Miraflores, Parque del Amor, coast line panoramic view, olive of San Isidro, visit unforgettable Inca Market.',
-                    '1:30PM': 'visit to traditional restaurant for lunch by your own.',
-                    '2:30PM': 'return to shuttle bus meeting point end of Our service.'
+                    '8:30AM': 'Traslado desde la puerta principal del puerto de Callao o en el punto de encuentro del autobús lanzadera, Plaza San Miguel, Plaza Salaverry, Larcomar.',
+                    '8:45AM': 'conduzca a Pachacamac Earth o al templo del creador de los reinos.',
+                    '9:45AM': 'recorriendo los sitios arqueológicos de Pachacamac.',
+                    '11:00AM': 'conduzca a la moderna ciudad de Lima, Barranco Miraflores, Parque del Amor, vista panorámica de la costa, oliva de San Isidro, visite el inolvidable Mercado Inca.',
+                    '1:30PM': 'Visite los restaurantes tradicionales para almorzar por su cuenta.',
+                    '2:30PM': 'regreso al punto de encuentro del autobús de enlace final de nuestro servicio.'
                 },
                 include: {
                     standard: ['Guía bilingüe', 'itinerario de 6 horas', 'Autobús turístico certificado (autobús con aire acondicionado).']
@@ -181,7 +181,7 @@ export default [
             '10:00 AM': 'viaje a las islas Ballestas dura 2 horas, veremos aves marinas, leones marinos, pingüinos de Humboldt, tern Inka, en el camino a las islas tendremos la oportunidad de ver la línea enigmática similar a las líneas de Nazca, llamada Candelabro.',
             '12:00 PM': 'Regreso a la ciudad de Paracas, tiempo libre para caminar en el bulevar de Paracas, picar o beber pisco sour.',
             '01:00 PM': 'Salida hacia la Reserva Natural de Paracas. Este recorrido dura 2 horas, tendremos una corta caminata por el desierto más seco de Paracas, y paradas fotográficas en la espectacular costa rocosa de la Reserva de Paracas, y más.',
-            '03:00 PM': 'return to Cruise ship end of our services.regreso al crucero final de nuestros servicios.'
+            '03:00 PM': 'regreso al crucero final de nuestros servicios.'
         },
         include: {
             standard: ['Limitado a 28 pasajeros', 'Entradas', 'Impuesto del puerto', 'Seguro personal en caso de heridas', 'Traslado ida y vuelta desde el puerto', 'Transportes', 'Guía bilingüe'],

@@ -90,11 +90,11 @@ export default [
             }
         },
         itinerary: {
-            '8:30AM': 'pickup from main gate of Callao harbor or shuttle bus meeting point, plaza San Miguel, Plaza Salaverry, Larcomar.',
+            '8:30AM': 'pickup from the main gate of Callao harbor or shuttle bus meeting point, Plaza San Miguel, Plaza Salaverry, Larcomar.',
             '8:45AM': 'drive to Pachacamac Earth or realms creator\'s Temple.',
             '9:45AM': 'touring around Archaeological sites Pachacamac.',
-            '11:00AM': 'drive to modern city of Lima Barranco Miraflores, Parque del Amor, coast line panoramic view, olive of San Isidro, visit unforgettable Inca Market.',
-            '1:30PM': 'visit to traditional restaurant for lunch by your own.',
+            '11:00AM': 'drive to the modern city of Lima Barranco Miraflores, Parque del Amor, coastline panoramic view, olive of San Isidro, visit unforgettable Inca Market.',
+            '1:30PM': 'visit traditional restaurants for lunch on your own.',
             '2:30PM': 'drive to Lima City of Kings, palaces, cathedrals, underground catacombs of San Francisco.',
             '4:30PM': 'end of Our service or return to shuttle bus stop.',
         },
@@ -128,7 +128,7 @@ export default [
         extraTours: [
             {
                 id: 'shore-excursion-lima',
-                title: 'Larco Museum city of Kings & Modern cosmopolitan city Inca Market, Huaca Pucllana, 6h',
+                title: 'Larco Museum city of Kings & Modern cosmopolitan city Inca Market, Huaca Pucllana, 6 hours',
                 subtitle: 'from Callao cruise terminal',
                 description: 'You are arriving on a cruise to Lima? we offer deluxe tours according to your time and requirements. Our Special Excursion It will take you to visit the best of Lima. The shore excursions include cars with air-conditioning, professional English speaking tour guides.',
                 media: [
@@ -141,12 +141,12 @@ export default [
                     }
                 },
                 itinerary: {
-                    '8:30AM': 'pickup from main gate of Callao harbor or shuttle bus meeting point, plaza San Miguel, Plaza Salaverry, Larcomar.',
+                    '8:30AM': 'pickup from the main gate of Callao harbor or shuttle bus meeting point, Plaza San Miguel, Plaza Salaverry, Larcomar.',
                     '8:45AM': 'drive to Pachacamac Earth or realms creator\'s Temple.',
                     '9:45AM': 'touring around Archaeological sites Pachacamac.',
-                    '11:00AM': 'drive to modern city of Lima Barranco Miraflores, Parque del Amor, coast line panoramic view, olive of San Isidro, visit unforgettable Inca Market.',
-                    '1:30PM': 'visit to traditional restaurant for lunch by your own.',
-                    '2:30PM': 'return to shuttle bus meeting point end of Our service.'
+                    '11:00AM': 'drive to the modern city of Lima Barranco Miraflores, Parque del Amor, coastline panoramic view, olive of San Isidro, visit unforgettable Inca Market.',
+                    '1:30PM': 'visit traditional restaurants for lunch on your own.',
+                    '2:30PM': 'return to the shuttle bus meeting point end of Our service.'
                 },
                 include: {
                     standard: ['English speaking Guide', '6 hours itinerary', 'Certified tourist bus ( air-conditioned bus ).']

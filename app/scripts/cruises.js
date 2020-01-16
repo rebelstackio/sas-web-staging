@@ -14,8 +14,6 @@ let language = getPageLanguage('lng') || 'en' ;
 
 const itinerary = language === 'en' ? 'Cruise service 2020' : 'Servicio de cruseros 2020'
 
-const reserve = language === 'en' ? 'Reserve Tour' : 'Reservar Tour';
-
 System.import(`../data/splash/index.${language}.js`).then((res) => {
 	try {
 		const content = document.querySelector('#cruise-content');

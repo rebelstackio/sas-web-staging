@@ -24,15 +24,24 @@ System.import(`../data/splash/index.${language}.js`).then((res) => {
 		}
 	}, 10000)
 });
-
+/**
+ * add event listeners
+ */
 function addListeners() {
-	document.querySelectorAll('.splash-ad pretty-button button')
-	.forEach(btn => {
-		const index = btn.parentElement.getAttribute('index');
-		btn.addEventListener('click', () => {
-			redirect(parseInt(index));
+	try {
+		document.querySelectorAll('.splash-ad pretty-button button')
+		.forEach(btn => {
+			const index = btn.parentElement.getAttribute('index');
+			btn.addEventListener('click', () => {
+				redirect(parseInt(index));
+			})
 		})
-	})
+		document.querySelector('.splash-ad .close-btn').addEventListener('click', () => {
+			document.querySelector('pretty-modal').close();
+		})
+	} catch (error) {
+		
+	}
 }
 
 function redirect(ind) {
@@ -52,7 +61,11 @@ function redirect(ind) {
 function createItems(data) {
 	try {
 		document.querySelector('pretty-modal .splash-ad').innerHTML =
-		`<div class="best-seller">Best Seller</div>` +
+		`<div class="best-seller">Best Seller</div>
+		<div class="close-btn mobile-only">
+			<i class="fas fa-times"></i>
+		</div>
+		` +
 		data.map((item, i) => {
 			return `
 				<div class="splash-pres ${i === 0 ? '' : 'hidden'}">
