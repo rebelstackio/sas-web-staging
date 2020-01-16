@@ -36,6 +36,7 @@ pretty-modal .modal-title {
     place-self: start end;
     padding-right: 15px;
     color: orange;
+    max-width: 80%;
 }
 
 .best-seller {
@@ -47,6 +48,7 @@ pretty-modal .modal-title {
     background-color: orange;
     transform: rotate(-45deg);
     font-size: 16px;
+    z-index: 1;
 }
 
 .book-btn {
