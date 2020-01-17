@@ -73,7 +73,7 @@ export default [
     },
     {
         id: 'shore-callao',
-        title: 'Sitios arqueológicos de Pachacamac, Ciudad de los Reyes y metrópolis cosmopolita moderna, 8 horas',
+        title: 'Excursiones en tierra a Sitios arqueológicos de Pachacamac, Ciudad de los Reyes y metrópolis cosmopolita moderna, 8 horas',
         subtitle: 'desde terminal de cruceros, Callao',
         description: 'Vas a llegar en un crucero a Lima? Ofrecemos tours de lujo de acuerdo a su tiempo y requerimientos. Nuestra Excursión Especial Te llevará a visitar lo mejor de Lima. Las excursiones en tierra incluyen autos con aire acondicionado, guías turísticos profesionales de habla inglesa.',
         img: {
@@ -128,7 +128,7 @@ export default [
         extraTours: [
             {
                 id: 'shore-excursion-lima',
-                title: 'Museo Larco, ciudad de reyes y ciudad cosmopolita moderna Mercado Inca, Huaca Pucllana, 6 horas',
+                title: 'Excursiones en tierra a Museo Larco, ciudad de reyes y ciudad cosmopolita moderna Mercado Inca, Huaca Pucllana, 6 horas',
                 subtitle: 'desde la terminal de cruceros del Callao',
                 description: 'Vas a llegar en un crucero a Lima? Ofrecemos tours de lujo de acuerdo a su tiempo y requerimientos. Nuestra Excursión Especial Te llevará a visitar lo mejor de Lima. Las excursiones en tierra incluyen autos con aire acondicionado, guías turísticos profesionales de habla inglesa.',
                 media: [

@@ -73,7 +73,7 @@ export default [
     },
     {
         id: 'shore-excursion-lima-8h',
-        title: 'Pachacamac Archaeological sites, City of Kings & modern cosmopolitan metropolis, 8 hours',
+        title: 'Shore excursions to Pachacamac Archaeological sites, City of Kings & modern cosmopolitan metropolis, 8 hours',
         subtitle: 'from Callao cruise terminal',
         description: 'You are arriving on a cruise to Lima? we offer deluxe tours according to your time and requirements. Our Special Excursion It will take you to visit the best of Lima. The shore excursions include cars with air-conditioning, professional English speaking tour guides.',
         img: {
@@ -128,7 +128,7 @@ export default [
         extraTours: [
             {
                 id: 'shore-excursion-lima',
-                title: 'Larco Museum city of Kings & Modern cosmopolitan city Inca Market, Huaca Pucllana, 6 hours',
+                title: 'Shore excursions to Larco Museum city of Kings & Modern cosmopolitan city Inca Market, Huaca Pucllana, 6 hours',
                 subtitle: 'from Callao cruise terminal',
                 description: 'You are arriving on a cruise to Lima? we offer deluxe tours according to your time and requirements. Our Special Excursion It will take you to visit the best of Lima. The shore excursions include cars with air-conditioning, professional English speaking tour guides.',
                 media: [
