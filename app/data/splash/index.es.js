@@ -1,7 +1,7 @@
 export default [
     {
         id: 'shore-salaverry',
-        title: 'Excursiones en tierra a Chan Chan',
+        title: 'Excursiones en tierra a Chan Chan, la ciudad más grande de la era precolombina en América del Sur.',
         subtitle: 'desde terminal de cruceros, Salaverry',
         description: 'Vive la increíble experiencia arqueológica de "la ciudad de la eterna primavera", este recorrido te lleva a visitar los mejores lugares de Trujillo, con asistencia completa, guías turísticos de habla inglesa y cómodos autos con aire acondicionado.',
         img: {

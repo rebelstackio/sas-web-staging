@@ -1,7 +1,7 @@
 export default [
     {
         id: 'shore-salaverry',
-        title: 'Shore excursions to Chan Chan',
+        title: 'Shore excursions to Chan Chan, the largest city of the pre-Columbian era in South America.',
         subtitle: 'from Salaverry cruise terminal',
         description: 'Live the amazing archeological experience of "the City of Eternal Spring", this tour takes you to visit the best places in Trujillo, with full assistance, English speaking tour guides and comfortable cars with air conditioning',
         img: {
