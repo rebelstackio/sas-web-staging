@@ -87,6 +87,8 @@
         display: block;
         margin: auto;
         float: none !important;
+        width: -webkit-fill-available;
+        height: auto;
     }
 }
 @media (max-width:320px){

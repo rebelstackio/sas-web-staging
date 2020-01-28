@@ -27,7 +27,6 @@
 
 .tour-container > *:nth-child(1) {
     color: #666666;
-    overflow: hidden;
 }
 
 .tour-container > *:nth-child(1) .article-title {
@@ -50,3 +49,11 @@
     text-align: center;
 }
 
+
+.tour-container > .white .article-subtitle {
+    padding: 0 10px;
+}
+
+.tour-container > .white .article-title {
+    padding: 0 10px;
+}
