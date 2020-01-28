@@ -4,6 +4,16 @@ export default {
 		description: 'Paracas is certainly Peru\'s most interesting coastal asset and is situated ideally as the traveler\'s jumping point to other destinations by virtue of the newly completed international airport just minutes away. The Humboldt current from the antarctic brings a fantastic wealth of marine life abundance which places Paracas as on of the most important stops for travelers enjoying Peru.',
 		url_image: 'https://res.cloudinary.com/dlia7phdx/image/upload/v1551210558/SAS/IslasBallestas1.jpg',
 		tab_title: "Paracas",
+		certificates: {
+			title: 'Certificates of excellence',
+			description: 'South Americans\' Secrets was established in 2002 with the mission to create memorable experiences for all travelers alike. sixteen years after, we won the Tripadvisor certificate of excellence. All our ships have US EPA certificate, ranked as ultra-low emissions. Our Client is the priority, every boat trip customer is ensured with Positiva Seguros',
+			images: [
+				'https://i.imgur.com/IExqZlq.png',
+				'https://i.imgur.com/ubh3oK0.jpg',
+				'https://i.imgur.com/Kb6zIzj.png',
+				'https://i.imgur.com/Tf6TuS0.jpg'
+			]
+		},
 		tours:[
 			{
 				id: 'islas-ballestas',
