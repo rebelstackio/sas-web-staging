@@ -1,6 +1,7 @@
  <div class="col-md-12">
 	<div class="row tour-container">
 		<div class="col-md-8 col-sm-12 white">
+			{% if data.certificates %}
 			<div class="certificate-info">
 				<h3>{{data.certificates.title}}</h3>
 				<div class="cert-imgs">
@@ -10,6 +11,7 @@
 				</div>
 				<p>{{data.certificates.description}}</p>
 			</div>
+			{% endif %}
 			<img class="article-image tour-image" src="{{data.url_image}}" alt="" width="100%">
 			<p class="text-justify">
 				<div class="article-title">{{data.title}}</div>
