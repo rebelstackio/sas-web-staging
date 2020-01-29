@@ -109,12 +109,13 @@ export default {
 				subtitle:'Independent shore excursions from Pisco harbor ( Paracas)',
 				url_image:'images/tours/paracas/paracas_13.jpg',
 				description:`Seize the opportunity to book your shore excursion on your own directly from us and get the best value. Our tour advisor will be more than happy answering questions and looking the availability of your request, feel free to contact us.<br/><br/>
+				<div class="include-text">
+				<p><strong>We provide, Half day tour or whole - day excursion customized to your party managed by Our English spoken staff.</strong></p>
 				
-				<h4 class="hightlight-letters"><strong>We provide, Half day tour or whole - day excursion customized to your party managed by Our English spoken staff.</strong></h4>
-				<br/>
-				<h4 class="hightlight-letters"><strong>Enjoy a more intimate tour experience away from the crowds, South Americans Secrets team who it is to make sure all passengers arrive back to the ship safely and on time.</strong></h4>
-				<br/>
-				<h4 class="hightlight-letters"><strong>We design the best shore excursions, based on your interest and abilities like marine wildlife watching, walking on  Inca ancient sites and visiting nature protected areas.</strong></h4>
+				<p><strong>Enjoy a more intimate tour experience away from the crowds, South Americans Secrets team who it is to make sure all passengers arrive back to the ship safely and on time.</strong></p>
+				
+				<p><strong>We design the best shore excursions, based on your interest and abilities like marine wildlife watching, walking on  Inca ancient sites and visiting nature protected areas.</strong></p>
+				</div>
 				`,
 				additionalData:
 				{
