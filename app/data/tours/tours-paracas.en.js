@@ -6,7 +6,7 @@ export default {
 		tab_title: "Paracas",
 		certificates: {
 			title: 'Certificates of excellence',
-			description: 'South Americans\' Secrets was established in 2002 with the mission to create memorable experiences for all travelers alike. sixteen years after, we won the Tripadvisor certificate of excellence. All our ships have US EPA certificate, ranked as ultra-low emissions. Our Client is the priority, every boat trip customer is ensured with Positiva Seguros',
+			description: 'South Americans\' Secrets was established in 2002 with the mission to create memorable experiences for all travelers alike. sixteen years after, we won the Tripadvisor certificate of excellence. All our ships have US EPA certificate, ranked as ultra-low emissions. Our Client is the priority, every boat trip customer is insurance with Positiva Seguros',
 			images: [
 				'https://i.imgur.com/IExqZlq.png',
 				'https://i.imgur.com/ubh3oK0.jpg',
