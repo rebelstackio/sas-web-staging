@@ -1,8 +1,12 @@
 .certificate-info {
     display: grid;
-    padding: 10px;
+    padding: 0;
+    padding-top: 10px;
     box-sizing: border-box;
     row-gap: 15px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
 }
 
 .cert-imgs {
@@ -29,7 +33,7 @@
     color: #666666;
 }
 
-.tour-container > *:nth-child(1) .article-title {
+.tour-container > *:nth-child(1) .article-title, .tour-container > *:nth-child(1) h1 {
     color: #000000;
 }
 
@@ -60,4 +64,43 @@
 
 .include-text {
     padding: 0 10px;
+}
+
+.bg-imgs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.bg-imgs > * {
+    width: auto;
+    height: calc(100% + 50px);
+    position: relative;
+    opacity: 1;
+    transition: all .5s cubic-bezier(1, -0.18, 0.97, 1.57);
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.certificate-info > *:not(.bg-imgs) {
+    z-index: 1;
+}
+
+.certificate-info > p {
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    color: #ffffff;
+}
+
+.press-hidden {
+    opacity: .8;
+    visibility: hidden;
 }
