@@ -104,3 +104,20 @@
     opacity: .8;
     visibility: hidden;
 }
+
+.certs {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    column-gap: 10px;
+    place-content: center;
+    background: rgba(71, 151, 136, 1);
+}
+
+.certs > img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+

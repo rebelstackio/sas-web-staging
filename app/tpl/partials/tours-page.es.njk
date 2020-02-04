@@ -7,7 +7,7 @@
 				<div class="article-subtitle">
 					{{data.subtitle}}
 				</div>
-				<p style="padding: 0 10px;">
+				<p style="padding: 0 15px; ">
 					{{data.description}}
 				</p>
 			</p>
@@ -37,7 +37,7 @@
 						<div class="article-subtitle">
 								{{item.subtitle}}
 						</div>
-						<p style="padding: 0 10px;">
+						<p style="padding: 0 15px; ">
 							{{item.description | safe}}
 						</p>
 					</p>
@@ -48,6 +48,16 @@
 							</a>
 						{% endfor %}
 					</div>
+					{% if item.certs %}
+					<div class="spacer">
+						<h3>Certificados de excelencia</h3>
+						<div class="certs">
+							{% for cert in item.certs %}
+								<img src="{{cert}}">
+							{% endfor %}
+						</div>
+					</div>
+					{% endif %}
 				</div>
 				<div class="col-md-4">
 						<div class="banner-right floating-right">
