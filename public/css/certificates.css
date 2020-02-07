@@ -183,3 +183,38 @@
     color: #fff;
     border-radius: 4px 0px 0px 4px;
 }
+
+@media (max-width: 991px) {
+    .info-body > .mobile-only {
+        display: grid !important;
+    }
+
+    .info-box{
+        position: fixed;
+        top: 51px;
+        transform: translate(100%);
+        bottom: 15px ;
+        display: block !important;
+    }
+    .info-box.toggled {
+        transform: translate(calc(0% + 40px));
+        padding-right: 45px;
+        right: -5px;
+    }
+
+    .info-box.toggled + .info-wrapper::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 180;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .info-box .tour-detail {
+        height: -webkit-fill-available;
+        overflow: auto;
+    }
+}
