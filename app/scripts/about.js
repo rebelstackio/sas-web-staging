@@ -46,4 +46,14 @@ document.title = "About us";
 
 document.addEventListener("DOMContentLoaded", function(event) {
 //	const chat = new RebelChat(options);
+	const mobileToggler = document.querySelector('.info-body > .mobile-only');
+	const box = document.querySelector('.info-box');
+	mobileToggler.addEventListener('click', () => {
+		box.classList.toggle('toggled');
+		if(box.classList.contains('toggled')) {
+			mobileToggler.innerHTML = '<i class="fas fa-times"></i>'
+		} else {
+			mobileToggler.innerHTML = '<i class="fas fa-info-circle"></i>'
+		}
+	})
 });

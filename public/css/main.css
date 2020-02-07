@@ -107,6 +107,38 @@
         margin-right: 0!important; 
     }
 
+    .info-body > .mobile-only {
+        display: grid !important;
+    }
+
+    .info-box{
+        position: fixed !important;
+        top: 51px !important;
+        transform: translate(100%);
+        bottom: 15px !important;
+    }
+    .info-box.toggled {
+        transform: translate(calc(0% + 40px));
+        padding-right: 45px !important;
+        right: -5px !important;
+    }
+
+    .info-box.toggled + .info-wrapper::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 180;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .info-box .tour-detail {
+        height: -webkit-fill-available !important;
+        overflow: auto;
+    }
+
 }
 
 div#yak-chat-embended {
