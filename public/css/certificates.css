@@ -33,8 +33,8 @@
     color: #666666;
 }
 
-.tour-container > *:nth-child(1) .article-title, .tour-container > *:nth-child(1) h1 {
-    color: #000000;
+.tour-container > *:nth-child(1) .article-title, .tour-container > *:nth-child(1) h1, .title-black {
+    color: #000000 !important;
 }
 
 .tour-container > .white {
