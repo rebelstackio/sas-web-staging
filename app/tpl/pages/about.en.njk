@@ -18,23 +18,19 @@
 							<div>
 							<p><b>Tourism Agency and Tour Operator</b></p>
 							<p><b>Amarilis Pereda & Lucio Hancco</b></p>
-							<p>Cal. Camino Real Mz D lt. 8 San Andrés</p>
-							<p>In the Tourist Marina, next to the Hotel San Agustín - Paracas. Open from 7:30 a.m. to 1:00 p.m. (Paracas)</p>
+							<p>St. Camino Real Mz D lt. 8 San Andrés</p>
+							<p>Inside Marina Turística "Tourist Pier", right next to Hotel San Agustín - Paracas. Open 7:30 am to 1:00 pm (Paracas)</p>
 							<p><b>Cel:</b>+51 956-481-002 / +51 947-058-508</p>
 						</div>
 						<div class="collaborators">
-							<h3>Our team of professional tours operators</h3>
+							<h3>Our team</h3>
 							<div>
-								<p>Lucio Hancco s.</p>
-								<p>Luz Amarilis Pereda.</p>
-								<p>Alberto Hernández</p>
-								<p>Lila vicuña</p>
-								<p>Diego Roca</p>
-								<p>Abilio destre</p>
-								<p>Marco</p>
-								<p>Gerardo Armejo</p>
-								<p>Iván Huaraca</p>
-								<p>Mario</p>
+								{% for col in data.collaborators %}
+									<div class="coll-item">
+										<p>{{col.name}}</p>
+										<span>{{col.rol}}</span>
+									</div>
+								{% endfor %}
 							</div>
 						</div>
 						 </div>

@@ -11,5 +11,39 @@ export default {
 			'https://media-cdn.tripadvisor.com/media/photo-o/06/1a/39/df/laguna-de-moron-bernales.jpg',
 			'https://media-cdn.tripadvisor.com/media/photo-o/07/0c/f3/a0/south-american-s-secrets.jpg',
 			'https://media-cdn.tripadvisor.com/media/photo-o/0e/d2/27/7a/yate-turistico-para-visitar.jpg'
+		],
+		collaborators: [
+				{
+					name: 'Lucio Hancco S.',
+					rol: 'Asesor turístico y guía turístico'
+				},
+				{
+					name: 'Amarilis Pereda',
+					rol: 'Operador de embarcación'
+				},
+				{
+					name: 'Alberto Hernández',
+					rol: 'Operador de embarcación 2'
+				},
+				{
+					name: 'Gerardo Armejo',
+					rol: 'Coordinador de guarda de yates'
+				},
+				{
+					name: 'Rosemary Albarrán',
+					rol: 'Gerente regional'
+				},
+				{
+					name: 'Lila Orellana',
+					rol: 'Producto y costeo'
+				},
+				{
+					name: 'Diego Roca',
+					rol: 'Coordinador de guías turísticos'
+				},
+				{
+					name: 'Abilio Dextre',
+					rol: 'guía turístico francés'
+				}
 		]
 }

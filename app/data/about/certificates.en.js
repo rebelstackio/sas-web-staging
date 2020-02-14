@@ -12,5 +12,39 @@ export default {
 			'https://media-cdn.tripadvisor.com/media/photo-o/06/1a/39/df/laguna-de-moron-bernales.jpg',
 			'https://media-cdn.tripadvisor.com/media/photo-o/07/0c/f3/a0/south-american-s-secrets.jpg',
 			'https://media-cdn.tripadvisor.com/media/photo-o/0e/d2/27/7a/yate-turistico-para-visitar.jpg'
+		],
+		collaborators: [
+			{
+				name: 'Lucio Hancco S.',
+				rol: 'Tour advisor & tour guide'
+			},
+			{
+				name: 'Amarilis Pereda ',
+				rol: 'Vessel operator.'
+			},
+			{
+				name: 'Alberto Hernández',
+				rol: 'Vessel operator 2'
+			},
+			{
+				name: 'Gerardo Armejo ',
+				rol: 'Yacht keepers coordinator'
+			},
+			{
+				name: 'Rosemary Albarrán ',
+				rol: 'Regional Manager.'
+			},
+			{
+				name: 'Lila Orellana ',
+				rol: 'Product and costing.'
+			},
+			{
+				name: 'Diego Roca ',
+				rol: 'Tour guides coordinator'
+			},
+			{
+				name: 'Abilio Dextre ',
+				rol: 'French tour guide'
+			}
 		]
 }
