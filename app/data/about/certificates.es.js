@@ -30,7 +30,7 @@ export default {
 					rol: 'Coordinador de guarda de yates'
 				},
 				{
-					name: 'Rosemary Albarrán',
+					name: 'Rossmery Albarrán',
 					rol: 'Gerente regional'
 				},
 				{

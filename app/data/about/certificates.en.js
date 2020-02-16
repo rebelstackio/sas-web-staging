@@ -31,7 +31,7 @@ export default {
 				rol: 'Yacht keepers coordinator'
 			},
 			{
-				name: 'Rosemary Albarrán ',
+				name: 'Rossmery Albarrán ',
 				rol: 'Regional Manager.'
 			},
 			{
