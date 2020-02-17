@@ -4,7 +4,6 @@ var webpack = require('webpack'),
 	NunjucksWebpackPlugin = require('nunjucks-webpack-plugin'),
 	CopyWebpackPlugin = require('copy-webpack-plugin'),
 	fs = require('fs');
-const dotenv = require('dotenv');
 /* babel */
 const babelSettings = JSON.parse(fs.readFileSync(".babelrc"));
 /* read templates */
@@ -15,15 +14,6 @@ for (var i = 0; i < templates.length; i++) {
 	templateName = file.split('.')[0];
 	tpls.push({from: path.resolve(__dirname, 'app/tpl/pages/'+file),to:templateName+'.html'});
 }
-// Call dotenv and it will return an Object with a parsed key 
-const env = dotenv.config({
-	path: path.resolve(process.cwd(), '.env')
-}).parsed;
-// Reduce it to a nice object, the same as before
-const envKeys = Object.keys(env).reduce((prev, next) => {
-	prev[`process.env.${next}`] = JSON.stringify(env[next]);
-	return prev;
-}, {});
 module.exports = {
 	entry: {
 		templates:'./app/templates.js',
@@ -80,9 +70,7 @@ module.exports = {
 		"jquery": "jQuery"
 	},
 	plugins: [
-
 		new NunjucksWebpackPlugin({template: tpls}),
-		new webpack.DefinePlugin(envKeys),
 		new CopyWebpackPlugin([
 			{from: 'public/css', to: 'css'},
 			{from: 'public/videos', to: 'videos'},
