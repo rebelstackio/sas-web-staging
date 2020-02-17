@@ -32,7 +32,7 @@ gulp.task("publish",["build"], function(callback) {
   ghpages.publish(path.join(__dirname, 'build'),
   {
     branch: 'gh-pages',
-    repo: 'https://github.com/rebelstackio/sas-web-staging.git'
+    repo: process.env.GIT_REPO_URL
   },
   function(err) { console.log("published in gh-pages", err);});
 });
