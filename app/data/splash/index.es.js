@@ -262,5 +262,52 @@ export default [
                 }
             }
         ]
+    },
+    {
+        id: 'shore-cuzco',
+        title: 'Excursiones en tierra a Machu Picchu y Cusco',
+        subtitle: '3 noches y 4 días en el impresionante paisaje de Machu Picchu',
+        description: 'Descubre la famosa ciudad inca y aprende sobre la antigua civilización que una vez prosperó allí. Este recorrido es adecuado para quienes visitan por primera vez, familias (caminatas no extenuantes) y viajeros individuales, y es una experiencia única en la vida: ¡algo que debe hacer cuando visite Perú! Tiene la opción de actualizar al servicio de tren panorámico Vistadome, que es la forma más cómoda de viajar a Machu Picchu.',
+        itinerary: {
+            'Día 1 CUSCO': 'Vuelo Lima-Cusco, traslado al aeropuerto, asistencia con el check-in. Después de despejar la seguridad del equipaje en el aeropuerto de Cusco, busque a su guía en el área de espera del estacionamiento, sostenga un letrero con su nombre y transfiéralo al hotel en el Valle Sagrado. En ruta visite el mercado de Pisac a 30 km (1h). ',
+            'Día 2 VALLE SAGRADO CHINCHERO MARAS MORAY': 'Tour de día completo Valle Sagrado. Conduzca a Chinchero 33km (1h). Demostración de tejido en Chinchero 3650m (1h). conducir a terrazas de Moray (2h). Conduzca a Maras y Salinas (2h). Almuerzo en una familia local Luego continúe hacia Ollantaytambo (1.5 h) y visite las ruinas (2 h). ',
+            'Día 3 OLLANTA -MACHU PICCHU -CUSCO': 'Traslado a la estación de tren, tren de expedición a Machu Picchu Conozca a su guía privado en la estación de tren de Aguas Calientes. Visita guiada a Machu Picchu 2460m (3h). Por la tarde tren a Ollantaytambo, luego traslado a Cusco. ',
+            'CUSCO - LIMA - VUELO': 'Traslado al aeropuerto de Cusco, asistencia en la posada, en Lima nuestro conductor lo estará esperando, sosteniendo el cartel con su nombre'
+        },
+        price: {
+            standard: {
+                amount: 1287
+            }
+        },
+        include: {
+            standard: [
+                'Todo el transporte terrestre y asistencia necesarios',
+                'Guía de habla inglesa',
+                'Entradas a todos los tours y excursiones',
+                'Tren, autobuses y entradas a Machu Picchu',
+                'Alojamiento en hotel seleccionado con baño privado (habitación doble)',
+                'Comidas según el itinerario',
+                'Vuelo nacional a menos que reserve directamente'
+            ]
+        },
+        notinclude: [
+            'Propinas para guías o el personal',
+            'Entrada a Huayna Picchu (sujeto a disponibilidad)'
+        ],
+        img: {
+            portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port_pt.jpg',
+            landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port.jpg'
+        },
+        media: [
+            'https://i.imgur.com/WyO2Cm2.jpg',
+            'https://i.imgur.com/pHPibRX.jpg',
+            'https://i.imgur.com/23Q9HIG.jpg',
+            'https://i.imgur.com/pVMIhAX.jpg',
+            'https://i.imgur.com/2arNGAg.jpg',
+            'https://i.imgur.com/KA9ALkn.jpg',
+            'https://i.imgur.com/eIwymXn.jpg'
+        ],
+        cruisesdates: [],
+        isDescriptive: true
     }
 ]

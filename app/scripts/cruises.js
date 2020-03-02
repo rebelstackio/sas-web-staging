@@ -18,7 +18,9 @@ System.import(`../data/splash/index.${language}.js`).then((res) => {
 	try {
 		const content = document.querySelector('#cruise-content');
 		const dataIndex = parseInt(content.getAttribute('data-index'));
-		content.innerHTML = createLayout(res.default[dataIndex])
+		const data = res.default[dataIndex];
+		if (data.isDescriptive) content.classList.add('descriptive');
+		content.innerHTML = createLayout(data)
 		addListeners();
 	} catch(err) {
 		//
@@ -88,6 +90,7 @@ function getCruiseBody(data) {
 function createLayout(data) {
 	return `
 		${getCruiseBody(data)}
+		${data.isDescriptive ? '' : `
 		<div class="cruise-itinerary">
 			<img src="${data.img.portrait}">
 			<div class="article-title hidden">${data.shortTitle}</div>
@@ -96,6 +99,7 @@ function createLayout(data) {
 				${ getItineraryItems(data.cruisesdates) }
 			</div>
 		</div>
+		`}
 	`;
 }
 

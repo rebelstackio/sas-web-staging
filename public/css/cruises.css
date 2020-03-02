@@ -239,6 +239,24 @@ div#cruise-content {
 	color: orange;
 }
 
+div#cruise-content.descriptive {
+    padding-right: 0;
+}
+
+div#cruise-content.descriptive  > .cuise-body{
+	grid-template-columns: 2fr 1fr;
+}
+
+#cruise-content.descriptive .img-item > img {
+	max-width: unset;
+	width: -webkit-fill-available;
+}
+
+#cruise-content.descriptive .img-presentation {
+	max-width: calc(100vw - 50px);
+	width: -webkit-fill-available;
+}
+
 @media screen 
   and (max-width: 500px) 
   and (orientation: portrait) {
@@ -246,8 +264,7 @@ div#cruise-content {
 		grid-template-columns: unset;
 		padding-right: 0;
 	}
-
-	.cuise-body {
+	.cuise-body, div#cruise-content.descriptive  > .cuise-body {
 		grid-template-columns: unset;
 		max-width: 88vw;
 	}
