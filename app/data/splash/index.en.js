@@ -295,8 +295,8 @@ export default [
             'Entrance to Huayna Picchu (subject to availability)'
         ],
         img: {
-            portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port_pt.jpg',
-            landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port.jpg'
+            portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1583333254/SAS/splash-cuzco-pt.jpg',
+            landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1583333253/SAS/splash-cuzco.jpg'
         },
         media: [
             'https://i.imgur.com/WyO2Cm2.jpg',
@@ -307,7 +307,15 @@ export default [
             'https://i.imgur.com/KA9ALkn.jpg',
             'https://i.imgur.com/eIwymXn.jpg'
         ],
-        cruisesdates: [],
+        cruisesdates: [
+            {destination: "Marina ", title: "Oceania Cruises ", date: "January 8."},
+            {destination: "Volendam ", title: "Holland America ", date: "January 16, 17."},
+            {destination: "ISLAND PRINCESS ", title: "Princess Cruises ", date: "January 21, 22."},
+            {destination: "COSTA DELICIOZA ", title: "Costa Cruises ", date: "January 30."},
+            {destination: "Silver Shadow ", title: "Silver Sea ", date: "February 5, 6."},
+            {destination: "Insignia ", title: "Oceania Cruises ", date: "February 12."},
+            {destination: "MSC MAGNIFICA ", title: "MSC Cruises ", date: "February 15."},
+        ],
         isDescriptive: true
     }
 ]

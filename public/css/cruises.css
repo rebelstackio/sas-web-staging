@@ -303,4 +303,18 @@ div#cruise-content.descriptive  > .cuise-body{
 	.reservation-btn > button {
 		font-size: 16px !important;
 	}
+	pretty-modal .modal-body {
+		padding: 15px !important;
+		max-width: unset !important;
+	}
+
+	.splash-ad img {
+		width: calc(100vw - 35px);
+		max-width: unset;
+	}
+
+	.splash-pres {
+		overflow: hidden;
+	}
+
 }

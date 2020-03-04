@@ -52,6 +52,9 @@ function redirect(ind) {
 		case 2:
 			document.location.href = document.location.pathname + 'paracas-cruise.html';
 			break;
+		case 3: 
+			document.location.href = document.location.pathname + 'shore-cuzco.html';
+			break;
 		default:
 			document.location.href = document.location.pathname + 'salaverry-cruise.html';
 			break;

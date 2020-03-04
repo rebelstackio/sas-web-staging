@@ -295,8 +295,8 @@ export default [
             'Entrada a Huayna Picchu (sujeto a disponibilidad)'
         ],
         img: {
-            portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port_pt.jpg',
-            landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1577414817/SAS/callao_port.jpg'
+            portrait: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1583333254/SAS/splash-cuzco-pt.jpg',
+            landscape: 'https://res.cloudinary.com/dvv4qgnka/image/upload/v1583333253/SAS/splash-cuzco.jpg'
         },
         media: [
             'https://i.imgur.com/WyO2Cm2.jpg',
@@ -307,7 +307,14 @@ export default [
             'https://i.imgur.com/KA9ALkn.jpg',
             'https://i.imgur.com/eIwymXn.jpg'
         ],
-        cruisesdates: [],
+        cruisesdates: [
+            {destination: "Marina ", title: "Oceania Cruises ", date: "Enero 8."},
+            {destination: "Volendam ", title: "Holland America ", date: "Enero 16, 17."},
+            {destination: "ISLAND PRINCESS ", title: "Princess Cruises ", date: "Enero 21, 22."},
+            {destination: "COSTA DELICIOZA ", title: "Costa Cruises ", date: "Enero 30."},
+            {destination: "Silver Shadow ", title: "Silver Sea ", date: "Febrero 5, 6."},
+            {destination: "Insignia ", title: "Oceania Cruises ", date: "Febrero 12."},
+        ],
         isDescriptive: true
     }
 ]
