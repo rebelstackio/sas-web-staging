@@ -56,6 +56,7 @@ function getReserveBtn(data) {
 
 function getCruiseBody(data) {
 	const t0 = getText('Include', 'Incluye');
+	const t1 = getText('Not include', 'No incluye');
 	let res = `
 	<div class="cuise-body">
 			<div class="cruise-data">
@@ -66,6 +67,18 @@ function getCruiseBody(data) {
 				<div class="tour-include">
 					${ getTourInclude(data.include, data.price) }
 				</div>
+				${
+					!data.notinclude ? '' : `
+						<div class="not-include">
+							<div class="not-include-title">
+								<h4>${t1}</h4> <i class="fas fa-exclamation-triangle"></i>
+							</div>
+							${
+								getTourNotInclude(data.notinclude)
+							}
+						</div>
+					`
+				}
 				<div class="reservation-btn">
 					${ getReserveBtn(data) }
 				</div>
@@ -85,6 +98,17 @@ function getCruiseBody(data) {
 	}
 	setPresentation(data.media);
 	return res;
+}
+/**
+ * 
+ * @param {Array} list 
+ */
+function getTourNotInclude(list) {
+	return list.map((li) => {
+		return `<div class="include-item">
+			${li}
+		</div>`
+	}).join('');
 }
 
 function createLayout(data) {

@@ -131,7 +131,7 @@ div#cruise-content {
 	height: 541px;
 }
 
-.cruise-data > h3, .cruise-data > h4 {
+.cruise-data > h3, .cruise-data h4 {
 	color: orange;
 }
 
@@ -255,6 +255,26 @@ div#cruise-content.descriptive  > .cuise-body{
 #cruise-content.descriptive .img-presentation {
 	max-width: calc(100vw - 50px);
 	width: -webkit-fill-available;
+}
+
+.not-include {
+	margin: 10px 20px;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: gainsboro;
+	display: grid;
+}
+
+.not-include-title {
+	display: grid;
+	grid-template-columns: 1fr auto;
+}
+
+.not-include-title > svg {
+	font-size: 18px;
+	color: orange;
+	place-self: center;
+	margin: 5px;
 }
 
 @media screen 
